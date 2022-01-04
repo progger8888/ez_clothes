@@ -3526,4 +3526,147 @@ class CfgVehicles
 									  "EZ_Clothing\data\patreon_crew\PrigorodkiWP\PrigorodkiWP_shirt.paa",
 									  "EZ_Clothing\data\patreon_crew\PrigorodkiWP\PrigorodkiWP_shirt.paa"};
 	};
+	class EZ_NoobSquad_Armband: EZ_DoubleArmband_ColorBase
+	{
+		displayName = "NoobSquad - Double Armband";
+		descriptionShort = "NoobSquad -PlatoonPackage Double Armband made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NoobSquad\NoobSquad_armband.paa"};
+	};
+	class EZ_NoobSquad_Banner: EZ_Banner_Colorbase
+	{
+		displayName = "NoobSquad - Banner";
+		descriptionShort = "NoobSquad - PlatoonPackage Banner made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NoobSquad\NoobSquad_bb.paa"};
+	};
+	class EZ_NoobSquad_Flag: Flag_Base
+	{
+		displayName = "NoobSquad - Flag";
+		descriptionShort = "NoobSquad - PlatoonPackage Flag made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NoobSquad\NoobSquad_ff.paa"};
+	};
+	class EZ_NoobSquad_TacticalShirt: MVS_CombatShirt_Base
+	{
+		displayName = "NoobSquad - MVS Shirt";
+		descriptionShort = "NoobSquad - PlatoonPackage MVS Shirt made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NoobSquad\NoobSquad_mvs_combatshirt.paa",
+									  "EZ_Clothing\data\patreon_platoon\NoobSquad\NoobSquad_mvs_combatshirt.paa",
+									  "EZ_Clothing\data\patreon_platoon\NoobSquad\NoobSquad_mvs_combatshirt.paa"};
+	};
+	class EZ_NoobSquad_Pants: MVS_CombatPants_Base
+	{
+		displayName = "NoobSquad - MVS Pants";
+		descriptionShort = "NoobSquad - PlatoonPackage MVS Pants made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NoobSquad\NoobSquad_mvs_combatpants.paa",
+									  "EZ_Clothing\data\patreon_platoon\NoobSquad\NoobSquad_mvs_combatpants.paa",
+									  "EZ_Clothing\data\patreon_platoon\NoobSquad\NoobSquad_mvs_combatpants.paa"};
+	};
+	class EZ_NoobSquad_Balaclava: MVS_Balaclava2_Base
+	{
+		displayName = "NoobSquad - MVS Balaclava";
+		descriptionShort = "NoobSquad - PlatoonPackage MVS Balaclava made by Kokaskale";
+		scope=2;
+		hiddenSelectionsTextures[]=
+		{
+			"EZ_Clothing\data\patreon_platoon\NoobSquad\NoobSquad_mvs_balaclava.paa",
+			"EZ_Clothing\data\patreon_platoon\NoobSquad\NoobSquad_mvs_balaclava.paa",
+			"EZ_Clothing\data\patreon_platoon\NoobSquad\NoobSquad_mvs_balaclava.paa"
+		};
+	};
+	class EZ_NoobSquad_Helmet: MVS_Helmet_Base
+	{
+		displayName = "NoobSquad - MVS Helmet";
+		descriptionShort = "NoobSquad - PlatoonPackage MVS Helmet made by Kokaskale";
+		scope=2;
+		hiddenSelectionsTextures[]=
+		{
+			"EZ_Clothing\data\patreon_platoon\NoobSquad\NoobSquad_mvs_helmet.paa",
+			"EZ_Clothing\data\patreon_platoon\NoobSquad\NoobSquad_mvs_helmet.paa",
+			"EZ_Clothing\data\patreon_platoon\NoobSquad\NoobSquad_mvs_helmet.paa"
+		};
+	};
+	class EZ_NoobSquad_Vest: ModularVestSystem_Base
+	{
+		displayName = "NoobSquad - MVS Vest";
+		descriptionShort = "NoobSquad - PlatoonPackage MVS Vest made by Kokaskale";
+		scope = 2;
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NoobSquad\NoobSquad_mvs_vest.paa",
+									  "EZ_Clothing\data\patreon_platoon\NoobSquad\NoobSquad_mvs_vest.paa",
+									  "EZ_Clothing\data\patreon_platoon\NoobSquad\NoobSquad_mvs_vest.paa"};
+	};
+	class EZ_NoobSquadMVS_Shroud: MVS_Shroud_Base
+	{
+		scope = 2;
+		displayName = "NoobSquad - MVS Shroud";
+		descriptionShort = "NoobSquad - PlatoonPackage MVS Shroud made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NoobSquad\NoobSquad_MVS_Shroud.paa",
+									  "EZ_Clothing\data\patreon_platoon\NoobSquad\NoobSquad_MVS_Shroud.paa",
+									  "EZ_Clothing\data\patreon_platoon\NoobSquad\NoobSquad_MVS_Shroud.paa"};
+	};
+	class EZ_NoobSquadJungleBoots: JungleBoots_ColorBase
+	{
+		scope=2;
+		displayName = "NoobSquad - Jungle Boots";
+		descriptionShort = "NoobSquad - PlatoonPackage Jungle Boots made by Kokaskale";
+		hiddenSelectionsTextures[]=
+		{
+			"EZ_Clothing\data\patreon_platoon\NoobSquad\NoobSquad_jungleboots.paa",
+			"EZ_Clothing\data\patreon_platoon\NoobSquad\NoobSquad_jungleboots.paa",
+			"EZ_Clothing\data\patreon_platoon\NoobSquad\NoobSquad_jungleboots.paa"
+		};
+	};
+	class EZ_NoobSquadTacticalGloves: TacticalGloves_ColorBase
+	{
+		displayName = "NoobSquad - Tactical Gloves";
+		descriptionShort = "NoobSquad - PlatoonPackage Tactical Gloves made by Kokaskale";
+		scope=2;
+		hiddenSelectionsTextures[]=
+		{
+			"EZ_Clothing\data\patreon_platoon\NoobSquad\NoobSquad_tacticalgloves.paa",
+			"EZ_Clothing\data\patreon_platoon\NoobSquad\NoobSquad_tacticalgloves.paa",
+			"EZ_Clothing\data\patreon_platoon\NoobSquad\NoobSquad_tacticalgloves.paa"
+		};
+	};
+	class EZ_NoobSquad_MVS_Combat_Vest_Heavy: ModularVestSystem_Heavy
+	{
+		displayName = "NoobSquad - MVS Heavy Plate Carrier";
+		descriptionShort = "NoobSquad - PlatoonPackage MVS Heavy Plate Carrier made by Kokaskale";
+		scope = 2;
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NoobSquad\NoobSquad_MVSHeavy_co.paa",
+									  "EZ_Clothing\data\patreon_platoon\NoobSquad\NoobSquad_MVSHeavy_co.paa",
+									  "EZ_Clothing\data\patreon_platoon\NoobSquad\NoobSquad_MVSHeavy_co.paa"};
+	};
+	class EZ_NoobSquad_AssaultPack: MVS_Assault_Pack_Tan
+	{
+		scope = 2;
+		displayName = "NoobSquad - Assault Pack";
+		descriptionShort = "Endzone NoobSquad - PlatoonPackage Assault Pack made by Kokaskale";
+		hiddenSelectionsTextures[] = 
+		{
+			"EZ_Clothing\data\patreon_platoon\NoobSquad\NoobSquad_RaidPack.paa",
+			"EZ_Clothing\data\patreon_platoon\NoobSquad\NoobSquad_RaidPack.paa",
+			"EZ_Clothing\data\patreon_platoon\NoobSquad\NoobSquad_RaidPack.paa"
+			
+		};
+	};
+	class EZ_NoobSquad_WarriorHelmet: MVS_WarriorHelmet_Base
+	{
+		scope = 2;
+		displayName = "NoobSquad - MVS Warrior Helmet";
+		descriptionShort = "NoobSquad - PlatoonPackage MVS Warrior Helmet made by Kokaskale";
+		hiddenSelectionsTextures[] = 
+		{
+			"EZ_Clothing\data\patreon_platoon\NoobSquad\NoobSquad_WarriorHelmet.paa",
+			"EZ_Clothing\data\patreon_platoon\NoobSquad\NoobSquad_WarriorHelmet.paa",
+			"EZ_Clothing\data\patreon_platoon\NoobSquad\NoobSquad_WarriorHelmet.paa",
+			"EZ_Clothing\data\patreon_platoon\NoobSquad\NoobSquad_Mandalorian_Helmet.paa",
+			"EZ_Clothing\data\Mvs_Test\Mandalorian_Visor_co.paa"
+		};
+	};
 };

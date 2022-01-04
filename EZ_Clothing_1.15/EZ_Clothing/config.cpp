@@ -3499,4 +3499,31 @@ class CfgVehicles
 			"EZ_Clothing\data\Mvs_Test\Mandalorian_Visor_co.paa"
 		};
 	};
+	class EZ_PrigorodkiWP_Flag: Flag_Base
+	{
+		displayName = "PrigorodkiWP Flag";
+		descriptionShort = "PrigorodkiWP - CrewPackage Flag made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\PrigorodkiWP\PrigorodkiWP_ff.paa"};
+	};
+	class EZ_PrigorodkiWP_Armband: Armband_ColorBase
+	{
+		displayName = "PrigorodkiWP - Armband";
+		descriptionShort = "PrigorodkiWP - CrewPackage Armband made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\PrigorodkiWP\PrigorodkiWP_gg.paa",
+									  "EZ_Clothing\data\patreon_crew\PrigorodkiWP\PrigorodkiWP_aa.paa",
+									  "EZ_Clothing\data\patreon_crew\PrigorodkiWP\PrigorodkiWP_aa.paa",
+									  "EZ_Clothing\data\patreon_crew\PrigorodkiWP\PrigorodkiWP_aa.paa",
+									  "EZ_Clothing\data\patreon_crew\PrigorodkiWP\PrigorodkiWP_aa.paa"};
+	};
+	class EZ_PrigorodkiWP_TacticalShirt: TacticalShirt_ColorBase
+	{
+		displayName = "PrigorodkiWP - Tactical Shirt";
+		descriptionShort = "PrigorodkiWP - CrewPackage Hiking Jacket made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\PrigorodkiWP\PrigorodkiWP_shirt.paa",
+									  "EZ_Clothing\data\patreon_crew\PrigorodkiWP\PrigorodkiWP_shirt.paa",
+									  "EZ_Clothing\data\patreon_crew\PrigorodkiWP\PrigorodkiWP_shirt.paa"};
+	};
 };

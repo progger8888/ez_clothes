@@ -1353,22 +1353,16 @@ class CfgVehicles
 	class EZ_Medal_2: EZ_Medal
 	{
 		scope = 2;
-		displayName = "EndZone Medal";
-		descriptionShort = "A medal or medallion is a small portable artistic object,a thin disc, normally of metal, carrying a design, usually on both sides. They typically have a commemorative purpose of some kind, and many are given as awards";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Medal\medal2_co.paa"};
 	};
 	class EZ_Medal_3: EZ_Medal
 	{
 		scope = 2;
-		displayName = "EndZone Medal";
-		descriptionShort = "A medal or medallion is a small portable artistic object,a thin disc, normally of metal, carrying a design, usually on both sides. They typically have a commemorative purpose of some kind, and many are given as awards";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Medal\medal3_co.paa"};
 	};
 	class EZ_Medal_4: EZ_Medal
 	{
 		scope = 2;
-		displayName = "EndZone Medal";
-		descriptionShort = "A medal or medallion is a small portable artistic object,a thin disc, normally of metal, carrying a design, usually on both sides. They typically have a commemorative purpose of some kind, and many are given as awards";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Medal\medal4_co.paa"};
 	};
 	class EZ_Marran_Flag: Flag_Base

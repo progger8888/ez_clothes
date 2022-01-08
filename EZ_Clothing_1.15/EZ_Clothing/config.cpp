@@ -1900,6 +1900,13 @@ class CfgVehicles
 		scope = 2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\staff\Cappie\AngryBeavers_armband.paa"};
 	};
+	class EZ_AngryBeavers_Flag: Flag_Base
+	{
+		displayName = "Angry Beavers Flag";
+		descriptionShort = "Angry Beavers - Flag made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\staff\Cappie\AngryBeavers_ff.paa"};
+	};
 	class EZ_AngryBeavers_BaseballCap: Msp_BaseballCap_Base
 	{
 		displayName = "Angry Beavers - Hat";
@@ -3662,5 +3669,32 @@ class CfgVehicles
 			"EZ_Clothing\data\patreon_platoon\NoobSquad\NoobSquad_Mandalorian_Helmet.paa",
 			"EZ_Clothing\data\Mvs_Test\Mandalorian_Visor_co.paa"
 		};
+	};
+	class EZ_PPP_Flag: Flag_Base
+	{
+		displayName = "PPP Flag";
+		descriptionShort = "PPP - CrewPackage Flag made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\PPP\PPP_ff.paa"};
+	};
+	class EZ_PPP_Armband: Armband_ColorBase
+	{
+		displayName = "PPP - Armband";
+		descriptionShort = "PPP - CrewPackage Armband made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\PPP\PPP_gg.paa",
+									  "EZ_Clothing\data\patreon_crew\PPP\PPP_aa.paa",
+									  "EZ_Clothing\data\patreon_crew\PPP\PPP_aa.paa",
+									  "EZ_Clothing\data\patreon_crew\PPP\PPP_aa.paa",
+									  "EZ_Clothing\data\patreon_crew\PPP\PPP_aa.paa"};
+	};
+	class EZ_PPP_TacticalShirt: TacticalShirt_ColorBase
+	{
+		displayName = "PPP - Tactical Shirt";
+		descriptionShort = "PPP - CrewPackage Hiking Jacket made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\PPP\PPP_shirt.paa",
+									  "EZ_Clothing\data\patreon_crew\PPP\PPP_shirt.paa",
+									  "EZ_Clothing\data\patreon_crew\PPP\PPP_shirt.paa"};
 	};
 };

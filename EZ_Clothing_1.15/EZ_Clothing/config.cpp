@@ -3697,4 +3697,147 @@ class CfgVehicles
 									  "EZ_Clothing\data\patreon_crew\PPP\PPP_shirt.paa",
 									  "EZ_Clothing\data\patreon_crew\PPP\PPP_shirt.paa"};
 	};
+	class EZ_NWA_Armband: EZ_DoubleArmband_ColorBase
+	{
+		displayName = "North Western Alliance - Double Armband";
+		descriptionShort = "North Western Alliance -PlatoonPackage Double Armband made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NWA\NWA_armband.paa"};
+	};
+	class EZ_NWA_Banner: EZ_Banner_Colorbase
+	{
+		displayName = "North Western Alliance - Banner";
+		descriptionShort = "North Western Alliance - PlatoonPackage Banner made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NWA\NWA_bb.paa"};
+	};
+	class EZ_NWA_Flag: Flag_Base
+	{
+		displayName = "North Western Alliance - Flag";
+		descriptionShort = "North Western Alliance - PlatoonPackage Flag made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NWA\NWA_ff.paa"};
+	};
+	class EZ_NWA_TacticalShirt: MVS_CombatShirt_Base
+	{
+		displayName = "North Western Alliance - MVS Shirt";
+		descriptionShort = "North Western Alliance - PlatoonPackage MVS Shirt made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NWA\NWA_mvs_combatshirt.paa",
+									  "EZ_Clothing\data\patreon_platoon\NWA\NWA_mvs_combatshirt.paa",
+									  "EZ_Clothing\data\patreon_platoon\NWA\NWA_mvs_combatshirt.paa"};
+	};
+	class EZ_NWA_Pants: MVS_CombatPants_Base
+	{
+		displayName = "North Western Alliance - MVS Pants";
+		descriptionShort = "North Western Alliance - PlatoonPackage MVS Pants made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NWA\NWA_mvs_combatpants.paa",
+									  "EZ_Clothing\data\patreon_platoon\NWA\NWA_mvs_combatpants.paa",
+									  "EZ_Clothing\data\patreon_platoon\NWA\NWA_mvs_combatpants.paa"};
+	};
+	class EZ_NWA_Balaclava: MVS_Balaclava2_Base
+	{
+		displayName = "North Western Alliance - MVS Balaclava";
+		descriptionShort = "North Western Alliance - PlatoonPackage MVS Balaclava made by Kokaskale";
+		scope=2;
+		hiddenSelectionsTextures[]=
+		{
+			"EZ_Clothing\data\patreon_platoon\NWA\NWA_mvs_balaclava.paa",
+			"EZ_Clothing\data\patreon_platoon\NWA\NWA_mvs_balaclava.paa",
+			"EZ_Clothing\data\patreon_platoon\NWA\NWA_mvs_balaclava.paa"
+		};
+	};
+	class EZ_NWA_Helmet: MVS_Helmet_Base
+	{
+		displayName = "North Western Alliance - MVS Helmet";
+		descriptionShort = "North Western Alliance - PlatoonPackage MVS Helmet made by Kokaskale";
+		scope=2;
+		hiddenSelectionsTextures[]=
+		{
+			"EZ_Clothing\data\patreon_platoon\NWA\NWA_mvs_helmet.paa",
+			"EZ_Clothing\data\patreon_platoon\NWA\NWA_mvs_helmet.paa",
+			"EZ_Clothing\data\patreon_platoon\NWA\NWA_mvs_helmet.paa"
+		};
+	};
+	class EZ_NWA_Vest: ModularVestSystem_Base
+	{
+		displayName = "North Western Alliance - MVS Vest";
+		descriptionShort = "North Western Alliance - PlatoonPackage MVS Vest made by Kokaskale";
+		scope = 2;
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NWA\NWA_mvs_vest.paa",
+									  "EZ_Clothing\data\patreon_platoon\NWA\NWA_mvs_vest.paa",
+									  "EZ_Clothing\data\patreon_platoon\NWA\NWA_mvs_vest.paa"};
+	};
+	class EZ_NWAMVS_Shroud: MVS_Shroud_Base
+	{
+		scope = 2;
+		displayName = "North Western Alliance - MVS Shroud";
+		descriptionShort = "North Western Alliance - PlatoonPackage MVS Shroud made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NWA\NWA_MVS_Shroud.paa",
+									  "EZ_Clothing\data\patreon_platoon\NWA\NWA_MVS_Shroud.paa",
+									  "EZ_Clothing\data\patreon_platoon\NWA\NWA_MVS_Shroud.paa"};
+	};
+	class EZ_NWAJungleBoots: JungleBoots_ColorBase
+	{
+		scope=2;
+		displayName = "North Western Alliance - Jungle Boots";
+		descriptionShort = "North Western Alliance - PlatoonPackage Jungle Boots made by Kokaskale";
+		hiddenSelectionsTextures[]=
+		{
+			"EZ_Clothing\data\patreon_platoon\NWA\NWA_jungleboots.paa",
+			"EZ_Clothing\data\patreon_platoon\NWA\NWA_jungleboots.paa",
+			"EZ_Clothing\data\patreon_platoon\NWA\NWA_jungleboots.paa"
+		};
+	};
+	class EZ_NWATacticalGloves: TacticalGloves_ColorBase
+	{
+		displayName = "North Western Alliance - Tactical Gloves";
+		descriptionShort = "North Western Alliance - PlatoonPackage Tactical Gloves made by Kokaskale";
+		scope=2;
+		hiddenSelectionsTextures[]=
+		{
+			"EZ_Clothing\data\patreon_platoon\NWA\NWA_tacticalgloves.paa",
+			"EZ_Clothing\data\patreon_platoon\NWA\NWA_tacticalgloves.paa",
+			"EZ_Clothing\data\patreon_platoon\NWA\NWA_tacticalgloves.paa"
+		};
+	};
+	class EZ_NWA_MVS_Combat_Vest_Heavy: ModularVestSystem_Heavy
+	{
+		displayName = "North Western Alliance - MVS Heavy Plate Carrier";
+		descriptionShort = "North Western Alliance - PlatoonPackage MVS Heavy Plate Carrier made by Kokaskale";
+		scope = 2;
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NWA\NWA_MVSHeavy_co.paa",
+									  "EZ_Clothing\data\patreon_platoon\NWA\NWA_MVSHeavy_co.paa",
+									  "EZ_Clothing\data\patreon_platoon\NWA\NWA_MVSHeavy_co.paa"};
+	};
+	class EZ_NWA_AssaultPack: MVS_Assault_Pack_Tan
+	{
+		scope = 2;
+		displayName = "North Western Alliance - Assault Pack";
+		descriptionShort = "Endzone NWA - PlatoonPackage Assault Pack made by Kokaskale";
+		hiddenSelectionsTextures[] = 
+		{
+			"EZ_Clothing\data\patreon_platoon\NWA\NWA_RaidPack.paa",
+			"EZ_Clothing\data\patreon_platoon\NWA\NWA_RaidPack.paa",
+			"EZ_Clothing\data\patreon_platoon\NWA\NWA_RaidPack.paa"
+			
+		};
+	};
+	class EZ_NWA_WarriorHelmet: MVS_WarriorHelmet_Base
+	{
+		scope = 2;
+		displayName = "North Western Alliance - MVS Warrior Helmet";
+		descriptionShort = "North Western Alliance - PlatoonPackage MVS Warrior Helmet made by Kokaskale";
+		hiddenSelectionsTextures[] = 
+		{
+			"EZ_Clothing\data\patreon_platoon\NWA\NWA_WarriorHelmet.paa",
+			"EZ_Clothing\data\patreon_platoon\NWA\NWA_WarriorHelmet.paa",
+			"EZ_Clothing\data\patreon_platoon\NWA\NWA_WarriorHelmet.paa",
+			"EZ_Clothing\data\patreon_platoon\NWA\NWA_Mandalorian_Helmet.paa",
+			"EZ_Clothing\data\Mvs_Test\Mandalorian_Visor_co.paa"
+		};
+	};
 };

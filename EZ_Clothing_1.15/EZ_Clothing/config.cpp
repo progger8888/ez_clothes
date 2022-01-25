@@ -3860,4 +3860,147 @@ class CfgVehicles
 			"EZ_Clothing\data\Mvs_Test\Mandalorian_Visor_co.paa"
 		};
 	};
+	class EZ_Creamteam_Armband: EZ_DoubleArmband_ColorBase
+	{
+		displayName = "Creamteam - Double Armband";
+		descriptionShort = "North Western Alliance -PlatoonPackage Double Armband made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_armband.paa"};
+	};
+	class EZ_Creamteam_Banner: EZ_Banner_Colorbase
+	{
+		displayName = "North Western Alliance - Banner";
+		descriptionShort = "North Western Alliance - PlatoonPackage Banner made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_bb.paa"};
+	};
+	class EZ_Creamteam_Flag: Flag_Base
+	{
+		displayName = "North Western Alliance - Flag";
+		descriptionShort = "North Western Alliance - PlatoonPackage Flag made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_ff.paa"};
+	};
+	class EZ_Creamteam_TacticalShirt: MVS_CombatShirt_Base
+	{
+		displayName = "North Western Alliance - MVS Shirt";
+		descriptionShort = "North Western Alliance - PlatoonPackage MVS Shirt made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_mvs_combatshirt.paa",
+									  "EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_mvs_combatshirt.paa",
+									  "EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_mvs_combatshirt.paa"};
+	};
+	class EZ_Creamteam_Pants: MVS_CombatPants_Base
+	{
+		displayName = "North Western Alliance - MVS Pants";
+		descriptionShort = "North Western Alliance - PlatoonPackage MVS Pants made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_mvs_combatpants.paa",
+									  "EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_mvs_combatpants.paa",
+									  "EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_mvs_combatpants.paa"};
+	};
+	class EZ_Creamteam_Balaclava: MVS_Balaclava2_Base
+	{
+		displayName = "North Western Alliance - MVS Balaclava";
+		descriptionShort = "North Western Alliance - PlatoonPackage MVS Balaclava made by Kokaskale";
+		scope=2;
+		hiddenSelectionsTextures[]=
+		{
+			"EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_mvs_balaclava.paa",
+			"EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_mvs_balaclava.paa",
+			"EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_mvs_balaclava.paa"
+		};
+	};
+	class EZ_Creamteam_Helmet: MVS_Helmet_Base
+	{
+		displayName = "North Western Alliance - MVS Helmet";
+		descriptionShort = "North Western Alliance - PlatoonPackage MVS Helmet made by Kokaskale";
+		scope=2;
+		hiddenSelectionsTextures[]=
+		{
+			"EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_mvs_helmet.paa",
+			"EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_mvs_helmet.paa",
+			"EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_mvs_helmet.paa"
+		};
+	};
+	class EZ_Creamteam_Vest: ModularVestSystem_Base
+	{
+		displayName = "North Western Alliance - MVS Vest";
+		descriptionShort = "North Western Alliance - PlatoonPackage MVS Vest made by Kokaskale";
+		scope = 2;
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_mvs_vest.paa",
+									  "EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_mvs_vest.paa",
+									  "EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_mvs_vest.paa"};
+	};
+	class EZ_CreamteamMVS_Shroud: MVS_Shroud_Base
+	{
+		scope = 2;
+		displayName = "North Western Alliance - MVS Shroud";
+		descriptionShort = "North Western Alliance - PlatoonPackage MVS Shroud made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_MVS_Shroud.paa",
+									  "EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_MVS_Shroud.paa",
+									  "EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_MVS_Shroud.paa"};
+	};
+	class EZ_CreamteamJungleBoots: JungleBoots_ColorBase
+	{
+		scope=2;
+		displayName = "North Western Alliance - Jungle Boots";
+		descriptionShort = "North Western Alliance - PlatoonPackage Jungle Boots made by Kokaskale";
+		hiddenSelectionsTextures[]=
+		{
+			"EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_jungleboots.paa",
+			"EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_jungleboots.paa",
+			"EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_jungleboots.paa"
+		};
+	};
+	class EZ_CreamteamTacticalGloves: TacticalGloves_ColorBase
+	{
+		displayName = "North Western Alliance - Tactical Gloves";
+		descriptionShort = "North Western Alliance - PlatoonPackage Tactical Gloves made by Kokaskale";
+		scope=2;
+		hiddenSelectionsTextures[]=
+		{
+			"EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_tacticalgloves.paa",
+			"EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_tacticalgloves.paa",
+			"EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_tacticalgloves.paa"
+		};
+	};
+	class EZ_Creamteam_MVS_Combat_Vest_Heavy: ModularVestSystem_Heavy
+	{
+		displayName = "North Western Alliance - MVS Heavy Plate Carrier";
+		descriptionShort = "North Western Alliance - PlatoonPackage MVS Heavy Plate Carrier made by Kokaskale";
+		scope = 2;
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_MVSHeavy_co.paa",
+									  "EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_MVSHeavy_co.paa",
+									  "EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_MVSHeavy_co.paa"};
+	};
+	class EZ_Creamteam_AssaultPack: MVS_Assault_Pack_Tan
+	{
+		scope = 2;
+		displayName = "North Western Alliance - Assault Pack";
+		descriptionShort = "Endzone Creamteam - PlatoonPackage Assault Pack made by Kokaskale";
+		hiddenSelectionsTextures[] = 
+		{
+			"EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_RaidPack.paa",
+			"EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_RaidPack.paa",
+			"EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_RaidPack.paa"
+			
+		};
+	};
+	class EZ_Creamteam_WarriorHelmet: MVS_WarriorHelmet_Base
+	{
+		scope = 2;
+		displayName = "North Western Alliance - MVS Warrior Helmet";
+		descriptionShort = "North Western Alliance - PlatoonPackage MVS Warrior Helmet made by Kokaskale";
+		hiddenSelectionsTextures[] = 
+		{
+			"EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_WarriorHelmet.paa",
+			"EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_WarriorHelmet.paa",
+			"EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_WarriorHelmet.paa",
+			"EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_Mandalorian_Helmet.paa",
+			"EZ_Clothing\data\Mvs_Test\Mandalorian_Visor_co.paa"
+		};
+	};
 };

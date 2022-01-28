@@ -1368,22 +1368,22 @@ class CfgVehicles
 	class EZ_Medal_5: EZ_Medal
 	{
 		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Medal\medal4_co.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Medal\medal5_co.paa"};
 	};
 	class EZ_Medal_6: EZ_Medal
 	{
 		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Medal\medal4_co.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Medal\medal6_co.paa"};
 	};
 	class EZ_Medal_7: EZ_Medal
 	{
 		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Medal\medal4_co.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Medal\medal7_co.paa"};
 	};
 	class EZ_Medal_8: EZ_Medal
 	{
 		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Medal\medal4_co.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Medal\medal8_co.paa"};
 	};	
 	class EZ_Marran_Flag: Flag_Base
 	{

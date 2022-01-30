@@ -3899,16 +3899,15 @@ class CfgVehicles
 									  "EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_mvs_combatpants.paa",
 									  "EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_mvs_combatpants.paa"};
 	};
-	class EZ_Creamteam_Balaclava: MVS_Balaclava2_Base
-	{
-		displayName = "North Western Alliance - MVS Balaclava";
-		descriptionShort = "North Western Alliance - PlatoonPackage MVS Balaclava made by Kokaskale";
+	class EZ_Creamteam_Balaclava: BalaclavaMask_ColorBase
+		displayName = "North Western Alliance - Balaclava";
+		descriptionShort = "North Western Alliance - PlatoonPackage Balaclava made by Kokaskale";
 		scope=2;
 		hiddenSelectionsTextures[]=
 		{
-			"EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_mvs_balaclava.paa",
-			"EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_mvs_balaclava.paa",
-			"EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_mvs_balaclava.paa"
+			"EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_balaclava_co.paa",
+			"EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_balaclava_co.paa",
+			"EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_balaclava_co.paa"
 		};
 	};
 	class EZ_Creamteam_Helmet: MVS_Helmet_Base

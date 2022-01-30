@@ -944,6 +944,15 @@ class CfgVehicles
 		scope = 2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\staff\Kokaskale\kokaskale_shirt.paa","EZ_Clothing\data\staff\Kokaskale\kokaskale_shirt.paa","EZ_Clothing\data\staff\Kokaskale\kokaskale_shirt.paa"};
 	};
+	class EZ_Kokaskale_MVSCombatPants: MVS_CombatPants_Base
+	{
+		scope = 2;
+		displayName = "Kokaskale Staff MVS Combat Pants";
+		descriptionShort = "Custom kokaskale Staff MVS Combat Pants made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\staff\Kokaskale\Kokaskale_mvs_combatpants.paa",
+									  "EZ_Clothing\data\staff\Kokaskale\Kokaskale_mvs_combatpants.paa",
+									  "EZ_Clothing\data\staff\Kokaskale\Kokaskale_mvs_combatpants.paa"};
+	};
 	class EZ_Kokaskale_Shroud: MVS_Shroud_Base
 	{
 		scope = 2;

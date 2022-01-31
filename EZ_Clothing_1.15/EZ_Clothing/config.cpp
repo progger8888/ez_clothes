@@ -4059,28 +4059,28 @@ class CfgVehicles
 	class EZ_PTG_Armband: EZ_DoubleArmband_ColorBase
 	{
 		displayName = "PTG - Double Armband";
-		descriptionShort = "North Western Alliance -PlatoonPackage Double Armband made by Kokaskale";
+		descriptionShort = "PTG -PlatoonPackage Double Armband made by Kokaskale";
 		scope = 2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\PTG\PTG_armband.paa"};
 	};
 	class EZ_PTG_Banner: EZ_Banner_Colorbase
 	{
-		displayName = "North Western Alliance - Banner";
-		descriptionShort = "North Western Alliance - PlatoonPackage Banner made by Kokaskale";
+		displayName = "PTG - Banner";
+		descriptionShort = "PTG - PlatoonPackage Banner made by Kokaskale";
 		scope = 2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\PTG\PTG_bb.paa"};
 	};
 	class EZ_PTG_Flag: Flag_Base
 	{
-		displayName = "North Western Alliance - Flag";
-		descriptionShort = "North Western Alliance - PlatoonPackage Flag made by Kokaskale";
+		displayName = "PTG - Flag";
+		descriptionShort = "PTG - PlatoonPackage Flag made by Kokaskale";
 		scope = 2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\PTG\PTG_ff.paa"};
 	};
 	class EZ_PTG_TacticalShirt: MVS_CombatShirt_Base
 	{
-		displayName = "North Western Alliance - MVS Shirt";
-		descriptionShort = "North Western Alliance - PlatoonPackage MVS Shirt made by Kokaskale";
+		displayName = "PTG - MVS Shirt";
+		descriptionShort = "PTG - PlatoonPackage MVS Shirt made by Kokaskale";
 		scope = 2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\PTG\PTG_mvs_combatshirt.paa",
 									  "EZ_Clothing\data\patreon_platoon\PTG\PTG_mvs_combatshirt.paa",
@@ -4088,8 +4088,8 @@ class CfgVehicles
 	};
 	class EZ_PTG_Pants: MVS_CombatPants_Base
 	{
-		displayName = "North Western Alliance - MVS Pants";
-		descriptionShort = "North Western Alliance - PlatoonPackage MVS Pants made by Kokaskale";
+		displayName = "PTG - MVS Pants";
+		descriptionShort = "PTG - PlatoonPackage MVS Pants made by Kokaskale";
 		scope = 2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\PTG\PTG_mvs_combatpants.paa",
 									  "EZ_Clothing\data\patreon_platoon\PTG\PTG_mvs_combatpants.paa",
@@ -4097,8 +4097,8 @@ class CfgVehicles
 	};
 	class EZ_PTG_Balaclava: MVS_Balaclava2_Base
 	{
-		displayName = "North Western Alliance - MVS Balaclava";
-		descriptionShort = "North Western Alliance - PlatoonPackage MVS Balaclava made by Kokaskale";
+		displayName = "PTG - MVS Balaclava";
+		descriptionShort = "PTG - PlatoonPackage MVS Balaclava made by Kokaskale";
 		scope=2;
 		hiddenSelectionsTextures[]=
 		{
@@ -4109,8 +4109,8 @@ class CfgVehicles
 	};
 	class EZ_PTG_Helmet: MVS_Helmet_Base
 	{
-		displayName = "North Western Alliance - MVS Helmet";
-		descriptionShort = "North Western Alliance - PlatoonPackage MVS Helmet made by Kokaskale";
+		displayName = "PTG - MVS Helmet";
+		descriptionShort = "PTG - PlatoonPackage MVS Helmet made by Kokaskale";
 		scope=2;
 		hiddenSelectionsTextures[]=
 		{
@@ -4121,8 +4121,8 @@ class CfgVehicles
 	};
 	class EZ_PTG_Vest: ModularVestSystem_Base
 	{
-		displayName = "North Western Alliance - MVS Vest";
-		descriptionShort = "North Western Alliance - PlatoonPackage MVS Vest made by Kokaskale";
+		displayName = "PTG - MVS Vest";
+		descriptionShort = "PTG - PlatoonPackage MVS Vest made by Kokaskale";
 		scope = 2;
 		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\PTG\PTG_mvs_vest.paa",
@@ -4132,8 +4132,8 @@ class CfgVehicles
 	class EZ_PTGMVS_Shroud: MVS_Shroud_Base
 	{
 		scope = 2;
-		displayName = "North Western Alliance - MVS Shroud";
-		descriptionShort = "North Western Alliance - PlatoonPackage MVS Shroud made by Kokaskale";
+		displayName = "PTG - MVS Shroud";
+		descriptionShort = "PTG - PlatoonPackage MVS Shroud made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\PTG\PTG_MVS_Shroud.paa",
 									  "EZ_Clothing\data\patreon_platoon\PTG\PTG_MVS_Shroud.paa",
 									  "EZ_Clothing\data\patreon_platoon\PTG\PTG_MVS_Shroud.paa"};
@@ -4141,8 +4141,8 @@ class CfgVehicles
 	class EZ_PTGJungleBoots: JungleBoots_ColorBase
 	{
 		scope=2;
-		displayName = "North Western Alliance - Jungle Boots";
-		descriptionShort = "North Western Alliance - PlatoonPackage Jungle Boots made by Kokaskale";
+		displayName = "PTG - Jungle Boots";
+		descriptionShort = "PTG - PlatoonPackage Jungle Boots made by Kokaskale";
 		hiddenSelectionsTextures[]=
 		{
 			"EZ_Clothing\data\patreon_platoon\PTG\PTG_jungleboots.paa",
@@ -4152,8 +4152,8 @@ class CfgVehicles
 	};
 	class EZ_PTGTacticalGloves: TacticalGloves_ColorBase
 	{
-		displayName = "North Western Alliance - Tactical Gloves";
-		descriptionShort = "North Western Alliance - PlatoonPackage Tactical Gloves made by Kokaskale";
+		displayName = "PTG - Tactical Gloves";
+		descriptionShort = "PTG - PlatoonPackage Tactical Gloves made by Kokaskale";
 		scope=2;
 		hiddenSelectionsTextures[]=
 		{
@@ -4164,8 +4164,8 @@ class CfgVehicles
 	};
 	class EZ_PTG_MVS_Combat_Vest_Heavy: ModularVestSystem_Heavy
 	{
-		displayName = "North Western Alliance - MVS Heavy Plate Carrier";
-		descriptionShort = "North Western Alliance - PlatoonPackage MVS Heavy Plate Carrier made by Kokaskale";
+		displayName = "PTG - MVS Heavy Plate Carrier";
+		descriptionShort = "PTGe - PlatoonPackage MVS Heavy Plate Carrier made by Kokaskale";
 		scope = 2;
 		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\PTG\PTG_MVSHeavy_co.paa",
@@ -4175,8 +4175,8 @@ class CfgVehicles
 	class EZ_PTG_AssaultPack: MVS_Assault_Pack_Tan
 	{
 		scope = 2;
-		displayName = "North Western Alliance - Assault Pack";
-		descriptionShort = "Endzone PTG - PlatoonPackage Assault Pack made by Kokaskale";
+		displayName = "PTG - Assault Pack";
+		descriptionShort = "PTG - PlatoonPackage Assault Pack made by Kokaskale";
 		hiddenSelectionsTextures[] = 
 		{
 			"EZ_Clothing\data\patreon_platoon\PTG\PTG_RaidPack.paa",
@@ -4188,8 +4188,8 @@ class CfgVehicles
 	class EZ_PTG_WarriorHelmet: MVS_WarriorHelmet_Base
 	{
 		scope = 2;
-		displayName = "North Western Alliance - MVS Warrior Helmet";
-		descriptionShort = "North Western Alliance - PlatoonPackage MVS Warrior Helmet made by Kokaskale";
+		displayName = "PTG - MVS Warrior Helmet";
+		descriptionShort = "PTG - PlatoonPackage MVS Warrior Helmet made by Kokaskale";
 		hiddenSelectionsTextures[] = 
 		{
 			"EZ_Clothing\data\patreon_platoon\PTG\PTG_WarriorHelmet.paa",

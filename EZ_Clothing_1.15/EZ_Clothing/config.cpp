@@ -3916,28 +3916,28 @@ class CfgVehicles
 	class EZ_Creamteam_Armband: EZ_DoubleArmband_ColorBase
 	{
 		displayName = "Creamteam - Double Armband";
-		descriptionShort = "North Western Alliance -PlatoonPackage Double Armband made by Kokaskale";
+		descriptionShort = "Creamteam -PlatoonPackage Double Armband made by Kokaskale";
 		scope = 2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_armband.paa"};
 	};
 	class EZ_Creamteam_Banner: EZ_Banner_Colorbase
 	{
-		displayName = "North Western Alliance - Banner";
-		descriptionShort = "North Western Alliance - PlatoonPackage Banner made by Kokaskale";
+		displayName = "Creamteam - Banner";
+		descriptionShort = "Creamteam - PlatoonPackage Banner made by Kokaskale";
 		scope = 2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_bb.paa"};
 	};
 	class EZ_Creamteam_Flag: Flag_Base
 	{
-		displayName = "North Western Alliance - Flag";
-		descriptionShort = "North Western Alliance - PlatoonPackage Flag made by Kokaskale";
+		displayName = "Creamteam - Flag";
+		descriptionShort = "Creamteam - PlatoonPackage Flag made by Kokaskale";
 		scope = 2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_ff.paa"};
 	};
 	class EZ_Creamteam_TacticalShirt: MVS_CombatShirt_Base
 	{
-		displayName = "North Western Alliance - MVS Shirt";
-		descriptionShort = "North Western Alliance - PlatoonPackage MVS Shirt made by Kokaskale";
+		displayName = "Creamteam - MVS Shirt";
+		descriptionShort = "Creamteam - PlatoonPackage MVS Shirt made by Kokaskale";
 		scope = 2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_mvs_combatshirt.paa",
 									  "EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_mvs_combatshirt.paa",
@@ -3945,8 +3945,8 @@ class CfgVehicles
 	};
 	class EZ_Creamteam_Pants: MVS_CombatPants_Base
 	{
-		displayName = "North Western Alliance - MVS Pants";
-		descriptionShort = "North Western Alliance - PlatoonPackage MVS Pants made by Kokaskale";
+		displayName = "Creamteam - MVS Pants";
+		descriptionShort = "Creamteam - PlatoonPackage MVS Pants made by Kokaskale";
 		scope = 2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_mvs_combatpants.paa",
 									  "EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_mvs_combatpants.paa",
@@ -3954,8 +3954,8 @@ class CfgVehicles
 	};
 	class EZ_Creamteam_Balaclava: BalaclavaMask_ColorBase
 	{
-		displayName = "North Western Alliance - Balaclava";
-		descriptionShort = "North Western Alliance - PlatoonPackage Balaclava made by Kokaskale";
+		displayName = "Creamteam - Balaclava";
+		descriptionShort = "Creamteam - PlatoonPackage Balaclava made by Kokaskale";
 		scope=2;
 		hiddenSelectionsTextures[]=
 		{
@@ -3966,8 +3966,8 @@ class CfgVehicles
 	};
 	class EZ_Creamteam_Helmet: MVS_Helmet_Base
 	{
-		displayName = "North Western Alliance - MVS Helmet";
-		descriptionShort = "North Western Alliance - PlatoonPackage MVS Helmet made by Kokaskale";
+		displayName = "Creamteam - MVS Helmet";
+		descriptionShort = "Creamteam - PlatoonPackage MVS Helmet made by Kokaskale";
 		scope=2;
 		hiddenSelectionsTextures[]=
 		{
@@ -3978,8 +3978,8 @@ class CfgVehicles
 	};
 	class EZ_Creamteam_Vest: ModularVestSystem_Base
 	{
-		displayName = "North Western Alliance - MVS Vest";
-		descriptionShort = "North Western Alliance - PlatoonPackage MVS Vest made by Kokaskale";
+		displayName = "Creamteam - MVS Vest";
+		descriptionShort = "Creamteam - PlatoonPackage MVS Vest made by Kokaskale";
 		scope = 2;
 		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_mvs_vest.paa",
@@ -3989,8 +3989,8 @@ class CfgVehicles
 	class EZ_CreamteamMVS_Shroud: MVS_Shroud_Base
 	{
 		scope = 2;
-		displayName = "North Western Alliance - MVS Shroud";
-		descriptionShort = "North Western Alliance - PlatoonPackage MVS Shroud made by Kokaskale";
+		displayName = "Creamteam - MVS Shroud";
+		descriptionShort = "Creamteam - PlatoonPackage MVS Shroud made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_MVS_Shroud.paa",
 									  "EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_MVS_Shroud.paa",
 									  "EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_MVS_Shroud.paa"};
@@ -3998,8 +3998,8 @@ class CfgVehicles
 	class EZ_CreamteamJungleBoots: JungleBoots_ColorBase
 	{
 		scope=2;
-		displayName = "North Western Alliance - Jungle Boots";
-		descriptionShort = "North Western Alliance - PlatoonPackage Jungle Boots made by Kokaskale";
+		displayName = "Creamteam - Jungle Boots";
+		descriptionShort = "Creamteam - PlatoonPackage Jungle Boots made by Kokaskale";
 		hiddenSelectionsTextures[]=
 		{
 			"EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_jungleboots.paa",
@@ -4009,8 +4009,8 @@ class CfgVehicles
 	};
 	class EZ_CreamteamTacticalGloves: TacticalGloves_ColorBase
 	{
-		displayName = "North Western Alliance - Tactical Gloves";
-		descriptionShort = "North Western Alliance - PlatoonPackage Tactical Gloves made by Kokaskale";
+		displayName = "Creamteam - Tactical Gloves";
+		descriptionShort = "Creamteam - PlatoonPackage Tactical Gloves made by Kokaskale";
 		scope=2;
 		hiddenSelectionsTextures[]=
 		{
@@ -4021,8 +4021,8 @@ class CfgVehicles
 	};
 	class EZ_Creamteam_MVS_Combat_Vest_Heavy: ModularVestSystem_Heavy
 	{
-		displayName = "North Western Alliance - MVS Heavy Plate Carrier";
-		descriptionShort = "North Western Alliance - PlatoonPackage MVS Heavy Plate Carrier made by Kokaskale";
+		displayName = "Creamteam - MVS Heavy Plate Carrier";
+		descriptionShort = "Creamteam - PlatoonPackage MVS Heavy Plate Carrier made by Kokaskale";
 		scope = 2;
 		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_MVSHeavy_co.paa",
@@ -4032,7 +4032,7 @@ class CfgVehicles
 	class EZ_Creamteam_AssaultPack: MVS_Assault_Pack_Tan
 	{
 		scope = 2;
-		displayName = "North Western Alliance - Assault Pack";
+		displayName = "Creamteam - Assault Pack";
 		descriptionShort = "Endzone Creamteam - PlatoonPackage Assault Pack made by Kokaskale";
 		hiddenSelectionsTextures[] = 
 		{
@@ -4045,8 +4045,8 @@ class CfgVehicles
 	class EZ_Creamteam_WarriorHelmet: MVS_WarriorHelmet_Base
 	{
 		scope = 2;
-		displayName = "North Western Alliance - MVS Warrior Helmet";
-		descriptionShort = "North Western Alliance - PlatoonPackage MVS Warrior Helmet made by Kokaskale";
+		displayName = "Creamteam - MVS Warrior Helmet";
+		descriptionShort = "Creamteam - PlatoonPackage MVS Warrior Helmet made by Kokaskale";
 		hiddenSelectionsTextures[] = 
 		{
 			"EZ_Clothing\data\patreon_platoon\Creamteam\Creamteam_WarriorHelmet.paa",

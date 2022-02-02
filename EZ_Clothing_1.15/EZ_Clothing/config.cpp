@@ -4199,4 +4199,31 @@ class CfgVehicles
 			"EZ_Clothing\data\Mvs_Test\Mandalorian_Visor_co.paa"
 		};
 	};
+	class EZ_DTOM_Flag: Flag_Base
+	{
+		displayName = "Dont Tread on Minion Flag";
+		descriptionShort = "Dont Tread on Minion - CrewPackage Flag made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\DTOM\DTOM_ff.paa"};
+	};
+	class EZ_DTOM_Armband: Armband_ColorBase
+	{
+		displayName = "Dont Tread on Minion - Armband";
+		descriptionShort = "Dont Tread on Minion - CrewPackage Armband made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\DTOM\DTOM_gg.paa",
+									  "EZ_Clothing\data\patreon_crew\DTOM\DTOM_aa.paa",
+									  "EZ_Clothing\data\patreon_crew\DTOM\DTOM_aa.paa",
+									  "EZ_Clothing\data\patreon_crew\DTOM\DTOM_aa.paa",
+									  "EZ_Clothing\data\patreon_crew\DTOM\DTOM_aa.paa"};
+	};
+	class EZ_DTOM_TacticalShirt: TacticalShirt_ColorBase
+	{
+		displayName = "Dont Tread on Minion - Tactical Shirt";
+		descriptionShort = "Dont Tread on Minion - CrewPackage Hiking Jacket made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\DTOM\DTOM_shirt.paa",
+									  "EZ_Clothing\data\patreon_crew\DTOM\DTOM_shirt.paa",
+									  "EZ_Clothing\data\patreon_crew\DTOM\DTOM_shirt.paa"};
+	};
 };

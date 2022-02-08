@@ -99,6 +99,7 @@ class CfgVehicles
 	class PrisonUniformPants;
 	class MVS_Shroud_Base;
 	class ModularVestSystem_Heavy;
+	class TacticalShirt_Olive;
 	class Endzone_PlateCarrierVest: PlateCarrierVest
 	{
 		displayName = "Endzone Staff Plate Carrier";
@@ -3621,7 +3622,7 @@ class CfgVehicles
 		scope = 2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NoobSquad\NoobSquad_ff.paa"};
 	};
-	class EZ_NoobSquad_TacticalShirt: MVS_CombatShirt_Base
+	class EZ_NoobSquad_TacticalShirt: TacticalShirt_Olive
 	{
 		displayName = "NoobSquad - MVS Shirt";
 		descriptionShort = "NoobSquad - PlatoonPackage MVS Shirt made by Kokaskale";

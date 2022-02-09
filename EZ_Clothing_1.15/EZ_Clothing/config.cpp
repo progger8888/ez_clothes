@@ -99,7 +99,6 @@ class CfgVehicles
 	class PrisonUniformPants;
 	class MVS_Shroud_Base;
 	class ModularVestSystem_Heavy;
-	class TacticalShirt_Olive;
 	class Endzone_PlateCarrierVest: PlateCarrierVest
 	{
 		displayName = "Endzone Staff Plate Carrier";

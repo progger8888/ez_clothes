@@ -1237,43 +1237,6 @@ class CfgVehicles
 		scope = 2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Banners\Banner_stop_co.paa","EZ_Clothing\data\player\Banners\Banner_stop_co.paa","EZ_Clothing\data\player\Banners\Banner_stop_co.paa","EZ_Clothing\data\player\Banners\Banner_stop_co.paa"};
 	};
-	class EZ_NN_Armband: Armband_ColorBase
-	{
-		descriptionShort = "SquadPackage Armband made by Kokaskale";
-		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon\NN\NN_gg.paa","EZ_Clothing\data\patreon\NN\NN_aa.paa","EZ_Clothing\data\patreon\NN\NN_aa.paa","EZ_Clothing\data\patreon\NN\NN_aa.paa","EZ_Clothing\data\patreon\NN\NN_aa.paa"};
-	};
-	class EZ_NN_Jacket: TacticalShirt_ColorBase
-	{
-		descriptionShort = "SquadPackage Tactical Shirt made by Kokaskale";
-		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon\NN\NN_jacket.paa","EZ_Clothing\data\patreon\NN\NN_jacket.paa","EZ_Clothing\data\patreon\NN\NN_jacket.paa"};
-	};
-	class EZ_NN_Pants: CargoPants_ColorBase
-	{
-		descriptionShort = "SquadPackage Cargo Cargo Pants made by Kokaskale";
-		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon\NN\NN_pants.paa","EZ_Clothing\data\patreon\NN\NN_pants.paa","EZ_Clothing\data\patreon\NN\NN_pants.paa"};
-	};
-	class EZ_NN_Balaclava: BalaclavaMask_ColorBase
-	{
-		descriptionShort = "SquadPackage Balaclava made by Kokaskale";
-		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon\NN\NN_balaclava_co.paa","EZ_Clothing\data\patreon\NN\NN_balaclava_co.paa","EZ_Clothing\data\patreon\NN\NN_balaclava_co.paa"};
-	};
-	class EZ_NN_Helmet: Mich2001Helmet
-	{
-		descriptionShort = "SquadPackage Helmet made by Kokaskale";
-		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon\NN\NN_helmet_co.paa","EZ_Clothing\data\patreon\NN\NN_helmet_co.paa","EZ_Clothing\data\patreon\NN\NN_helmet_co.paa"};
-	};
-	class EZ_NN_Vest: PlateCarrierVest
-	{
-		descriptionShort = "SquadPackage Vest made by Kokaskale";
-		scope = 2;
-		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon\NN\NN_vest_co.paa","EZ_Clothing\data\patreon\NN\NN_vest_co.paa","EZ_Clothing\data\patreon\NN\NN_vest_co.paa"};
-	};
 	class EZ_Eviction_Banner: EZ_Banner_Colorbase
 	{
 		displayName = "Banner Of Shame";
@@ -1323,12 +1286,6 @@ class CfgVehicles
 	{
 		scope = 2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Medal\medal8_co.paa"};
-	};	
-	class EZ_NN_DoubleArmband: EZ_DoubleArmband_ColorBase
-	{
-		descriptionShort = "SquadPackage Double Armband made by Kokaskale";
-		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon\NN\NN_armband.paa"};
 	};
 	class EZ_NBC_Gloves_blackmulticam: NBCGloves_ColorBase
 	{

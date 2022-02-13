@@ -3572,34 +3572,34 @@ class CfgVehicles
 		displayName = "PREDS - Armband";
 		descriptionShort = "PREDS - Armband made by Kokaskale";
 		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon\PREDS\PREDS_armband.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\PREDS\PREDS_armband.paa"};
 	};
 	class EZ_PREDS_Jacket: M65Jacket_ColorBase
 	{
 		displayName = "PREDS - Jacket";
 		descriptionShort = "PREDS - Jacket made by Kokaskale";
 		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon\PREDS\PREDS_jacket.paa",
-									  "EZ_Clothing\data\patreon\PREDS\PREDS_jacket.paa",
-									  "EZ_Clothing\data\patreon\PREDS\PREDS_jacket.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\PREDS\PREDS_jacket.paa",
+									  "EZ_Clothing\data\patreon_squad\PREDS\PREDS_jacket.paa",
+									  "EZ_Clothing\data\patreon_squad\PREDS\PREDS_jacket.paa"};
 	};
 	class EZ_PREDS_Pants: CargoPants_ColorBase
 	{
 		displayName = "PREDS - Cargo Pants";
 		descriptionShort = "PREDS - Cargo Pants made by Kokaskale";
 		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon\PREDS\PREDS_pants.paa",
-									  "EZ_Clothing\data\patreon\PREDS\PREDS_pants.paa",
-									  "EZ_Clothing\data\patreon\PREDS\PREDS_pants.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\PREDS\PREDS_pants.paa",
+									  "EZ_Clothing\data\patreon_squad\PREDS\PREDS_pants.paa",
+									  "EZ_Clothing\data\patreon_squad\PREDS\PREDS_pants.paa"};
 	};
 	class EZ_PREDS_Helmet: Mich2001Helmet
 	{
 		displayName = "PREDS - Helmet";
 		descriptionShort = "PREDS - Helmet made by Kokaskale";
 		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon\PREDS\PREDS_helmet.paa",
-									  "EZ_Clothing\data\patreon\PREDS\PREDS_helmet.paa",
-									  "EZ_Clothing\data\patreon\PREDS\PREDS_helmet.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\PREDS\PREDS_helmet.paa",
+									  "EZ_Clothing\data\patreon_squad\PREDS\PREDS_helmet.paa",
+									  "EZ_Clothing\data\patreon_squad\PREDS\PREDS_helmet.paa"};
 	};
 	class EZ_PREDS_Vest: PlateCarrierVest
 	{
@@ -3607,17 +3607,17 @@ class CfgVehicles
 		descriptionShort = "PREDS - Vest made by Kokaskale";
 		scope = 2;
 		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon\PREDS\PREDS_vest.paa",
-									  "EZ_Clothing\data\patreon\PREDS\PREDS_vest.paa",
-									  "EZ_Clothing\data\patreon\PREDS\PREDS_vest.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\PREDS\PREDS_vest.paa",
+									  "EZ_Clothing\data\patreon_squad\PREDS\PREDS_vest.paa",
+									  "EZ_Clothing\data\patreon_squad\PREDS\PREDS_vest.paa"};
 	};
 	class EZ_PREDSMVS_Shroud: MVS_Shroud_Base
 	{
 		displayName = "PREDS - Shroud";
 		descriptionShort = "PREDS - Shroud made by Kokaskale";
 		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon\PREDS\PREDS_MVS_Shroud.paa",
-									  "EZ_Clothing\data\patreon\PREDS\PREDS_MVS_Shroud.paa",
-									  "EZ_Clothing\data\patreon\PREDS\PREDS_MVS_Shroud.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\PREDS\PREDS_MVS_Shroud.paa",
+									  "EZ_Clothing\data\patreon_squad\PREDS\PREDS_MVS_Shroud.paa",
+									  "EZ_Clothing\data\patreon_squad\PREDS\PREDS_MVS_Shroud.paa"};
 	};
 };

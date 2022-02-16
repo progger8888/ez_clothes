@@ -2882,4 +2882,58 @@ class CfgVehicles
 		scope = 2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\PREDS\PREDS_MVS_Shroud.paa","EZ_Clothing\data\patreon_squad\PREDS\PREDS_MVS_Shroud.paa","EZ_Clothing\data\patreon_squad\PREDS\PREDS_MVS_Shroud.paa"};
 	};
+	class EZ_PrigorodkiWP_Flag: Flag_Base
+	{
+		displayName = "PrigorodkiWP Flag";
+		descriptionShort = "PrigorodkiWP - CrewPackage Flag made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\PrigorodkiWP\PrigorodkiWP_ff.paa"};
+	};
+	class EZ_PrigorodkiWP_Armband: Armband_ColorBase
+	{
+		displayName = "PrigorodkiWP - Armband";
+		descriptionShort = "PrigorodkiWP - CrewPackage Armband made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\PrigorodkiWP\PrigorodkiWP_gg.paa",
+									  "EZ_Clothing\data\patreon_crew\PrigorodkiWP\PrigorodkiWP_aa.paa",
+									  "EZ_Clothing\data\patreon_crew\PrigorodkiWP\PrigorodkiWP_aa.paa",
+									  "EZ_Clothing\data\patreon_crew\PrigorodkiWP\PrigorodkiWP_aa.paa",
+									  "EZ_Clothing\data\patreon_crew\PrigorodkiWP\PrigorodkiWP_aa.paa"};
+	};
+	class EZ_PrigorodkiWP_TacticalShirt: TacticalShirt_ColorBase
+	{
+		displayName = "PrigorodkiWP - Tactical Shirt";
+		descriptionShort = "PrigorodkiWP - CrewPackage Hiking Jacket made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\PrigorodkiWP\PrigorodkiWP_shirt.paa",
+									  "EZ_Clothing\data\patreon_crew\PrigorodkiWP\PrigorodkiWP_shirt.paa",
+									  "EZ_Clothing\data\patreon_crew\PrigorodkiWP\PrigorodkiWP_shirt.paa"};
+	};
+	class EZ_KolmiokarvaMafia_Flag: Flag_Base
+	{
+		displayName = "KolmiokarvaMafia Flag";
+		descriptionShort = "KolmiokarvaMafia - CrewPackage Flag made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\KolmiokarvaMafia\KolmiokarvaMafia_ff.paa"};
+	};
+	class EZ_KolmiokarvaMafia_Armband: Armband_ColorBase
+	{
+		displayName = "KolmiokarvaMafia - Armband";
+		descriptionShort = "KolmiokarvaMafia - CrewPackage Armband made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\KolmiokarvaMafia\KolmiokarvaMafia_gg.paa",
+									  "EZ_Clothing\data\patreon_crew\KolmiokarvaMafia\KolmiokarvaMafia_aa.paa",
+									  "EZ_Clothing\data\patreon_crew\KolmiokarvaMafia\KolmiokarvaMafia_aa.paa",
+									  "EZ_Clothing\data\patreon_crew\KolmiokarvaMafia\KolmiokarvaMafia_aa.paa",
+									  "EZ_Clothing\data\patreon_crew\KolmiokarvaMafia\KolmiokarvaMafia_aa.paa"};
+	};
+	class EZ_KolmiokarvaMafia_TacticalShirt: TacticalShirt_ColorBase
+	{
+		displayName = "KolmiokarvaMafia - Tactical Shirt";
+		descriptionShort = "KolmiokarvaMafia - CrewPackage Hiking Jacket made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\KolmiokarvaMafia\KolmiokarvaMafia_shirt.paa",
+									  "EZ_Clothing\data\patreon_crew\KolmiokarvaMafia\KolmiokarvaMafia_shirt.paa",
+									  "EZ_Clothing\data\patreon_crew\KolmiokarvaMafia\KolmiokarvaMafia_shirt.paa"};
+	};
 };

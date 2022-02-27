@@ -2120,6 +2120,47 @@ class CfgVehicles
 		descriptionShort = "Endzone - Prison Striped Cap - Extended. Made by Kokaskale.";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\HeadGear\prison_cap_striped.paa","EZ_Clothing\data\player\HeadGear\prison_cap_striped.paa","EZ_Clothing\data\player\HeadGear\prison_cap_striped.paa"};
 	};
+	class EZ_Mechanix_Gloves: TacticalGloves_ColorBase
+	{
+		scope=2;
+		descriptionShort = "Endzone - Gloves Mechanix - Extended. Made by Kokaskale.";
+		hiddenSelectionsTextures[]=
+		{
+			"EZ_Clothing\data\player\Gloves\tacticalgloves_black_mechanix.paa",
+			"EZ_Clothing\data\player\Gloves\tacticalgloves_black_mechanix.paa",
+			"EZ_Clothing\data\player\Gloves\tacticalgloves_black_mechanix.paa"
+		};
+	};
+	class EZ_Brown_Vest: PlateCarrierVest
+	{
+		displayName = "Endzone - Vest";
+		descriptionShort = "Endzone - Brown Tactical Vest - Extended. Made by Kokaskale.";
+		scope = 2;
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Vest\vanilla_tactical_vest_brown.paa",
+									  "EZ_Clothing\data\player\Vest\vanilla_tactical_vest_brown.paa",
+									  "EZ_Clothing\data\player\Vest\vanilla_tactical_vest_brown.paa"};
+	};
+	class EZ_Brown_Pouches: PlateCarrierPouches
+	{
+		displayName = "Endzone - Pouches";
+		descriptionShort = "Endzone - Brown Tactical Vest - Extended. Made by Kokaskale.";
+		scope = 2;
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Vest\vanilla_tactical_vest_brown.paa",
+									  "EZ_Clothing\data\player\Vest\vanilla_tactical_vest_brown.paa",
+									  "EZ_Clothing\data\player\Vest\vanilla_tactical_vest_brown.paa"};
+	};
+	class EZ_Brown_Holster: PlateCarrierHolster
+	{
+		displayName = "Endzone - Holster";
+		descriptionShort = "Endzone - Brown Tactical Vest - Extended. Made by Kokaskale.";
+		scope = 2;
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Vest\vanilla_tactical_vest_brown.paa",
+									  "EZ_Clothing\data\player\Vest\vanilla_tactical_vest_brown.paa",
+									  "EZ_Clothing\data\player\Vest\vanilla_tactical_vest_brown.paa"};
+	};
 	class EZ_North_DoubleArmband: EZ_DoubleArmband_ColorBase
 	{
 		scope = 2;

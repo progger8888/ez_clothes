@@ -3066,4 +3066,58 @@ class CfgVehicles
 			"EZ_Clothing\data\Mvs_Test\Mandalorian_Visor_co.paa"
 		};
 	};
+	class EZ_Yellowjackets_Flag: Flag_Base
+	{
+		displayName = "Yellowjackets Flag";
+		descriptionShort = "Yellowjackets - CrewPackage Flag made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Yellowjackets\Yellowjackets_ff.paa"};
+	};
+	class EZ_Yellowjackets_Armband: Armband_ColorBase
+	{
+		displayName = "Yellowjackets - Armband";
+		descriptionShort = "Yellowjackets - CrewPackage Armband made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Yellowjackets\Yellowjackets_gg.paa",
+									  "EZ_Clothing\data\patreon_crew\Yellowjackets\Yellowjackets_aa.paa",
+									  "EZ_Clothing\data\patreon_crew\Yellowjackets\Yellowjackets_aa.paa",
+									  "EZ_Clothing\data\patreon_crew\Yellowjackets\Yellowjackets_aa.paa",
+									  "EZ_Clothing\data\patreon_crew\Yellowjackets\Yellowjackets_aa.paa"};
+	};
+	class EZ_Yellowjackets_TacticalShirt: TacticalShirt_ColorBase
+	{
+		displayName = "Yellowjackets - Tactical Shirt";
+		descriptionShort = "Yellowjackets - CrewPackage Hiking Jacket made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Yellowjackets\Yellowjackets_shirt.paa",
+									  "EZ_Clothing\data\patreon_crew\Yellowjackets\Yellowjackets_shirt.paa",
+									  "EZ_Clothing\data\patreon_crew\Yellowjackets\Yellowjackets_shirt.paa"};
+	};
+	class EZ_DieRamschhändler_Flag: Flag_Base
+	{
+		displayName = "Die Ramschhändler Flag";
+		descriptionShort = "Die Ramschhändler - CrewPackage Flag made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\DieRamschhändler\DieRamschhändler_ff.paa"};
+	};
+	class EZ_DieRamschhändler_Armband: Armband_ColorBase
+	{
+		displayName = "Die Ramschhändler - Armband";
+		descriptionShort = "Die Ramschhändler - CrewPackage Armband made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\DieRamschhändler\DieRamschhändler_gg.paa",
+									  "EZ_Clothing\data\patreon_crew\DieRamschhändler\DieRamschhändler_aa.paa",
+									  "EZ_Clothing\data\patreon_crew\DieRamschhändler\DieRamschhändler_aa.paa",
+									  "EZ_Clothing\data\patreon_crew\DieRamschhändler\DieRamschhändler_aa.paa",
+									  "EZ_Clothing\data\patreon_crew\DieRamschhändler\DieRamschhändler_aa.paa"};
+	};
+	class EZ_DieRamschhändler_TacticalShirt: TacticalShirt_ColorBase
+	{
+		displayName = "Die Ramschhändler - Tactical Shirt";
+		descriptionShort = "Die Ramschhändler - CrewPackage Hiking Jacket made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\DieRamschhändler\DieRamschhändler_shirt.paa",
+									  "EZ_Clothing\data\patreon_crew\DieRamschhändler\DieRamschhändler_shirt.paa",
+									  "EZ_Clothing\data\patreon_crew\DieRamschhändler\DieRamschhändler_shirt.paa"};
+	};
 };

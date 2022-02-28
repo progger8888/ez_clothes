@@ -3132,31 +3132,31 @@ class CfgVehicles
 									  "EZ_Clothing\data\patreon_crew\Yellowjackets\Yellowjackets_shirt.paa",
 									  "EZ_Clothing\data\patreon_crew\Yellowjackets\Yellowjackets_shirt.paa"};
 	};
-	class EZ_DieRamschhändler_Flag: Flag_Base
+	class EZ_DieRamschhandler_Flag: Flag_Base
 	{
-		displayName = "Die Ramschhändler Flag";
-		descriptionShort = "Die Ramschhändler - CrewPackage Flag made by Kokaskale";
+		displayName = "Die Ramschhandler Flag";
+		descriptionShort = "Die Ramschhandler - CrewPackage Flag made by Kokaskale";
 		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\DieRamschhändler\DieRamschhändler_ff.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\DieRamschhandler\DieRamschhandler_ff.paa"};
 	};
-	class EZ_DieRamschhändler_Armband: Armband_ColorBase
+	class EZ_DieRamschhandler_Armband: Armband_ColorBase
 	{
-		displayName = "Die Ramschhändler - Armband";
-		descriptionShort = "Die Ramschhändler - CrewPackage Armband made by Kokaskale";
+		displayName = "Die Ramschhandler - Armband";
+		descriptionShort = "Die Ramschhandler - CrewPackage Armband made by Kokaskale";
 		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\DieRamschhändler\DieRamschhändler_gg.paa",
-									  "EZ_Clothing\data\patreon_crew\DieRamschhändler\DieRamschhändler_aa.paa",
-									  "EZ_Clothing\data\patreon_crew\DieRamschhändler\DieRamschhändler_aa.paa",
-									  "EZ_Clothing\data\patreon_crew\DieRamschhändler\DieRamschhändler_aa.paa",
-									  "EZ_Clothing\data\patreon_crew\DieRamschhändler\DieRamschhändler_aa.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\DieRamschhandler\DieRamschhandler_gg.paa",
+									  "EZ_Clothing\data\patreon_crew\DieRamschhandler\DieRamschhandler_aa.paa",
+									  "EZ_Clothing\data\patreon_crew\DieRamschhandler\DieRamschhandler_aa.paa",
+									  "EZ_Clothing\data\patreon_crew\DieRamschhandler\DieRamschhandler_aa.paa",
+									  "EZ_Clothing\data\patreon_crew\DieRamschhandler\DieRamschhandler_aa.paa"};
 	};
-	class EZ_DieRamschhändler_TacticalShirt: TacticalShirt_ColorBase
+	class EZ_DieRamschhandler_TacticalShirt: TacticalShirt_ColorBase
 	{
-		displayName = "Die Ramschhändler - Tactical Shirt";
-		descriptionShort = "Die Ramschhändler - CrewPackage Hiking Jacket made by Kokaskale";
+		displayName = "Die Ramschhandler - Tactical Shirt";
+		descriptionShort = "Die Ramschhandler - CrewPackage Hiking Jacket made by Kokaskale";
 		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\DieRamschhändler\DieRamschhändler_shirt.paa",
-									  "EZ_Clothing\data\patreon_crew\DieRamschhändler\DieRamschhändler_shirt.paa",
-									  "EZ_Clothing\data\patreon_crew\DieRamschhändler\DieRamschhändler_shirt.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\DieRamschhandler\DieRamschhandler_shirt.paa",
+									  "EZ_Clothing\data\patreon_crew\DieRamschhandler\DieRamschhandler_shirt.paa",
+									  "EZ_Clothing\data\patreon_crew\DieRamschhandler\DieRamschhandler_shirt.paa"};
 	};
 };

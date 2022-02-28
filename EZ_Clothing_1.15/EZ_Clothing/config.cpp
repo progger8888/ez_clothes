@@ -1001,7 +1001,6 @@ class CfgVehicles
 		descriptionShort = "Clothing";
 		model = "EZ_Clothing\data\staff\InvisibleClothes\invisible.p3d";
 		inventorySlot = "Feet";
-		itemInfo[] = {"Clothing","Feet"};
 		weight = 1230;
 		durability = 0.5;
 		repairableWithKits[] = {5,3};
@@ -1040,7 +1039,6 @@ class CfgVehicles
 		descriptionShort = "Clothing";
 		model = "EZ_Clothing\data\staff\InvisibleClothes\invisible.p3d";
 		inventorySlot = "Head";
-		simulation = "head";
 	};
 	class Backpack_GG: AliceBag_ColorBase
 	{

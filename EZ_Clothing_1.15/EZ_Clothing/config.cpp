@@ -2118,6 +2118,47 @@ class CfgVehicles
 		descriptionShort = "Endzone - Prison Striped Cap - Extended. Made by Kokaskale.";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\HeadGear\prison_cap_striped.paa","EZ_Clothing\data\player\HeadGear\prison_cap_striped.paa","EZ_Clothing\data\player\HeadGear\prison_cap_striped.paa"};
 	};
+	class EZ_Mechanix_Gloves: TacticalGloves_ColorBase
+	{
+		scope=2;
+		descriptionShort = "Endzone - Gloves Mechanix - Extended. Made by Kokaskale.";
+		hiddenSelectionsTextures[]=
+		{
+			"EZ_Clothing\data\player\Gloves\tacticalgloves_black_mechanix.paa",
+			"EZ_Clothing\data\player\Gloves\tacticalgloves_black_mechanix.paa",
+			"EZ_Clothing\data\player\Gloves\tacticalgloves_black_mechanix.paa"
+		};
+	};
+	class EZ_Brown_Vest: PlateCarrierVest
+	{
+		displayName = "Endzone - Vest";
+		descriptionShort = "Endzone - Brown Tactical Vest - Extended. Made by Kokaskale.";
+		scope = 2;
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Vest\vanilla_tactical_vest_brown.paa",
+									  "EZ_Clothing\data\player\Vest\vanilla_tactical_vest_brown.paa",
+									  "EZ_Clothing\data\player\Vest\vanilla_tactical_vest_brown.paa"};
+	};
+	class EZ_Brown_Pouches: PlateCarrierPouches
+	{
+		displayName = "Endzone - Pouches";
+		descriptionShort = "Endzone - Brown Tactical Vest - Extended. Made by Kokaskale.";
+		scope = 2;
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Vest\vanilla_tactical_vest_brown.paa",
+									  "EZ_Clothing\data\player\Vest\vanilla_tactical_vest_brown.paa",
+									  "EZ_Clothing\data\player\Vest\vanilla_tactical_vest_brown.paa"};
+	};
+	class EZ_Brown_Holster: PlateCarrierHolster
+	{
+		displayName = "Endzone - Holster";
+		descriptionShort = "Endzone - Brown Tactical Vest - Extended. Made by Kokaskale.";
+		scope = 2;
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Vest\vanilla_tactical_vest_brown.paa",
+									  "EZ_Clothing\data\player\Vest\vanilla_tactical_vest_brown.paa",
+									  "EZ_Clothing\data\player\Vest\vanilla_tactical_vest_brown.paa"};
+	};
 	class EZ_North_DoubleArmband: EZ_DoubleArmband_ColorBase
 	{
 		scope = 2;
@@ -3063,5 +3104,59 @@ class CfgVehicles
 			"EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_Mandalorian_Helmet.paa",
 			"EZ_Clothing\data\Mvs_Test\Mandalorian_Visor_co.paa"
 		};
+	};
+	class EZ_Yellowjackets_Flag: Flag_Base
+	{
+		displayName = "Yellowjackets Flag";
+		descriptionShort = "Yellowjackets - CrewPackage Flag made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Yellowjackets\Yellowjackets_ff.paa"};
+	};
+	class EZ_Yellowjackets_Armband: Armband_ColorBase
+	{
+		displayName = "Yellowjackets - Armband";
+		descriptionShort = "Yellowjackets - CrewPackage Armband made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Yellowjackets\Yellowjackets_gg.paa",
+									  "EZ_Clothing\data\patreon_crew\Yellowjackets\Yellowjackets_aa.paa",
+									  "EZ_Clothing\data\patreon_crew\Yellowjackets\Yellowjackets_aa.paa",
+									  "EZ_Clothing\data\patreon_crew\Yellowjackets\Yellowjackets_aa.paa",
+									  "EZ_Clothing\data\patreon_crew\Yellowjackets\Yellowjackets_aa.paa"};
+	};
+	class EZ_Yellowjackets_TacticalShirt: TacticalShirt_ColorBase
+	{
+		displayName = "Yellowjackets - Tactical Shirt";
+		descriptionShort = "Yellowjackets - CrewPackage Hiking Jacket made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Yellowjackets\Yellowjackets_shirt.paa",
+									  "EZ_Clothing\data\patreon_crew\Yellowjackets\Yellowjackets_shirt.paa",
+									  "EZ_Clothing\data\patreon_crew\Yellowjackets\Yellowjackets_shirt.paa"};
+	};
+	class EZ_DieRamschhändler_Flag: Flag_Base
+	{
+		displayName = "Die Ramschhändler Flag";
+		descriptionShort = "Die Ramschhändler - CrewPackage Flag made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\DieRamschhändler\DieRamschhändler_ff.paa"};
+	};
+	class EZ_DieRamschhändler_Armband: Armband_ColorBase
+	{
+		displayName = "Die Ramschhändler - Armband";
+		descriptionShort = "Die Ramschhändler - CrewPackage Armband made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\DieRamschhändler\DieRamschhändler_gg.paa",
+									  "EZ_Clothing\data\patreon_crew\DieRamschhändler\DieRamschhändler_aa.paa",
+									  "EZ_Clothing\data\patreon_crew\DieRamschhändler\DieRamschhändler_aa.paa",
+									  "EZ_Clothing\data\patreon_crew\DieRamschhändler\DieRamschhändler_aa.paa",
+									  "EZ_Clothing\data\patreon_crew\DieRamschhändler\DieRamschhändler_aa.paa"};
+	};
+	class EZ_DieRamschhändler_TacticalShirt: TacticalShirt_ColorBase
+	{
+		displayName = "Die Ramschhändler - Tactical Shirt";
+		descriptionShort = "Die Ramschhändler - CrewPackage Hiking Jacket made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\DieRamschhändler\DieRamschhändler_shirt.paa",
+									  "EZ_Clothing\data\patreon_crew\DieRamschhändler\DieRamschhändler_shirt.paa",
+									  "EZ_Clothing\data\patreon_crew\DieRamschhändler\DieRamschhändler_shirt.paa"};
 	};
 };

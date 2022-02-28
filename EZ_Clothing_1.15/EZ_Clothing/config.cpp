@@ -620,18 +620,35 @@ class CfgVehicles
 		displayName = "Flag - Yugoslavia";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Country Flags\Flag_yo_co.paa"};
 	};
-	class EZ_Armband_at: Armband_ColorBase
-	{
-		scope = 2;
-		displayName = "Armband - Austria";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Armband\Armband_at_g_co.paa","EZ_Clothing\data\player\Armband\Armband_at_small_co.paa","EZ_Clothing\data\player\Armband\Armband_at_small_co.paa","EZ_Clothing\data\player\Armband\Armband_at_big_co.paa","EZ_Clothing\data\player\Armband\Armband_at_big_co.paa"};
-	};
 	class EZ_Flag_slv: Flag_Base
 	{
 		scope = 2;
 		displayName = "Flag - Slovenia";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Country Flags\Flag_slv.paa"};
 	};
+	class EZ_Flag_ukr: Flag_Base
+	{
+		scope = 2;
+		displayName = "Flag - Ukrania";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Country Flags\Flag_ukr.paa"};
+	};
+	class EZ_Armband_ukr: Armband_ColorBase
+	{
+		scope = 2;
+		displayName = "Armband - Ukrania";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Armband\Armband_ukr_gg.paa",
+									  "EZ_Clothing\data\player\Armband\Armband_ukr_aa.paa",
+									  "EZ_Clothing\data\player\Armband\Armband_ukr_aa.paa",
+									  "EZ_Clothing\data\player\Armband\Armband_ukr_aa.paa",
+									  "EZ_Clothing\data\player\Armband\Armband_ukr_aa.paa"};
+	};
+	class EZ_Armband_at: Armband_ColorBase
+	{
+		scope = 2;
+		displayName = "Armband - Austria";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Armband\Armband_at_g_co.paa","EZ_Clothing\data\player\Armband\Armband_at_small_co.paa","EZ_Clothing\data\player\Armband\Armband_at_small_co.paa","EZ_Clothing\data\player\Armband\Armband_at_big_co.paa","EZ_Clothing\data\player\Armband\Armband_at_big_co.paa"};
+	};
+
 	class EZ_Armband_slv: Armband_ColorBase
 	{
 		scope = 2;

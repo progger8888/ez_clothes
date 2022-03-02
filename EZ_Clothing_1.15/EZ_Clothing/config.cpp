@@ -3176,4 +3176,61 @@ class CfgVehicles
 									  "EZ_Clothing\data\patreon_crew\DieRamschhandler\DieRamschhandler_shirt.paa",
 									  "EZ_Clothing\data\patreon_crew\DieRamschhandler\DieRamschhandler_shirt.paa"};
 	};
+	class EZ_BTS_Armband: EZ_DoubleArmband_ColorBase
+	{
+		displayName = "Beach Teleportation Service - Armband";
+		descriptionShort = "Beach Teleportation Service - SquadPackage armband made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BTS\BTS_armband.paa"};
+	};
+	class EZ_BTS_Banner: EZ_Banner_Colorbase
+	{
+		displayName = "Beach Teleportation Service - Banner";
+		descriptionShort = "Beach Teleportation Service - SquadPackage Banner made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BTS\BTS_bb.paa"};
+	};
+	class EZ_BTS_Flag: Flag_Base
+	{
+		displayName = "Beach Teleportation Service - Flag";
+		descriptionShort = "Beach Teleportation Service - SquadPackage Flag made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BTS\BTS_ff.paa"};
+	};
+	class EZ_BTS_Jacket: TacticalShirt_ColorBase
+	{
+		displayName = "Beach Teleportation Service - Tactical Shirt";
+		descriptionShort = "Beach Teleportation Service - SquadPackage Tactical Shirt made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BTS\BTS_shirt.paa","EZ_Clothing\data\patreon_squad\BTS\BTS_shirt.paa","EZ_Clothing\data\patreon_squad\BTS\BTS_shirt.paa"};
+	};
+	class EZ_BTS_Pants: CargoPants_ColorBase
+	{
+		displayName = "Beach Teleportation Service - Cargo Pants";
+		descriptionShort = "Beach Teleportation Service - SquadPackage Cargo Pants made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BTS\BTS_pants.paa","EZ_Clothing\data\patreon_squad\BTS\BTS_pants.paa","EZ_Clothing\data\patreon_squad\BTS\BTS_pants.paa"};
+	};
+	class EZ_BTS_Balaclava: BalaclavaMask_ColorBase
+	{
+		displayName = "Beach Teleportation Service - Balaclava";
+		descriptionShort = "Beach Teleportation Service - SquadPackage Balaclava made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BTS\BTS_balaclava_co.paa","EZ_Clothing\data\patreon_squad\BTS\BTS_balaclava_co.paa","EZ_Clothing\data\patreon_squad\BTS\BTS_balaclava_co.paa"};
+	};
+	class EZ_BTS_Helmet: Mich2001Helmet
+	{
+		displayName = "Beach Teleportation Service - Helmet";
+		descriptionShort = "Beach Teleportation Service - SquadPackage Helmet made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BTS\BTS_helmet_co.paa","EZ_Clothing\data\patreon_squad\BTS\BTS_helmet_co.paa","EZ_Clothing\data\patreon_squad\BTS\BTS_helmet_co.paa"};
+	};
+	class EZ_BTS_Vest: PlateCarrierVest
+	{
+		displayName = "Beach Teleportation Service - Vest";
+		descriptionShort = "Beach Teleportation Service - SquadPackage Vest made by Kokaskale";
+		scope = 2;
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BTS\BTS_vest_co.paa","EZ_Clothing\data\patreon_squad\BTS\BTS_vest_co.paa","EZ_Clothing\data\patreon_squad\BTS\BTS_vest_co.paa"};
+	};
 };

@@ -12,7 +12,7 @@ class CfgPatches
 class CfgMods
 {
 	class EZ_Clothing
-	{
+	{ 
 		dir = "EZ_Clothing";
 		hideName = 1;
 		hidePicture = 1;
@@ -2981,48 +2981,48 @@ class CfgVehicles
 	};
 	class EZ_ForestCrow_Armband: EZ_DoubleArmband_ColorBase
 	{
+		scope = 2;
 		displayName = "ForestCrow - Double Armband";
 		descriptionShort = "ForestCrow -PlatoonPackage Double Armband made by Kokaskale";
-		scope = 2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_armband.paa"};
 	};
 	class EZ_ForestCrow_Banner: EZ_Banner_Colorbase
 	{
+		scope = 2;
 		displayName = "ForestCrow - Banner";
 		descriptionShort = "ForestCrow - PlatoonPackage Banner made by Kokaskale";
-		scope = 2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_bb.paa"};
 	};
 	class EZ_ForestCrow_Flag: Flag_Base
 	{
+		scope = 2;
 		displayName = "ForestCrow - Flag";
 		descriptionShort = "ForestCrow - PlatoonPackage Flag made by Kokaskale";
-		scope = 2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_ff.paa"};
 	};
 	class EZ_ForestCrow_TacticalShirt: MVS_CombatShirt_Base
 	{
+		scope = 2;
 		displayName = "ForestCrow - MVS Shirt";
 		descriptionShort = "ForestCrow - PlatoonPackage MVS Shirt made by Kokaskale";
-		scope = 2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_mvs_combatshirt.paa",
 									  "EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_mvs_combatshirt.paa",
 									  "EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_mvs_combatshirt.paa"};
 	};
 	class EZ_ForestCrow_Pants: MVS_CombatPants_Base
 	{
+		scope = 2;
 		displayName = "ForestCrow - MVS Pants";
 		descriptionShort = "ForestCrow - PlatoonPackage MVS Pants made by Kokaskale";
-		scope = 2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_mvs_combatpants.paa",
 									  "EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_mvs_combatpants.paa",
 									  "EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_mvs_combatpants.paa"};
 	};
 	class EZ_ForestCrow_Balaclava: MVS_Balaclava2_Base
 	{
+		scope=2;
 		displayName = "ForestCrow - MVS Balaclava";
 		descriptionShort = "ForestCrow - PlatoonPackage MVS Balaclava made by Kokaskale";
-		scope=2;
 		hiddenSelectionsTextures[]=
 		{
 			"EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_mvs_balaclava.paa",
@@ -3032,9 +3032,9 @@ class CfgVehicles
 	};
 	class EZ_ForestCrow_Helmet: MVS_Helmet_Base
 	{
+		scope=2;
 		displayName = "ForestCrow - MVS Helmet";
 		descriptionShort = "ForestCrow - PlatoonPackage MVS Helmet made by Kokaskale";
-		scope=2;
 		hiddenSelectionsTextures[]=
 		{
 			"EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_mvs_helmet.paa",
@@ -3044,9 +3044,9 @@ class CfgVehicles
 	};
 	class EZ_ForestCrow_Vest: ModularVestSystem_Base
 	{
+		scope = 2;
 		displayName = "ForestCrow - MVS Vest";
 		descriptionShort = "ForestCrow - PlatoonPackage MVS Vest made by Kokaskale";
-		scope = 2;
 		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_mvs_vest.paa",
 									  "EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_mvs_vest.paa",
@@ -3075,9 +3075,9 @@ class CfgVehicles
 	};
 	class EZ_ForestCrowTacticalGloves: TacticalGloves_ColorBase
 	{
+		scope=2;
 		displayName = "ForestCrow - Tactical Gloves";
 		descriptionShort = "ForestCrow - PlatoonPackage Tactical Gloves made by Kokaskale";
-		scope=2;
 		hiddenSelectionsTextures[]=
 		{
 			"EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_tacticalgloves.paa",
@@ -3087,9 +3087,9 @@ class CfgVehicles
 	};
 	class EZ_ForestCrow_MVS_Combat_Vest_Heavy: ModularVestSystem_Heavy
 	{
+		scope = 2;
 		displayName = "ForestCrow - MVS Heavy Plate Carrier";
 		descriptionShort = "ForestCrow - PlatoonPackage MVS Heavy Plate Carrier made by Kokaskale";
-		scope = 2;
 		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_MVSHeavy_co.paa",
 									  "EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_MVSHeavy_co.paa",
@@ -3124,16 +3124,16 @@ class CfgVehicles
 	};
 	class EZ_Yellowjackets_Flag: Flag_Base
 	{
+		scope = 2;
 		displayName = "Yellowjackets Flag";
 		descriptionShort = "Yellowjackets - CrewPackage Flag made by Kokaskale";
-		scope = 2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Yellowjackets\Yellowjackets_ff.paa"};
 	};
 	class EZ_Yellowjackets_Armband: Armband_ColorBase
 	{
+		scope = 2;
 		displayName = "Yellowjackets - Armband";
 		descriptionShort = "Yellowjackets - CrewPackage Armband made by Kokaskale";
-		scope = 2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Yellowjackets\Yellowjackets_gg.paa",
 									  "EZ_Clothing\data\patreon_crew\Yellowjackets\Yellowjackets_aa.paa",
 									  "EZ_Clothing\data\patreon_crew\Yellowjackets\Yellowjackets_aa.paa",
@@ -3142,25 +3142,25 @@ class CfgVehicles
 	};
 	class EZ_Yellowjackets_TacticalShirt: TacticalShirt_ColorBase
 	{
+		scope = 2;
 		displayName = "Yellowjackets - Tactical Shirt";
 		descriptionShort = "Yellowjackets - CrewPackage Hiking Jacket made by Kokaskale";
-		scope = 2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Yellowjackets\Yellowjackets_shirt.paa",
 									  "EZ_Clothing\data\patreon_crew\Yellowjackets\Yellowjackets_shirt.paa",
 									  "EZ_Clothing\data\patreon_crew\Yellowjackets\Yellowjackets_shirt.paa"};
 	};
 	class EZ_DieRamschhandler_Flag: Flag_Base
 	{
+		scope = 2;
 		displayName = "Die Ramschhandler Flag";
 		descriptionShort = "Die Ramschhandler - CrewPackage Flag made by Kokaskale";
-		scope = 2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\DieRamschhandler\DieRamschhandler_ff.paa"};
 	};
 	class EZ_DieRamschhandler_Armband: Armband_ColorBase
 	{
+		scope = 2;
 		displayName = "Die Ramschhandler - Armband";
 		descriptionShort = "Die Ramschhandler - CrewPackage Armband made by Kokaskale";
-		scope = 2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\DieRamschhandler\DieRamschhandler_gg.paa",
 									  "EZ_Clothing\data\patreon_crew\DieRamschhandler\DieRamschhandler_aa.paa",
 									  "EZ_Clothing\data\patreon_crew\DieRamschhandler\DieRamschhandler_aa.paa",
@@ -3169,67 +3169,67 @@ class CfgVehicles
 	};
 	class EZ_DieRamschhandler_TacticalShirt: TacticalShirt_ColorBase
 	{
+		scope = 2;
 		displayName = "Die Ramschhandler - Tactical Shirt";
 		descriptionShort = "Die Ramschhandler - CrewPackage Hiking Jacket made by Kokaskale";
-		scope = 2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\DieRamschhandler\DieRamschhandler_shirt.paa",
 									  "EZ_Clothing\data\patreon_crew\DieRamschhandler\DieRamschhandler_shirt.paa",
 									  "EZ_Clothing\data\patreon_crew\DieRamschhandler\DieRamschhandler_shirt.paa"};
 	};
 	class EZ_BTS_Armband: EZ_DoubleArmband_ColorBase
 	{
+		scope = 2;
 		displayName = "Beach Teleportation Service - Armband";
 		descriptionShort = "Beach Teleportation Service - SquadPackage armband made by Kokaskale";
-		scope = 2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BTS\BTS_armband.paa"};
 	};
 	class EZ_BTS_Banner: EZ_Banner_Colorbase
 	{
+		scope = 2;
 		displayName = "Beach Teleportation Service - Banner";
 		descriptionShort = "Beach Teleportation Service - SquadPackage Banner made by Kokaskale";
-		scope = 2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BTS\BTS_bb.paa"};
 	};
 	class EZ_BTS_Flag: Flag_Base
 	{
+		scope = 2;
 		displayName = "Beach Teleportation Service - Flag";
 		descriptionShort = "Beach Teleportation Service - SquadPackage Flag made by Kokaskale";
-		scope = 2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BTS\BTS_ff.paa"};
 	};
 	class EZ_BTS_Jacket: TacticalShirt_ColorBase
 	{
+		scope = 2;
 		displayName = "Beach Teleportation Service - Tactical Shirt";
 		descriptionShort = "Beach Teleportation Service - SquadPackage Tactical Shirt made by Kokaskale";
-		scope = 2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BTS\BTS_shirt.paa","EZ_Clothing\data\patreon_squad\BTS\BTS_shirt.paa","EZ_Clothing\data\patreon_squad\BTS\BTS_shirt.paa"};
 	};
 	class EZ_BTS_Pants: CargoPants_ColorBase
 	{
+		scope = 2;
 		displayName = "Beach Teleportation Service - Cargo Pants";
 		descriptionShort = "Beach Teleportation Service - SquadPackage Cargo Pants made by Kokaskale";
-		scope = 2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BTS\BTS_pants.paa","EZ_Clothing\data\patreon_squad\BTS\BTS_pants.paa","EZ_Clothing\data\patreon_squad\BTS\BTS_pants.paa"};
 	};
 	class EZ_BTS_Balaclava: BalaclavaMask_ColorBase
 	{
+		scope = 2;
 		displayName = "Beach Teleportation Service - Balaclava";
 		descriptionShort = "Beach Teleportation Service - SquadPackage Balaclava made by Kokaskale";
-		scope = 2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BTS\BTS_balaclava_co.paa","EZ_Clothing\data\patreon_squad\BTS\BTS_balaclava_co.paa","EZ_Clothing\data\patreon_squad\BTS\BTS_balaclava_co.paa"};
 	};
 	class EZ_BTS_Helmet: Mich2001Helmet
 	{
+		scope = 2;
 		displayName = "Beach Teleportation Service - Helmet";
 		descriptionShort = "Beach Teleportation Service - SquadPackage Helmet made by Kokaskale";
-		scope = 2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BTS\BTS_helmet_co.paa","EZ_Clothing\data\patreon_squad\BTS\BTS_helmet_co.paa","EZ_Clothing\data\patreon_squad\BTS\BTS_helmet_co.paa"};
 	};
 	class EZ_BTS_Vest: PlateCarrierVest
 	{
+		scope = 2;
 		displayName = "Beach Teleportation Service - Vest";
 		descriptionShort = "Beach Teleportation Service - SquadPackage Vest made by Kokaskale";
-		scope = 2;
 		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BTS\BTS_vest_co.paa","EZ_Clothing\data\patreon_squad\BTS\BTS_vest_co.paa","EZ_Clothing\data\patreon_squad\BTS\BTS_vest_co.paa"};
 	};

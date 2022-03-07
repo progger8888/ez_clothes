@@ -1556,27 +1556,6 @@ class CfgVehicles
 		descriptionShort = "INC - CrewPackage Tactical Shirt made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\INC\INC_shirt.paa","EZ_Clothing\data\patreon_crew\INC\INC_shirt.paa","EZ_Clothing\data\patreon_crew\INC\INC_shirt.paa"};
 	};
-	class EZ_Svenne_Flag: Flag_Base
-	{
-		scope = 2;
-		displayName = "Svenne Flag";
-		desSvenneptionShort = "Svenne - CrewPackage Flag made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Svenne\Svenne_ff.paa"};
-	};
-	class EZ_Svenne_Armband: Armband_ColorBase
-	{
-		scope = 2;
-		displayName = "Svenne - Armband";
-		desSvenneptionShort = "Svenne - CrewPackage Armband made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Svenne\Svenne_gg.paa","EZ_Clothing\data\patreon_crew\Svenne\Svenne_aa.paa","EZ_Clothing\data\patreon_crew\Svenne\Svenne_aa.paa","EZ_Clothing\data\patreon_crew\Svenne\Svenne_aa.paa","EZ_Clothing\data\patreon_crew\Svenne\Svenne_aa.paa"};
-	};
-	class EZ_Svenne_TacticalShirt: TacticalShirt_ColorBase
-	{
-		scope = 2;
-		displayName = "Svenne - Tactical Shirt";
-		desSvenneptionShort = "Svenne - CrewPackage Tactical Shirt made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Svenne\Svenne_shirt.paa","EZ_Clothing\data\patreon_crew\Svenne\Svenne_shirt.paa","EZ_Clothing\data\patreon_crew\Svenne\Svenne_shirt.paa"};
-	};
 	class Barrel_Ammo_EZ: Barrel_ColorBase
 	{
 		scope = 2;
@@ -3232,5 +3211,72 @@ class CfgVehicles
 		descriptionShort = "Beach Teleportation Service - SquadPackage Vest made by Kokaskale";
 		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BTS\BTS_vest_co.paa","EZ_Clothing\data\patreon_squad\BTS\BTS_vest_co.paa","EZ_Clothing\data\patreon_squad\BTS\BTS_vest_co.paa"};
+	};
+	class EZ_Svenne_Armband: EZ_DoubleArmband_ColorBase
+	{
+		displayName = "Svenne - Armband";
+		desSvenneptionShort = "Svenne - SquadPackage Armband made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Svenne\Svenne_armband.paa"};
+	};
+	class EZ_Svenne_Banner: EZ_Banner_Colorbase
+	{
+		displayName = "Svenne - Banner";
+		descriptionShort = "Svenne - SquadPackage Banner made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Svenne\Svenne_bb.paa"};
+	};
+	class EZ_Svenne_Flag: Flag_Base
+	{
+		displayName = "Svenne Flag";
+		desSvenneptionShort = "Svenne - SquadPackage Flag made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Svenne\Svenne_ff.paa"};
+	};
+	class EZ_Svenne_TacticalShirt: TacticalShirt_ColorBase
+	{
+		displayName = "Svenne - Tactical Shirt";
+		desSvenneptionShort = "Svenne - SquadPackage Tactical Shirt made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Svenne\Svenne_shirt.paa",
+									  "EZ_Clothing\data\patreon_squad\Svenne\Svenne_shirt.paa",
+									  "EZ_Clothing\data\patreon_squad\Svenne\Svenne_shirt.paa"};
+	};
+	class EZ_Svenne_Pants: CargoPants_ColorBase
+	{
+		displayName = "Svenne - Cargo Pants";
+		descriptionShort = "Svenne - SquadPackage Cargo Pants made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Svenne\Svenne_pants.paa",
+									  "EZ_Clothing\data\patreon_squad\Svenne\Svenne_pants.paa",
+									  "EZ_Clothing\data\patreon_squad\Svenne\Svenne_pants.paa"};
+	};
+	class EZ_Svenne_Balaclava: BalaclavaMask_ColorBase
+	{
+		displayName = "Svenne - Balaclava";
+		descriptionShort = "Svenne - SquadPackage Balaclava made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Svenne\Svenne_balaclava_co.paa",
+									  "EZ_Clothing\data\patreon_squad\Svenne\Svenne_balaclava_co.paa",
+									  "EZ_Clothing\data\patreon_squad\Svenne\Svenne_balaclava_co.paa"};
+	};
+	class EZ_Svenne_Helmet: Mich2001Helmet
+	{
+		displayName = "Svenne - Helmet";
+		descriptionShort = "Svenne - SquadPackage Helmet made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Svenne\Svenne_helmet_co.paa",
+									  "EZ_Clothing\data\patreon_squad\Svenne\Svenne_helmet_co.paa",
+									  "EZ_Clothing\data\patreon_squad\Svenne\Svenne_helmet_co.paa"};
+	};
+	class EZ_Svenne_Vest: PlateCarrierVest
+	{
+		displayName = "Svenne - Vest";
+		descriptionShort = "Svenne - SquadPackage Vest made by Kokaskale";
+		scope = 2;
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Svenne\Svenne_vest_co.paa",
+									  "EZ_Clothing\data\patreon_squad\Svenne\Svenne_vest_co.paa",
+									  "EZ_Clothing\data\patreon_squad\Svenne\Svenne_vest_co.paa"};
 	};
 };

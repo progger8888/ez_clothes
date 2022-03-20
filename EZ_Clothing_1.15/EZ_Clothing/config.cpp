@@ -2475,19 +2475,23 @@ class CfgVehicles
 		descriptionShort = "North Western Alliance - PlatoonPackage Flag made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NWA\NWA_ff.paa"};
 	};
-	class EZ_NWA_TacticalShirt: MVS_CombatShirt_Base
+	class EZ_NWA_TacticalShirt: TrackSuitJacket_ColorBase
 	{
+		displayName = "North Western Alliance - TrackSuit Jacket";
+		descriptionShort = "North Western Alliance - PlatoonPackage TrackSuit Jacket made by Kokaskale";
 		scope = 2;
-		displayName = "North Western Alliance - MVS Shirt";
-		descriptionShort = "North Western Alliance - PlatoonPackage MVS Shirt made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NWA\NWA_mvs_combatshirt.paa","EZ_Clothing\data\patreon_platoon\NWA\NWA_mvs_combatshirt.paa","EZ_Clothing\data\patreon_platoon\NWA\NWA_mvs_combatshirt.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NWA\abibas_shirt_gucci.paa",
+									  "EZ_Clothing\data\patreon_platoon\NWA\abibas_shirt_gucci.paa",
+									  "EZ_Clothing\data\patreon_platoon\NWA\abibas_shirt_gucci.paa"};
 	};
-	class EZ_NWA_Pants: MVS_CombatPants_Base
+	class EZ_NWA_Pants: TrackSuitPants_ColorBase
 	{
+		displayName = "North Western Alliance - TrackSuit Pants";
+		descriptionShort = "North Western Alliance - PlatoonPackage TrackSui tPants made by Kokaskale";
 		scope = 2;
-		displayName = "North Western Alliance - MVS Pants";
-		descriptionShort = "North Western Alliance - PlatoonPackage MVS Pants made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NWA\NWA_mvs_combatpants.paa","EZ_Clothing\data\patreon_platoon\NWA\NWA_mvs_combatpants.paa","EZ_Clothing\data\patreon_platoon\NWA\NWA_mvs_combatpants.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NWA\abibas_pants_gucci.paa",
+									  "EZ_Clothing\data\patreon_platoon\NWA\abibas_pants_gucci.paa",
+									  "EZ_Clothing\data\patreon_platoon\NWA\abibas_pants_gucci.paa"};
 	};
 	class EZ_NWA_Balaclava: MVS_Balaclava2_Base
 	{
@@ -2518,12 +2522,17 @@ class CfgVehicles
 		descriptionShort = "North Western Alliance - PlatoonPackage MVS Shroud made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NWA\NWA_MVS_Shroud.paa","EZ_Clothing\data\patreon_platoon\NWA\NWA_MVS_Shroud.paa","EZ_Clothing\data\patreon_platoon\NWA\NWA_MVS_Shroud.paa"};
 	};
-	class EZ_NWAJungleBoots: JungleBoots_ColorBase
+	class EZ_NWAJungleBoots: Sneakers_ColorBase
 	{
-		scope = 2;
-		displayName = "North Western Alliance - Jungle Boots";
-		descriptionShort = "North Western Alliance - PlatoonPackage Jungle Boots made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NWA\NWA_jungleboots.paa","EZ_Clothing\data\patreon_platoon\NWA\NWA_jungleboots.paa","EZ_Clothing\data\patreon_platoon\NWA\NWA_jungleboots.paa"};
+		scope=2;
+		displayName = "North Western Alliance - Sneakers";
+		descriptionShort = "North Western Alliance - PlatoonPackage Sneakers made by Kokaskale";
+		hiddenSelectionsTextures[]=
+		{
+			"EZ_Clothing\data\patreon_platoon\NWA\NWA_sneaker.paa",
+			"EZ_Clothing\data\patreon_platoon\NWA\NWA_sneaker.paa",
+			"EZ_Clothing\data\patreon_platoon\NWA\NWA_sneaker.paa"
+		};
 	};
 	class EZ_NWATacticalGloves: TacticalGloves_ColorBase
 	{
@@ -3279,4 +3288,31 @@ class CfgVehicles
 									  "EZ_Clothing\data\patreon_squad\Svenne\Svenne_vest_co.paa",
 									  "EZ_Clothing\data\patreon_squad\Svenne\Svenne_vest_co.paa"};
 	};
+	class EZ_Crew_Flag: Flag_Base
+	{
+		displayName = "Crew Flag";
+		descriptionShort = "Crew - CrewPackage Flag made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Crew\Crew_ff.paa"};
+	};
+	class EZ_Crew_Armband: Armband_ColorBase
+	{
+		displayName = "Crew - Armband";
+		descriptionShort = "Crew - CrewPackage Armband made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Crew\Crew_gg.paa",
+									  "EZ_Clothing\data\patreon_crew\Crew\Crew_aa.paa",
+									  "EZ_Clothing\data\patreon_crew\Crew\Crew_aa.paa",
+									  "EZ_Clothing\data\patreon_crew\Crew\Crew_aa.paa",
+									  "EZ_Clothing\data\patreon_crew\Crew\Crew_aa.paa"};
+	};
+	class EZ_Crew_Jacket: M65Jacket_ColorBase
+	{
+		displayName = "Crew - Jacket";
+		descriptionShort = "Crew - CrewPackage Jacket made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Crew\Crew_jacket.paa",
+									  "EZ_Clothing\data\patreon_crew\Crew\Crew_jacket.paa",
+									  "EZ_Clothing\data\patreon_crew\Crew\Crew_jacket.paa"};
+	};	
 };

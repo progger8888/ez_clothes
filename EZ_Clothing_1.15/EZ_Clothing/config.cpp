@@ -3314,5 +3314,32 @@ class CfgVehicles
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Crew\Crew_jacket.paa",
 									  "EZ_Clothing\data\patreon_crew\Crew\Crew_jacket.paa",
 									  "EZ_Clothing\data\patreon_crew\Crew\Crew_jacket.paa"};
-	};	
+	};
+	class EZ_Untamed_Flag: Flag_Base
+	{
+		displayName = "Untamed Flag";
+		descriptionShort = "Untamed - UntamedPackage Flag made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Untamed\Untamed_ff.paa"};
+	};
+	class EZ_Untamed_Armband: Armband_ColorBase
+	{
+		displayName = "Untamed - Armband";
+		descriptionShort = "Untamed - UntamedPackage Armband made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Untamed\Untamed_gg.paa",
+									  "EZ_Clothing\data\patreon_crew\Untamed\Untamed_aa.paa",
+									  "EZ_Clothing\data\patreon_crew\Untamed\Untamed_aa.paa",
+									  "EZ_Clothing\data\patreon_crew\Untamed\Untamed_aa.paa",
+									  "EZ_Clothing\data\patreon_crew\Untamed\Untamed_aa.paa"};
+	};
+	class EZ_Untamed_TacticalShirt: TacticalShirt_ColorBase
+	{
+		displayName = "Untamed - Tactical Shirt";
+		descriptionShort = "Untamed - UntamedPackage Tactical Shirt made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Untamed\Untamed_shirt.paa",
+									  "EZ_Clothing\data\patreon_crew\Untamed\Untamed_shirt.paa",
+									  "EZ_Clothing\data\patreon_crew\Untamed\Untamed_shirt.paa"};
+	};
 };

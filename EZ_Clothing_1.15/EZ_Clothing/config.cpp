@@ -2563,6 +2563,24 @@ class CfgVehicles
 		descriptionShort = "North Western Alliance - PlatoonPackage MVS Warrior Helmet made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NWA\NWA_WarriorHelmet.paa","EZ_Clothing\data\patreon_platoon\NWA\NWA_WarriorHelmet.paa","EZ_Clothing\data\patreon_platoon\NWA\NWA_WarriorHelmet.paa","EZ_Clothing\data\patreon_platoon\NWA\NWA_Mandalorian_Helmet.paa","EZ_Clothing\data\Mvs_Test\Mandalorian_Visor_co.paa"};
 	};
+	class EZ_NWA_TacticalShirt: MVS_CombatShirt_Base
+	{
+		displayName = "North Western Alliance - MVS Shirt";
+		descriptionShort = "North Western Alliance - PlatoonPackage MVS Shirt made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NWA\NWA_mvs_combatshirt.paa",
+									  "EZ_Clothing\data\patreon_platoon\NWA\NWA_mvs_combatshirt.paa",
+									  "EZ_Clothing\data\patreon_platoon\NWA\NWA_mvs_combatshirt.paa"};
+	};
+	class EZ_NWA_Pants: MVS_CombatPants_Base
+	{
+		displayName = "North Western Alliance - MVS Pants";
+		descriptionShort = "North Western Alliance - PlatoonPackage MVS Pants made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NWA\NWA_mvs_combatpants.paa",
+									  "EZ_Clothing\data\patreon_platoon\NWA\NWA_mvs_combatpants.paa",
+									  "EZ_Clothing\data\patreon_platoon\NWA\NWA_mvs_combatpants.paa"};
+	};
 	class EZ_Creamteam_Armband: EZ_DoubleArmband_ColorBase
 	{
 		scope = 2;
@@ -3314,6 +3332,15 @@ class CfgVehicles
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Crew\Crew_jacket.paa",
 									  "EZ_Clothing\data\patreon_crew\Crew\Crew_jacket.paa",
 									  "EZ_Clothing\data\patreon_crew\Crew\Crew_jacket.paa"};
+	};
+	class EZ_Crew_Tacticalshirt: TacticalShirt_ColorBase
+	{
+		displayName = "Crew - Tactical Shirt";
+		descriptionShort = "Crew - CrewPackage Tactical Shirt made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Crew\Crew_shirt.paa",
+									  "EZ_Clothing\data\patreon_crew\Crew\Crew_shirt.paa",
+									  "EZ_Clothing\data\patreon_crew\Crew\Crew_shirt.paa"};
 	};
 	class EZ_Untamed_Flag: Flag_Base
 	{

@@ -2563,15 +2563,6 @@ class CfgVehicles
 		descriptionShort = "North Western Alliance - PlatoonPackage MVS Warrior Helmet made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NWA\NWA_WarriorHelmet.paa","EZ_Clothing\data\patreon_platoon\NWA\NWA_WarriorHelmet.paa","EZ_Clothing\data\patreon_platoon\NWA\NWA_WarriorHelmet.paa","EZ_Clothing\data\patreon_platoon\NWA\NWA_Mandalorian_Helmet.paa","EZ_Clothing\data\Mvs_Test\Mandalorian_Visor_co.paa"};
 	};
-	class EZ_NWA_TacticalShirt: MVS_CombatShirt_Base
-	{
-		displayName = "North Western Alliance - MVS Shirt";
-		descriptionShort = "North Western Alliance - PlatoonPackage MVS Shirt made by Kokaskale";
-		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NWA\NWA_mvs_combatshirt.paa",
-									  "EZ_Clothing\data\patreon_platoon\NWA\NWA_mvs_combatshirt.paa",
-									  "EZ_Clothing\data\patreon_platoon\NWA\NWA_mvs_combatshirt.paa"};
-	};
 	class EZ_NWA_Pants: MVS_CombatPants_Base
 	{
 		displayName = "North Western Alliance - MVS Pants";

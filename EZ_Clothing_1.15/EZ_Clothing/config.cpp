@@ -2945,9 +2945,9 @@ class CfgVehicles
 		scope = 2;
 		displayName = "PrigorodkiWP - Hiking Jacket";
 		descriptionShort = "PrigorodkiWP - CrewPackage Hiking Jacket made by Kokaskale, 'From the shadow of the water pump reaper howls, for you have denied him of 200 souls'";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\PrigorodkiWP\PrigorodkiWP_shirt.paa",
-									  "EZ_Clothing\data\patreon_crew\PrigorodkiWP\PrigorodkiWP_shirt.paa",
-									  "EZ_Clothing\data\patreon_crew\PrigorodkiWP\PrigorodkiWP_shirt.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\PrigorodkiWP\PrigorodkiWP_shirt_new.paa",
+									  "EZ_Clothing\data\patreon_crew\PrigorodkiWP\PrigorodkiWP_shirt_new.paa",
+									  "EZ_Clothing\data\patreon_crew\PrigorodkiWP\PrigorodkiWP_shirt_new.paa"};
 	};
 	class EZ_KolmiokarvaMafia_Flag: Flag_Base
 	{

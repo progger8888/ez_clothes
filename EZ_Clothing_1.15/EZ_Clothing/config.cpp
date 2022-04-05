@@ -3360,4 +3360,147 @@ class CfgVehicles
 									  "EZ_Clothing\data\patreon_crew\Untamed\Untamed_shirt.paa",
 									  "EZ_Clothing\data\patreon_crew\Untamed\Untamed_shirt.paa"};
 	};
+	class EZ_PumpReapers_Armband: EZ_DoubleArmband_ColorBase
+	{
+		scope = 2;
+		displayName = "PumpReapers - Double Armband";
+		descriptionShort = "PumpReapers -PlatoonPackage Double Armband made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\PumpReapers\PumpReapers_armband.paa"};
+	};
+	class EZ_PumpReapers_Banner: EZ_Banner_Colorbase
+	{
+		scope = 2;
+		displayName = "PumpReapers - Banner";
+		descriptionShort = "PumpReapers - PlatoonPackage Banner made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\PumpReapers\PumpReapers_bb.paa"};
+	};
+	class EZ_PumpReapers_Flag: Flag_Base
+	{
+		scope = 2;
+		displayName = "PumpReapers - Flag";
+		descriptionShort = "PumpReapers - PlatoonPackage Flag made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\PumpReapers\PumpReapers_ff.paa"};
+	};
+	class EZ_PumpReapers_TacticalShirt: TacticalShirt_ColorBase
+	{
+		scope = 2;
+		displayName = "PumpReapers - Tactical Shirt";
+		descriptionShort = "PumpReapers - PlatoonPackage Tactical Shirt made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\PumpReapers\PumpReapers_shirt.paa",
+									  "EZ_Clothing\data\patreon_platoon\PumpReapers\PumpReapers_shirt.paa",
+									  "EZ_Clothing\data\patreon_platoon\PumpReapers\PumpReapers_shirt.paa"};
+	};
+	class EZ_PumpReapers_Pants: MVS_CombatPants_Base
+	{
+		scope = 2;
+		displayName = "PumpReapers - MVS Pants";
+		descriptionShort = "PumpReapers - PlatoonPackage MVS Pants made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\PumpReapers\PumpReapers_mvs_combatpants.paa",
+									  "EZ_Clothing\data\patreon_platoon\PumpReapers\PumpReapers_mvs_combatpants.paa",
+									  "EZ_Clothing\data\patreon_platoon\PumpReapers\PumpReapers_mvs_combatpants.paa"};
+	};
+	class EZ_PumpReapers_Balaclava: MVS_Balaclava2_Base
+	{
+		scope=2;
+		displayName = "PumpReapers - MVS Balaclava";
+		descriptionShort = "PumpReapers - PlatoonPackage MVS Balaclava made by Kokaskale";
+		hiddenSelectionsTextures[]=
+		{
+			"EZ_Clothing\data\patreon_platoon\PumpReapers\PumpReapers_mvs_balaclava.paa",
+			"EZ_Clothing\data\patreon_platoon\PumpReapers\PumpReapers_mvs_balaclava.paa",
+			"EZ_Clothing\data\patreon_platoon\PumpReapers\PumpReapers_mvs_balaclava.paa"
+		};
+	};
+	class EZ_PumpReapers_Helmet: MVS_Helmet_Base
+	{
+		scope=2;
+		displayName = "PumpReapers - MVS Helmet";
+		descriptionShort = "PumpReapers - PlatoonPackage MVS Helmet made by Kokaskale";
+		hiddenSelectionsTextures[]=
+		{
+			"EZ_Clothing\data\patreon_platoon\PumpReapers\PumpReapers_mvs_helmet.paa",
+			"EZ_Clothing\data\patreon_platoon\PumpReapers\PumpReapers_mvs_helmet.paa",
+			"EZ_Clothing\data\patreon_platoon\PumpReapers\PumpReapers_mvs_helmet.paa"
+		};
+	};
+	class EZ_PumpReapers_Vest: PlateCarrierVest
+	{
+		scope = 2;
+		displayName = "PumpReapers - Plate Carrier Vest";
+		descriptionShort = "PumpReapers - PlatoonPackage Plate Carrier Vest made by Kokaskale";
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\PumpReapers\PumpReapers_vest_co.paa",
+									  "EZ_Clothing\data\patreon_platoon\PumpReapers\PumpReapers_vest_co.paa",
+									  "EZ_Clothing\data\patreon_platoon\PumpReapers\PumpReapers_vest_co.paa"};
+	};
+	class EZ_PumpReapersMVS_Shroud: MVS_Shroud_Base
+	{
+		scope = 2;
+		displayName = "PumpReapers - MVS Shroud";
+		descriptionShort = "PumpReapers - PlatoonPackage MVS Shroud made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\PumpReapers\PumpReapers_MVS_Shroud.paa",
+									  "EZ_Clothing\data\patreon_platoon\PumpReapers\PumpReapers_MVS_Shroud.paa",
+									  "EZ_Clothing\data\patreon_platoon\PumpReapers\PumpReapers_MVS_Shroud.paa"};
+	};
+	class EZ_PumpReapersJungleBoots: JungleBoots_ColorBase
+	{
+		scope=2;
+		displayName = "PumpReapers - Jungle Boots";
+		descriptionShort = "PumpReapers - PlatoonPackage Jungle Boots made by Kokaskale";
+		hiddenSelectionsTextures[]=
+		{
+			"EZ_Clothing\data\patreon_platoon\PumpReapers\PumpReapers_jungleboots.paa",
+			"EZ_Clothing\data\patreon_platoon\PumpReapers\PumpReapers_jungleboots.paa",
+			"EZ_Clothing\data\patreon_platoon\PumpReapers\PumpReapers_jungleboots.paa"
+		};
+	};
+	class EZ_PumpReapersTacticalGloves: TacticalGloves_ColorBase
+	{
+		scope=2;
+		displayName = "PumpReapers - Tactical Gloves";
+		descriptionShort = "PumpReapers - PlatoonPackage Tactical Gloves made by Kokaskale";
+		hiddenSelectionsTextures[]=
+		{
+			"EZ_Clothing\data\patreon_platoon\PumpReapers\PumpReapers_tacticalgloves.paa",
+			"EZ_Clothing\data\patreon_platoon\PumpReapers\PumpReapers_tacticalgloves.paa",
+			"EZ_Clothing\data\patreon_platoon\PumpReapers\PumpReapers_tacticalgloves.paa"
+		};
+	};
+	class EZ_PumpReapers_MVS_Combat_Vest_Heavy: ModularVestSystem_Heavy
+	{
+		scope = 2;
+		displayName = "PumpReapers - MVS Heavy Plate Carrier";
+		descriptionShort = "PumpReapers - PlatoonPackage MVS Heavy Plate Carrier made by Kokaskale";
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\PumpReapers\PumpReapers_MVSHeavy_co.paa",
+									  "EZ_Clothing\data\patreon_platoon\PumpReapers\PumpReapers_MVSHeavy_co.paa",
+									  "EZ_Clothing\data\patreon_platoon\PumpReapers\PumpReapers_MVSHeavy_co.paa"};
+	};
+	class EZ_PumpReapers_AssaultPack: MVS_Assault_Pack_Tan
+	{
+		scope = 2;
+		displayName = "PumpReapers - Assault Pack";
+		descriptionShort = "Endzone NWA - PlatoonPackage Assault Pack made by Kokaskale";
+		hiddenSelectionsTextures[] = 
+		{
+			"EZ_Clothing\data\patreon_platoon\PumpReapers\PumpReapers_RaidPack.paa",
+			"EZ_Clothing\data\patreon_platoon\PumpReapers\PumpReapers_RaidPack.paa",
+			"EZ_Clothing\data\patreon_platoon\PumpReapers\PumpReapers_RaidPack.paa"
+			
+		};
+	};
+	class EZ_PumpReapers_WarriorHelmet: MVS_WarriorHelmet_Base
+	{
+		scope = 2;
+		displayName = "PumpReapers - MVS Warrior Helmet";
+		descriptionShort = "PumpReapers - PlatoonPackage MVS Warrior Helmet made by Kokaskale";
+		hiddenSelectionsTextures[] = 
+		{
+			"EZ_Clothing\data\patreon_platoon\PumpReapers\PumpReapers_WarriorHelmet.paa",
+			"EZ_Clothing\data\patreon_platoon\PumpReapers\PumpReapers_WarriorHelmet.paa",
+			"EZ_Clothing\data\patreon_platoon\PumpReapers\PumpReapers_WarriorHelmet.paa",
+			"EZ_Clothing\data\patreon_platoon\PumpReapers\PumpReapers_Mandalorian_Helmet.paa",
+			"EZ_Clothing\data\Mvs_Test\Mandalorian_Visor_co.paa"
+		};
+	};
 };

@@ -3530,4 +3530,71 @@ class CfgVehicles
 									  "EZ_Clothing\data\patreon_crew\SouthFinland\SouthFinland_shirt.paa",
 									  "EZ_Clothing\data\patreon_crew\SouthFinland\SouthFinland_shirt.paa"};
 	};
+	class EZ_MikesGoblins_Armband: EZ_DoubleArmband_ColorBase
+	{
+		displayName = "Mike's Goblins - Armband";
+		ddescriptionShort = "Mike's Goblins - SquadPackage Armband made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\MikesGoblins\MikesGoblins_armband.paa"};
+	};
+	class EZ_MikesGoblins_Banner: EZ_Banner_Colorbase
+	{
+		displayName = "Mike's Goblins - Banner";
+		descriptionShort = "Mike's Goblins - SquadPackage Banner made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\MikesGoblins\MikesGoblins_bb.paa"};
+	};
+	class EZ_MikesGoblins_Flag: Flag_Base
+	{
+		displayName = "Mike's Goblins Flag";
+		descriptionShort = "Mike's Goblins - SquadPackage Flag made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\MikesGoblins\MikesGoblins_ff.paa"};
+	};
+	class EZ_MikesGoblins_HikingJacket: HikingJacket_ColorBase
+	{
+		displayName = "Mike'sGoblins - Hiking Jacket";
+		descriptionShort = "Mike'sGoblins - SquadPackage Hiking Jacket made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\MikesGoblins\MikesGoblins_shirt.paa",
+									  "EZ_Clothing\data\patreon_squad\MikesGoblins\MikesGoblins_shirt.paa",
+									  "EZ_Clothing\data\patreon_squad\MikesGoblins\MikesGoblins_shirt.paa"};
+	};
+	class EZ_MikesGoblins_Pants: CargoPants_ColorBase
+	{
+		displayName = "Mike's Goblins - Cargo Pants";
+		descriptionShort = "Mike's Goblins - SquadPackage Cargo Pants made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\MikesGoblins\MikesGoblins_pants.paa",
+									  "EZ_Clothing\data\patreon_squad\MikesGoblins\MikesGoblins_pants.paa",
+									  "EZ_Clothing\data\patreon_squad\MikesGoblins\MikesGoblins_pants.paa"};
+	};
+	class EZ_MikesGoblins_Balaclava: BalaclavaMask_ColorBase
+	{
+		displayName = "Mike's Goblins - Balaclava";
+		descriptionShort = "Mike's Goblins - SquadPackage Balaclava made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\MikesGoblins\MikesGoblins_balaclava_co.paa",
+									  "EZ_Clothing\data\patreon_squad\MikesGoblins\MikesGoblins_balaclava_co.paa",
+									  "EZ_Clothing\data\patreon_squad\MikesGoblins\MikesGoblins_balaclava_co.paa"};
+	};
+	class EZ_MikesGoblins_Helmet: Mich2001Helmet
+	{
+		displayName = "Mike's Goblins - Helmet";
+		descriptionShort = "Mike's Goblins - SquadPackage Helmet made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\MikesGoblins\MikesGoblins_helmet_co.paa",
+									  "EZ_Clothing\data\patreon_squad\MikesGoblins\MikesGoblins_helmet_co.paa",
+									  "EZ_Clothing\data\patreon_squad\MikesGoblins\MikesGoblins_helmet_co.paa"};
+	};
+	class EZ_MikesGoblins_Vest: PlateCarrierVest
+	{
+		displayName = "Mike's Goblins - Vest";
+		descriptionShort = "Mike's Goblins - SquadPackage Vest made by Kokaskale";
+		scope = 2;
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\MikesGoblins\MikesGoblins_vest_co.paa",
+									  "EZ_Clothing\data\patreon_squad\MikesGoblins\MikesGoblins_vest_co.paa",
+									  "EZ_Clothing\data\patreon_squad\MikesGoblins\MikesGoblins_vest_co.paa"};
+	};
 };

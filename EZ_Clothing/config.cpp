@@ -3597,4 +3597,67 @@ class CfgVehicles
 									  "EZ_Clothing\data\patreon_squad\MikesGoblins\MikesGoblins_vest_co.paa",
 									  "EZ_Clothing\data\patreon_squad\MikesGoblins\MikesGoblins_vest_co.paa"};
 	};
+	class EZ_WereWolVeZz_DoubleArmband: EZ_DoubleArmband_ColorBase
+	{
+		displayName = "WereWolVeZz - Double Armband";
+		descriptionShort = "WereWolVeZz - SquadPackage Double Armband made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\WereWolVeZz\WereWolVeZz_armband.paa"};
+	};
+	class EZ_WereWolVeZz_Banner: EZ_Banner_Colorbase
+	{
+		displayName = "WereWolVeZz - Banner";
+		descriptionShort = "WereWolVeZz - SquadPackage Banner made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\WereWolVeZz\WereWolVeZz_bb.paa"};
+	};
+	class EZ_WereWolVeZz_Flag: Flag_Base
+	{
+		displayName = "WereWolVeZz - Flag";
+		descriptionShort = "WereWolVeZz - SquadPackage Flag made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\WereWolVeZz\WereWolVeZz_ff.paa"};
+	};
+	class EZ_WereWolVeZz_TrackSuitJacket: TrackSuitJacket_ColorBase
+	{
+		displayName = "WereWolVeZz - TrackSuit Jacket";
+		descriptionShort = "WereWolVeZz - SquadPackage TrackSuit Jacket made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\WereWolVeZz\WereWolVeZz_shirt.paa","EZ_Clothing\data\patreon_squad\WereWolVeZz\WereWolVeZz_shirt.paa","EZ_Clothing\data\patreon_squad\WereWolVeZz\WereWolVeZz_shirt.paa"};
+	};
+	class EZ_WereWolVeZz_TrackSuitPants: TrackSuitPants_ColorBase
+	{
+		displayName = "WereWolVeZz - TrackSuit Pants";
+		descriptionShort = "WereWolVeZz - SquadPackage TrackSuit Pants made by Kokaskale";
+		scope = 2;
+		visibilityModifier = 0.6;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\WereWolVeZz\WereWolVeZz_pants.paa","EZ_Clothing\data\patreon_squad\WereWolVeZz\WereWolVeZz_pants.paa","EZ_Clothing\data\patreon_squad\WereWolVeZz\WereWolVeZz_pants.paa"};
+	};
+	class EZ_WereWolVeZz_Balaclava: BalaclavaMask_ColorBase
+	{
+		displayName = "WereWolVeZz - Balaclava";
+		descriptionShort = "WereWolVeZz - SquadPackage Balaclava made by Kokaskale";
+		scope = 2;
+		visibilityModifier = 0.85;
+		hiddenSelections[] = {"zbytek"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\WereWolVeZz\WereWolVeZz_balaclava.paa","EZ_Clothing\data\patreon_squad\WereWolVeZz\WereWolVeZz_balaclava.paa","EZ_Clothing\data\patreon_squad\WereWolVeZz\WereWolVeZz_balaclava.paa"};
+	};
+	class EZ_WereWolVeZz_Helmet: Mich2001Helmet
+	{
+		displayName = "WereWolVeZz - Helmet";
+		descriptionShort = "WereWolVeZz - Helmet made by Kokaskale";
+		scope = 2;
+		visibilityModifier = 0.85;
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\WereWolVeZz\WereWolVeZz_helmet.paa","EZ_Clothing\data\patreon_squad\WereWolVeZz\WereWolVeZz_helmet.paa","EZ_Clothing\data\patreon_squad\WereWolVeZz\WereWolVeZz_helmet.paa"};
+	};
+	class EZ_WereWolVeZz_Vest: PlateCarrierVest
+	{
+		displayName = "WereWolVeZz - Vest";
+		descriptionShort = "WereWolVeZz - SquadPackage Vest made by Kokaskale";
+		scope = 2;
+		visibilityModifier = 0.1;
+		hiddenSelections[] = {"zbytek"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\WereWolVeZz\WereWolVeZz_vest.paa","EZ_Clothing\data\patreon_squad\WereWolVeZz\WereWolVeZz_vest.paa","EZ_Clothing\data\patreon_squad\WereWolVeZz\WereWolVeZz_vest.paa"};
+	};
 };

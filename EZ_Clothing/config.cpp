@@ -3063,6 +3063,33 @@ class CfgVehicles
 			"EZ_Clothing\data\Mvs_Test\Mandalorian_Visor_co.paa"
 		};
 	};
+	class EZ_SouthFinland_Flag: Flag_Base
+	{
+		displayName = "South Finland Flag";
+		descriptionShort = "South Finland - SouthFinlandPackage Flag made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\SouthFinland\SouthFinland_ff.paa"};
+	};
+	class EZ_SouthFinland_Armband: Armband_ColorBase
+	{
+		displayName = "South Finland - Armband";
+		descriptionShort = "South Finland - SouthFinlandPackage Armband made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\SouthFinland\SouthFinland_gg.paa",
+									  "EZ_Clothing\data\patreon_crew\SouthFinland\SouthFinland_aa.paa",
+									  "EZ_Clothing\data\patreon_crew\SouthFinland\SouthFinland_aa.paa",
+									  "EZ_Clothing\data\patreon_crew\SouthFinland\SouthFinland_aa.paa",
+									  "EZ_Clothing\data\patreon_crew\SouthFinland\SouthFinland_aa.paa"};
+	};
+	class EZ_SouthFinland_TacticalShirt: TacticalShirt_ColorBase
+	{
+		displayName = "South Finland - Tactical Shirt";
+		descriptionShort = "South Finland - SouthFinlandPackage Tactical Shirt made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\SouthFinland\SouthFinland_shirt.paa",
+									  "EZ_Clothing\data\patreon_crew\SouthFinland\SouthFinland_shirt.paa",
+									  "EZ_Clothing\data\patreon_crew\SouthFinland\SouthFinland_shirt.paa"};
+	};
 	class EZ_MikesGoblins_Armband: EZ_DoubleArmband_ColorBase
 	{
 		displayName = "Mike's Goblins - Armband";

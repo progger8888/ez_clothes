@@ -3354,4 +3354,31 @@ class CfgVehicles
 									  "EZ_Clothing\data\patreon_platoon\PTM\PTM_Mandalorian_Helmet.paa",
 									  "EZ_Clothing\data\Mvs_Test\Mandalorian_Visor_co.paa"};
 	};
+	class EZ_GROM_Flag: Flag_Base
+	{
+		displayName = "GROM Flag";
+		descriptionShort = "GROM - GROMPackage Flag made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\GROM\GROM_ff.paa"};
+	};
+	class EZ_GROM_Armband: Armband_ColorBase
+	{
+		displayName = "GROM - Armband";
+		descriptionShort = "GROM - GROMPackage Armband made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\GROM\GROM_gg.paa",
+									  "EZ_Clothing\data\patreon_crew\GROM\GROM_aa.paa",
+									  "EZ_Clothing\data\patreon_crew\GROM\GROM_aa.paa",
+									  "EZ_Clothing\data\patreon_crew\GROM\GROM_aa.paa",
+									  "EZ_Clothing\data\patreon_crew\GROM\GROM_aa.paa"};
+	};
+	class EZ_GROM_TacticalShirt: TacticalShirt_ColorBase
+	{
+		displayName = "GROM - Tactical Shirt";
+		descriptionShort = "GROM - GROMPackage Tactical Shirt made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\GROM\GROM_shirt.paa",
+									  "EZ_Clothing\data\patreon_crew\GROM\GROM_shirt.paa",
+									  "EZ_Clothing\data\patreon_crew\GROM\GROM_shirt.paa"};
+	};
 };

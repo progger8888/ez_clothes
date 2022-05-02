@@ -3381,4 +3381,158 @@ class CfgVehicles
 									  "EZ_Clothing\data\patreon_crew\GROM\GROM_shirt.paa",
 									  "EZ_Clothing\data\patreon_crew\GROM\GROM_shirt.paa"};
 	};
+	class EZ_SAF_Flag: Flag_Base
+	{
+		displayName = "SAF Flag";
+		descriptionShort = "SAF - SAFPackage Flag made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\SAF\SAF_ff.paa"};
+	};
+	class EZ_SAF_Armband: Armband_ColorBase
+	{
+		displayName = "SAF - Armband";
+		descriptionShort = "SAF - SAFPackage Armband made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\SAF\SAF_gg.paa",
+									  "EZ_Clothing\data\patreon_crew\SAF\SAF_aa.paa",
+									  "EZ_Clothing\data\patreon_crew\SAF\SAF_aa.paa",
+									  "EZ_Clothing\data\patreon_crew\SAF\SAF_aa.paa",
+									  "EZ_Clothing\data\patreon_crew\SAF\SAF_aa.paa"};
+	};
+	class EZ_SAF_TacticalShirt: TacticalShirt_ColorBase
+	{
+		displayName = "SAF - Tactical Shirt";
+		descriptionShort = "SAF - SAFPackage Tactical Shirt made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\SAF\SAF_shirt.paa",
+									  "EZ_Clothing\data\patreon_crew\SAF\SAF_shirt.paa",
+									  "EZ_Clothing\data\patreon_crew\SAF\SAF_shirt.paa"};
+	};
+	class EZ_BAD_Flag: Flag_Base
+	{
+		displayName = "B@D Flag";
+		descriptionShort = "B@D - B@DPackage Flag made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\B@D\B@D_ff.paa"};
+	};
+	class EZ_BAD_Armband: Armband_ColorBase
+	{
+		displayName = "B@D - Armband";
+		descriptionShort = "B@D - B@DPackage Armband made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\B@D\B@D_gg.paa",
+									  "EZ_Clothing\data\patreon_crew\B@D\B@D_aa.paa",
+									  "EZ_Clothing\data\patreon_crew\B@D\B@D_aa.paa",
+									  "EZ_Clothing\data\patreon_crew\B@D\B@D_aa.paa",
+									  "EZ_Clothing\data\patreon_crew\B@D\B@D_aa.paa"};
+	};
+	class EZ_BAD_TacticalShirt: TacticalShirt_ColorBase
+	{
+		displayName = "B@D - Tactical Shirt";
+		descriptionShort = "B@D - B@DPackage Tactical Shirt made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\B@D\B@D_shirt.paa",
+									  "EZ_Clothing\data\patreon_crew\B@D\B@D_shirt.paa",
+									  "EZ_Clothing\data\patreon_crew\B@D\B@D_shirt.paa"};
+	};
+	class EZ_PPC_Armband: EZ_DoubleArmband_ColorBase
+	{
+		scope = 2;
+		displayName = "Pineapple Pizza Chads - Double Armband";
+		descriptionShort = "Pineapple Pizza Chads -PlatoonPackage Double Armband made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\PPC\PPC_armband.paa"};
+	};
+	class EZ_PPC_Banner: EZ_Banner_Colorbase
+	{
+		scope = 2;
+		displayName = "Pineapple Pizza Chads - Banner";
+		descriptionShort = "Pineapple Pizza Chads - PlatoonPackage Banner made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\PPC\PPC_bb.paa"};
+	};
+	class EZ_PPC_Flag: Flag_Base
+	{
+		scope = 2;
+		displayName = "Pineapple Pizza Chads - Flag";
+		descriptionShort = "Pineapple Pizza Chads - PlatoonPackage Flag made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\PPC\PPC_ff.paa"};
+	};
+	class EZ_PPC_TacticalShirt: MVS_CombatShirt_Base
+	{
+		scope = 2;
+		displayName = "Pineapple Pizza Chads - MVS Shirt";
+		descriptionShort = "Pineapple Pizza Chads - PlatoonPackage MVS Shirt made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\PPC\PPC_mvs_combatshirt.paa","EZ_Clothing\data\patreon_platoon\PPC\PPC_mvs_combatshirt.paa","EZ_Clothing\data\patreon_platoon\PPC\PPC_mvs_combatshirt.paa"};
+	};
+	class EZ_PPC_Pants: MVS_CombatPants_Base
+	{
+		scope = 2;
+		displayName = "Pineapple Pizza Chads - MVS Pants";
+		descriptionShort = "Pineapple Pizza Chads - PlatoonPackage MVS Pants made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\PPC\PPC_mvs_combatpants.paa","EZ_Clothing\data\patreon_platoon\PPC\PPC_mvs_combatpants.paa","EZ_Clothing\data\patreon_platoon\PPC\PPC_mvs_combatpants.paa"};
+	};
+	class EZ_PPC_Balaclava: MVS_Balaclava2_Base
+	{
+		scope = 2;
+		displayName = "Pineapple Pizza Chads - MVS Balaclava";
+		descriptionShort = "Pineapple Pizza Chads - PlatoonPackage MVS Balaclava made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\PPC\PPC_mvs_balaclava.paa","EZ_Clothing\data\patreon_platoon\PPC\PPC_mvs_balaclava.paa","EZ_Clothing\data\patreon_platoon\PPC\PPC_mvs_balaclava.paa"};
+	};
+	class EZ_PPC_Helmet: MVS_Helmet_Base
+	{
+		scope = 2;
+		displayName = "Pineapple Pizza Chads - MVS Helmet";
+		descriptionShort = "Pineapple Pizza Chads - PlatoonPackage MVS Helmet made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\PPC\PPC_mvs_helmet.paa","EZ_Clothing\data\patreon_platoon\PPC\PPC_mvs_helmet.paa","EZ_Clothing\data\patreon_platoon\PPC\PPC_mvs_helmet.paa"};
+	};
+	class EZ_PPC_Vest: ModularVestSystem_Base
+	{
+		scope = 2;
+		displayName = "Pineapple Pizza Chads - MVS Vest";
+		descriptionShort = "Pineapple Pizza Chads - PlatoonPackage MVS Vest made by Kokaskale";
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\PPC\PPC_mvs_vest.paa","EZ_Clothing\data\patreon_platoon\PPC\PPC_mvs_vest.paa","EZ_Clothing\data\patreon_platoon\PPC\PPC_mvs_vest.paa"};
+	};
+	class EZ_PPCMVS_Shroud: MVS_Shroud_Base
+	{
+		scope = 2;
+		displayName = "Pineapple Pizza Chads - MVS Shroud";
+		descriptionShort = "Pineapple Pizza Chads - PlatoonPackage MVS Shroud made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\PPC\PPC_MVS_Shroud.paa","EZ_Clothing\data\patreon_platoon\PPC\PPC_MVS_Shroud.paa","EZ_Clothing\data\patreon_platoon\PPC\PPC_MVS_Shroud.paa"};
+	};
+	class EZ_PPCJungleBoots: JungleBoots_ColorBase
+	{
+		scope = 2;
+		displayName = "Pineapple Pizza Chads - Jungle Boots";
+		descriptionShort = "Pineapple Pizza Chads - PlatoonPackage Jungle Boots made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\PPC\PPC_jungleboots.paa","EZ_Clothing\data\patreon_platoon\PPC\PPC_jungleboots.paa","EZ_Clothing\data\patreon_platoon\PPC\PPC_jungleboots.paa"};
+	};
+	class EZ_PPCTacticalGloves: TacticalGloves_ColorBase
+	{
+		scope = 2;
+		displayName = "Pineapple Pizza Chads - Tactical Gloves";
+		descriptionShort = "Pineapple Pizza Chads - PlatoonPackage Tactical Gloves made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\PPC\PPC_tacticalgloves.paa","EZ_Clothing\data\patreon_platoon\PPC\PPC_tacticalgloves.paa","EZ_Clothing\data\patreon_platoon\PPC\PPC_tacticalgloves.paa"};
+	};
+	class EZ_PPC_MVS_Combat_Vest_Heavy: ModularVestSystem_Heavy
+	{
+		scope = 2;
+		displayName = "Pineapple Pizza Chads - MVS Heavy Plate Carrier";
+		descriptionShort = "Pineapple Pizza Chads - PlatoonPackage MVS Heavy Plate Carrier made by Kokaskale";
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\PPC\PPC_MVSHeavy_co.paa","EZ_Clothing\data\patreon_platoon\PPC\PPC_MVSHeavy_co.paa","EZ_Clothing\data\patreon_platoon\PPC\PPC_MVSHeavy_co.paa"};
+	};
+	class EZ_PPC_AssaultPack: MVS_Assault_Pack_Tan
+	{
+		scope = 2;
+		displayName = "Pineapple Pizza Chads - Assault Pack";
+		descriptionShort = "Endzone PPC - PlatoonPackage Assault Pack made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\PPC\PPC_RaidPack.paa","EZ_Clothing\data\patreon_platoon\PPC\PPC_RaidPack.paa","EZ_Clothing\data\patreon_platoon\PPC\PPC_RaidPack.paa"};
+	};
+	class EZ_PPC_WarriorHelmet: MVS_WarriorHelmet_Base
+	{
+		scope = 2;
+		displayName = "Pineapple Pizza Chads - MVS Warrior Helmet";
+		descriptionShort = "Pineapple Pizza Chads - PlatoonPackage MVS Warrior Helmet made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\PPC\PPC_WarriorHelmet.paa","EZ_Clothing\data\patreon_platoon\PPC\PPC_WarriorHelmet.paa","EZ_Clothing\data\patreon_platoon\PPC\PPC_WarriorHelmet.paa","EZ_Clothing\data\patreon_platoon\PPC\PPC_Mandalorian_Helmet.paa","EZ_Clothing\data\Mvs_Test\Mandalorian_Visor_co.paa"};
+	};
 };

@@ -3535,4 +3535,11 @@ class CfgVehicles
 		descriptionShort = "Pineapple Pizza Chads - PlatoonPackage MVS Warrior Helmet made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\PPC\PPC_WarriorHelmet.paa","EZ_Clothing\data\patreon_platoon\PPC\PPC_WarriorHelmet.paa","EZ_Clothing\data\patreon_platoon\PPC\PPC_WarriorHelmet.paa","EZ_Clothing\data\patreon_platoon\PPC\PPC_Mandalorian_Helmet.paa","EZ_Clothing\data\Mvs_Test\Mandalorian_Visor_co.paa"};
 	};
+	class EZ_AES_DoubleArmband: EZ_DoubleArmband_ColorBase
+	{
+		scope = 2;
+		displayName = "Austrian Escort Service - Double Armband";
+		descriptionShort = "Austrian Escort Service - Double Armband made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\custom\AES_armband.paa"};
+	};
 };

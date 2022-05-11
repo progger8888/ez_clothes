@@ -1554,96 +1554,234 @@ class CfgVehicles
 		scope = 2;
 		displayName = "Barrel - Ammo";
 		color = "Ammo_EZ";
-		hiddenSelections[] = {"camoGround"};
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Barrels\EZ_barrel_ammo.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Barrels\EZ_barrel_ammo.paa","EZ_Clothing\data\player\Barrels\EZ_barrel_ammo.paa","EZ_Clothing\data\player\Barrels\EZ_barrel_ammo.paa"};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints = 1300;
+					RefTexsMats[] = {"dz\gear\containers\data\barrel_green.rvmat"};
+					healthLevels[] = {{1.0,{"dz\gear\containers\data\barrel_green.rvmat"}},{0.7,{"dz\gear\containers\data\barrel_green.rvmat"}},{0.5,{"dz\gear\containers\data\barrel_green_damage.rvmat"}},{0.3,{"dz\gear\containers\data\barrel_green_damage.rvmat"}},{0.0,{"dz\gear\containers\data\barrel_green_destruct.rvmat"}}};
+				};
+			};
+		};
 	};
 	class BarrelHoles_Ammo_EZ: BarrelHoles_ColorBase
 	{
 		scope = 2;
 		displayName = "Fire Barrel";
 		color = "Ammo_EZ";
-		hiddenSelections[] = {"camoGround"};
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Barrels\EZ_hollbarrel_ammo.paa"};
+		hiddenSelectionsTextures[] = {"dz\gear\cooking\data\stoneground_co.paa","EZ_Clothing\data\player\Barrels\EZ_hollbarrel_ammo.paa","EZ_Clothing\data\player\Barrels\EZ_hollbarrel_ammo.paa"};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints = 900;
+					transferToAttachmentsCoef = 0.5;
+					RefTexsMats[] = {"dz\gear\cooking\data\barrel_green_holes.rvmat"};
+					healthLevels[] = {{1.0,{"DZ\gear\cooking\data\barrel_green_holes.rvmat"}},{0.7,{"DZ\gear\cooking\data\barrel_green_holes.rvmat"}},{0.5,{"DZ\gear\cooking\data\barrel_green_holes_damage.rvmat"}},{0.3,{"DZ\gear\cooking\data\barrel_green_holes_damage.rvmat"}},{0.0,{"DZ\gear\cooking\data\barrel_green_holes_destruct.rvmat"}}};
+				};
+			};
+		};
 	};
 	class Barrel_Tools_EZ: Barrel_ColorBase
 	{
 		scope = 2;
 		displayName = "Barrel - Tools";
 		color = "Tools_EZ";
-		hiddenSelections[] = {"camoGround"};
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Barrels\EZ_barrel_tools.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Barrels\EZ_barrel_tools.paa","EZ_Clothing\data\player\Barrels\EZ_barrel_tools.paa","EZ_Clothing\data\player\Barrels\EZ_barrel_tools.paa"};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints = 1300;
+					RefTexsMats[] = {"dz\gear\containers\data\barrel_green.rvmat"};
+					healthLevels[] = {{1.0,{"dz\gear\containers\data\barrel_green.rvmat"}},{0.7,{"dz\gear\containers\data\barrel_green.rvmat"}},{0.5,{"dz\gear\containers\data\barrel_green_damage.rvmat"}},{0.3,{"dz\gear\containers\data\barrel_green_damage.rvmat"}},{0.0,{"dz\gear\containers\data\barrel_green_destruct.rvmat"}}};
+				};
+			};
+		};
 	};
 	class BarrelHoles_Tools_EZ: BarrelHoles_ColorBase
 	{
 		scope = 2;
 		displayName = "Fire Barrel";
 		color = "Tools_EZ";
-		hiddenSelections[] = {"camoGround"};
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Barrels\EZ_hollbarrel_tools.paa"};
+		hiddenSelectionsTextures[] = {"dz\gear\cooking\data\stoneground_co.paa","EZ_Clothing\data\player\Barrels\EZ_hollbarrel_tools.paa","EZ_Clothing\data\player\Barrels\EZ_hollbarrel_tools.paa"};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints = 900;
+					transferToAttachmentsCoef = 0.5;
+					RefTexsMats[] = {"dz\gear\cooking\data\barrel_green_holes.rvmat"};
+					healthLevels[] = {{1.0,{"DZ\gear\cooking\data\barrel_green_holes.rvmat"}},{0.7,{"DZ\gear\cooking\data\barrel_green_holes.rvmat"}},{0.5,{"DZ\gear\cooking\data\barrel_green_holes_damage.rvmat"}},{0.3,{"DZ\gear\cooking\data\barrel_green_holes_damage.rvmat"}},{0.0,{"DZ\gear\cooking\data\barrel_green_holes_destruct.rvmat"}}};
+				};
+			};
+		};
 	};
 	class Barrel_Meds_EZ: Barrel_ColorBase
 	{
 		scope = 2;
 		displayName = "Barrel - Meds";
 		color = "Meds_EZ";
-		hiddenSelections[] = {"camoGround"};
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Barrels\EZ_barrel_medicine.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Barrels\EZ_barrel_medicine.paa","EZ_Clothing\data\player\Barrels\EZ_barrel_medicine.paa","EZ_Clothing\data\player\Barrels\EZ_barrel_medicine.paa"};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints = 1300;
+					RefTexsMats[] = {"dz\gear\containers\data\barrel_green.rvmat"};
+					healthLevels[] = {{1.0,{"dz\gear\containers\data\barrel_green.rvmat"}},{0.7,{"dz\gear\containers\data\barrel_green.rvmat"}},{0.5,{"dz\gear\containers\data\barrel_green_damage.rvmat"}},{0.3,{"dz\gear\containers\data\barrel_green_damage.rvmat"}},{0.0,{"dz\gear\containers\data\barrel_green_destruct.rvmat"}}};
+				};
+			};
+		};
 	};
 	class BarrelHoles_Meds_EZ: BarrelHoles_ColorBase
 	{
 		scope = 2;
 		displayName = "Fire Barrel";
 		color = "Meds_EZ";
-		hiddenSelections[] = {"camoGround"};
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Barrels\EZ_hollbarrel_medicine.paa"};
+		hiddenSelectionsTextures[] = {"dz\gear\cooking\data\stoneground_co.paa","EZ_Clothing\data\player\Barrels\EZ_hollbarrel_medicine.paa","EZ_Clothing\data\player\Barrels\EZ_hollbarrel_medicine.paa"};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints = 900;
+					transferToAttachmentsCoef = 0.5;
+					RefTexsMats[] = {"dz\gear\cooking\data\barrel_green_holes.rvmat"};
+					healthLevels[] = {{1.0,{"DZ\gear\cooking\data\barrel_green_holes.rvmat"}},{0.7,{"DZ\gear\cooking\data\barrel_green_holes.rvmat"}},{0.5,{"DZ\gear\cooking\data\barrel_green_holes_damage.rvmat"}},{0.3,{"DZ\gear\cooking\data\barrel_green_holes_damage.rvmat"}},{0.0,{"DZ\gear\cooking\data\barrel_green_holes_destruct.rvmat"}}};
+				};
+			};
+		};
 	};
 	class Barrel_Mags_EZ: Barrel_ColorBase
 	{
 		scope = 2;
 		displayName = "Barrel - Mags";
 		color = "Mags_EZ";
-		hiddenSelections[] = {"camoGround"};
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Barrels\EZ_barrel_mags.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Barrels\EZ_barrel_mags.paa","EZ_Clothing\data\player\Barrels\EZ_barrel_mags.paa","EZ_Clothing\data\player\Barrels\EZ_barrel_mags.paa"};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints = 1300;
+					RefTexsMats[] = {"dz\gear\containers\data\barrel_green.rvmat"};
+					healthLevels[] = {{1.0,{"dz\gear\containers\data\barrel_green.rvmat"}},{0.7,{"dz\gear\containers\data\barrel_green.rvmat"}},{0.5,{"dz\gear\containers\data\barrel_green_damage.rvmat"}},{0.3,{"dz\gear\containers\data\barrel_green_damage.rvmat"}},{0.0,{"dz\gear\containers\data\barrel_green_destruct.rvmat"}}};
+				};
+			};
+		};
 	};
 	class BarrelHoles_Mags_EZ: BarrelHoles_ColorBase
 	{
 		scope = 2;
 		displayName = "Fire Barrel";
 		color = "Mags_EZ";
-		hiddenSelections[] = {"camoGround"};
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Barrels\EZ_hollbarrel_mags.paa"};
+		hiddenSelectionsTextures[] = {"dz\gear\cooking\data\stoneground_co.paa","EZ_Clothing\data\player\Barrels\EZ_hollbarrel_mags.paa","EZ_Clothing\data\player\Barrels\EZ_hollbarrel_mags.paa"};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints = 900;
+					transferToAttachmentsCoef = 0.5;
+					RefTexsMats[] = {"dz\gear\cooking\data\barrel_green_holes.rvmat"};
+					healthLevels[] = {{1.0,{"DZ\gear\cooking\data\barrel_green_holes.rvmat"}},{0.7,{"DZ\gear\cooking\data\barrel_green_holes.rvmat"}},{0.5,{"DZ\gear\cooking\data\barrel_green_holes_damage.rvmat"}},{0.3,{"DZ\gear\cooking\data\barrel_green_holes_damage.rvmat"}},{0.0,{"DZ\gear\cooking\data\barrel_green_holes_destruct.rvmat"}}};
+				};
+			};
+		};
 	};
 	class Barrel_Food_EZ: Barrel_ColorBase
 	{
 		scope = 2;
 		displayName = "Barrel - Food";
 		color = "Food_EZ";
-		hiddenSelections[] = {"camoGround"};
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Barrels\EZ_barrel_food.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Barrels\EZ_barrel_food.paa","EZ_Clothing\data\player\Barrels\EZ_barrel_food.paa","EZ_Clothing\data\player\Barrels\EZ_barrel_food.paa"};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints = 1300;
+					RefTexsMats[] = {"dz\gear\containers\data\barrel_green.rvmat"};
+					healthLevels[] = {{1.0,{"dz\gear\containers\data\barrel_green.rvmat"}},{0.7,{"dz\gear\containers\data\barrel_green.rvmat"}},{0.5,{"dz\gear\containers\data\barrel_green_damage.rvmat"}},{0.3,{"dz\gear\containers\data\barrel_green_damage.rvmat"}},{0.0,{"dz\gear\containers\data\barrel_green_destruct.rvmat"}}};
+				};
+			};
+		};
 	};
 	class BarrelHoles_Food_EZ: BarrelHoles_ColorBase
 	{
 		scope = 2;
 		displayName = "Fire Barrel";
 		color = "Food_EZ";
-		hiddenSelections[] = {"camoGround"};
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Barrels\EZ_hollbarrel_food.paa"};
+		hiddenSelectionsTextures[] = {"dz\gear\cooking\data\stoneground_co.paa","EZ_Clothing\data\player\Barrels\EZ_hollbarrel_food.paa","EZ_Clothing\data\player\Barrels\EZ_hollbarrel_food.paa"};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints = 900;
+					transferToAttachmentsCoef = 0.5;
+					RefTexsMats[] = {"dz\gear\cooking\data\barrel_green_holes.rvmat"};
+					healthLevels[] = {{1.0,{"DZ\gear\cooking\data\barrel_green_holes.rvmat"}},{0.7,{"DZ\gear\cooking\data\barrel_green_holes.rvmat"}},{0.5,{"DZ\gear\cooking\data\barrel_green_holes_damage.rvmat"}},{0.3,{"DZ\gear\cooking\data\barrel_green_holes_damage.rvmat"}},{0.0,{"DZ\gear\cooking\data\barrel_green_holes_destruct.rvmat"}}};
+				};
+			};
+		};
 	};
 	class Barrel_C4_EZ: Barrel_ColorBase
 	{
 		scope = 2;
 		displayName = "Barrel - Explosives";
 		color = "C4_EZ";
-		hiddenSelections[] = {"camoGround"};
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Barrels\EZ_barrel_explosions.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Barrels\EZ_barrel_explosions.paa","EZ_Clothing\data\player\Barrels\EZ_barrel_explosions.paa","EZ_Clothing\data\player\Barrels\EZ_barrel_explosions.paa"};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints = 1300;
+					RefTexsMats[] = {"dz\gear\containers\data\barrel_green.rvmat"};
+					healthLevels[] = {{1.0,{"dz\gear\containers\data\barrel_green.rvmat"}},{0.7,{"dz\gear\containers\data\barrel_green.rvmat"}},{0.5,{"dz\gear\containers\data\barrel_green_damage.rvmat"}},{0.3,{"dz\gear\containers\data\barrel_green_damage.rvmat"}},{0.0,{"dz\gear\containers\data\barrel_green_destruct.rvmat"}}};
+				};
+			};
+		};
 	};
 	class BarrelHoles_C4_EZ: BarrelHoles_ColorBase
 	{
 		scope = 2;
 		displayName = "Fire Barrel";
 		color = "C4_EZ";
-		hiddenSelections[] = {"camoGround"};
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Barrels\EZ_hollbarrel_explosions.paa"};
+		hiddenSelectionsTextures[] = {"dz\gear\cooking\data\stoneground_co.paa","EZ_Clothing\data\player\Barrels\EZ_hollbarrel_explosions.paa","EZ_Clothing\data\player\Barrels\EZ_hollbarrel_explosions.paa"};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints = 900;
+					transferToAttachmentsCoef = 0.5;
+					RefTexsMats[] = {"dz\gear\cooking\data\barrel_green_holes.rvmat"};
+					healthLevels[] = {{1.0,{"DZ\gear\cooking\data\barrel_green_holes.rvmat"}},{0.7,{"DZ\gear\cooking\data\barrel_green_holes.rvmat"}},{0.5,{"DZ\gear\cooking\data\barrel_green_holes_damage.rvmat"}},{0.3,{"DZ\gear\cooking\data\barrel_green_holes_damage.rvmat"}},{0.0,{"DZ\gear\cooking\data\barrel_green_holes_destruct.rvmat"}}};
+				};
+			};
+		};
 	};
 	class EZ_HunterPants_Green: HunterPants_ColorBase
 	{

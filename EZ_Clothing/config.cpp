@@ -3034,14 +3034,14 @@ class CfgVehicles
 	class EZ_Untamed_Flag: Flag_Base
 	{
 		displayName = "Untamed Flag";
-		descriptionShort = "Untamed - UntamedPackage Flag made by Kokaskale";
+		descriptionShort = "Untamed - CrewPackage Flag made by Kokaskale";
 		scope = 2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Untamed\Untamed_ff.paa"};
 	};
 	class EZ_Untamed_Armband: Armband_ColorBase
 	{
 		displayName = "Untamed - Armband";
-		descriptionShort = "Untamed - UntamedPackage Armband made by Kokaskale";
+		descriptionShort = "Untamed - CrewPackage Armband made by Kokaskale";
 		scope = 2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Untamed\Untamed_gg.paa",
 									  "EZ_Clothing\data\patreon_crew\Untamed\Untamed_aa.paa",
@@ -3052,7 +3052,7 @@ class CfgVehicles
 	class EZ_Untamed_TacticalShirt: TacticalShirt_ColorBase
 	{
 		displayName = "Untamed - Tactical Shirt";
-		descriptionShort = "Untamed - UntamedPackage Tactical Shirt made by Kokaskale";
+		descriptionShort = "Untamed - CrewPackage Tactical Shirt made by Kokaskale";
 		scope = 2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Untamed\Untamed_shirt.paa",
 									  "EZ_Clothing\data\patreon_crew\Untamed\Untamed_shirt.paa",
@@ -3204,14 +3204,14 @@ class CfgVehicles
 	class EZ_SouthFinland_Flag: Flag_Base
 	{
 		displayName = "South Finland Flag";
-		descriptionShort = "South Finland - SouthFinlandPackage Flag made by Kokaskale";
+		descriptionShort = "South Finland - CrewPackage Flag made by Kokaskale";
 		scope = 2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\SouthFinland\SouthFinland_ff.paa"};
 	};
 	class EZ_SouthFinland_Armband: Armband_ColorBase
 	{
 		displayName = "South Finland - Armband";
-		descriptionShort = "South Finland - SouthFinlandPackage Armband made by Kokaskale";
+		descriptionShort = "South Finland - CrewPackage Armband made by Kokaskale";
 		scope = 2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\SouthFinland\SouthFinland_gg.paa",
 									  "EZ_Clothing\data\patreon_crew\SouthFinland\SouthFinland_aa.paa",
@@ -3222,7 +3222,7 @@ class CfgVehicles
 	class EZ_SouthFinland_TacticalShirt: TacticalShirt_ColorBase
 	{
 		displayName = "South Finland - Tactical Shirt";
-		descriptionShort = "South Finland - SouthFinlandPackage Tactical Shirt made by Kokaskale";
+		descriptionShort = "South Finland - CrewPackage Tactical Shirt made by Kokaskale";
 		scope = 2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\SouthFinland\SouthFinland_shirt.paa",
 									  "EZ_Clothing\data\patreon_crew\SouthFinland\SouthFinland_shirt.paa",
@@ -3495,14 +3495,14 @@ class CfgVehicles
 	class EZ_GROM_Flag: Flag_Base
 	{
 		displayName = "GROM Flag";
-		descriptionShort = "GROM - GROMPackage Flag made by Kokaskale";
+		descriptionShort = "GROM - CrewPackage Flag made by Kokaskale";
 		scope = 2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\GROM\GROM_ff.paa"};
 	};
 	class EZ_GROM_Armband: Armband_ColorBase
 	{
 		displayName = "GROM - Armband";
-		descriptionShort = "GROM - GROMPackage Armband made by Kokaskale";
+		descriptionShort = "GROM - CrewPackage Armband made by Kokaskale";
 		scope = 2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\GROM\GROM_gg.paa",
 									  "EZ_Clothing\data\patreon_crew\GROM\GROM_aa.paa",
@@ -3513,7 +3513,7 @@ class CfgVehicles
 	class EZ_GROM_TacticalShirt: TacticalShirt_ColorBase
 	{
 		displayName = "GROM - Tactical Shirt";
-		descriptionShort = "GROM - GROMPackage Tactical Shirt made by Kokaskale";
+		descriptionShort = "GROM - CrewPackage Tactical Shirt made by Kokaskale";
 		scope = 2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\GROM\GROM_shirt.paa",
 									  "EZ_Clothing\data\patreon_crew\GROM\GROM_shirt.paa",
@@ -3522,14 +3522,14 @@ class CfgVehicles
 	class EZ_SAF_Flag: Flag_Base
 	{
 		displayName = "SAF Flag";
-		descriptionShort = "SAF - SAFPackage Flag made by Kokaskale";
+		descriptionShort = "SAF - CrewPackage Flag made by Kokaskale";
 		scope = 2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\SAF\SAF_ff.paa"};
 	};
 	class EZ_SAF_Armband: Armband_ColorBase
 	{
 		displayName = "SAF - Armband";
-		descriptionShort = "SAF - SAFPackage Armband made by Kokaskale";
+		descriptionShort = "SAF - CrewPackage Armband made by Kokaskale";
 		scope = 2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\SAF\SAF_gg.paa",
 									  "EZ_Clothing\data\patreon_crew\SAF\SAF_aa.paa",
@@ -3540,7 +3540,7 @@ class CfgVehicles
 	class EZ_SAF_TacticalShirt: TacticalShirt_ColorBase
 	{
 		displayName = "SAF - Tactical Shirt";
-		descriptionShort = "SAF - SAFPackage Tactical Shirt made by Kokaskale";
+		descriptionShort = "SAF - CrewPackage Tactical Shirt made by Kokaskale";
 		scope = 2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\SAF\SAF_shirt.paa",
 									  "EZ_Clothing\data\patreon_crew\SAF\SAF_shirt.paa",
@@ -3549,14 +3549,14 @@ class CfgVehicles
 	class EZ_BAD_Flag: Flag_Base
 	{
 		displayName = "B@D Flag";
-		descriptionShort = "B@D - B@DPackage Flag made by Kokaskale";
+		descriptionShort = "B@D - CrewPackage Flag made by Kokaskale";
 		scope = 2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\B@D\B@D_ff.paa"};
 	};
 	class EZ_BAD_Armband: Armband_ColorBase
 	{
 		displayName = "B@D - Armband";
-		descriptionShort = "B@D - B@DPackage Armband made by Kokaskale";
+		descriptionShort = "B@D - CrewPackage Armband made by Kokaskale";
 		scope = 2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\B@D\B@D_gg.paa",
 									  "EZ_Clothing\data\patreon_crew\B@D\B@D_aa.paa",
@@ -3567,7 +3567,7 @@ class CfgVehicles
 	class EZ_BAD_TacticalShirt: TacticalShirt_ColorBase
 	{
 		displayName = "B@D - Tactical Shirt";
-		descriptionShort = "B@D - B@DPackage Tactical Shirt made by Kokaskale";
+		descriptionShort = "B@D - CrewPackage Tactical Shirt made by Kokaskale";
 		scope = 2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\B@D\B@D_shirt.paa",
 									  "EZ_Clothing\data\patreon_crew\B@D\B@D_shirt.paa",
@@ -3679,5 +3679,32 @@ class CfgVehicles
 		displayName = "Austrian Escort Service - Double Armband";
 		descriptionShort = "Austrian Escort Service - Double Armband made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\custom\AES_armband.paa"};
+	};
+	class EZ_RIP_Flag: Flag_Base
+	{
+		displayName = "Rest!nPeace Flag";
+		descriptionShort = "Rest!nPeace - CrewPackage Flag made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\RIP\RIP_ff.paa"};
+	};
+	class EZ_RIP_Armband: Armband_ColorBase
+	{
+		displayName = "Rest!nPeace - Armband";
+		descriptionShort = "Rest!nPeace - CrewPackage Armband made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\RIP\RIP_gg.paa",
+									  "EZ_Clothing\data\patreon_crew\RIP\RIP_aa.paa",
+									  "EZ_Clothing\data\patreon_crew\RIP\RIP_aa.paa",
+									  "EZ_Clothing\data\patreon_crew\RIP\RIP_aa.paa",
+									  "EZ_Clothing\data\patreon_crew\RIP\RIP_aa.paa"};
+	};
+	class EZ_RIP_TacticalShirt: TacticalShirt_ColorBase
+	{
+		displayName = "Rest!nPeace - Tactical Shirt";
+		descriptionShort = "Rest!nPeace - CrewPackage Tactical Shirt made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\RIP\RIP_shirt.paa",
+									  "EZ_Clothing\data\patreon_crew\RIP\RIP_shirt.paa",
+									  "EZ_Clothing\data\patreon_crew\RIP\RIP_shirt.paa"};
 	};
 };

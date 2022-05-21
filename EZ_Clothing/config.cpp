@@ -2998,38 +2998,81 @@ class CfgVehicles
 	class EZ_Crew_Flag: Flag_Base
 	{
 		displayName = "Crew Flag";
-		descriptionShort = "Crew - CrewPackage Flag made by Kokaskale";
+		descriptionShort = "Crew - SquadPackage Flag made by Kokaskale";
 		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Crew\Crew_ff.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Crew\Crew_ff.paa"};
 	};
 	class EZ_Crew_Armband: Armband_ColorBase
 	{
 		displayName = "Crew - Armband";
-		descriptionShort = "Crew - CrewPackage Armband made by Kokaskale";
+		descriptionShort = "Crew - SquadPackage Armband made by Kokaskale";
 		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Crew\Crew_gg.paa",
-									  "EZ_Clothing\data\patreon_crew\Crew\Crew_aa.paa",
-									  "EZ_Clothing\data\patreon_crew\Crew\Crew_aa.paa",
-									  "EZ_Clothing\data\patreon_crew\Crew\Crew_aa.paa",
-									  "EZ_Clothing\data\patreon_crew\Crew\Crew_aa.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Crew\Crew_gg.paa",
+									  "EZ_Clothing\data\patreon_squad\Crew\Crew_aa.paa",
+									  "EZ_Clothing\data\patreon_squad\Crew\Crew_aa.paa",
+									  "EZ_Clothing\data\patreon_squad\Crew\Crew_aa.paa",
+									  "EZ_Clothing\data\patreon_squad\Crew\Crew_aa.paa"};
+	};
+	class EZ_Crew_Armband_New: EZ_DoubleArmband_ColorBase
+	{
+		scope = 2;
+		displayName = "Crew - Armband";
+		descriptionShort = "Crew - SquadPackage armband made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Crew\Crew_armband.paa"};
+	};
+	class EZ_Crew_Banner: EZ_Banner_Colorbase
+	{
+		scope = 2;
+		displayName = "Crew - Banner";
+		descriptionShort = "Crew - SquadPackage Banner made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Crew\Crew_bb.paa"};
 	};
 	class EZ_Crew_Jacket: M65Jacket_ColorBase
 	{
 		displayName = "Crew - Jacket";
-		descriptionShort = "Crew - CrewPackage Jacket made by Kokaskale";
+		descriptionShort = "Crew - SquadPackage Jacket made by Kokaskale";
 		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Crew\Crew_jacket.paa",
-									  "EZ_Clothing\data\patreon_crew\Crew\Crew_jacket.paa",
-									  "EZ_Clothing\data\patreon_crew\Crew\Crew_jacket.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Crew\Crew_jacket.paa",
+									  "EZ_Clothing\data\patreon_squad\Crew\Crew_jacket.paa",
+									  "EZ_Clothing\data\patreon_squad\Crew\Crew_jacket.paa"};
 	};
 	class EZ_Crew_Tacticalshirt: TacticalShirt_ColorBase
 	{
 		displayName = "Crew - Tactical Shirt";
-		descriptionShort = "Crew - CrewPackage Tactical Shirt made by Kokaskale";
+		descriptionShort = "Crew - SquadPackage Tactical Shirt made by Kokaskale";
 		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Crew\Crew_shirt.paa",
-									  "EZ_Clothing\data\patreon_crew\Crew\Crew_shirt.paa",
-									  "EZ_Clothing\data\patreon_crew\Crew\Crew_shirt.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Crew\Crew_shirt.paa",
+									  "EZ_Clothing\data\patreon_squad\Crew\Crew_shirt.paa",
+									  "EZ_Clothing\data\patreon_squad\Crew\Crew_shirt.paa"};
+	};
+	class EZ_Crew_Pants: CargoPants_ColorBase
+	{
+		scope = 2;
+		displayName = "Crew - Cargo Pants";
+		descriptionShort = "Crew - SquadPackage Cargo Pants made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Crew\Crew_pants.paa","EZ_Clothing\data\patreon_squad\Crew\Crew_pants.paa","EZ_Clothing\data\patreon_squad\Crew\Crew_pants.paa"};
+	};
+	class EZ_Crew_Balaclava: BalaclavaMask_ColorBase
+	{
+		scope = 2;
+		displayName = "Crew - Balaclava";
+		descriptionShort = "Crew - SquadPackage Balaclava made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Crew\Crew_balaclava_co.paa","EZ_Clothing\data\patreon_squad\Crew\Crew_balaclava_co.paa","EZ_Clothing\data\patreon_squad\Crew\Crew_balaclava_co.paa"};
+	};
+	class EZ_Crew_Helmet: Mich2001Helmet
+	{
+		scope = 2;
+		displayName = "Crew - Helmet";
+		descriptionShort = "Crew - SquadPackage Helmet made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Crew\Crew_helmet_co.paa","EZ_Clothing\data\patreon_squad\Crew\Crew_helmet_co.paa","EZ_Clothing\data\patreon_squad\Crew\Crew_helmet_co.paa"};
+	};
+	class EZ_Crew_Vest: PlateCarrierVest
+	{
+		scope = 2;
+		displayName = "Crew - Vest";
+		descriptionShort = "Crew - SquadPackage Vest made by Kokaskale";
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Crew\Crew_vest_co.paa","EZ_Clothing\data\patreon_squad\Crew\Crew_vest_co.paa","EZ_Clothing\data\patreon_squad\Crew\Crew_vest_co.paa"};
 	};
 	class EZ_Untamed_Flag: Flag_Base
 	{

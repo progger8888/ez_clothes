@@ -3007,11 +3007,7 @@ class CfgVehicles
 		displayName = "Crew - Armband";
 		descriptionShort = "Crew - SquadPackage Armband made by Kokaskale";
 		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Crew\Crew_gg.paa",
-									  "EZ_Clothing\data\patreon_squad\Crew\Crew_aa.paa",
-									  "EZ_Clothing\data\patreon_squad\Crew\Crew_aa.paa",
-									  "EZ_Clothing\data\patreon_squad\Crew\Crew_aa.paa",
-									  "EZ_Clothing\data\patreon_squad\Crew\Crew_aa.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Crew\Crew_gg.paa"};
 	};
 	class EZ_Crew_Armband_New: EZ_DoubleArmband_ColorBase
 	{

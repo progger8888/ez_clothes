@@ -2389,49 +2389,80 @@ class CfgVehicles
 		scope = 2;
 		displayName = "BABILON - Double Armband";
 		descriptionShort = "BABILON -PlatoonPackage Double Armband made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\BABILON\BABILON_armband.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BABILON\BABILON_armband.paa"};
 	};
 	class EZ_BABILON_Banner: EZ_Banner_Colorbase
 	{
 		scope = 2;
 		displayName = "BABILON - Banner";
 		descriptionShort = "BABILON - PlatoonPackage Banner made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\BABILON\BABILON_bb.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BABILON\BABILON_bb.paa"};
 	};
 	class EZ_BABILON_Flag: Flag_Base
 	{
 		scope = 2;
 		displayName = "BABILON - Flag";
 		descriptionShort = "BABILON - PlatoonPackage Flag made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\BABILON\BABILON_ff.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BABILON\BABILON_ff.paa"};
+	};
+	class EZ_BABILON_Tacticalshirt_New: TacticalShirt_ColorBase
+	{
+		displayName = "BABILON - Tactical Shirt";
+		descriptionShort = "BABILON - SquadPackage Tactical Shirt made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BABILON\BABILON_shirt.paa",
+									  "EZ_Clothing\data\patreon_squad\BABILON\BABILON_shirt.paa",
+									  "EZ_Clothing\data\patreon_squad\BABILON\BABILON_shirt.paa"};
+	};
+	class EZ_BABILON_Pants_New: CargoPants_ColorBase
+	{
+		scope = 2;
+		displayName = "BABILON - Cargo Pants";
+		descriptionShort = "BABILON - SquadPackage Cargo Pants made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BABILON\BABILON_pants.paa","EZ_Clothing\data\patreon_squad\BABILON\BABILON_pants.paa","EZ_Clothing\data\patreon_squad\BABILON\BABILON_pants.paa"};
+	};
+	class EZ_BABILON_Helmet_New: Mich2001Helmet
+	{
+		scope = 2;
+		displayName = "BABILON - Helmet";
+		descriptionShort = "BABILON - SquadPackage Helmet made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BABILON\BABILON_helmet_co.paa","EZ_Clothing\data\patreon_squad\BABILON\BABILON_helmet_co.paa","EZ_Clothing\data\patreon_squad\BABILON\BABILON_helmet_co.paa"};
+	};
+	class EZ_BABILON_Vest_New: PlateCarrierVest
+	{
+		scope = 2;
+		displayName = "BABILON - Vest";
+		descriptionShort = "BABILON - SquadPackage Vest made by Kokaskale";
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BABILON\BABILON_vest_co.paa","EZ_Clothing\data\patreon_squad\BABILON\BABILON_vest_co.paa","EZ_Clothing\data\patreon_squad\BABILON\BABILON_vest_co.paa"};
 	};
 	class EZ_BABILON_TacticalShirt: MVS_CombatShirt_Base
 	{
 		scope = 2;
 		displayName = "BABILON - MVS Shirt";
 		descriptionShort = "BABILON - PlatoonPackage MVS Shirt made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\BABILON\BABILON_mvs_combatshirt.paa","EZ_Clothing\data\patreon_platoon\BABILON\BABILON_mvs_combatshirt.paa","EZ_Clothing\data\patreon_platoon\BABILON\BABILON_mvs_combatshirt.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BABILON\BABILON_mvs_combatshirt.paa","EZ_Clothing\data\patreon_squad\BABILON\BABILON_mvs_combatshirt.paa","EZ_Clothing\data\patreon_squad\BABILON\BABILON_mvs_combatshirt.paa"};
 	};
 	class EZ_BABILON_Pants: MVS_CombatPants_Base
 	{
 		scope = 2;
 		displayName = "BABILON - MVS Pants";
 		descriptionShort = "BABILON - PlatoonPackage MVS Pants made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\BABILON\BABILON_mvs_combatpants.paa","EZ_Clothing\data\patreon_platoon\BABILON\BABILON_mvs_combatpants.paa","EZ_Clothing\data\patreon_platoon\BABILON\BABILON_mvs_combatpants.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BABILON\BABILON_mvs_combatpants.paa","EZ_Clothing\data\patreon_squad\BABILON\BABILON_mvs_combatpants.paa","EZ_Clothing\data\patreon_squad\BABILON\BABILON_mvs_combatpants.paa"};
 	};
 	class EZ_BABILON_Balaclava: MVS_Balaclava2_Base
 	{
 		scope = 2;
 		displayName = "BABILON - MVS Balaclava";
 		descriptionShort = "BABILON - PlatoonPackage MVS Balaclava made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\BABILON\BABILON_mvs_balaclava.paa","EZ_Clothing\data\patreon_platoon\BABILON\BABILON_mvs_balaclava.paa","EZ_Clothing\data\patreon_platoon\BABILON\BABILON_mvs_balaclava.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BABILON\BABILON_mvs_balaclava.paa","EZ_Clothing\data\patreon_squad\BABILON\BABILON_mvs_balaclava.paa","EZ_Clothing\data\patreon_squad\BABILON\BABILON_mvs_balaclava.paa"};
 	};
 	class EZ_BABILON_Helmet: MVS_Helmet_Base
 	{
 		scope = 2;
 		displayName = "BABILON - MVS Helmet";
 		descriptionShort = "BABILON - PlatoonPackage MVS Helmet made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\BABILON\BABILON_mvs_helmet.paa","EZ_Clothing\data\patreon_platoon\BABILON\BABILON_mvs_helmet.paa","EZ_Clothing\data\patreon_platoon\BABILON\BABILON_mvs_helmet.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BABILON\BABILON_mvs_helmet.paa","EZ_Clothing\data\patreon_squad\BABILON\BABILON_mvs_helmet.paa","EZ_Clothing\data\patreon_squad\BABILON\BABILON_mvs_helmet.paa"};
 	};
 	class EZ_BABILON_Vest: ModularVestSystem_Base
 	{
@@ -2439,28 +2470,28 @@ class CfgVehicles
 		displayName = "BABILON - MVS Vest";
 		descriptionShort = "BABILON - PlatoonPackage MVS Vest made by Kokaskale";
 		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\BABILON\BABILON_mvs_vest.paa","EZ_Clothing\data\patreon_platoon\BABILON\BABILON_mvs_vest.paa","EZ_Clothing\data\patreon_platoon\BABILON\BABILON_mvs_vest.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BABILON\BABILON_mvs_vest.paa","EZ_Clothing\data\patreon_squad\BABILON\BABILON_mvs_vest.paa","EZ_Clothing\data\patreon_squad\BABILON\BABILON_mvs_vest.paa"};
 	};
 	class EZ_BABILONMVS_Shroud: MVS_Shroud_Base
 	{
 		scope = 2;
 		displayName = "BABILON - MVS Shroud";
 		descriptionShort = "BABILON - PlatoonPackage MVS Shroud made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\BABILON\BABILON_MVS_Shroud.paa","EZ_Clothing\data\patreon_platoon\BABILON\BABILON_MVS_Shroud.paa","EZ_Clothing\data\patreon_platoon\BABILON\BABILON_MVS_Shroud.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BABILON\BABILON_MVS_Shroud.paa","EZ_Clothing\data\patreon_squad\BABILON\BABILON_MVS_Shroud.paa","EZ_Clothing\data\patreon_squad\BABILON\BABILON_MVS_Shroud.paa"};
 	};
 	class EZ_BABILONJungleBoots: JungleBoots_ColorBase
 	{
 		scope = 2;
 		displayName = "BABILON - Jungle Boots";
 		descriptionShort = "BABILON - PlatoonPackage Jungle Boots made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\BABILON\BABILON_jungleboots.paa","EZ_Clothing\data\patreon_platoon\BABILON\BABILON_jungleboots.paa","EZ_Clothing\data\patreon_platoon\BABILON\BABILON_jungleboots.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BABILON\BABILON_jungleboots.paa","EZ_Clothing\data\patreon_squad\BABILON\BABILON_jungleboots.paa","EZ_Clothing\data\patreon_squad\BABILON\BABILON_jungleboots.paa"};
 	};
 	class EZ_BABILONTacticalGloves: TacticalGloves_ColorBase
 	{
 		scope = 2;
 		displayName = "BABILON - Tactical Gloves";
 		descriptionShort = "BABILON - PlatoonPackage Tactical Gloves made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\BABILON\BABILON_tacticalgloves.paa","EZ_Clothing\data\patreon_platoon\BABILON\BABILON_tacticalgloves.paa","EZ_Clothing\data\patreon_platoon\BABILON\BABILON_tacticalgloves.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BABILON\BABILON_tacticalgloves.paa","EZ_Clothing\data\patreon_squad\BABILON\BABILON_tacticalgloves.paa","EZ_Clothing\data\patreon_squad\BABILON\BABILON_tacticalgloves.paa"};
 	};
 	class EZ_BABILON_MVS_Combat_Vest_Heavy: ModularVestSystem_Heavy
 	{
@@ -2468,21 +2499,21 @@ class CfgVehicles
 		displayName = "BABILON - MVS Heavy Plate Carrier";
 		descriptionShort = "BABILON - PlatoonPackage MVS Heavy Plate Carrier made by Kokaskale";
 		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\BABILON\BABILON_MVSHeavy_co.paa","EZ_Clothing\data\patreon_platoon\BABILON\BABILON_MVSHeavy_co.paa","EZ_Clothing\data\patreon_platoon\BABILON\BABILON_MVSHeavy_co.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BABILON\BABILON_MVSHeavy_co.paa","EZ_Clothing\data\patreon_squad\BABILON\BABILON_MVSHeavy_co.paa","EZ_Clothing\data\patreon_squad\BABILON\BABILON_MVSHeavy_co.paa"};
 	};
 	class EZ_BABILON_AssaultPack: MVS_Assault_Pack_Tan
 	{
 		scope = 2;
 		displayName = "BABILON - Assault Pack";
 		descriptionShort = "Endzone BABILON - PlatoonPackage Assault Pack made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\BABILON\BABILON_RaidPack.paa","EZ_Clothing\data\patreon_platoon\BABILON\BABILON_RaidPack.paa","EZ_Clothing\data\patreon_platoon\BABILON\BABILON_RaidPack.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BABILON\BABILON_RaidPack.paa","EZ_Clothing\data\patreon_squad\BABILON\BABILON_RaidPack.paa","EZ_Clothing\data\patreon_squad\BABILON\BABILON_RaidPack.paa"};
 	};
 	class EZ_BABILON_WarriorHelmet: MVS_WarriorHelmet_Base
 	{
 		scope = 2;
 		displayName = "BABILON - MVS Warrior Helmet";
 		descriptionShort = "BABILON - PlatoonPackage MVS Warrior Helmet made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\BABILON\BABILON_WarriorHelmet.paa","EZ_Clothing\data\patreon_platoon\BABILON\BABILON_WarriorHelmet.paa","EZ_Clothing\data\patreon_platoon\BABILON\BABILON_WarriorHelmet.paa","EZ_Clothing\data\patreon_platoon\BABILON\BABILON_Mandalorian_Helmet.paa","EZ_Clothing\data\Mvs_Test\Mandalorian_Visor_co.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BABILON\BABILON_WarriorHelmet.paa","EZ_Clothing\data\patreon_squad\BABILON\BABILON_WarriorHelmet.paa","EZ_Clothing\data\patreon_squad\BABILON\BABILON_WarriorHelmet.paa","EZ_Clothing\data\patreon_squad\BABILON\BABILON_Mandalorian_Helmet.paa","EZ_Clothing\data\Mvs_Test\Mandalorian_Visor_co.paa"};
 	};
 	class EZ_Creamteam_Armband: EZ_DoubleArmband_ColorBase
 	{

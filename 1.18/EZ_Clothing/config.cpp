@@ -99,21 +99,21 @@ class CfgVehicles
 	class PrisonUniformPants;
 	class MVS_Shroud_Base;
 	class ModularVestSystem_Heavy;
-	class Endzone_PlateCarrierVest: PlateCarrierVest
+	class EZ_Admin_Plate: PlateCarrierVest
 	{
 		scope = 2;
-		displayName = "Endzone Staff Plate Carrier";
+		displayName = "Endzone Staff Plate";
 		hiddenSelections[] = {"zbytek"};
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\staff\Endzone\EndZone_ballisticvest_co.paa","EZ_Clothing\data\staff\Endzone\EndZone_ballisticvest_co.paa","EZ_Clothing\data\staff\Endzone\EndZone_ballisticvest_co.paa"};
 	};
-	class Endzone_Holster: PlateCarrierHolster
+	class EZ_Admin_Holster: PlateCarrierHolster
 	{
 		scope = 2;
 		displayName = "Endzone Staff Holster";
 		hiddenSelections[] = {"camoGround","zbytek"};
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\staff\Endzone\EndZone_ballisticvest_co.paa","EZ_Clothing\data\staff\Endzone\EndZone_ballisticvest_co.paa","EZ_Clothing\data\staff\Endzone\EndZone_ballisticvest_co.paa"};
 	};
-	class Endzone_PlateCarrierPouches: PlateCarrierPouches
+	class EZ_Admin_Pouches: PlateCarrierPouches
 	{
 		scope = 2;
 		displayName = "Endzone Staff Pouches";
@@ -121,128 +121,104 @@ class CfgVehicles
 		hiddenSelections[] = {"camoGround","zbytek"};
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\staff\Endzone\EndZone_ballisticvest_co.paa","EZ_Clothing\data\staff\Endzone\EndZone_ballisticvest_co.paa","EZ_Clothing\data\staff\Endzone\EndZone_ballisticvest_co.paa"};
 	};
-	class Endzone_Mich2001Helmet: Mich2001Helmet
+	class EZ_Admin_Helmet: Mich2001Helmet
 	{
 		scope = 2;
-		displayName = "Endzone Staff Tactical Helmet";
+		displayName = "Endzone Staff Helmet";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\staff\Endzone\EndZone_mich2001_co.paa","EZ_Clothing\data\staff\Endzone\EndZone_mich2001_co.paa","EZ_Clothing\data\staff\Endzone\EndZone_mich2001_co.paa"};
 	};
-	class Endzone_M65: M65Jacket_ColorBase
+	class EZ_Admin_M65: M65Jacket_ColorBase
 	{
 		scope = 2;
-		displayName = "Endzone Staff Field Jacket";
+		displayName = "Endzone Staff Jacket";
 		itemsCargoSize[] = {10,10};
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\staff\Endzone\EndZone_m65_co.paa","EZ_Clothing\data\staff\Endzone\EndZone_m65_co.paa","EZ_Clothing\data\staff\Endzone\EndZone_m65_co.paa"};
 	};
-	class Endzone_CargoPants: CargoPants_ColorBase
+	class EZ_Admin_Pants: CargoPants_ColorBase
 	{
 		scope = 2;
 		displayName = "Endzone Staff Cargo Pants";
 		itemsCargoSize[] = {10,10};
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\staff\Endzone\EndZone_cargopants_g_co.paa","EZ_Clothing\data\staff\Endzone\EndZone_cargopants_co.paa","EZ_Clothing\data\staff\Endzone\EndZone_cargopants_co.paa"};
 	};
-	class EZ_tshirt: TShirt_ColorBase
+	class EZ_Admin_Tshirt: TShirt_ColorBase
 	{
 		scope = 2;
-		displayName = "Endzone T-Shirt";
-		descriptionShort = "Custom Endzone t-shirt made by Johan.";
+		displayName = "Endzone Staff T-Shirt";
+		itemsCargoSize[] = {10,10};
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\staff\Endzone\endzone_tshirt.paa","EZ_Clothing\data\staff\Endzone\endzone_tshirt.paa","EZ_Clothing\data\staff\Endzone\endzone_tshirt.paa"};
 	};
-	class EZ_armband: Armband_ColorBase
+	class EZ_Admin_Progger: Hoodie_ColorBase
 	{
 		scope = 2;
-		displayName = "Endzone Armband";
-		descriptionShort = "Custom Endzone armband made by Johan.";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\staff\Endzone\endzone_armband.paa","EZ_Clothing\data\staff\Endzone\endzone_armband.paa","EZ_Clothing\data\staff\Endzone\endzone_armband.paa","EZ_Clothing\data\staff\Endzone\endzone_armband.paa","EZ_Clothing\data\staff\Endzone\endzone_armband.paa"};
-	};
-	class EZ_Hoodie_progger: Hoodie_ColorBase
-	{
-		scope = 2;
-		displayName = "Hoodie (Progger)";
-		descriptionShort = "NYB.";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\staff\Progger\EZ_Hoodie_m_progger.paa","EZ_Clothing\data\staff\Progger\EZ_Hoodie_m_progger.paa","EZ_Clothing\data\staff\Progger\EZ_Hoodie_f_progger.paa","EZ_Clothing\data\staff\Progger\EZ_Hoodie_f_progger.paa"};
-	};
-	class EZ_TShirt_spawn: TShirt_ColorBase
-	{
-		scope = 2;
-		displayName = "Endzone T-Shirt";
-		descriptionShort = "Oh! Sexy as fuck...";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Endzone\EZ_TShirt.paa","EZ_Clothing\data\player\Endzone\EZ_TShirt.paa","EZ_Clothing\data\player\Endzone\EZ_TShirt.paa"};
-	};
-	class EZ_Hoodie: Hoodie_ColorBase
+		displayName = "Endzone Staff (Progger)";
+		itemsCargoSize[] = {10,10};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\staff\Progger\EZ_Hoodie_m_progger.paa","EZ_Clothing\data\staff\Progger\EZ_Hoodie_m_progger.paa","EZ_Clothing\data\staff\Progger\EZ_Hoodie_m_progger.paa"};
+	};	
+	class EZ_Admin_Hoodie: Hoodie_ColorBase
 	{
 		scope = 2;
 		displayName = "Endzone Hoodie";
-		descriptionShort = "Premium brand hoodie. Designed by Haley.";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Endzone\EZ_Hoodie.paa","EZ_Clothing\data\player\Endzone\EZ_Hoodie.paa","EZ_Clothing\data\player\Endzone\EZ_Hoodie.paa","EZ_Clothing\data\player\Endzone\EZ_Hoodie.paa"};
+		itemsCargoSize[] = {10,10};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Endzone\EZ_Hoodie.paa","EZ_Clothing\data\player\Endzone\EZ_Hoodie.paa","EZ_Clothing\data\player\Endzone\EZ_Hoodie.paa"};
 	};
-	class EZ_bandit_GorkaEJacket_flora_1: GorkaEJacket_ColorBase
+	class EZ_Boots_GG: Inventory_Base
 	{
 		scope = 2;
-		displayName = "Gorka-3 Jacket(Flora 1)";
-		descriptionShort = "The Gorka-3 lacks the chest pockets of Gorka-2 and has two tilted hip pockets. It is fastened by buttons and has sleeve pockets closed by velcro flaps and one internal pocket. The jacket has a drawstring hem and hood region with cord locks to seal out wind and moisture, and the hood is equipped with a bill to offer shade from the sun and to shield from rain. There are elastic cuff closures and elastic bands at the arms to prevent the sail effect of strong gusts of wind.";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Scout\gorka\data\gorka_upper_flora1_co.paa","EZ_Clothing\data\player\Scout\gorka\data\gorka_upper_flora1_co.paa","EZ_Clothing\data\player\Scout\gorka\data\gorka_upper_flora1_co.paa"};
-		hiddenSelectionsMaterials[] = {"EZ_Clothing\data\player\Scout\gorka\data\gorka_upper.rvmat","EZ_Clothing\data\player\Scout\gorka\data\gorka_upper.rvmat","EZ_Clothing\data\player\Scout\gorka\data\gorka_upper.rvmat"};
+		displayName = "Clothing";
+		descriptionShort = "Clothing";
+		model = "EZ_Clothing\data\staff\InvisibleClothes\invisible.p3d";
+		inventorySlot = "Feet";
+		itemSize[] = {2,2};
+		weight = 100;
+		durability = 0.5;
+		repairableWithKits[] = {5,3};
+		repairCosts[] = {30.0,25.0};
+		varWetMax = 0.49;
+		heatIsolation = 1;
 	};
-	class EZ_bandit_GorkaPants_flora_1: GorkaPants_ColorBase
+	class EZ_Pants_GG: HunterPants_ColorBase
 	{
 		scope = 2;
-		displayName = "Gorka-3 Pants(Flora 1)";
-		descriptionShort = "The trousers feature a button fly, belt loops, suspender loops and an elasticized waist. The trouser legs have elastic cuffs, and bands at calf level to prevent sail effect from winds. The legs feature an internal gaiter with ties that can be worn inside the boots to seal out sand, gravel, snow, or other debris.";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Scout\gorka\data\gorka_pants_flora1_CO.paa","EZ_Clothing\data\player\Scout\gorka\data\gorka_pants_flora1_CO.paa","EZ_Clothing\data\player\Scout\gorka\data\gorka_pants_flora1_CO.paa"};
-		hiddenSelectionsMaterials[] = {"EZ_Clothing\data\player\Scout\gorka\data\gorka_pants.rvmat","EZ_Clothing\data\player\Scout\gorka\data\gorka_pants.rvmat","EZ_Clothing\data\player\Scout\gorka\data\gorka_pants.rvmat"};
+		hiddenSelectionsTextures[] = {"#(argb,8,8,3)color(1,1,1,0.3,ca)","EZ_Clothing\data\staff\InvisibleClothes\Invisible_ca.paa","EZ_Clothing\data\staff\InvisibleClothes\Invisible_ca.paa"};
 	};
-	class EZ_bandit_GorkaEJacket_flora_2: EZ_bandit_GorkaEJacket_flora_1
+	class EZ_Top_GG: GorkaEJacket_ColorBase
 	{
 		scope = 2;
-		displayName = "Gorka-3 Jacket(Flora 2)";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Scout\gorka\data\gorka_upper_flora2_co.paa","EZ_Clothing\data\player\Scout\gorka\data\gorka_upper_flora2_co.paa","EZ_Clothing\data\player\Scout\gorka\data\gorka_upper_flora2_co.paa"};
+		hiddenSelectionsTextures[] = {"#(argb,8,8,3)color(1,1,1,0.3,ca)","EZ_Clothing\data\staff\InvisibleClothes\Invisible_ca.paa","EZ_Clothing\data\staff\InvisibleClothes\Invisible_ca.paa"};
 	};
-	class EZ_bandit_GorkaPants_flora_2: EZ_bandit_GorkaPants_flora_1
+	class EZ_Arms_GG: Inventory_Base
 	{
 		scope = 2;
-		displayName = "Gorka-3 Pants(Flora 2)";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Scout\gorka\data\gorka_pants_flora2_CO.paa","EZ_Clothing\data\player\Scout\gorka\data\gorka_pants_flora2_CO.paa","EZ_Clothing\data\player\Scout\gorka\data\gorka_pants_flora2_CO.paa"};
+		displayName = "Clothing";
+		descriptionShort = "Clothing";
+		model = "EZ_Clothing\data\staff\InvisibleClothes\invisible.p3d";
+		inventorySlot = "Gloves";
+		itemSize[] = {2,2};
 	};
-	class EZ_bandit_GorkaEJacket_VSR: EZ_bandit_GorkaEJacket_flora_1
+	class EZ_Head_GG: Inventory_Base
 	{
 		scope = 2;
-		displayName = "Gorka-3 Jacket(VSR)";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Scout\gorka\data\gorka_upper_VSR_co.paa","EZ_Clothing\data\player\Scout\gorka\data\gorka_upper_VSR_co.paa","EZ_Clothing\data\player\Scout\gorka\data\gorka_upper_VSR_co.paa"};
+		displayName = "Clothing";
+		descriptionShort = "Clothing";
+		model = "EZ_Clothing\data\staff\InvisibleClothes\invisible.p3d";
+		inventorySlot = "Head";
+		itemSize[] = {2,2};
 	};
-	class EZ_bandit_GorkaPants_VSR: EZ_bandit_GorkaPants_flora_1
+	class EZ_Backpack_GG: AliceBag_ColorBase
 	{
 		scope = 2;
-		displayName = "Gorka-3 Pants(VSR)";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Scout\gorka\data\gorka_pants_VSR_CO.paa","EZ_Clothing\data\player\Scout\gorka\data\gorka_pants_VSR_CO.paa","EZ_Clothing\data\player\Scout\gorka\data\gorka_pants_VSR_CO.paa"};
+		hiddenSelectionsTextures[] = {"#(argb,8,8,3)color(1,1,1,0.3,ca)","EZ_Clothing\data\staff\InvisibleClothes\Invisible_ca.paa","EZ_Clothing\data\staff\InvisibleClothes\Invisible_ca.paa"};
 	};
-	class EZ_bandit_GorkaEJacket_leaf: EZ_bandit_GorkaEJacket_flora_1
+	class EZ_Eviction_Banner: EZ_Banner_Colorbase
 	{
 		scope = 2;
-		displayName = "Gorka-3 Jacket(Leaf)";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Scout\gorka\data\gorka_upper_leaf_co.paa","EZ_Clothing\data\player\Scout\gorka\data\gorka_upper_leaf_co.paa","EZ_Clothing\data\player\Scout\gorka\data\gorka_upper_leaf_co.paa"};
+		displayName = "Banner Of Shame";
+		descriptionShort = "Banner Of Shame - For Further Information create a ticket!";
+		itemSize[] = {15,15};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\staff\Endzone\Eviction_b.paa"};
 	};
-	class EZ_bandit_GorkaPants_leaf: EZ_bandit_GorkaPants_flora_1
-	{
-		scope = 2;
-		displayName = "Gorka-3 Pants(Leaf)";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Scout\gorka\data\gorka_pants_leaf_CO.paa","EZ_Clothing\data\player\Scout\gorka\data\gorka_pants_leaf_CO.paa","EZ_Clothing\data\player\Scout\gorka\data\gorka_pants_leaf_CO.paa"};
-	};
-	class EZ_bandit_Raincoat_black: Raincoat_ColorBase
-	{
-		scope = 2;
-		displayName = "Black Scout Raincoat";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Scout\raincoat\data\raincoat_g_black_co.paa","EZ_Clothing\data\player\Scout\raincoat\data\raincoat_black_co.paa","EZ_Clothing\data\player\Scout\raincoat\data\raincoat_black_co.paa"};
-		hiddenSelectionsMaterials[] = {"EZ_Clothing\data\player\Scout\raincoat\data\raincoat_g.rvmat","EZ_Clothing\data\player\Scout\raincoat\data\raincoat.rvmat","EZ_Clothing\data\player\Scout\raincoat\data\raincoat.rvmat"};
-	};
-	class EZ_bandit_Raincoat_adaptive: Raincoat_ColorBase
-	{
-		scope = 2;
-		displayName = "Raincoat(Adaptive)";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Scout\raincoat\data\raincoat_g_adaptive_co.paa","EZ_Clothing\data\player\Scout\raincoat\data\raincoat_adaptive_co.paa","EZ_Clothing\data\player\Scout\raincoat\data\raincoat_adaptive_co.paa"};
-		hiddenSelectionsMaterials[] = {"EZ_Clothing\data\player\Scout\raincoat\data\raincoat_g.rvmat","EZ_Clothing\data\player\Scout\raincoat\data\raincoat.rvmat","EZ_Clothing\data\player\Scout\raincoat\data\raincoat.rvmat"};
-	};
-	class EZ_bandit_hood_base: Clothing
+	class EZ_Bandit_Hood_Base: Clothing
 	{
 		displayName = "Scout Hood";
 		descriptionShort = "Scout set hood.";
@@ -290,25 +266,13 @@ class CfgVehicles
 			};
 		};
 	};
-	class EZ_bandit_hood_olive: EZ_bandit_hood_base
+	class EZ_Bandit_Hood_Black: EZ_Bandit_Hood_Base
 	{
 		scope = 2;
-		displayName = "Olive Scout Hood";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Scout\Hood\data\hood_co.paa"};
-	};
-	class EZ_bandit_hood_black: EZ_bandit_hood_base
-	{
-		scope = 2;
-		displayName = "Black Scout Hood";
+		displayName = "Scout Hood";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Scout\Hood\data\hood_blk_co.paa"};
 	};
-	class EZ_bandit_hood_leaf: EZ_bandit_hood_base
-	{
-		scope = 2;
-		displayName = "Leaf Camo Scout Hood";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Scout\Hood\data\hood_leaf_co.paa"};
-	};
-	class EZ_bandit_FaceMask_ColorBase: Clothing
+	class EZ_Bandit_FaceMask_ColorBase: Clothing
 	{
 		displayName = "Scout Face Mask";
 		descriptionShort = "The face mask is worn to conceal the identity of the user.";
@@ -361,23 +325,32 @@ class CfgVehicles
 			};
 		};
 	};
-	class EZ_bandit_FaceMask_olive: EZ_bandit_FaceMask_ColorBase
+	class EZ_Bandit_FaceMask_Black: EZ_Bandit_FaceMask_ColorBase
 	{
 		scope = 2;
-		displayName = "Olive Face Mask";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Scout\facemask\data\facemask_olive_co.paa"};
-	};
-	class EZ_bandit_FaceMask_black: EZ_bandit_FaceMask_ColorBase
-	{
-		scope = 2;
-		displayName = "Black Face Mask";
+		displayName = "Scout Face Mask";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Scout\facemask\data\facemask_black_co.paa"};
 	};
-	class EZ_bandit_FaceMask_flora: EZ_bandit_FaceMask_ColorBase
+	class EZ_bandit_GorkaEJacket_flora_1: GorkaEJacket_ColorBase
 	{
 		scope = 2;
-		displayName = "Flora Face Mask";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Scout\facemask\data\facemask_flora_co.paa"};
+		displayName = "Scout Jacket";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Scout\gorka\data\gorka_upper_flora1_co.paa","EZ_Clothing\data\player\Scout\gorka\data\gorka_upper_flora1_co.paa","EZ_Clothing\data\player\Scout\gorka\data\gorka_upper_flora1_co.paa"};
+		hiddenSelectionsMaterials[] = {"EZ_Clothing\data\player\Scout\gorka\data\gorka_upper.rvmat","EZ_Clothing\data\player\Scout\gorka\data\gorka_upper.rvmat","EZ_Clothing\data\player\Scout\gorka\data\gorka_upper.rvmat"};
+	};
+	class EZ_Bandit_GorkaPants: GorkaPants_ColorBase
+	{
+		scope = 2;
+		displayName = "Scout Pants";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Scout\gorka\data\gorka_pants_flora1_CO.paa","EZ_Clothing\data\player\Scout\gorka\data\gorka_pants_flora1_CO.paa","EZ_Clothing\data\player\Scout\gorka\data\gorka_pants_flora1_CO.paa"};
+		hiddenSelectionsMaterials[] = {"EZ_Clothing\data\player\Scout\gorka\data\gorka_pants.rvmat","EZ_Clothing\data\player\Scout\gorka\data\gorka_pants.rvmat","EZ_Clothing\data\player\Scout\gorka\data\gorka_pants.rvmat"};
+	};
+	class EZ_Bandit_Raincoat_Black: Raincoat_ColorBase
+	{
+		scope = 2;
+		displayName = "Scout Raincoat";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Scout\raincoat\data\raincoat_g_black_co.paa","EZ_Clothing\data\player\Scout\raincoat\data\raincoat_black_co.paa","EZ_Clothing\data\player\Scout\raincoat\data\raincoat_black_co.paa"};
+		hiddenSelectionsMaterials[] = {"EZ_Clothing\data\player\Scout\raincoat\data\raincoat_g.rvmat","EZ_Clothing\data\player\Scout\raincoat\data\raincoat.rvmat","EZ_Clothing\data\player\Scout\raincoat\data\raincoat.rvmat"};
 	};
 	class Flag_at_EZ: Flag_Base
 	{
@@ -413,13 +386,6 @@ class CfgVehicles
 		displayName = "Flag - Canada";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Country Flags\Flag_ca_co.paa"};
 		color = "ca_EZ";
-	};
-	class Flag_cccp_EZ: Flag_Base
-	{
-		scope = 2;
-		displayName = "Flag - Soviet Union";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Country Flags\Flag_cccp_co.paa"};
-		color = "cccp_EZ";
 	};
 	class Flag_cz_EZ: Flag_Base
 	{
@@ -673,6 +639,14 @@ class CfgVehicles
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Country Flags\Flag_ukr.paa"};
 		color = "ukr_EZ";
 	};
+	class Armband_au_EZ: Armband_ColorBase
+	{
+		scope = 2;
+		displayName = "Endzone Armband";
+		descriptionShort = "Custom Endzone armband made by Johan.";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\staff\Endzone\endzone_armband.paa","EZ_Clothing\data\staff\Endzone\endzone_armband.paa","EZ_Clothing\data\staff\Endzone\endzone_armband.paa","EZ_Clothing\data\staff\Endzone\endzone_armband.paa","EZ_Clothing\data\staff\Endzone\endzone_armband.paa"};
+		color = "ez_EZ";
+	};
 	class Armband_ukr_EZ: Armband_ColorBase
 	{
 		scope = 2;
@@ -721,13 +695,6 @@ class CfgVehicles
 		displayName = "Armband - Canada";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Armband\Armband_ca_g_co.paa","EZ_Clothing\data\player\Armband\Armband_ca_small_co.paa","EZ_Clothing\data\player\Armband\Armband_ca_small_co.paa","EZ_Clothing\data\player\Armband\Armband_ca_big_co.paa","EZ_Clothing\data\player\Armband\Armband_ca_big_co.paa"};
 		color = "ca_EZ";
-	};
-	class Armband_cccp_EZ: Armband_ColorBase
-	{
-		scope = 2;
-		displayName = "Armband - Soviet Union";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Armband\Armband_cccp_g_co.paa","EZ_Clothing\data\player\Armband\Armband_cccp_small_co.paa","EZ_Clothing\data\player\Armband\Armband_cccp_small_co.paa","EZ_Clothing\data\player\Armband\Armband_cccp_big_co.paa","EZ_Clothing\data\player\Armband\Armband_cccp_big_co.paa"};
-		color = "cccp_EZ";
 	};
 	class Armband_cz_EZ: Armband_ColorBase
 	{
@@ -1071,60 +1038,6 @@ class CfgVehicles
 		displayName = "ENDZONE Patch - ADMIN";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\staff\Kokaskale\EZ_admin_mvs_patch.paa","EZ_Clothing\data\staff\Kokaskale\EZ_kokaskale_Armband_co.paa"};
 	};
-	class Boots_GG: Inventory_Base
-	{
-		scope = 2;
-		displayName = "Clothing";
-		itemSize[] = {2,2};
-		descriptionShort = "Clothing";
-		model = "EZ_Clothing\data\staff\InvisibleClothes\invisible.p3d";
-		inventorySlot = "Feet";
-		weight = 1230;
-		durability = 0.5;
-		repairableWithKits[] = {5,3};
-		repairCosts[] = {30.0,25.0};
-		absorbency = 0.1;
-		heatIsolation = 0.5;
-	};
-	class Pants_GG: HunterPants_ColorBase
-	{
-		scope = 2;
-		displayName = "Clothing";
-		descriptionShort = "Clothing";
-		hiddenSelectionsTextures[] = {"#(argb,8,8,3)color(1,1,1,0.3,ca)","EZ_Clothing\data\staff\InvisibleClothes\Invisible_ca.paa","EZ_Clothing\data\staff\InvisibleClothes\Invisible_ca.paa"};
-	};
-	class Top_GG: GorkaEJacket_ColorBase
-	{
-		scope = 2;
-		displayName = "Clothing";
-		descriptionShort = "Clothinge";
-		hiddenSelectionsTextures[] = {"#(argb,8,8,3)color(1,1,1,0.3,ca)","EZ_Clothing\data\staff\InvisibleClothes\Invisible_ca.paa","EZ_Clothing\data\staff\InvisibleClothes\Invisible_ca.paa"};
-	};
-	class Arms_GG: Inventory_Base
-	{
-		scope = 2;
-		displayName = "Clothing";
-		itemSize[] = {2,2};
-		descriptionShort = "Clothing";
-		model = "EZ_Clothing\data\staff\InvisibleClothes\invisible.p3d";
-		inventorySlot = "Gloves";
-	};
-	class Head_GG: Inventory_Base
-	{
-		scope = 2;
-		displayName = "Clothing";
-		itemSize[] = {2,2};
-		descriptionShort = "Clothing";
-		model = "EZ_Clothing\data\staff\InvisibleClothes\invisible.p3d";
-		inventorySlot = "Head";
-	};
-	class Backpack_GG: AliceBag_ColorBase
-	{
-		scope = 2;
-		displayName = "Clothing";
-		descriptionShort = "Clothing";
-		hiddenSelectionsTextures[] = {"#(argb,8,8,3)color(1,1,1,0.3,ca)","EZ_Clothing\data\staff\InvisibleClothes\Invisible_ca.paa","EZ_Clothing\data\staff\InvisibleClothes\Invisible_ca.paa"};
-	};
 	class EZ_Kokas_Sneakers2: Sneakers_ColorBase
 	{
 		scope = 2;
@@ -1230,87 +1143,79 @@ class CfgVehicles
 		descriptionShort = "Sneakers made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Shoes\kokas_sneakers16.paa","EZ_Clothing\data\player\Shoes\kokas_sneakers16.paa","EZ_Clothing\data\player\Shoes\kokas_sneakers16.paa"};
 	};
-	class BL_TShirt_soc: TShirt_ColorBase
+	class EZ_TShirt_soc: TShirt_ColorBase
 	{
 		scope = 2;
 		displayName = "Property of EndZone";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Tshirt\BL_TShirt_soc.paa","EZ_Clothing\data\player\Tshirt\BL_TShirt_soc.paa","EZ_Clothing\data\player\Tshirt\BL_TShirt_soc.paa"};
 	};
-	class BL_TShirt_broke: TShirt_ColorBase
+	class EZ_TShirt_broke: TShirt_ColorBase
 	{
 		scope = 2;
 		displayName = "Property of EndZone";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Tshirt\BL_TShirt_broke.paa","EZ_Clothing\data\player\Tshirt\BL_TShirt_broke.paa","EZ_Clothing\data\player\Tshirt\BL_TShirt_broke.paa"};
 	};
-	class BL_TShirt_purge: TShirt_ColorBase
+	class EZ_TShirt_purge: TShirt_ColorBase
 	{
 		scope = 2;
 		displayName = "Property of EndZone";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Tshirt\BL_TShirt_purge.paa","EZ_Clothing\data\player\Tshirt\BL_TShirt_purge.paa","EZ_Clothing\data\player\Tshirt\BL_TShirt_purge.paa"};
 	};
-	class BL_TShirt_blood: TShirt_ColorBase
+	class EZ_TShirt_blood: TShirt_ColorBase
 	{
 		scope = 2;
 		displayName = "Property of EndZone";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Tshirt\BL_TShirt_blood.paa","EZ_Clothing\data\player\Tshirt\BL_TShirt_blood.paa","EZ_Clothing\data\player\Tshirt\BL_TShirt_blood.paa"};
 	};
-	class BL_TShirt_noot: TShirt_ColorBase
+	class EZ_TShirt_noot: TShirt_ColorBase
 	{
 		scope = 2;
 		displayName = "Property of EndZone";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Tshirt\BL_TShirt_noot.paa","EZ_Clothing\data\player\Tshirt\BL_TShirt_noot.paa","EZ_Clothing\data\player\Tshirt\BL_TShirt_noot.paa"};
 	};
-	class BL_TShirt_ak47: TShirt_ColorBase
+	class EZ_TShirt_ak47: TShirt_ColorBase
 	{
 		scope = 2;
 		displayName = "Property of EndZone";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Tshirt\BL_TShirt_ak47.paa","EZ_Clothing\data\player\Tshirt\BL_TShirt_ak47.paa","EZ_Clothing\data\player\Tshirt\BL_TShirt_ak47.paa"};
 	};
-	class BL_TShirt_bobs: TShirt_ColorBase
+	class EZ_TShirt_bobs: TShirt_ColorBase
 	{
 		scope = 2;
 		displayName = "Property of EndZone";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Tshirt\BL_TShirt_bobs.paa","EZ_Clothing\data\player\Tshirt\BL_TShirt_bobs.paa","EZ_Clothing\data\player\Tshirt\BL_TShirt_bobs.paa"};
 	};
-	class BL_TShirt_engineer: TShirt_ColorBase
+	class EZ_TShirt_engineer: TShirt_ColorBase
 	{
 		scope = 2;
 		displayName = "Property of EndZone";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Tshirt\BL_TShirt_engineer.paa","EZ_Clothing\data\player\Tshirt\BL_TShirt_engineer.paa","EZ_Clothing\data\player\Tshirt\BL_TShirt_engineer.paa"};
 	};
-	class BL_TShirt_nolivesmatter: TShirt_ColorBase
+	class EZ_TShirt_nolivesmatter: TShirt_ColorBase
 	{
 		scope = 2;
 		displayName = "Property of EndZone";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Tshirt\BL_TShirt_nolivesmatter.paa","EZ_Clothing\data\player\Tshirt\BL_TShirt_nolivesmatter.paa","EZ_Clothing\data\player\Tshirt\BL_TShirt_nolivesmatter.paa"};
 	};
-	class BL_TShirt_hungry: TShirt_ColorBase
+	class EZ_TShirt_hungry: TShirt_ColorBase
 	{
 		scope = 2;
 		displayName = "Property of EndZone";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Tshirt\BL_TShirt_hungry.paa","EZ_Clothing\data\player\Tshirt\BL_TShirt_hungry.paa","EZ_Clothing\data\player\Tshirt\BL_TShirt_hungry.paa"};
 	};
-	class BL_Banner_Stop: EZ_Banner_Colorbase
+	class EZ_Banner_Stop: EZ_Banner_Colorbase
 	{
 		scope = 2;
 		displayName = "Banner - STOP";
 		itemSize[] = {15,15};
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Banners\Banner_stop_co.paa","EZ_Clothing\data\player\Banners\Banner_stop_co.paa","EZ_Clothing\data\player\Banners\Banner_stop_co.paa","EZ_Clothing\data\player\Banners\Banner_stop_co.paa"};
 	};
-	class EZ_Eviction_Banner: EZ_Banner_Colorbase
-	{
-		scope = 2;
-		displayName = "Banner Of Shame";
-		descriptionShort = "Banner Of Shame - For Further Information create a ticket!";
-		itemSize[] = {15,15};
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\staff\Endzone\Eviction_b.paa"};
-	};
-	class EZ_Endzone_Flag: Flag_Base
+	class Flag_Endzone_EZ: Flag_Base
 	{
 		scope = 2;
 		displayName = "ENDZONE Flag";
-		descriptionShort = "ENDZONE Flag";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\staff\Endzone\Endzone_f.paa"};
+		color = "ez_EZ";
 	};
 	class EZ_Medal_2: EZ_Medal
 	{

@@ -639,7 +639,7 @@ class CfgVehicles
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Country Flags\Flag_ukr.paa"};
 		color = "ukr_EZ";
 	};
-	class Armband_ez_EZ: Armband_ColorBase
+	class Armband_au_EZ: Armband_ColorBase
 	{
 		scope = 2;
 		displayName = "Endzone Armband";

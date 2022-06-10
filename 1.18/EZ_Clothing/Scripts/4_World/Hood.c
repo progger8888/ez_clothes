@@ -1,4 +1,19 @@
-class EZ_bandit_hood_base extends Clothing {};
-class EZ_bandit_hood_olive extends EZ_bandit_hood_base {};
-class EZ_bandit_hood_black extends EZ_bandit_hood_base {};
-class EZ_bandit_hood_leaf extends EZ_bandit_hood_base {};
+class EZ_Bandit_Hood_Base extends Clothing
+{
+	override void SetActions()
+	{
+		super.SetActions();
+		AddAction(ActionWringClothes);
+	}
+};
+class EZ_Bandit_Hood_Black extends EZ_Bandit_Hood_Base {};
+
+class EZ_Bandit_FaceMask_ColorBase extends Clothing
+{
+	override void SetActions()
+	{
+		super.SetActions();
+		AddAction(ActionWringClothes);
+	}
+};
+class EZ_Bandit_FaceMask_Black extends EZ_Bandit_FaceMask_ColorBase {};

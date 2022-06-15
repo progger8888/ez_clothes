@@ -2287,10 +2287,11 @@ class CfgVehicles
 		descriptionShort = "Duuuunnnn duun duuunnnnnnnn dun dun dun dun dun dun dun dun dun - made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NN\NN_mvs_helmet.paa","EZ_Clothing\data\patreon_platoon\NN\NN_mvs_helmet.paa","EZ_Clothing\data\patreon_platoon\NN\NN_mvs_helmet.paa"};
 	};
-	class EZ_NN_Vest: ModularVestSystem_Base
+	class MVS_Combat_Vest_NN: ModularVestSystem_Base
 	{
 		scope = 2;
 		descriptionShort = "Duuuunnnn duun duuunnnnnnnn dun dun dun dun dun dun dun dun dun - made by Kokaskale";
+		color = "NN";
 		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NN\NN_mvs_vest.paa","EZ_Clothing\data\patreon_platoon\NN\NN_mvs_vest.paa","EZ_Clothing\data\patreon_platoon\NN\NN_mvs_vest.paa"};
 	};
@@ -2312,10 +2313,11 @@ class CfgVehicles
 		descriptionShort = "Duuuunnnn duun duuunnnnnnnn dun dun dun dun dun dun dun dun dun - made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NN\NN_tacticalgloves.paa","EZ_Clothing\data\patreon_platoon\NN\NN_tacticalgloves.paa","EZ_Clothing\data\patreon_platoon\NN\NN_tacticalgloves.paa"};
 	};
-	class EZ_NN_MVS_Combat_Vest_Heavy: ModularVestSystem_Heavy
+	class MVS_Combat_Vest_Heavy_NN: ModularVestSystem_Heavy
 	{
 		scope = 2;
 		descriptionShort = "Duuuunnnn duun duuunnnnnnnn dun dun dun dun dun dun dun dun dun - made by Kokaskale";
+		color = "NN";
 		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NN\NN_MVSHeavy_co.paa","EZ_Clothing\data\patreon_platoon\NN\NN_MVSHeavy_co.paa","EZ_Clothing\data\patreon_platoon\NN\NN_MVSHeavy_co.paa"};
 	};
@@ -2380,11 +2382,12 @@ class CfgVehicles
 		descriptionShort = "Pineapple Pizza Chads - PlatoonPackage MVS Helmet made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\PPC\PPC_mvs_helmet.paa","EZ_Clothing\data\patreon_platoon\PPC\PPC_mvs_helmet.paa","EZ_Clothing\data\patreon_platoon\PPC\PPC_mvs_helmet.paa"};
 	};
-	class EZ_PPC_Vest: ModularVestSystem_Base
+	class MVS_Combat_Vest_PPC: ModularVestSystem_Base
 	{
 		scope = 2;
 		displayName = "Pineapple Pizza Chads - MVS Vest";
 		descriptionShort = "Pineapple Pizza Chads - PlatoonPackage MVS Vest made by Kokaskale";
+		color = "PPC";
 		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\PPC\PPC_mvs_vest.paa","EZ_Clothing\data\patreon_platoon\PPC\PPC_mvs_vest.paa","EZ_Clothing\data\patreon_platoon\PPC\PPC_mvs_vest.paa"};
 	};
@@ -2409,11 +2412,12 @@ class CfgVehicles
 		descriptionShort = "Pineapple Pizza Chads - PlatoonPackage Tactical Gloves made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\PPC\PPC_tacticalgloves.paa","EZ_Clothing\data\patreon_platoon\PPC\PPC_tacticalgloves.paa","EZ_Clothing\data\patreon_platoon\PPC\PPC_tacticalgloves.paa"};
 	};
-	class EZ_PPC_MVS_Combat_Vest_Heavy: ModularVestSystem_Heavy
+	class MVS_Combat_Vest_Heavy_PPC: ModularVestSystem_Heavy
 	{
 		scope = 2;
 		displayName = "Pineapple Pizza Chads - MVS Heavy Plate Carrier";
 		descriptionShort = "Pineapple Pizza Chads - PlatoonPackage MVS Heavy Plate Carrier made by Kokaskale";
+		color = "PPC";
 		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\PPC\PPC_MVSHeavy_co.paa","EZ_Clothing\data\patreon_platoon\PPC\PPC_MVSHeavy_co.paa","EZ_Clothing\data\patreon_platoon\PPC\PPC_MVSHeavy_co.paa"};
 	};
@@ -2480,11 +2484,12 @@ class CfgVehicles
 		descriptionShort = "ForestCrow - PlatoonPackage MVS Helmet made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_mvs_helmet.paa","EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_mvs_helmet.paa","EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_mvs_helmet.paa"};
 	};
-	class EZ_ForestCrow_Vest: ModularVestSystem_Base
+	class MVS_Combat_Vest_Crow: ModularVestSystem_Base
 	{
 		scope = 2;
 		displayName = "ForestCrow - MVS Vest";
 		descriptionShort = "ForestCrow - PlatoonPackage MVS Vest made by Kokaskale";
+		color = "Crow";
 		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_mvs_vest.paa","EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_mvs_vest.paa","EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_mvs_vest.paa"};
 	};
@@ -2509,11 +2514,12 @@ class CfgVehicles
 		descriptionShort = "ForestCrow - PlatoonPackage Tactical Gloves made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_tacticalgloves.paa","EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_tacticalgloves.paa","EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_tacticalgloves.paa"};
 	};
-	class EZ_ForestCrow_MVS_Combat_Vest_Heavy: ModularVestSystem_Heavy
+	class MVS_Combat_Vest_Heavy_Crow: ModularVestSystem_Heavy
 	{
 		scope = 2;
 		displayName = "ForestCrow - MVS Heavy Plate Carrier";
 		descriptionShort = "ForestCrow - PlatoonPackage MVS Heavy Plate Carrier made by Kokaskale";
+		color = "Crow";
 		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_MVSHeavy_co.paa","EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_MVSHeavy_co.paa","EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_MVSHeavy_co.paa"};
 	};

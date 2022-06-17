@@ -2866,7 +2866,7 @@ class CfgVehicles
 		scope = 2;
 		displayName = "PATA TEAM - MVS Vest";
 		descriptionShort = "PATA TEAM - PlatoonPackage MVS Vest made by Kokaskale";
-		color = "Crow";
+		color = "PTM";
 		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\PTM\PTM_mvs_vest.paa","EZ_Clothing\data\patreon_platoon\PTM\PTM_mvs_vest.paa","EZ_Clothing\data\patreon_platoon\PTM\PTM_mvs_vest.paa"};
 	};
@@ -2896,7 +2896,7 @@ class CfgVehicles
 		scope = 2;
 		displayName = "PATA TEAM - MVS Heavy Plate Carrier";
 		descriptionShort = "PATA TEAM - PlatoonPackage MVS Heavy Plate Carrier made by Kokaskale";
-		color = "Crow";
+		color = "PTM";
 		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\PTM\PTM_MVSHeavy_co.paa","EZ_Clothing\data\patreon_platoon\PTM\PTM_MVSHeavy_co.paa","EZ_Clothing\data\patreon_platoon\PTM\PTM_MVSHeavy_co.paa"};
 	};

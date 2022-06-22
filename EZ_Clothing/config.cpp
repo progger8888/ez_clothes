@@ -2921,13 +2921,6 @@ class CfgVehicles
 		descriptionShort = "Beach Teleportation Service - SquadPackage Flag made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BTS\BTS_ff.paa"};
 	};
-	class EZ_BTS_Armband: Armband_ColorBase
-	{
-		scope = 2;
-		displayName = "Beach Teleportation Service - Armband";
-		descriptionShort = "Beach Teleportation Service - SquadPackage Armband made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BTS\BTS_gg.paa"};
-	};
 	class EZ_BTS_Armband_New: EZ_DoubleArmband_ColorBase
 	{
 		scope = 2;
@@ -2941,13 +2934,6 @@ class CfgVehicles
 		displayName = "Beach Teleportation Service - Banner";
 		descriptionShort = "Beach Teleportation Service - SquadPackage Banner made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BTS\BTS_bb.paa"};
-	};
-	class EZ_BTS_Jacket: M65Jacket_ColorBase
-	{
-		scope = 2;
-		displayName = "Beach Teleportation Service - Jacket";
-		descriptionShort = "Beach Teleportation Service - SquadPackage Jacket made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BTS\BTS_jacket.paa","EZ_Clothing\data\patreon_squad\BTS\BTS_jacket.paa","EZ_Clothing\data\patreon_squad\BTS\BTS_jacket.paa"};
 	};
 	class EZ_BTS_Tacticalshirt: TacticalShirt_ColorBase
 	{

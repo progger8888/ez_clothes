@@ -2585,7 +2585,7 @@ class CfgVehicles
 		scope = 2;
 		displayName = "Crew - Armband";
 		descriptionShort = "Crew - SquadPackage Armband made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Crew\Crew_gg.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Crew\Crew_ff.paa"};
 	};
 	class EZ_Crew_Armband_New: EZ_DoubleArmband_ColorBase
 	{
@@ -2713,11 +2713,15 @@ class CfgVehicles
 		scope = 2;
 		displayName = "PrigorodkiWP - Armband";
 		descriptionShort = "PrigorodkiWP - CrewPackage Armband made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\PrigorodkiWP\PrigorodkiWP_gg.paa",
-									  "EZ_Clothing\data\patreon_crew\PrigorodkiWP\PrigorodkiWP_aa.paa",
-									  "EZ_Clothing\data\patreon_crew\PrigorodkiWP\PrigorodkiWP_aa.paa",
-									  "EZ_Clothing\data\patreon_crew\PrigorodkiWP\PrigorodkiWP_aa.paa",
-									  "EZ_Clothing\data\patreon_crew\PrigorodkiWP\PrigorodkiWP_aa.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\PrigorodkiWP\PrigorodkiWP_ff.paa",
+									  "EZ_Clothing\data\patreon_crew\PrigorodkiWP\PrigorodkiWP_ff.paa",
+									  "EZ_Clothing\data\patreon_crew\PrigorodkiWP\PrigorodkiWP_ff.paa",
+									  "EZ_Clothing\data\patreon_crew\PrigorodkiWP\PrigorodkiWP_ff.paa",
+									  "EZ_Clothing\data\patreon_crew\PrigorodkiWP\PrigorodkiWP_ff.paa",
+									  "EZ_Clothing\data\patreon_crew\PrigorodkiWP\PrigorodkiWP_ff.paa",
+									  "EZ_Clothing\data\patreon_crew\PrigorodkiWP\PrigorodkiWP_ff.paa",
+									  "EZ_Clothing\data\patreon_crew\PrigorodkiWP\PrigorodkiWP_ff.paa",
+									  "EZ_Clothing\data\patreon_crew\PrigorodkiWP\PrigorodkiWP_ff.paa"};
 	};
 	class EZ_PrigorodkiWP_TacticalShirt: HikingJacket_ColorBase
 	{
@@ -2740,7 +2744,15 @@ class CfgVehicles
 		scope = 2;
 		displayName = "Untamed - Armband";
 		descriptionShort = "Untamed - CrewPackage Armband made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Untamed\Untamed_gg.paa","EZ_Clothing\data\patreon_crew\Untamed\Untamed_aa.paa","EZ_Clothing\data\patreon_crew\Untamed\Untamed_aa.paa","EZ_Clothing\data\patreon_crew\Untamed\Untamed_aa.paa","EZ_Clothing\data\patreon_crew\Untamed\Untamed_aa.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Untamed\Untamed_ff.paa",
+									  "EZ_Clothing\data\patreon_crew\Untamed\Untamed_ff.paa",
+									  "EZ_Clothing\data\patreon_crew\Untamed\Untamed_ff.paa",
+									  "EZ_Clothing\data\patreon_crew\Untamed\Untamed_ff.paa",
+									  "EZ_Clothing\data\patreon_crew\Untamed\Untamed_ff.paa",
+									  "EZ_Clothing\data\patreon_crew\Untamed\Untamed_ff.paa",
+									  "EZ_Clothing\data\patreon_crew\Untamed\Untamed_ff.paa",
+									  "EZ_Clothing\data\patreon_crew\Untamed\Untamed_ff.paa",
+									  "EZ_Clothing\data\patreon_crew\Untamed\Untamed_ff.paa"};
 	};
 	class EZ_Untamed_TacticalShirt: TacticalShirt_ColorBase
 	{
@@ -2761,7 +2773,15 @@ class CfgVehicles
 		scope = 2;
 		displayName = "SAF - Armband";
 		descriptionShort = "SAF - CrewPackage Armband made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\SAF\SAF_gg.paa","EZ_Clothing\data\patreon_crew\SAF\SAF_aa.paa","EZ_Clothing\data\patreon_crew\SAF\SAF_aa.paa","EZ_Clothing\data\patreon_crew\SAF\SAF_aa.paa","EZ_Clothing\data\patreon_crew\SAF\SAF_aa.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\SAF\SAF_ff.paa",
+									  "EZ_Clothing\data\patreon_crew\SAF\SAF_ff.paa",
+									  "EZ_Clothing\data\patreon_crew\SAF\SAF_ff.paa",
+									  "EZ_Clothing\data\patreon_crew\SAF\SAF_ff.paa",
+									  "EZ_Clothing\data\patreon_crew\SAF\SAF_ff.paa",
+									  "EZ_Clothing\data\patreon_crew\SAF\SAF_ff.paa",
+									  "EZ_Clothing\data\patreon_crew\SAF\SAF_ff.paa",
+									  "EZ_Clothing\data\patreon_crew\SAF\SAF_ff.paa",
+									  "EZ_Clothing\data\patreon_crew\SAF\SAF_ff.paa"};
 	};
 	class EZ_SAF_TacticalShirt: TacticalShirt_ColorBase
 	{
@@ -2782,7 +2802,15 @@ class CfgVehicles
 		scope = 2;
 		displayName = "B@D - Armband";
 		descriptionShort = "B@D - CrewPackage Armband made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\B@D\B@D_gg.paa","EZ_Clothing\data\patreon_crew\B@D\B@D_aa.paa","EZ_Clothing\data\patreon_crew\B@D\B@D_aa.paa","EZ_Clothing\data\patreon_crew\B@D\B@D_aa.paa","EZ_Clothing\data\patreon_crew\B@D\B@D_aa.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\B@D\B@D_ff.paa",
+									  "EZ_Clothing\data\patreon_crew\B@D\B@D_ff.paa",
+									  "EZ_Clothing\data\patreon_crew\B@D\B@D_ff.paa",
+									  "EZ_Clothing\data\patreon_crew\B@D\B@D_ff.paa",
+									  "EZ_Clothing\data\patreon_crew\B@D\B@D_ff.paa",
+									  "EZ_Clothing\data\patreon_crew\B@D\B@D_ff.paa",
+									  "EZ_Clothing\data\patreon_crew\B@D\B@D_ff.paa",
+									  "EZ_Clothing\data\patreon_crew\B@D\B@D_ff.paa",
+									  "EZ_Clothing\data\patreon_crew\B@D\B@D_ff.paa"};
 	};
 	class EZ_BAD_TacticalShirt: TacticalShirt_ColorBase
 	{
@@ -2803,7 +2831,15 @@ class CfgVehicles
 		scope = 2;
 		displayName = "Rest!nPeace - Armband";
 		descriptionShort = "Rest!nPeace - CrewPackage Armband made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\RIP\RIP_gg.paa","EZ_Clothing\data\patreon_crew\RIP\RIP_aa.paa","EZ_Clothing\data\patreon_crew\RIP\RIP_aa.paa","EZ_Clothing\data\patreon_crew\RIP\RIP_aa.paa","EZ_Clothing\data\patreon_crew\RIP\RIP_aa.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\RIP\RIP_ff.paa",
+									  "EZ_Clothing\data\patreon_crew\RIP\RIP_ff.paa",
+									  "EZ_Clothing\data\patreon_crew\RIP\RIP_ff.paa",
+									  "EZ_Clothing\data\patreon_crew\RIP\RIP_ff.paa",
+									  "EZ_Clothing\data\patreon_crew\RIP\RIP_ff.paa",
+									  "EZ_Clothing\data\patreon_crew\RIP\RIP_ff.paa",
+									  "EZ_Clothing\data\patreon_crew\RIP\RIP_ff.paa",
+									  "EZ_Clothing\data\patreon_crew\RIP\RIP_ff.paa",
+									  "EZ_Clothing\data\patreon_crew\RIP\RIP_ff.paa"};
 	};
 	class EZ_RIP_TacticalShirt: TacticalShirt_ColorBase
 	{

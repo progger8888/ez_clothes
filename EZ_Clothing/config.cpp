@@ -643,295 +643,295 @@ class CfgVehicles
 	{
 		scope = 2;
 		displayName = "Endzone Armband";
-		descriptionShort = "Custom Endzone armband made by Johan.";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\staff\Endzone\endzone_armband.paa","EZ_Clothing\data\staff\Endzone\endzone_armband.paa","EZ_Clothing\data\staff\Endzone\endzone_armband.paa","EZ_Clothing\data\staff\Endzone\endzone_armband.paa","EZ_Clothing\data\staff\Endzone\endzone_armband.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\staff\Endzone\Endzone_f.paa","EZ_Clothing\data\staff\Endzone\Endzone_f.paa","EZ_Clothing\data\staff\Endzone\Endzone_f.paa","EZ_Clothing\data\staff\Endzone\Endzone_f.paa","EZ_Clothing\data\staff\Endzone\Endzone_f.paa","EZ_Clothing\data\staff\Endzone\Endzone_f.paa","EZ_Clothing\data\staff\Endzone\Endzone_f.paa","EZ_Clothing\data\staff\Endzone\Endzone_f.paa","EZ_Clothing\data\staff\Endzone\Endzone_f.paa"};
 		color = "ez_EZ";
 	};
 	class Armband_ukr_EZ: Armband_ColorBase
 	{
 		scope = 2;
 		displayName = "Armband - Ukrania";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Armband\Armband_ukr_gg.paa","EZ_Clothing\data\player\Armband\Armband_ukr_aa.paa","EZ_Clothing\data\player\Armband\Armband_ukr_aa.paa","EZ_Clothing\data\player\Armband\Armband_ukr_aa.paa","EZ_Clothing\data\player\Armband\Armband_ukr_aa.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Country Flags\Flag_ukr.paa","EZ_Clothing\data\player\Country Flags\Flag_ukr.paa","EZ_Clothing\data\player\Country Flags\Flag_ukr.paa","EZ_Clothing\data\player\Country Flags\Flag_ukr.paa","EZ_Clothing\data\player\Country Flags\Flag_ukr.paa","EZ_Clothing\data\player\Country Flags\Flag_ukr.paa","EZ_Clothing\data\player\Country Flags\Flag_ukr.paa","EZ_Clothing\data\player\Country Flags\Flag_ukr.paa","EZ_Clothing\data\player\Country Flags\Flag_ukr.paa"};
 		color = "ukr_EZ";
 	};
 	class Armband_at_EZ: Armband_ColorBase
 	{
 		scope = 2;
 		displayName = "Armband - Austria";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Armband\Armband_at_g_co.paa","EZ_Clothing\data\player\Armband\Armband_at_small_co.paa","EZ_Clothing\data\player\Armband\Armband_at_small_co.paa","EZ_Clothing\data\player\Armband\Armband_at_big_co.paa","EZ_Clothing\data\player\Armband\Armband_at_big_co.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Country Flags\Flag_at_co.paa","EZ_Clothing\data\player\Country Flags\Flag_at_co.paa","EZ_Clothing\data\player\Country Flags\Flag_at_co.paa","EZ_Clothing\data\player\Country Flags\Flag_at_co.paa","EZ_Clothing\data\player\Country Flags\Flag_at_co.paa","EZ_Clothing\data\player\Country Flags\Flag_at_co.paa","EZ_Clothing\data\player\Country Flags\Flag_at_co.paa","EZ_Clothing\data\player\Country Flags\Flag_at_co.paa","EZ_Clothing\data\player\Country Flags\Flag_at_co.paa"};
 		color = "at_EZ";
 	};
 	class Armband_slv_EZ: Armband_ColorBase
 	{
 		scope = 2;
 		displayName = "Armband - Slovenia";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Armband\Armband_slv_gg.paa","EZ_Clothing\data\player\Armband\Armband_slv_aa.paa","EZ_Clothing\data\player\Armband\Armband_slv_aa.paa","EZ_Clothing\data\player\Armband\Armband_slv_aa.paa","EZ_Clothing\data\player\Armband\Armband_slv_aa.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Country Flags\Flag_slv.paa","EZ_Clothing\data\player\Country Flags\Flag_slv.paa","EZ_Clothing\data\player\Country Flags\Flag_slv.paa","EZ_Clothing\data\player\Country Flags\Flag_slv.paa","EZ_Clothing\data\player\Country Flags\Flag_slv.paa","EZ_Clothing\data\player\Country Flags\Flag_slv.paa","EZ_Clothing\data\player\Country Flags\Flag_slv.paa","EZ_Clothing\data\player\Country Flags\Flag_slv.paa","EZ_Clothing\data\player\Country Flags\Flag_slv.paa"};
+
 		color = "slv_EZ";
 	};
 	class Armband_au_EZ: Armband_ColorBase
 	{
 		scope = 2;
 		displayName = "Armband - Australia";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Armband\Armband_au_g_co.paa","EZ_Clothing\data\player\Armband\Armband_au_small_co.paa","EZ_Clothing\data\player\Armband\Armband_au_small_co.paa","EZ_Clothing\data\player\Armband\Armband_au_big_co.paa","EZ_Clothing\data\player\Armband\Armband_au_big_co.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Country Flags\Flag_au_co.paa","EZ_Clothing\data\player\Country Flags\Flag_au_co.paa","EZ_Clothing\data\player\Country Flags\Flag_au_co.paa","EZ_Clothing\data\player\Country Flags\Flag_au_co.paa","EZ_Clothing\data\player\Country Flags\Flag_au_co.paa","EZ_Clothing\data\player\Country Flags\Flag_au_co.paa","EZ_Clothing\data\player\Country Flags\Flag_au_co.paa","EZ_Clothing\data\player\Country Flags\Flag_au_co.paa","EZ_Clothing\data\player\Country Flags\Flag_au_co.paa"};
 		color = "au_EZ";
 	};
 	class Armband_be_EZ: Armband_ColorBase
 	{
 		scope = 2;
 		displayName = "Armband - Belgium";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Armband\Armband_be_g_co.paa","EZ_Clothing\data\player\Armband\Armband_be_small_co.paa","EZ_Clothing\data\player\Armband\Armband_be_small_co.paa","EZ_Clothing\data\player\Armband\Armband_be_big_co.paa","EZ_Clothing\data\player\Armband\Armband_be_big_co.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Country Flags\Flag_be_co.paa","EZ_Clothing\data\player\Country Flags\Flag_be_co.paa","EZ_Clothing\data\player\Country Flags\Flag_be_co.paa","EZ_Clothing\data\player\Country Flags\Flag_be_co.paa","EZ_Clothing\data\player\Country Flags\Flag_be_co.paa","EZ_Clothing\data\player\Country Flags\Flag_be_co.paa","EZ_Clothing\data\player\Country Flags\Flag_be_co.paa","EZ_Clothing\data\player\Country Flags\Flag_be_co.paa","EZ_Clothing\data\player\Country Flags\Flag_be_co.paa"};
+
 		color = "be_EZ";
 	};
 	class Armband_br_EZ: Armband_ColorBase
 	{
 		scope = 2;
 		displayName = "Armband - Brazil";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Armband\Armband_br_g_co.paa","EZ_Clothing\data\player\Armband\Armband_br_small_co.paa","EZ_Clothing\data\player\Armband\Armband_br_small_co.paa","EZ_Clothing\data\player\Armband\Armband_br_big_co.paa","EZ_Clothing\data\player\Armband\Armband_br_big_co.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Country Flags\Flag_br_co.paa","EZ_Clothing\data\player\Country Flags\Flag_br_co.paa","EZ_Clothing\data\player\Country Flags\Flag_br_co.paa","EZ_Clothing\data\player\Country Flags\Flag_br_co.paa","EZ_Clothing\data\player\Country Flags\Flag_br_co.paa","EZ_Clothing\data\player\Country Flags\Flag_br_co.paa","EZ_Clothing\data\player\Country Flags\Flag_br_co.paa","EZ_Clothing\data\player\Country Flags\Flag_br_co.paa","EZ_Clothing\data\player\Country Flags\Flag_br_co.paa"};
 		color = "br_EZ";
 	};
 	class Armband_ca_EZ: Armband_ColorBase
 	{
 		scope = 2;
 		displayName = "Armband - Canada";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Armband\Armband_ca_g_co.paa","EZ_Clothing\data\player\Armband\Armband_ca_small_co.paa","EZ_Clothing\data\player\Armband\Armband_ca_small_co.paa","EZ_Clothing\data\player\Armband\Armband_ca_big_co.paa","EZ_Clothing\data\player\Armband\Armband_ca_big_co.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Country Flags\Flag_ca_co.paa","EZ_Clothing\data\player\Country Flags\Flag_ca_co.paa","EZ_Clothing\data\player\Country Flags\Flag_ca_co.paa","EZ_Clothing\data\player\Country Flags\Flag_ca_co.paa","EZ_Clothing\data\player\Country Flags\Flag_ca_co.paa","EZ_Clothing\data\player\Country Flags\Flag_ca_co.paa","EZ_Clothing\data\player\Country Flags\Flag_ca_co.paa","EZ_Clothing\data\player\Country Flags\Flag_ca_co.paa","EZ_Clothing\data\player\Country Flags\Flag_ca_co.paa"};
 		color = "ca_EZ";
 	};
 	class Armband_cz_EZ: Armband_ColorBase
 	{
 		scope = 2;
 		displayName = "Armband - Czech Republic";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Armband\Armband_cz_g_co.paa","EZ_Clothing\data\player\Armband\Armband_cz_small_co.paa","EZ_Clothing\data\player\Armband\Armband_cz_small_co.paa","EZ_Clothing\data\player\Armband\Armband_cz_big_co.paa","EZ_Clothing\data\player\Armband\Armband_cz_big_co.paa"};
-		color = "cz_EZ";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Country Flags\Flag_cz_co.paa","EZ_Clothing\data\player\Country Flags\Flag_cz_co.paa","EZ_Clothing\data\player\Country Flags\Flag_cz_co.paa","EZ_Clothing\data\player\Country Flags\Flag_cz_co.paa","EZ_Clothing\data\player\Country Flags\Flag_cz_co.paa","EZ_Clothing\data\player\Country Flags\Flag_cz_co.paa","EZ_Clothing\data\player\Country Flags\Flag_cz_co.paa","EZ_Clothing\data\player\Country Flags\Flag_cz_co.paa","EZ_Clothing\data\player\Country Flags\Flag_cz_co.paa"};
 	};
 	class Armband_de_EZ: Armband_ColorBase
 	{
 		scope = 2;
 		displayName = "Armband - Germany";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Armband\Armband_de_g_co.paa","EZ_Clothing\data\player\Armband\Armband_de_small_co.paa","EZ_Clothing\data\player\Armband\Armband_de_small_co.paa","EZ_Clothing\data\player\Armband\Armband_de_big_co.paa","EZ_Clothing\data\player\Armband\Armband_de_big_co.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Country Flags\Flag_de_co.paa","EZ_Clothing\data\player\Country Flags\Flag_de_co.paa","EZ_Clothing\data\player\Country Flags\Flag_de_co.paa","EZ_Clothing\data\player\Country Flags\Flag_de_co.paa","EZ_Clothing\data\player\Country Flags\Flag_de_co.paa","EZ_Clothing\data\player\Country Flags\Flag_de_co.paa","EZ_Clothing\data\player\Country Flags\Flag_de_co.paa","EZ_Clothing\data\player\Country Flags\Flag_de_co.paa","EZ_Clothing\data\player\Country Flags\Flag_de_co.paa"};
 		color = "de_EZ";
 	};
 	class Armband_dk_EZ: Armband_ColorBase
 	{
 		scope = 2;
 		displayName = "Armband - Denmark";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Armband\Armband_dk_g_co.paa","EZ_Clothing\data\player\Armband\Armband_dk_small_co.paa","EZ_Clothing\data\player\Armband\Armband_dk_small_co.paa","EZ_Clothing\data\player\Armband\Armband_dk_big_co.paa","EZ_Clothing\data\player\Armband\Armband_dk_big_co.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Country Flags\Flag_dk_co.paa","EZ_Clothing\data\player\Country Flags\Flag_dk_co.paa","EZ_Clothing\data\player\Country Flags\Flag_dk_co.paa","EZ_Clothing\data\player\Country Flags\Flag_dk_co.paa","EZ_Clothing\data\player\Country Flags\Flag_dk_co.paa","EZ_Clothing\data\player\Country Flags\Flag_dk_co.paa","EZ_Clothing\data\player\Country Flags\Flag_dk_co.paa","EZ_Clothing\data\player\Country Flags\Flag_dk_co.paa","EZ_Clothing\data\player\Country Flags\Flag_dk_co.paa"};
 		color = "dk_EZ";
 	};
 	class Armband_dz_EZ: Armband_ColorBase
 	{
 		scope = 2;
 		displayName = "Armband - Algeria";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Armband\Armband_dz_g_co.paa","EZ_Clothing\data\player\Armband\Armband_dz_small_co.paa","EZ_Clothing\data\player\Armband\Armband_dz_small_co.paa","EZ_Clothing\data\player\Armband\Armband_dz_big_co.paa","EZ_Clothing\data\player\Armband\Armband_dz_big_co.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Country Flags\Flag_dz_co.paa","EZ_Clothing\data\player\Country Flags\Flag_dz_co.paa","EZ_Clothing\data\player\Country Flags\Flag_dz_co.paa","EZ_Clothing\data\player\Country Flags\Flag_dz_co.paa","EZ_Clothing\data\player\Country Flags\Flag_dz_co.paa","EZ_Clothing\data\player\Country Flags\Flag_dz_co.paa","EZ_Clothing\data\player\Country Flags\Flag_dz_co.paa","EZ_Clothing\data\player\Country Flags\Flag_dz_co.paa","EZ_Clothing\data\player\Country Flags\Flag_dz_co.paa"};
 		color = "dz_EZ";
 	};
 	class Armband_es_EZ: Armband_ColorBase
 	{
 		scope = 2;
 		displayName = "Armband - Spain";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Armband\Armband_es_g_co.paa","EZ_Clothing\data\player\Armband\Armband_es_small_co.paa","EZ_Clothing\data\player\Armband\Armband_es_small_co.paa","EZ_Clothing\data\player\Armband\Armband_es_big_co.paa","EZ_Clothing\data\player\Armband\Armband_es_big_co.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Country Flags\Flag_es_co.paa","EZ_Clothing\data\player\Country Flags\Flag_es_co.paa","EZ_Clothing\data\player\Country Flags\Flag_es_co.paa","EZ_Clothing\data\player\Country Flags\Flag_es_co.paa","EZ_Clothing\data\player\Country Flags\Flag_es_co.paa","EZ_Clothing\data\player\Country Flags\Flag_es_co.paa","EZ_Clothing\data\player\Country Flags\Flag_es_co.paa","EZ_Clothing\data\player\Country Flags\Flag_es_co.paa","EZ_Clothing\data\player\Country Flags\Flag_es_co.paa"};
 		color = "es_EZ";
 	};
 	class Armband_fi_EZ: Armband_ColorBase
 	{
 		scope = 2;
 		displayName = "Armband - Finland";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Armband\Armband_fi_g_co.paa","EZ_Clothing\data\player\Armband\Armband_fi_small_co.paa","EZ_Clothing\data\player\Armband\Armband_fi_small_co.paa","EZ_Clothing\data\player\Armband\Armband_fi_big_co.paa","EZ_Clothing\data\player\Armband\Armband_fi_big_co.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Country Flags\Flag_fi_co.paa","EZ_Clothing\data\player\Country Flags\Flag_fi_co.paa","EZ_Clothing\data\player\Country Flags\Flag_fi_co.paa","EZ_Clothing\data\player\Country Flags\Flag_fi_co.paa","EZ_Clothing\data\player\Country Flags\Flag_fi_co.paa","EZ_Clothing\data\player\Country Flags\Flag_fi_co.paa","EZ_Clothing\data\player\Country Flags\Flag_fi_co.paa","EZ_Clothing\data\player\Country Flags\Flag_fi_co.paa","EZ_Clothing\data\player\Country Flags\Flag_fi_co.paa"};
 		color = "fi_EZ";
 	};
 	class Armband_fr_EZ: Armband_ColorBase
 	{
 		scope = 2;
 		displayName = "Armband - France";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Armband\Armband_fr_g_co.paa","EZ_Clothing\data\player\Armband\Armband_fr_small_co.paa","EZ_Clothing\data\player\Armband\Armband_fr_small_co.paa","EZ_Clothing\data\player\Armband\Armband_fr_big_co.paa","EZ_Clothing\data\player\Armband\Armband_fr_big_co.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Country Flags\Flag_fr_co.paa","EZ_Clothing\data\player\Country Flags\Flag_fr_co.paa","EZ_Clothing\data\player\Country Flags\Flag_fr_co.paa","EZ_Clothing\data\player\Country Flags\Flag_fr_co.paa","EZ_Clothing\data\player\Country Flags\Flag_fr_co.paa","EZ_Clothing\data\player\Country Flags\Flag_fr_co.paa","EZ_Clothing\data\player\Country Flags\Flag_fr_co.paa","EZ_Clothing\data\player\Country Flags\Flag_fr_co.paa","EZ_Clothing\data\player\Country Flags\Flag_fr_co.paa"};
 		color = "fr_EZ";
 	};
 	class Armband_gr_EZ: Armband_ColorBase
 	{
 		scope = 2;
 		displayName = "Armband - Greece";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Armband\Armband_gr_g_co.paa","EZ_Clothing\data\player\Armband\Armband_gr_small_co.paa","EZ_Clothing\data\player\Armband\Armband_gr_small_co.paa","EZ_Clothing\data\player\Armband\Armband_gr_big_co.paa","EZ_Clothing\data\player\Armband\Armband_gr_big_co.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Country Flags\Flag_gr_co.paa","EZ_Clothing\data\player\Country Flags\Flag_gr_co.paa","EZ_Clothing\data\player\Country Flags\Flag_gr_co.paa","EZ_Clothing\data\player\Country Flags\Flag_gr_co.paa","EZ_Clothing\data\player\Country Flags\Flag_gr_co.paa","EZ_Clothing\data\player\Country Flags\Flag_gr_co.paa","EZ_Clothing\data\player\Country Flags\Flag_gr_co.paa","EZ_Clothing\data\player\Country Flags\Flag_gr_co.paa","EZ_Clothing\data\player\Country Flags\Flag_gr_co.paa"};
 		color = "gr_EZ";
 	};
 	class Armband_hr_EZ: Armband_ColorBase
 	{
 		scope = 2;
 		displayName = "Armband - Croatia";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Armband\Armband_hr_g_co.paa","EZ_Clothing\data\player\Armband\Armband_hr_small_co.paa","EZ_Clothing\data\player\Armband\Armband_hr_small_co.paa","EZ_Clothing\data\player\Armband\Armband_hr_big_co.paa","EZ_Clothing\data\player\Armband\Armband_hr_big_co.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Country Flags\Flag_hr_co.paa","EZ_Clothing\data\player\Country Flags\Flag_hr_co.paa","EZ_Clothing\data\player\Country Flags\Flag_hr_co.paa","EZ_Clothing\data\player\Country Flags\Flag_hr_co.paa","EZ_Clothing\data\player\Country Flags\Flag_hr_co.paa","EZ_Clothing\data\player\Country Flags\Flag_hr_co.paa","EZ_Clothing\data\player\Country Flags\Flag_hr_co.paa","EZ_Clothing\data\player\Country Flags\Flag_hr_co.paa","EZ_Clothing\data\player\Country Flags\Flag_hr_co.paa"};
 		color = "hr_EZ";
 	};
 	class Armband_hu_EZ: Armband_ColorBase
 	{
 		scope = 2;
 		displayName = "Armband - Hungary";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Armband\Armband_hu_g_co.paa","EZ_Clothing\data\player\Armband\Armband_hu_small_co.paa","EZ_Clothing\data\player\Armband\Armband_hu_small_co.paa","EZ_Clothing\data\player\Armband\Armband_hu_big_co.paa","EZ_Clothing\data\player\Armband\Armband_hu_big_co.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Country Flags\Flag_hu_co.paa","EZ_Clothing\data\player\Country Flags\Flag_hu_co.paa","EZ_Clothing\data\player\Country Flags\Flag_hu_co.paa","EZ_Clothing\data\player\Country Flags\Flag_hu_co.paa","EZ_Clothing\data\player\Country Flags\Flag_hu_co.paa","EZ_Clothing\data\player\Country Flags\Flag_hu_co.paa","EZ_Clothing\data\player\Country Flags\Flag_hu_co.paa","EZ_Clothing\data\player\Country Flags\Flag_hu_co.paa","EZ_Clothing\data\player\Country Flags\Flag_hu_co.paa"};
 		color = "hu_EZ";
 	};
 	class Armband_ie_EZ: Armband_ColorBase
 	{
 		scope = 2;
 		displayName = "Armband - Ireland";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Armband\Armband_ie_g_co.paa","EZ_Clothing\data\player\Armband\Armband_ie_small_co.paa","EZ_Clothing\data\player\Armband\Armband_ie_small_co.paa","EZ_Clothing\data\player\Armband\Armband_ie_big_co.paa","EZ_Clothing\data\player\Armband\Armband_ie_big_co.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Country Flags\Flag_ie_co.paa","EZ_Clothing\data\player\Country Flags\Flag_ie_co.paa","EZ_Clothing\data\player\Country Flags\Flag_ie_co.paa","EZ_Clothing\data\player\Country Flags\Flag_ie_co.paa","EZ_Clothing\data\player\Country Flags\Flag_ie_co.paa","EZ_Clothing\data\player\Country Flags\Flag_ie_co.paa","EZ_Clothing\data\player\Country Flags\Flag_ie_co.paa","EZ_Clothing\data\player\Country Flags\Flag_ie_co.paa","EZ_Clothing\data\player\Country Flags\Flag_ie_co.paa"};
 		color = "ie_EZ";
 	};
 	class Armband_il_EZ: Armband_ColorBase
 	{
 		scope = 2;
 		displayName = "Armband - Israel";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Armband\Armband_il_g_co.paa","EZ_Clothing\data\player\Armband\Armband_il_small_co.paa","EZ_Clothing\data\player\Armband\Armband_il_small_co.paa","EZ_Clothing\data\player\Armband\Armband_il_big_co.paa","EZ_Clothing\data\player\Armband\Armband_il_big_co.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Country Flags\Flag_il_co.paa","EZ_Clothing\data\player\Country Flags\Flag_il_co.paa","EZ_Clothing\data\player\Country Flags\Flag_il_co.paa","EZ_Clothing\data\player\Country Flags\Flag_il_co.paa","EZ_Clothing\data\player\Country Flags\Flag_il_co.paa","EZ_Clothing\data\player\Country Flags\Flag_il_co.paa","EZ_Clothing\data\player\Country Flags\Flag_il_co.paa","EZ_Clothing\data\player\Country Flags\Flag_il_co.paa","EZ_Clothing\data\player\Country Flags\Flag_il_co.paa"};
 		color = "il_EZ";
 	};
 	class Armband_it_EZ: Armband_ColorBase
 	{
 		scope = 2;
 		displayName = "Armband - Italy";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Armband\Armband_it_g_co.paa","EZ_Clothing\data\player\Armband\Armband_it_small_co.paa","EZ_Clothing\data\player\Armband\Armband_it_small_co.paa","EZ_Clothing\data\player\Armband\Armband_it_big_co.paa","EZ_Clothing\data\player\Armband\Armband_it_big_co.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Country Flags\Flag_it_co.paa","EZ_Clothing\data\player\Country Flags\Flag_it_co.paa","EZ_Clothing\data\player\Country Flags\Flag_it_co.paa","EZ_Clothing\data\player\Country Flags\Flag_it_co.paa","EZ_Clothing\data\player\Country Flags\Flag_it_co.paa","EZ_Clothing\data\player\Country Flags\Flag_it_co.paa","EZ_Clothing\data\player\Country Flags\Flag_it_co.paa","EZ_Clothing\data\player\Country Flags\Flag_it_co.paa","EZ_Clothing\data\player\Country Flags\Flag_it_co.paa"};
 		color = "it_EZ";
 	};
 	class Armband_kw_EZ: Armband_ColorBase
 	{
 		scope = 2;
 		displayName = "Armband - Kuwait";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Armband\Armband_kw_g_co.paa","EZ_Clothing\data\player\Armband\Armband_kw_small_co.paa","EZ_Clothing\data\player\Armband\Armband_kw_small_co.paa","EZ_Clothing\data\player\Armband\Armband_kw_big_co.paa","EZ_Clothing\data\player\Armband\Armband_kw_big_co.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Country Flags\Flag_kw_co.paa","EZ_Clothing\data\player\Country Flags\Flag_kw_co.paa","EZ_Clothing\data\player\Country Flags\Flag_kw_co.paa","EZ_Clothing\data\player\Country Flags\Flag_kw_co.paa","EZ_Clothing\data\player\Country Flags\Flag_kw_co.paa","EZ_Clothing\data\player\Country Flags\Flag_kw_co.paa","EZ_Clothing\data\player\Country Flags\Flag_kw_co.paa","EZ_Clothing\data\player\Country Flags\Flag_kw_co.paa","EZ_Clothing\data\player\Country Flags\Flag_kw_co.paa"};
 		color = "kw_EZ";
 	};
 	class Armband_lt_EZ: Armband_ColorBase
 	{
 		scope = 2;
 		displayName = "Armband - Lithuania";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Armband\Armband_lt_g_co.paa","EZ_Clothing\data\player\Armband\Armband_lt_small_co.paa","EZ_Clothing\data\player\Armband\Armband_lt_small_co.paa","EZ_Clothing\data\player\Armband\Armband_lt_big_co.paa","EZ_Clothing\data\player\Armband\Armband_lt_big_co.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Country Flags\Flag_lt_co.paa","EZ_Clothing\data\player\Country Flags\Flag_lt_co.paa","EZ_Clothing\data\player\Country Flags\Flag_lt_co.paa","EZ_Clothing\data\player\Country Flags\Flag_lt_co.paa","EZ_Clothing\data\player\Country Flags\Flag_lt_co.paa","EZ_Clothing\data\player\Country Flags\Flag_lt_co.paa","EZ_Clothing\data\player\Country Flags\Flag_lt_co.paa","EZ_Clothing\data\player\Country Flags\Flag_lt_co.paa","EZ_Clothing\data\player\Country Flags\Flag_lt_co.paa"};
 		color = "lt_EZ";
 	};
 	class Armband_lv_EZ: Armband_ColorBase
 	{
 		scope = 2;
 		displayName = "Armband - Latvia";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Armband\Armband_lv_g_co.paa","EZ_Clothing\data\player\Armband\Armband_lv_small_co.paa","EZ_Clothing\data\player\Armband\Armband_lv_small_co.paa","EZ_Clothing\data\player\Armband\Armband_lv_big_co.paa","EZ_Clothing\data\player\Armband\Armband_lv_big_co.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Country Flags\Flag_lv_co.paa","EZ_Clothing\data\player\Country Flags\Flag_lv_co.paa","EZ_Clothing\data\player\Country Flags\Flag_lv_co.paa","EZ_Clothing\data\player\Country Flags\Flag_lv_co.paa","EZ_Clothing\data\player\Country Flags\Flag_lv_co.paa","EZ_Clothing\data\player\Country Flags\Flag_lv_co.paa","EZ_Clothing\data\player\Country Flags\Flag_lv_co.paa","EZ_Clothing\data\player\Country Flags\Flag_lv_co.paa","EZ_Clothing\data\player\Country Flags\Flag_lv_co.paa"};
 		color = "lv_EZ";
 	};
 	class Armband_md_EZ: Armband_ColorBase
 	{
 		scope = 2;
 		displayName = "Armband - Moldova";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Armband\Armband_md_g_co.paa","EZ_Clothing\data\player\Armband\Armband_md_small_co.paa","EZ_Clothing\data\player\Armband\Armband_md_small_co.paa","EZ_Clothing\data\player\Armband\Armband_md_big_co.paa","EZ_Clothing\data\player\Armband\Armband_md_big_co.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Country Flags\Flag_md_co.paa","EZ_Clothing\data\player\Country Flags\Flag_md_co.paa","EZ_Clothing\data\player\Country Flags\Flag_md_co.paa","EZ_Clothing\data\player\Country Flags\Flag_md_co.paa","EZ_Clothing\data\player\Country Flags\Flag_md_co.paa","EZ_Clothing\data\player\Country Flags\Flag_md_co.paa","EZ_Clothing\data\player\Country Flags\Flag_md_co.paa","EZ_Clothing\data\player\Country Flags\Flag_md_co.paa","EZ_Clothing\data\player\Country Flags\Flag_md_co.paa"};
 		color = "md_EZ";
 	};
 	class Armband_mt_EZ: Armband_ColorBase
 	{
 		scope = 2;
 		displayName = "Armband - Malta";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Armband\Armband_mt_g_co.paa","EZ_Clothing\data\player\Armband\Armband_mt_small_co.paa","EZ_Clothing\data\player\Armband\Armband_mt_small_co.paa","EZ_Clothing\data\player\Armband\Armband_mt_big_co.paa","EZ_Clothing\data\player\Armband\Armband_mt_big_co.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Country Flags\Flag_mt_co.paa","EZ_Clothing\data\player\Country Flags\Flag_mt_co.paa","EZ_Clothing\data\player\Country Flags\Flag_mt_co.paa","EZ_Clothing\data\player\Country Flags\Flag_mt_co.paa","EZ_Clothing\data\player\Country Flags\Flag_mt_co.paa","EZ_Clothing\data\player\Country Flags\Flag_mt_co.paa","EZ_Clothing\data\player\Country Flags\Flag_mt_co.paa","EZ_Clothing\data\player\Country Flags\Flag_mt_co.paa","EZ_Clothing\data\player\Country Flags\Flag_mt_co.paa"};
 		color = "mt_EZ";
 	};
 	class Armband_nl_EZ: Armband_ColorBase
 	{
 		scope = 2;
 		displayName = "Armband - Netherlands";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Armband\Armband_nl_g_co.paa","EZ_Clothing\data\player\Armband\Armband_nl_small_co.paa","EZ_Clothing\data\player\Armband\Armband_nl_small_co.paa","EZ_Clothing\data\player\Armband\Armband_nl_big_co.paa","EZ_Clothing\data\player\Armband\Armband_nl_big_co.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Country Flags\Flag_nl_co.paa","EZ_Clothing\data\player\Country Flags\Flag_nl_co.paa","EZ_Clothing\data\player\Country Flags\Flag_nl_co.paa","EZ_Clothing\data\player\Country Flags\Flag_nl_co.paa","EZ_Clothing\data\player\Country Flags\Flag_nl_co.paa","EZ_Clothing\data\player\Country Flags\Flag_nl_co.paa","EZ_Clothing\data\player\Country Flags\Flag_nl_co.paa","EZ_Clothing\data\player\Country Flags\Flag_nl_co.paa","EZ_Clothing\data\player\Country Flags\Flag_nl_co.paa"};
 		color = "nl_EZ";
 	};
 	class Armband_no_EZ: Armband_ColorBase
 	{
 		scope = 2;
 		displayName = "Armband - Norway";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Armband\Armband_no_g_co.paa","EZ_Clothing\data\player\Armband\Armband_no_small_co.paa","EZ_Clothing\data\player\Armband\Armband_no_small_co.paa","EZ_Clothing\data\player\Armband\Armband_no_big_co.paa","EZ_Clothing\data\player\Armband\Armband_no_big_co.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Country Flags\Flag_no_co.paa","EZ_Clothing\data\player\Country Flags\Flag_no_co.paa","EZ_Clothing\data\player\Country Flags\Flag_no_co.paa","EZ_Clothing\data\player\Country Flags\Flag_no_co.paa","EZ_Clothing\data\player\Country Flags\Flag_no_co.paa","EZ_Clothing\data\player\Country Flags\Flag_no_co.paa","EZ_Clothing\data\player\Country Flags\Flag_no_co.paa","EZ_Clothing\data\player\Country Flags\Flag_no_co.paa","EZ_Clothing\data\player\Country Flags\Flag_no_co.paa"};
 		color = "no_EZ";
 	};
 	class Armband_nz_EZ: Armband_ColorBase
 	{
 		scope = 2;
 		displayName = "Armband - New Zealand";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Armband\Armband_nz_g_co.paa","EZ_Clothing\data\player\Armband\Armband_nz_small_co.paa","EZ_Clothing\data\player\Armband\Armband_nz_small_co.paa","EZ_Clothing\data\player\Armband\Armband_nz_big_co.paa","EZ_Clothing\data\player\Armband\Armband_nz_big_co.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Country Flags\Flag_nz_co.paa","EZ_Clothing\data\player\Country Flags\Flag_nz_co.paa","EZ_Clothing\data\player\Country Flags\Flag_nz_co.paa","EZ_Clothing\data\player\Country Flags\Flag_nz_co.paa","EZ_Clothing\data\player\Country Flags\Flag_nz_co.paa","EZ_Clothing\data\player\Country Flags\Flag_nz_co.paa","EZ_Clothing\data\player\Country Flags\Flag_nz_co.paa","EZ_Clothing\data\player\Country Flags\Flag_nz_co.paa","EZ_Clothing\data\player\Country Flags\Flag_nz_co.paa"};
 		color = "nz_EZ";
 	};
 	class Armband_ph_EZ: Armband_ColorBase
 	{
 		scope = 2;
 		displayName = "Armband - Philippines";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Armband\Armband_ph_g_co.paa","EZ_Clothing\data\player\Armband\Armband_ph_small_co.paa","EZ_Clothing\data\player\Armband\Armband_ph_small_co.paa","EZ_Clothing\data\player\Armband\Armband_ph_big_co.paa","EZ_Clothing\data\player\Armband\Armband_ph_big_co.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Country Flags\Flag_ph_co.paa","EZ_Clothing\data\player\Country Flags\Flag_ph_co.paa","EZ_Clothing\data\player\Country Flags\Flag_ph_co.paa","EZ_Clothing\data\player\Country Flags\Flag_ph_co.paa","EZ_Clothing\data\player\Country Flags\Flag_ph_co.paa","EZ_Clothing\data\player\Country Flags\Flag_ph_co.paa","EZ_Clothing\data\player\Country Flags\Flag_ph_co.paa","EZ_Clothing\data\player\Country Flags\Flag_ph_co.paa","EZ_Clothing\data\player\Country Flags\Flag_ph_co.paa"};
 		color = "ph_EZ";
 	};
 	class Armband_pl_EZ: Armband_ColorBase
 	{
 		scope = 2;
 		displayName = "Armband - Poland";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Armband\Armband_pl_g_co.paa","EZ_Clothing\data\player\Armband\Armband_pl_small_co.paa","EZ_Clothing\data\player\Armband\Armband_pl_small_co.paa","EZ_Clothing\data\player\Armband\Armband_pl_big_co.paa","EZ_Clothing\data\player\Armband\Armband_pl_big_co.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Country Flags\Flag_pl_co.paa","EZ_Clothing\data\player\Country Flags\Flag_pl_co.paa","EZ_Clothing\data\player\Country Flags\Flag_pl_co.paa","EZ_Clothing\data\player\Country Flags\Flag_pl_co.paa","EZ_Clothing\data\player\Country Flags\Flag_pl_co.paa","EZ_Clothing\data\player\Country Flags\Flag_pl_co.paa","EZ_Clothing\data\player\Country Flags\Flag_pl_co.paa","EZ_Clothing\data\player\Country Flags\Flag_pl_co.paa","EZ_Clothing\data\player\Country Flags\Flag_pl_co.paa"};
 		color = "pl_EZ";
 	};
 	class Armband_pt_EZ: Armband_ColorBase
 	{
 		scope = 2;
 		displayName = "Armband - Portugal";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Armband\Armband_pt_g_co.paa","EZ_Clothing\data\player\Armband\Armband_pt_small_co.paa","EZ_Clothing\data\player\Armband\Armband_pt_small_co.paa","EZ_Clothing\data\player\Armband\Armband_pt_big_co.paa","EZ_Clothing\data\player\Armband\Armband_pt_big_co.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Country Flags\Flag_pt_co.paa","EZ_Clothing\data\player\Country Flags\Flag_pt_co.paa","EZ_Clothing\data\player\Country Flags\Flag_pt_co.paa","EZ_Clothing\data\player\Country Flags\Flag_pt_co.paa","EZ_Clothing\data\player\Country Flags\Flag_pt_co.paa","EZ_Clothing\data\player\Country Flags\Flag_pt_co.paa","EZ_Clothing\data\player\Country Flags\Flag_pt_co.paa","EZ_Clothing\data\player\Country Flags\Flag_pt_co.paa","EZ_Clothing\data\player\Country Flags\Flag_pt_co.paa"};
 		color = "pt_EZ";
 	};
 	class Armband_ro_EZ: Armband_ColorBase
 	{
 		scope = 2;
 		displayName = "Armband - Romania";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Armband\Armband_ro_g_co.paa","EZ_Clothing\data\player\Armband\Armband_ro_small_co.paa","EZ_Clothing\data\player\Armband\Armband_ro_small_co.paa","EZ_Clothing\data\player\Armband\Armband_ro_big_co.paa","EZ_Clothing\data\player\Armband\Armband_ro_big_co.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Country Flags\Flag_ro_co.paa","EZ_Clothing\data\player\Country Flags\Flag_ro_co.paa","EZ_Clothing\data\player\Country Flags\Flag_ro_co.paa","EZ_Clothing\data\player\Country Flags\Flag_ro_co.paa","EZ_Clothing\data\player\Country Flags\Flag_ro_co.paa","EZ_Clothing\data\player\Country Flags\Flag_ro_co.paa","EZ_Clothing\data\player\Country Flags\Flag_ro_co.paa","EZ_Clothing\data\player\Country Flags\Flag_ro_co.paa","EZ_Clothing\data\player\Country Flags\Flag_ro_co.paa"};
 		color = "ro_EZ";
 	};
 	class Armband_rs_EZ: Armband_ColorBase
 	{
 		scope = 2;
 		displayName = "Armband - Serbia";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Armband\Armband_rs_g_co.paa","EZ_Clothing\data\player\Armband\Armband_rs_small_co.paa","EZ_Clothing\data\player\Armband\Armband_rs_small_co.paa","EZ_Clothing\data\player\Armband\Armband_rs_big_co.paa","EZ_Clothing\data\player\Armband\Armband_rs_big_co.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Country Flags\Flag_rs_co.paa","EZ_Clothing\data\player\Country Flags\Flag_rs_co.paa","EZ_Clothing\data\player\Country Flags\Flag_rs_co.paa","EZ_Clothing\data\player\Country Flags\Flag_rs_co.paa","EZ_Clothing\data\player\Country Flags\Flag_rs_co.paa","EZ_Clothing\data\player\Country Flags\Flag_rs_co.paa","EZ_Clothing\data\player\Country Flags\Flag_rs_co.paa","EZ_Clothing\data\player\Country Flags\Flag_rs_co.paa","EZ_Clothing\data\player\Country Flags\Flag_rs_co.paa"};
 		color = "rs_EZ";
 	};
 	class Armband_ru_EZ: Armband_ColorBase
 	{
 		scope = 2;
 		displayName = "Armband - Russia";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Armband\Armband_ru_g_co.paa","EZ_Clothing\data\player\Armband\Armband_ru_small_co.paa","EZ_Clothing\data\player\Armband\Armband_ru_small_co.paa","EZ_Clothing\data\player\Armband\Armband_ru_big_co.paa","EZ_Clothing\data\player\Armband\Armband_ru_big_co.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Country Flags\Flag_ru_co.paa","EZ_Clothing\data\player\Country Flags\Flag_ru_co.paa","EZ_Clothing\data\player\Country Flags\Flag_ru_co.paa","EZ_Clothing\data\player\Country Flags\Flag_ru_co.paa","EZ_Clothing\data\player\Country Flags\Flag_ru_co.paa","EZ_Clothing\data\player\Country Flags\Flag_ru_co.paa","EZ_Clothing\data\player\Country Flags\Flag_ru_co.paa","EZ_Clothing\data\player\Country Flags\Flag_ru_co.paa","EZ_Clothing\data\player\Country Flags\Flag_ru_co.paa"};
 		color = "ru_EZ";
 	};
 	class Armband_se_EZ: Armband_ColorBase
 	{
 		scope = 2;
 		displayName = "Armband - Sweden";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Armband\Armband_se_g_co.paa","EZ_Clothing\data\player\Armband\Armband_se_small_co.paa","EZ_Clothing\data\player\Armband\Armband_se_small_co.paa","EZ_Clothing\data\player\Armband\Armband_se_big_co.paa","EZ_Clothing\data\player\Armband\Armband_se_big_co.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Country Flags\Flag_se_co.paa","EZ_Clothing\data\player\Country Flags\Flag_se_co.paa","EZ_Clothing\data\player\Country Flags\Flag_se_co.paa","EZ_Clothing\data\player\Country Flags\Flag_se_co.paa","EZ_Clothing\data\player\Country Flags\Flag_se_co.paa","EZ_Clothing\data\player\Country Flags\Flag_se_co.paa","EZ_Clothing\data\player\Country Flags\Flag_se_co.paa","EZ_Clothing\data\player\Country Flags\Flag_se_co.paa","EZ_Clothing\data\player\Country Flags\Flag_se_co.paa"};
 		color = "se_EZ";
 	};
 	class Armband_tr_EZ: Armband_ColorBase
 	{
 		scope = 2;
 		displayName = "Armband - Turkey";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Armband\Armband_tr_g_co.paa","EZ_Clothing\data\player\Armband\Armband_tr_small_co.paa","EZ_Clothing\data\player\Armband\Armband_tr_small_co.paa","EZ_Clothing\data\player\Armband\Armband_tr_big_co.paa","EZ_Clothing\data\player\Armband\Armband_tr_big_co.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Country Flags\Flag_tr_co.paa","EZ_Clothing\data\player\Country Flags\Flag_tr_co.paa","EZ_Clothing\data\player\Country Flags\Flag_tr_co.paa","EZ_Clothing\data\player\Country Flags\Flag_tr_co.paa","EZ_Clothing\data\player\Country Flags\Flag_tr_co.paa","EZ_Clothing\data\player\Country Flags\Flag_tr_co.paa","EZ_Clothing\data\player\Country Flags\Flag_tr_co.paa","EZ_Clothing\data\player\Country Flags\Flag_tr_co.paa","EZ_Clothing\data\player\Country Flags\Flag_tr_co.paa"};
 		color = "tr_EZ";
 	};
 	class Armband_uae_EZ: Armband_ColorBase
 	{
 		scope = 2;
 		displayName = "Armband - United Arab Emirates";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Armband\Armband_uae_g_co.paa","EZ_Clothing\data\player\Armband\Armband_uae_small_co.paa","EZ_Clothing\data\player\Armband\Armband_uae_small_co.paa","EZ_Clothing\data\player\Armband\Armband_uae_big_co.paa","EZ_Clothing\data\player\Armband\Armband_uae_big_co.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Country Flags\Flag_uae_co.paa","EZ_Clothing\data\player\Country Flags\Flag_uae_co.paa","EZ_Clothing\data\player\Country Flags\Flag_uae_co.paa","EZ_Clothing\data\player\Country Flags\Flag_uae_co.paa","EZ_Clothing\data\player\Country Flags\Flag_uae_co.paa","EZ_Clothing\data\player\Country Flags\Flag_uae_co.paa","EZ_Clothing\data\player\Country Flags\Flag_uae_co.paa","EZ_Clothing\data\player\Country Flags\Flag_uae_co.paa","EZ_Clothing\data\player\Country Flags\Flag_uae_co.paa"};
 		color = "uae_EZ";
 	};
 	class Armband_uk_EZ: Armband_ColorBase
 	{
 		scope = 2;
 		displayName = "Armband - United Kingdom";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Armband\Armband_uk_g_co.paa","EZ_Clothing\data\player\Armband\Armband_uk_small_co.paa","EZ_Clothing\data\player\Armband\Armband_uk_small_co.paa","EZ_Clothing\data\player\Armband\Armband_uk_big_co.paa","EZ_Clothing\data\player\Armband\Armband_uk_big_co.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Country Flags\Flag_uk_co.paa","EZ_Clothing\data\player\Country Flags\Flag_uk_co.paa","EZ_Clothing\data\player\Country Flags\Flag_uk_co.paa","EZ_Clothing\data\player\Country Flags\Flag_uk_co.paa","EZ_Clothing\data\player\Country Flags\Flag_uk_co.paa","EZ_Clothing\data\player\Country Flags\Flag_uk_co.paa","EZ_Clothing\data\player\Country Flags\Flag_uk_co.paa","EZ_Clothing\data\player\Country Flags\Flag_uk_co.paa","EZ_Clothing\data\player\Country Flags\Flag_uk_co.paa"};
 		color = "uk_EZ";
 	};
 	class Armband_us_EZ: Armband_ColorBase
 	{
 		scope = 2;
 		displayName = "Armband - United States of America";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Armband\Armband_us_g_co.paa","EZ_Clothing\data\player\Armband\Armband_us_small_co.paa","EZ_Clothing\data\player\Armband\Armband_us_small_co.paa","EZ_Clothing\data\player\Armband\Armband_us_big_co.paa","EZ_Clothing\data\player\Armband\Armband_us_big_co.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Country Flags\Flag_us_co.paa","EZ_Clothing\data\player\Country Flags\Flag_us_co.paa","EZ_Clothing\data\player\Country Flags\Flag_us_co.paa","EZ_Clothing\data\player\Country Flags\Flag_us_co.paa","EZ_Clothing\data\player\Country Flags\Flag_us_co.paa","EZ_Clothing\data\player\Country Flags\Flag_us_co.paa","EZ_Clothing\data\player\Country Flags\Flag_us_co.paa","EZ_Clothing\data\player\Country Flags\Flag_us_co.paa","EZ_Clothing\data\player\Country Flags\Flag_us_co.paa"};
 		color = "us_EZ";
 	};
 	class Armband_vn_EZ: Armband_ColorBase
 	{
 		scope = 2;
 		displayName = "Armband - Vietnam";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Armband\Armband_vn_g_co.paa","EZ_Clothing\data\player\Armband\Armband_vn_small_co.paa","EZ_Clothing\data\player\Armband\Armband_vn_small_co.paa","EZ_Clothing\data\player\Armband\Armband_vn_big_co.paa","EZ_Clothing\data\player\Armband\Armband_vn_big_co.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Country Flags\Flag_vn_co.paa","EZ_Clothing\data\player\Country Flags\Flag_vn_co.paa","EZ_Clothing\data\player\Country Flags\Flag_vn_co.paa","EZ_Clothing\data\player\Country Flags\Flag_vn_co.paa","EZ_Clothing\data\player\Country Flags\Flag_vn_co.paa","EZ_Clothing\data\player\Country Flags\Flag_vn_co.paa","EZ_Clothing\data\player\Country Flags\Flag_vn_co.paa","EZ_Clothing\data\player\Country Flags\Flag_vn_co.paa","EZ_Clothing\data\player\Country Flags\Flag_vn_co.paa"};
 		color = "vn_EZ";
 	};
 	class Armband_yo_EZ: Armband_ColorBase
 	{
 		scope = 2;
 		displayName = "Armband - Yugoslavia";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Armband\Armband_yo_g_co.paa","EZ_Clothing\data\player\Armband\Armband_yo_small_co.paa","EZ_Clothing\data\player\Armband\Armband_yo_small_co.paa","EZ_Clothing\data\player\Armband\Armband_yo_big_co.paa","EZ_Clothing\data\player\Armband\Armband_yo_big_co.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Country Flags\Flag_yo_co.paa","EZ_Clothing\data\player\Country Flags\Flag_yo_co.paa","EZ_Clothing\data\player\Country Flags\Flag_yo_co.paa","EZ_Clothing\data\player\Country Flags\Flag_yo_co.paa","EZ_Clothing\data\player\Country Flags\Flag_yo_co.paa","EZ_Clothing\data\player\Country Flags\Flag_yo_co.paa","EZ_Clothing\data\player\Country Flags\Flag_yo_co.paa","EZ_Clothing\data\player\Country Flags\Flag_yo_co.paa","EZ_Clothing\data\player\Country Flags\Flag_yo_co.paa"};
 		color = "yo_EZ";
 	};
 	class EZ_Jersey_italian: TShirt_ColorBase
@@ -2718,7 +2718,7 @@ class CfgVehicles
 									  "EZ_Clothing\data\patreon_crew\PrigorodkiWP\PrigorodkiWP_aa.paa",
 									  "EZ_Clothing\data\patreon_crew\PrigorodkiWP\PrigorodkiWP_aa.paa",
 									  "EZ_Clothing\data\patreon_crew\PrigorodkiWP\PrigorodkiWP_aa.paa"};
-	};;
+	};
 	class EZ_PrigorodkiWP_TacticalShirt: HikingJacket_ColorBase
 	{
 		scope = 2;

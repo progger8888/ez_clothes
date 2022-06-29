@@ -3007,4 +3007,35 @@ class CfgVehicles
 		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BTS\BTS_vest_co.paa","EZ_Clothing\data\patreon_squad\BTS\BTS_vest_co.paa","EZ_Clothing\data\patreon_squad\BTS\BTS_vest_co.paa"};
 	};
+	class EZ_Steelers_Flag: Flag_Base
+	{
+		scope = 2;
+		displayName = "Steelers Flag";
+		descSteelerstionShort = "Steelers - CrewPackage Flag made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Steelers\Steelers_ff.paa"};
+	};
+	class EZ_Steelers_Armband: Armband_ColorBase
+	{
+		scope = 2;
+		displayName = "Steelers - Armband";
+		descSteelerstionShort = "Steelers - CrewPackage Armband made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Steelers\Steelers_ff.paa",
+									  "EZ_Clothing\data\patreon_crew\Steelers\Steelers_ff.paa",
+									  "EZ_Clothing\data\patreon_crew\Steelers\Steelers_ff.paa",
+									  "EZ_Clothing\data\patreon_crew\Steelers\Steelers_ff.paa",
+									  "EZ_Clothing\data\patreon_crew\Steelers\Steelers_ff.paa",
+									  "EZ_Clothing\data\patreon_crew\Steelers\Steelers_ff.paa",
+									  "EZ_Clothing\data\patreon_crew\Steelers\Steelers_ff.paa",
+									  "EZ_Clothing\data\patreon_crew\Steelers\Steelers_ff.paa",
+									  "EZ_Clothing\data\patreon_crew\Steelers\Steelers_ff.paa"};
+	};
+	class EZ_Steelers_TacticalShirt: M65Jacket_ColorBase
+	{
+		scope = 2;
+		displayName = "Steelers - Field Jacket";
+		descSteelerstionShort = "Steelers - CrewPackage Field Jacket made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Steelers\Steelers_shirt.paa",
+									  "EZ_Clothing\data\patreon_crew\Steelers\Steelers_shirt.paa",
+									  "EZ_Clothing\data\patreon_crew\Steelers\Steelers_shirt.paa"};
+	};
 };

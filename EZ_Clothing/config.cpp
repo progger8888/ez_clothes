@@ -2732,35 +2732,6 @@ class CfgVehicles
 									  "EZ_Clothing\data\patreon_crew\PrigorodkiWP\PrigorodkiWP_shirt_new.paa",
 									  "EZ_Clothing\data\patreon_crew\PrigorodkiWP\PrigorodkiWP_shirt_new.paa"};
 	};
-	class EZ_Untamed_Flag: Flag_Base
-	{
-		scope = 2;
-		displayName = "Untamed Flag";
-		descriptionShort = "Untamed - CrewPackage Flag made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Untamed\Untamed_ff.paa"};
-	};
-	class EZ_Untamed_Armband: Armband_ColorBase
-	{
-		scope = 2;
-		displayName = "Untamed - Armband";
-		descriptionShort = "Untamed - CrewPackage Armband made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Untamed\Untamed_ff.paa",
-									  "EZ_Clothing\data\patreon_crew\Untamed\Untamed_ff.paa",
-									  "EZ_Clothing\data\patreon_crew\Untamed\Untamed_ff.paa",
-									  "EZ_Clothing\data\patreon_crew\Untamed\Untamed_ff.paa",
-									  "EZ_Clothing\data\patreon_crew\Untamed\Untamed_ff.paa",
-									  "EZ_Clothing\data\patreon_crew\Untamed\Untamed_ff.paa",
-									  "EZ_Clothing\data\patreon_crew\Untamed\Untamed_ff.paa",
-									  "EZ_Clothing\data\patreon_crew\Untamed\Untamed_ff.paa",
-									  "EZ_Clothing\data\patreon_crew\Untamed\Untamed_ff.paa"};
-	};
-	class EZ_Untamed_TacticalShirt: TacticalShirt_ColorBase
-	{
-		scope = 2;
-		displayName = "Untamed - Tactical Shirt";
-		descriptionShort = "Untamed - CrewPackage Tactical Shirt made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Untamed\Untamed_shirt.paa","EZ_Clothing\data\patreon_crew\Untamed\Untamed_shirt.paa","EZ_Clothing\data\patreon_crew\Untamed\Untamed_shirt.paa"};
-	};
 	class EZ_SAF_Flag: Flag_Base
 	{
 		scope = 2;
@@ -3037,5 +3008,80 @@ class CfgVehicles
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Steelers\Steelers_shirt.paa",
 									  "EZ_Clothing\data\patreon_crew\Steelers\Steelers_shirt.paa",
 									  "EZ_Clothing\data\patreon_crew\Steelers\Steelers_shirt.paa"};
+	};
+	class EZ_Untamed_Flag: Flag_Base
+	{
+		scope = 2;
+		displayName = "Untamed Flag";
+		descriptionShort = "Untamed - SquadPackage Flag made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Untamed\Untamed_ff.paa"};
+	};
+	class EZ_Untamed_Armband: Armband_ColorBase
+	{
+		scope = 2;
+		displayName = "Untamed - Armband";
+		descriptionShort = "Untamed - CrewPackage Armband made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Untamed\Untamed_ff.paa",
+									  "EZ_Clothing\data\patreon_squad\Untamed\Untamed_ff.paa",
+									  "EZ_Clothing\data\patreon_squad\Untamed\Untamed_ff.paa",
+									  "EZ_Clothing\data\patreon_squad\Untamed\Untamed_ff.paa",
+									  "EZ_Clothing\data\patreon_squad\Untamed\Untamed_ff.paa",
+									  "EZ_Clothing\data\patreon_squad\Untamed\Untamed_ff.paa",
+									  "EZ_Clothing\data\patreon_squad\Untamed\Untamed_ff.paa",
+									  "EZ_Clothing\data\patreon_squad\Untamed\Untamed_ff.paa",
+									  "EZ_Clothing\data\patreon_squad\Untamed\Untamed_ff.paa"};
+	};
+	class EZ_Untamed_Armband_New: EZ_DoubleArmband_ColorBase
+	{
+		scope = 2;
+		displayName = "Untamed - Armband";
+		descriptionShort = "Untamed - SquadPackage armband made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Untamed\Untamed_armband.paa"};
+	};
+	class EZ_Untamed_TacticalShirt: TacticalShirt_ColorBase
+	{
+		scope = 2;
+		displayName = "Untamed - Tactical Shirt";
+		descriptionShort = "Untamed - CrewPackage Tactical Shirt made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Untamed\Untamed_shirt.paa",
+									  "EZ_Clothing\data\patreon_squad\Untamed\Untamed_shirt.paa",
+									  "EZ_Clothing\data\patreon_squad\Untamed\Untamed_shirt.paa"};
+	};
+	class EZ_Untamed_Pants: CargoPants_ColorBase
+	{
+		scope = 2;
+		displayName = "Untamed - Cargo Pants";
+		descriptionShort = "Untamed - SquadPackage Cargo Pants made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Untamed\Untamed_pants.paa",
+									  "EZ_Clothing\data\patreon_squad\Untamed\Untamed_pants.paa",
+									  "EZ_Clothing\data\patreon_squad\Untamed\Untamed_pants.paa"};
+	};
+	class EZ_Untamed_Balaclava: BalaclavaMask_ColorBase
+	{
+		scope = 2;
+		displayName = "Untamed - Balaclava";
+		descriptionShort = "Untamed - SquadPackage Balaclava made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Untamed\Untamed_balaclava_co.paa",
+									  "EZ_Clothing\data\patreon_squad\Untamed\Untamed_balaclava_co.paa",
+									  "EZ_Clothing\data\patreon_squad\Untamed\Untamed_balaclava_co.paa"};
+	};
+	class EZ_Untamed_Helmet: Mich2001Helmet
+	{
+		scope = 2;
+		displayName = "Untamed - Helmet";
+		descriptionShort = "Untamed - SquadPackage Helmet made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Untamed\Untamed_helmet_co.paa",
+									  "EZ_Clothing\data\patreon_squad\Untamed\Untamed_helmet_co.paa",
+									  "EZ_Clothing\data\patreon_squad\Untamed\Untamed_helmet_co.paa"};
+	};
+	class EZ_Untamed_Vest: PlateCarrierVest
+	{
+		scope = 2;
+		displayName = "Untamed - Vest";
+		descriptionShort = "Untamed - SquadPackage Vest made by Kokaskale";
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Untamed\Untamed_vest_co.paa",
+									  "EZ_Clothing\data\patreon_squad\Untamed\Untamed_vest_co.paa",
+									  "EZ_Clothing\data\patreon_squad\Untamed\Untamed_vest_co.paa"};
 	};
 };

@@ -3084,4 +3084,71 @@ class CfgVehicles
 									  "EZ_Clothing\data\patreon_squad\Untamed\Untamed_vest_co.paa",
 									  "EZ_Clothing\data\patreon_squad\Untamed\Untamed_vest_co.paa"};
 	};
+	class EZ_Arschaffenburger_Flag: Flag_Base
+	{
+		scope = 2;
+		displayName = "Arschaffenburger Flag";
+		descriptionShort = "Arschaffenburger - SquadPackage Flag made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Arschaffenburger\Arschaffenburger_ff.paa"};
+	};
+	class EZ_Arschaffenburger_Armband: EZ_DoubleArmband_ColorBase
+	{
+		scope = 2;
+		displayName = "Arschaffenburger - Armband";
+		descriptionShort = "Arschaffenburger - SquadPackage armband made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Arschaffenburger\Arschaffenburger_armband.paa"};
+	};
+	class EZ_Arschaffenburger_Banner: EZ_Banner_Colorbase
+	{
+		scope = 2;
+		displayName = "Arschaffenburger - Banner";
+		descriptionShort = "Arschaffenburger - SquadPackage Banner made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Arschaffenburger\Arschaffenburger_bb.paa"};
+	};
+	class EZ_Arschaffenburger_Tacticalshirt: TacticalShirt_ColorBase
+	{
+		scope = 2;
+		displayName = "Arschaffenburger - Tactical Shirt";
+		descriptionShort = "Arschaffenburger - SquadPackage Tactical Shirt made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Arschaffenburger\Arschaffenburger_shirt.paa",
+									  "EZ_Clothing\data\patreon_squad\Arschaffenburger\Arschaffenburger_shirt.paa",
+									  "EZ_Clothing\data\patreon_squad\Arschaffenburger\Arschaffenburger_shirt.paa"};
+	};
+	class EZ_Arschaffenburger_Pants: CargoPants_ColorBase
+	{
+		scope = 2;
+		displayName = "Arschaffenburger - Cargo Pants";
+		descriptionShort = "Arschaffenburger - SquadPackage Cargo Pants made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Arschaffenburger\Arschaffenburger_pants.paa",
+									  "EZ_Clothing\data\patreon_squad\Arschaffenburger\Arschaffenburger_pants.paa",
+									  "EZ_Clothing\data\patreon_squad\Arschaffenburger\Arschaffenburger_pants.paa"};
+	};
+	class EZ_Arschaffenburger_Balaclava: BalaclavaMask_ColorBase
+	{
+		scope = 2;
+		displayName = "Arschaffenburger - Balaclava";
+		descriptionShort = "Arschaffenburger - SquadPackage Balaclava made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Arschaffenburger\Arschaffenburger_balaclava_co.paa",
+									  "EZ_Clothing\data\patreon_squad\Arschaffenburger\Arschaffenburger_balaclava_co.paa",
+									  "EZ_Clothing\data\patreon_squad\Arschaffenburger\Arschaffenburger_balaclava_co.paa"};
+	};
+	class EZ_Arschaffenburger_Helmet: Mich2001Helmet
+	{
+		scope = 2;
+		displayName = "Arschaffenburger - Helmet";
+		descriptionShort = "Arschaffenburger - SquadPackage Helmet made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Arschaffenburger\Arschaffenburger_helmet_co.paa",
+									  "EZ_Clothing\data\patreon_squad\Arschaffenburger\Arschaffenburger_helmet_co.paa",
+									  "EZ_Clothing\data\patreon_squad\Arschaffenburger\Arschaffenburger_helmet_co.paa"};
+	};
+	class EZ_Arschaffenburger_Vest: PlateCarrierVest
+	{
+		scope = 2;
+		displayName = "Arschaffenburger - Vest";
+		descriptionShort = "Arschaffenburger - SquadPackage Vest made by Kokaskale";
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Arschaffenburger\Arschaffenburger_vest_co.paa",
+									  "EZ_Clothing\data\patreon_squad\Arschaffenburger\Arschaffenburger_vest_co.paa",
+									  "EZ_Clothing\data\patreon_squad\Arschaffenburger\Arschaffenburger_vest_co.paa"};
+	};
 };

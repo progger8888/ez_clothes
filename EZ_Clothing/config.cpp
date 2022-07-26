@@ -2435,63 +2435,78 @@ class CfgVehicles
 		descriptionShort = "ForestCrow - PlatoonPackage Flag made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_ff.paa"};
 	};
-	class EZ_ForestCrow_TacticalShirt: MVS_CombatShirt_Base
+	class EZ_ForestCrow_Tacticalshirt_New: TacticalShirt_ColorBase
 	{
 		scope = 2;
-		displayName = "ForestCrow - MVS Shirt";
-		descriptionShort = "ForestCrow - PlatoonPackage MVS Shirt made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_mvs_combatshirt.paa","EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_mvs_combatshirt.paa","EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_mvs_combatshirt.paa"};
+		displayName = "ForestCrow - Tactical Shirt";
+		descriptionShort = "ForestCrow - PlatoonPackage Tactical Shirt made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_shirt.paa",
+									  "EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_shirt.paa",
+									  "EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_shirt.paa"};
 	};
-	class EZ_ForestCrow_Pants: MVS_CombatPants_Base
+	class EZ_ForestCrow_Pants_New: CargoPants_ColorBase
 	{
 		scope = 2;
-		displayName = "ForestCrow - MVS Pants";
-		descriptionShort = "ForestCrow - PlatoonPackage MVS Pants made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_mvs_combatpants.paa","EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_mvs_combatpants.paa","EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_mvs_combatpants.paa"};
+		displayName = "ForestCrow - Cargo Pants";
+		descriptionShort = "ForestCrow - PlatoonPackage Cargo Pants made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_pants.paa",
+									  "EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_pants.paa",
+									  "EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_pants.paa"};
 	};
-	class EZ_ForestCrow_Balaclava: MVS_Balaclava2_Base
+	class EZ_ForestCrow_Balaclava_New: BalaclavaMask_ColorBase
 	{
 		scope = 2;
-		displayName = "ForestCrow - MVS Balaclava";
-		descriptionShort = "ForestCrow - PlatoonPackage MVS Balaclava made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_mvs_balaclava.paa","EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_mvs_balaclava.paa","EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_mvs_balaclava.paa"};
+		displayName = "ForestCrow - Balaclava";
+		descriptionShort = "ForestCrow - PlatoonPackage Balaclava made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_balaclava_co.paa",
+									  "EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_balaclava_co.paa",
+									  "EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_balaclava_co.paa"};
+	};
+	class EZ_ForestCrow_Vest_New: PlateCarrierVest
+	{
+		scope = 2;
+		displayName = "ForestCrow - Vest";
+		descriptionShort = "ForestCrow - PlatoonPackage Vest made by Kokaskale";
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_vest_co.paa",
+									  "EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_vest_co.paa",
+									  "EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_vest_co.paa"};
 	};
 	class EZ_ForestCrow_Helmet: MVS_Helmet_Base
 	{
 		scope = 2;
 		displayName = "ForestCrow - MVS Helmet";
 		descriptionShort = "ForestCrow - PlatoonPackage MVS Helmet made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_mvs_helmet.paa","EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_mvs_helmet.paa","EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_mvs_helmet.paa"};
-	};
-	class MVS_Combat_Vest_Crow: ModularVestSystem_Base
-	{
-		scope = 2;
-		displayName = "ForestCrow - MVS Vest";
-		descriptionShort = "ForestCrow - PlatoonPackage MVS Vest made by Kokaskale";
-		color = "Crow";
-		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_mvs_vest.paa","EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_mvs_vest.paa","EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_mvs_vest.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_mvs_helmet.paa",
+									  "EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_mvs_helmet.paa",
+									  "EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_mvs_helmet.paa"};
 	};
 	class EZ_ForestCrowMVS_Shroud: MVS_Shroud_Base
 	{
 		scope = 2;
 		displayName = "ForestCrow - MVS Shroud";
 		descriptionShort = "ForestCrow - PlatoonPackage MVS Shroud made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_MVS_Shroud.paa","EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_MVS_Shroud.paa","EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_MVS_Shroud.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_MVS_Shroud.paa",
+									  "EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_MVS_Shroud.paa",
+									  "EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_MVS_Shroud.paa"};
 	};
 	class EZ_ForestCrowJungleBoots: JungleBoots_ColorBase
 	{
 		scope = 2;
 		displayName = "ForestCrow - Jungle Boots";
 		descriptionShort = "ForestCrow - PlatoonPackage Jungle Boots made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_jungleboots.paa","EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_jungleboots.paa","EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_jungleboots.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_jungleboots.paa",
+									  "EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_jungleboots.paa",
+									  "EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_jungleboots.paa"};
 	};
 	class EZ_ForestCrowTacticalGloves: TacticalGloves_ColorBase
 	{
 		scope = 2;
 		displayName = "ForestCrow - Tactical Gloves";
 		descriptionShort = "ForestCrow - PlatoonPackage Tactical Gloves made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_tacticalgloves.paa","EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_tacticalgloves.paa","EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_tacticalgloves.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_tacticalgloves.paa",
+									  "EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_tacticalgloves.paa",
+									  "EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_tacticalgloves.paa"};
 	};
 	class MVS_Combat_Vest_Heavy_Crow: ModularVestSystem_Heavy
 	{
@@ -2500,21 +2515,67 @@ class CfgVehicles
 		descriptionShort = "ForestCrow - PlatoonPackage MVS Heavy Plate Carrier made by Kokaskale";
 		color = "Crow";
 		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_MVSHeavy_co.paa","EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_MVSHeavy_co.paa","EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_MVSHeavy_co.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_MVSHeavy_co.paa",
+									  "EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_MVSHeavy_co.paa",
+									  "EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_MVSHeavy_co.paa"};
 	};
 	class EZ_ForestCrow_AssaultPack: MVS_Assault_Pack_Tan
 	{
 		scope = 2;
 		displayName = "ForestCrow - Assault Pack";
 		descriptionShort = "Endzone NWA - PlatoonPackage Assault Pack made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_RaidPack.paa","EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_RaidPack.paa","EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_RaidPack.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_RaidPack.paa",
+									  "EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_RaidPack.paa",
+									  "EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_RaidPack.paa"};
 	};
 	class EZ_ForestCrow_WarriorHelmet: MVS_WarriorHelmet_Base
 	{
 		scope = 2;
 		displayName = "ForestCrow - MVS Warrior Helmet";
 		descriptionShort = "ForestCrow - PlatoonPackage MVS Warrior Helmet made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_WarriorHelmet.paa","EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_WarriorHelmet.paa","EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_WarriorHelmet.paa","EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_Mandalorian_Helmet.paa","EZ_Clothing\data\Mvs_Test\Mandalorian_Visor_co.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_WarriorHelmet.paa",
+									  "EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_WarriorHelmet.paa",
+									  "EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_WarriorHelmet.paa",
+									  "EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_Mandalorian_Helmet.paa",
+									  "EZ_Clothing\data\Mvs_Test\Mandalorian_Visor_co.paa"};
+	};
+	class EZ_ForestCrow_TacticalShirt: MVS_CombatShirt_Base
+	{
+		scope = 2;
+		displayName = "ForestCrow - MVS Shirt";
+		descriptionShort = "ForestCrow - PlatoonPackage MVS Shirt made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_shirt.paa",
+								      "EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_shirt.paa",
+									  "EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_shirt.paa"};
+	};
+	class EZ_ForestCrow_Pants: MVS_CombatPants_Base
+	{
+		scope = 2;
+		displayName = "ForestCrow - MVS Pants";
+		descriptionShort = "ForestCrow - PlatoonPackage MVS Pants made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_pants.paa",
+									  "EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_pants.paa",
+									  "EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_pants.paa"};
+	};
+	class EZ_ForestCrow_Balaclava: MVS_Balaclava2_Base
+	{
+		scope = 2;
+		displayName = "ForestCrow - MVS Balaclava";
+		descriptionShort = "ForestCrow - PlatoonPackage MVS Balaclava made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_balaclava_co.paa",
+									  "EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_balaclava_co.paa",
+									  "EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_balaclava_co.paa"};
+	};
+	class MVS_Combat_Vest_Crow: ModularVestSystem_Base
+	{
+		scope = 2;
+		displayName = "ForestCrow - MVS Vest";
+		descriptionShort = "ForestCrow - PlatoonPackage MVS Vest made by Kokaskale";
+		color = "Crow";
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_vest_co.paa",
+									  "EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_vest_co.paa",
+									  "EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_vest_co.paa"};
 	};
 	class EZ_MikesGoblins_Armband: EZ_DoubleArmband_ColorBase
 	{

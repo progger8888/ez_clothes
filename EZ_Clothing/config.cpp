@@ -1484,20 +1484,6 @@ class CfgVehicles
 		descriptionShort = "Custom NBC Yellow Jacket made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\NBC\Jacket\nbc_jacket_yellow.paa","EZ_Clothing\data\player\NBC\Jacket\nbc_jacket_yellow.paa","EZ_Clothing\data\player\NBC\Jacket\nbc_jacket_yellow.paa"};
 	};
-	class EZ_AngryBeavers_DoubleArmband: EZ_DoubleArmband_ColorBase
-	{
-		scope = 2;
-		displayName = "Angry Beavers - Double Armband";
-		descriptionShort = "Angry Beavers - Double Armband made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\staff\Cappie\AngryBeavers_armband.paa"};
-	};
-	class EZ_AngryBeavers_BaseballCap: Msp_BaseballCap_Base
-	{
-		scope = 2;
-		displayName = "Angry Beavers - Hat";
-		descriptionShort = "Angry Beavers - Hat made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\staff\Cappie\AngryBeavers_baseballcapii.paa"};
-	};
 	class Barrel_Ammo_EZ: Barrel_ColorBase
 	{
 		scope = 2;
@@ -3211,5 +3197,114 @@ class CfgVehicles
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Arschaffenburger\Arschaffenburger_vest_co.paa",
 									  "EZ_Clothing\data\patreon_squad\Arschaffenburger\Arschaffenburger_vest_co.paa",
 									  "EZ_Clothing\data\patreon_squad\Arschaffenburger\Arschaffenburger_vest_co.paa"};
+	};
+	class EZ_AngryBeavers_DoubleArmband: EZ_DoubleArmband_ColorBase
+	{
+		scope = 2;
+		displayName = "Angry Beavers - Double Armband";
+		descriptionShort = "Angry Beavers - PlatoonPackage Double Armband made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\staff\Cappie\AngryBeavers_armband.paa"};
+	};
+	class EZ_AngryBeavers_BaseballCap: Msp_BaseballCap_Base
+	{
+		scope = 2;
+		displayName = "Angry Beavers - Hat";
+		descriptionShort = "Angry Beavers - PlatoonPackage Hat made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\staff\Cappie\AngryBeavers_baseballcapii.paa"};
+	};
+	class EZ_AngryBeavier_Banner: EZ_Banner_Colorbase
+	{
+		scope = 2;
+		displayName = "AngryBeavier - Banner";
+		descriptionShort = "AngryBeavier - PlatoonPackage Banner made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_bb.paa"};
+	};
+	class EZ_AngryBeavier_Flag: Flag_Base
+	{
+		scope = 2;
+		displayName = "AngryBeavier - Flag";
+		descriptionShort = "AngryBeavier - PlatoonPackage Flag made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_ff.paa"};
+	};
+	class EZ_AngryBeavier_Balaclava: MVS_Balaclava2_Base
+	{
+		scope = 2;
+		displayName = "AngryBeavier - MVS Balaclava";
+		descriptionShort = "AngryBeavier - PlatoonPackage MVS Balaclava made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_mvs_balaclava.paa","EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_mvs_balaclava.paa","EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_mvs_balaclava.paa"};
+	};
+	class EZ_AngryBeavier_TacticalShirt: MVS_CombatShirt_Base
+	{
+		scope = 2;
+		displayName = "PATA TEAM - MVS Shirt";
+		descriptionShort = "PATA TEAM - PlatoonPackage MVS Shirt made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_mvs_combatshirt.paa","EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_mvs_combatshirt.paa","EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_mvs_combatshirt.paa"};
+	};
+	class EZ_AngryBeavier_Pants: MVS_CombatPants_Base
+	{
+		scope = 2;
+		displayName = "PATA TEAM - MVS Pants";
+		descriptionShort = "PATA TEAM - PlatoonPackage MVS Pants made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_mvs_combatpants.paa","EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_mvs_combatpants.paa","EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_mvs_combatpants.paa"};
+	};
+	class EZ_AngryBeavier_Helmet: MVS_Helmet_Base
+	{
+		scope = 2;
+		displayName = "AngryBeavier - MVS Helmet";
+		descriptionShort = "AngryBeavier - PlatoonPackage MVS Helmet made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_mvs_helmet.paa","EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_mvs_helmet.paa","EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_mvs_helmet.paa"};
+	};
+	class MVS_Combat_Vest_AngryBeavier: ModularVestSystem_Base
+	{
+		scope = 2;
+		displayName = "AngryBeavier - MVS Vest";
+		descriptionShort = "AngryBeavier - PlatoonPackage MVS Vest made by Kokaskale";
+		color = "AngryBeavier";
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_mvs_vest.paa","EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_mvs_vest.paa","EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_mvs_vest.paa"};
+	};
+	class EZ_AngryBeavier_MVS_Shroud: MVS_Shroud_Base
+	{
+		scope = 2;
+		displayName = "AngryBeavier - MVS Shroud";
+		descriptionShort = "AngryBeavier - PlatoonPackage MVS Shroud made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_MVS_Shroud.paa","EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_MVS_Shroud.paa","EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_MVS_Shroud.paa"};
+	};
+	class EZ_AngryBeavier_JungleBoots: JungleBoots_ColorBase
+	{
+		scope = 2;
+		displayName = "AngryBeavier - Jungle Boots";
+		descriptionShort = "AngryBeavier - PlatoonPackage Jungle Boots made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_jungleboots.paa","EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_jungleboots.paa","EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_jungleboots.paa"};
+	};
+	class EZ_AngryBeavier_TacticalGloves: TacticalGloves_ColorBase
+	{
+		scope = 2;
+		displayName = "AngryBeavier - Tactical Gloves";
+		descriptionShort = "AngryBeavier - PlatoonPackage Tactical Gloves made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_tacticalgloves.paa","EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_tacticalgloves.paa","EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_tacticalgloves.paa"};
+	};
+	class MVS_Combat_Vest_Heavy_AngryBeavier: ModularVestSystem_Heavy
+	{
+		scope = 2;
+		displayName = "AngryBeavier - MVS Heavy Plate Carrier";
+		descriptionShort = "AngryBeavier - PlatoonPackage MVS Heavy Plate Carrier made by Kokaskale";
+		color = "AngryBeavier";
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_MVSHeavy_co.paa","EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_MVSHeavy_co.paa","EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_MVSHeavy_co.paa"};
+	};
+	class EZ_AngryBeavier_AssaultPack: MVS_Assault_Pack_Tan
+	{
+		scope = 2;
+		displayName = "AngryBeavier - Assault Pack";
+		descriptionShort = "Endzone NWA - PlatoonPackage Assault Pack made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_RaidPack.paa","EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_RaidPack.paa","EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_RaidPack.paa"};
+	};
+	class EZ_AngryBeavier_WarriorHelmet: MVS_WarriorHelmet_Base
+	{
+		scope = 2;
+		displayName = "AngryBeavier - MVS Warrior Helmet";
+		descriptionShort = "AngryBeavier - PlatoonPackage MVS Warrior Helmet made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_WarriorHelmet.paa","EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_WarriorHelmet.paa","EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_WarriorHelmet.paa","EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_Mandalorian_Helmet.paa","EZ_Clothing\data\Mvs_Test\Mandalorian_Visor_co.paa"};
 	};
 };

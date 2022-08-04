@@ -3236,15 +3236,15 @@ class CfgVehicles
 	class EZ_AngryBeavier_TacticalShirt: MVS_CombatShirt_Base
 	{
 		scope = 2;
-		displayName = "PATA TEAM - MVS Shirt";
-		descriptionShort = "PATA TEAM - PlatoonPackage MVS Shirt made by Kokaskale";
+		displayName = "AngryBeavier - MVS Shirt";
+		descriptionShort = "AngryBeavier - PlatoonPackage MVS Shirt made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_mvs_combatshirt.paa","EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_mvs_combatshirt.paa","EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_mvs_combatshirt.paa"};
 	};
 	class EZ_AngryBeavier_Pants: MVS_CombatPants_Base
 	{
 		scope = 2;
-		displayName = "PATA TEAM - MVS Pants";
-		descriptionShort = "PATA TEAM - PlatoonPackage MVS Pants made by Kokaskale";
+		displayName = "AngryBeavier - MVS Pants";
+		descriptionShort = "AngryBeavier - PlatoonPackage MVS Pants made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_mvs_combatpants.paa","EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_mvs_combatpants.paa","EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_mvs_combatpants.paa"};
 	};
 	class EZ_AngryBeavier_Helmet: MVS_Helmet_Base

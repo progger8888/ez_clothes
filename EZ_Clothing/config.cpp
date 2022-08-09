@@ -3326,9 +3326,9 @@ class CfgVehicles
 		scope = 2;
 		displayName = "Sipe - Hiking Jacket";
 		descriptionShort = "Sipe - CrewPackage Hiking Jacket made by Kokaskale, 'From the shadow of the water pump reaper howls, for you have denied him of 200 souls'";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Sipe\Sipe_shirt_new.paa",
-									  "EZ_Clothing\data\patreon_crew\Sipe\Sipe_shirt_new.paa",
-									  "EZ_Clothing\data\patreon_crew\Sipe\Sipe_shirt_new.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Sipe\Sipe_shirt.paa",
+									  "EZ_Clothing\data\patreon_crew\Sipe\Sipe_shirt.paa",
+									  "EZ_Clothing\data\patreon_crew\Sipe\Sipe_shirt.paa"};
 	};
 	class EZ_Sipe_Pants: CargoPants_ColorBase
 	{

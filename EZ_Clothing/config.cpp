@@ -3307,4 +3307,36 @@ class CfgVehicles
 		descriptionShort = "AngryBeavier - PlatoonPackage MVS Warrior Helmet made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_WarriorHelmet.paa","EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_WarriorHelmet.paa","EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_WarriorHelmet.paa","EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_Mandalorian_Helmet.paa","EZ_Clothing\data\Mvs_Test\Mandalorian_Visor_co.paa"};
 	};
+	class EZ_Sipe_Flag: Flag_Base
+	{
+		scope = 2;
+		displayName = "Sipe Flag";
+		descriptionShort = "Sipe - CrewPackage Flag made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Sipe\Sipe_ff.paa"};
+	};
+	class EZ_Sipe_DoubleArmband: EZ_DoubleArmband_ColorBase
+	{
+		scope = 2;
+		displayName = "Sipe - Double Armband";
+		descriptionShort = "Sipe - CrewPackage Double Armband made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Sipe\Sipe_armband.paa"};
+	};
+	class EZ_Sipe_TacticalShirt: HikingJacket_ColorBase
+	{
+		scope = 2;
+		displayName = "Sipe - Hiking Jacket";
+		descriptionShort = "Sipe - CrewPackage Hiking Jacket made by Kokaskale, 'From the shadow of the water pump reaper howls, for you have denied him of 200 souls'";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Sipe\Sipe_shirt_new.paa",
+									  "EZ_Clothing\data\patreon_crew\Sipe\Sipe_shirt_new.paa",
+									  "EZ_Clothing\data\patreon_crew\Sipe\Sipe_shirt_new.paa"};
+	};
+	class EZ_Sipe_Pants: CargoPants_ColorBase
+	{
+		scope = 2;
+		displayName = "Sipe - Cargo Pants";
+		descriptionShort = "Sipe - CrewPackage Cargo Pants made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Sipe\Sipe_pants.paa",
+									  "EZ_Clothing\data\patreon_crew\Sipe\Sipe_pants.paa",
+									  "EZ_Clothing\data\patreon_crew\Sipe\Sipe_pants.paa"};
+	};
 };

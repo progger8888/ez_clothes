@@ -3339,4 +3339,71 @@ class CfgVehicles
 									  "EZ_Clothing\data\patreon_crew\Sipe\Sipe_pants.paa",
 									  "EZ_Clothing\data\patreon_crew\Sipe\Sipe_pants.paa"};
 	};
+	class EZ_MADMANCS_Flag: Flag_Base
+	{
+		scope = 2;
+		displayName = "MADMANCS Flag";
+		descriptionShort = "MADMANCS - SquadPackage Flag made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\MADMANCS\MADMANCS_ff.paa"};
+	};
+	class EZ_MADMANCS_Armband: EZ_DoubleArmband_ColorBase
+	{
+		scope = 2;
+		displayName = "MADMANCS - Armband";
+		descriptionShort = "MADMANCS - SquadPackage armband made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\MADMANCS\MADMANCS_armband.paa"};
+	};
+	class EZ_MADMANCS_Banner: EZ_Banner_Colorbase
+	{
+		scope = 2;
+		displayName = "MADMANCS - Banner";
+		descriptionShort = "MADMANCS - SquadPackage Banner made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\MADMANCS\MADMANCS_bb.paa"};
+	};
+	class EZ_MADMANCS_Tacticalshirt: TacticalShirt_ColorBase
+	{
+		scope = 2;
+		displayName = "MADMANCS - Tactical Shirt";
+		descriptionShort = "MADMANCS - SquadPackage Tactical Shirt made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\MADMANCS\MADMANCS_shirt.paa",
+									  "EZ_Clothing\data\patreon_squad\MADMANCS\MADMANCS_shirt.paa",
+									  "EZ_Clothing\data\patreon_squad\MADMANCS\MADMANCS_shirt.paa"};
+	};
+	class EZ_MADMANCS_Pants: CargoPants_ColorBase
+	{
+		scope = 2;
+		displayName = "MADMANCS - Cargo Pants";
+		descriptionShort = "MADMANCS - SquadPackage Cargo Pants made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\MADMANCS\MADMANCS_pants.paa",
+									  "EZ_Clothing\data\patreon_squad\MADMANCS\MADMANCS_pants.paa",
+									  "EZ_Clothing\data\patreon_squad\MADMANCS\MADMANCS_pants.paa"};
+	};
+	class EZ_MADMANCS_Balaclava: BalaclavaMask_ColorBase
+	{
+		scope = 2;
+		displayName = "MADMANCS - Balaclava";
+		descriptionShort = "MADMANCS - SquadPackage Balaclava made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\MADMANCS\MADMANCS_balaclava_co.paa",
+									  "EZ_Clothing\data\patreon_squad\MADMANCS\MADMANCS_balaclava_co.paa",
+									  "EZ_Clothing\data\patreon_squad\MADMANCS\MADMANCS_balaclava_co.paa"};
+	};
+	class EZ_MADMANCS_Helmet: Mich2001Helmet
+	{
+		scope = 2;
+		displayName = "MADMANCS - Helmet";
+		descriptionShort = "MADMANCS - SquadPackage Helmet made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\MADMANCS\MADMANCS_helmet_co.paa",
+									  "EZ_Clothing\data\patreon_squad\MADMANCS\MADMANCS_helmet_co.paa",
+									  "EZ_Clothing\data\patreon_squad\MADMANCS\MADMANCS_helmet_co.paa"};
+	};
+	class EZ_MADMANCS_Vest: PlateCarrierVest
+	{
+		scope = 2;
+		displayName = "MADMANCS - Vest";
+		descriptionShort = "MADMANCS - SquadPackage Vest made by Kokaskale";
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\MADMANCS\MADMANCS_vest_co.paa",
+									  "EZ_Clothing\data\patreon_squad\MADMANCS\MADMANCS_vest_co.paa",
+									  "EZ_Clothing\data\patreon_squad\MADMANCS\MADMANCS_vest_co.paa"};
+	};
 };

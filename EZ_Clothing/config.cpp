@@ -3406,4 +3406,18 @@ class CfgVehicles
 									  "EZ_Clothing\data\patreon_squad\MADMANCS\MADMANCS_vest_co.paa",
 									  "EZ_Clothing\data\patreon_squad\MADMANCS\MADMANCS_vest_co.paa"};
 	};
+	class EZ_Goblin_Flag: Flag_Base
+	{
+		scope = 2;
+		displayName = "Goblin Flag";
+		descriptionShort = "Goblin - ArmbandPackage Flag made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_armband\Goblin\Goblin_ff.paa"};
+	};
+	class EZ_Goblin_DoubleArmband: EZ_DoubleArmband_ColorBase
+	{
+		scope = 2;
+		displayName = "Goblin - Double Armband";
+		descriptionShort = "Goblin - ArmbandPackage Double Armband made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_armband\Goblin\Goblin_armband.paa"};
+	};
 };

@@ -3420,4 +3420,176 @@ class CfgVehicles
 		descriptionShort = "Goblin - ArmbandPackage Double Armband made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_armband\Goblin\Goblin_armband.paa"};
 	};
+	class EZ_Marran_Flag: Flag_Base
+	{
+		scope = 2;
+		displayName = "Marran - Flag";
+		descriptionShort = "Marran - CrewPackage Flag made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Marran\Marran_ff.paa"};
+	};
+	class EZ_Marran_Armband: EZ_DoubleArmband_ColorBase
+	{
+		scope = 2;
+		displayName = "Marran - Armband";
+		descriptionShort = "Marran - CrewPackage ArmbandArmband made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Marran\Marran_armband.paa"};
+	};
+	class EZ_Marran_TShirt: TShirt_ColorBase
+	{
+		scope = 2;
+		displayName = "Marran - T-Shirt";
+		descriptionShort = "Marran - CrewPackage T-Shirt made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Marran\Marran_tshirt.paa",
+									  "EZ_Clothing\data\patreon_crew\Marran\Marran_tshirt.paa",
+									  "EZ_Clothing\data\patreon_crew\Marran\Marran_tshirt.paa"};
+	};
+	class EZ_Marran_BaseballCap: Msp_BaseballCap_Base
+	{
+		scope = 2;
+		displayName = "Marran - Baseball Cap";
+		descriptionShort = "Marran - CrewPackage Baseball Cap made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Marran\Marran_baseballcapii2.paa"};
+	};
+	class EZ_Marran_SurgicalGloves: SurgicalGloves_ColorBase
+	{
+		scope=2;
+		displayName = "Marran - Surgical Gloves";
+		descriptionShort = "Marran - CrewPackage Surgical Gloves made by Kokaskale";
+		hiddenSelectionsTextures[]={"EZ_Clothing\data\patreon_crew\Marran\Marran_gloves.paa",
+									"EZ_Clothing\data\patreon_crew\Marran\Marran_gloves.paa",
+									"EZ_Clothing\data\patreon_crew\Marran\Marran_gloves.paa"};
+	};
+	class EZ_Mathias_DoubleArmband: EZ_DoubleArmband_ColorBase
+	{
+		scope = 2;
+		displayName = "Mathias - Double Armband";
+		descriptionShort = "Mathias - PlatoonPackage Double Armband made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Mathias\Mathias_armband.paa"};
+	};
+	class EZ_Mathias_BaseballCap: Msp_BaseballCap_Base
+	{
+		scope = 2;
+		displayName = "Mathias - Baseball Cap";
+		descriptionShort = "Mathias - PlatoonPackage Baseball Cap made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Mathias\Mathias_baseballcapii.paa"};
+	};
+	class EZ_Mathias_Banner: EZ_Banner_Colorbase
+	{
+		scope = 2;
+		displayName = "Mathias - Banner";
+		descriptionShort = "Mathias - PlatoonPackage Banner made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Mathias\Mathias_bb.paa"};
+	};
+	class EZ_Mathias_Flag: Flag_Base
+	{
+		scope = 2;
+		displayName = "Mathias - Flag";
+		descriptionShort = "Mathias - PlatoonPackage Flag made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Mathias\Mathias_ff.paa"};
+	};
+	class EZ_Mathias_Balaclava: MVS_Balaclava2_Base
+	{
+		scope = 2;
+		displayName = "Mathias - MVS Balaclava";
+		descriptionShort = "Mathias - PlatoonPackage MVS Balaclava made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Mathias\Mathias_mvs_balaclava.paa",
+									  "EZ_Clothing\data\patreon_platoon\Mathias\Mathias_mvs_balaclava.paa",
+									  "EZ_Clothing\data\patreon_platoon\Mathias\Mathias_mvs_balaclava.paa"};
+	};
+	class EZ_Mathias_TacticalShirt: MVS_CombatShirt_Base
+	{
+		scope = 2;
+		displayName = "Mathias - MVS Shirt";
+		descriptionShort = "Mathias - PlatoonPackage MVS Shirt made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Mathias\Mathias_mvs_combatshirt.paa",
+									  "EZ_Clothing\data\patreon_platoon\Mathias\Mathias_mvs_combatshirt.paa",
+									  "EZ_Clothing\data\patreon_platoon\Mathias\Mathias_mvs_combatshirt.paa"};
+	};
+	class EZ_Mathias_Pants: MVS_CombatPants_Base
+	{
+		scope = 2;
+		displayName = "Mathias - MVS Pants";
+		descriptionShort = "Mathias - PlatoonPackage MVS Pants made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Mathias\Mathias_mvs_combatpants.paa",
+									  "EZ_Clothing\data\patreon_platoon\Mathias\Mathias_mvs_combatpants.paa",
+									  "EZ_Clothing\data\patreon_platoon\Mathias\Mathias_mvs_combatpants.paa"};
+	};
+	class EZ_Mathias_Helmet: MVS_Helmet_Base
+	{
+		scope = 2;
+		displayName = "Mathias - MVS Helmet";
+		descriptionShort = "Mathias - PlatoonPackage MVS Helmet made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Mathias\Mathias_mvs_helmet.paa",
+									  "EZ_Clothing\data\patreon_platoon\Mathias\Mathias_mvs_helmet.paa",
+									  "EZ_Clothing\data\patreon_platoon\Mathias\Mathias_mvs_helmet.paa"};
+	};
+	class MVS_Combat_Vest_Mathias: ModularVestSystem_Base
+	{
+		scope = 2;
+		displayName = "Mathias - MVS Vest";
+		descriptionShort = "Mathias - PlatoonPackage MVS Vest made by Kokaskale";
+		color = "Mathias";
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Mathias\Mathias_mvs_vest.paa",
+									  "EZ_Clothing\data\patreon_platoon\Mathias\Mathias_mvs_vest.paa",
+									  "EZ_Clothing\data\patreon_platoon\Mathias\Mathias_mvs_vest.paa"};
+	};
+	class EZ_Mathias_MVS_Shroud: MVS_Shroud_Base
+	{
+		scope = 2;
+		displayName = "Mathias - MVS Shroud";
+		descriptionShort = "Mathias - PlatoonPackage MVS Shroud made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Mathias\Mathias_MVS_Shroud.paa",
+									  "EZ_Clothing\data\patreon_platoon\Mathias\Mathias_MVS_Shroud.paa",
+									  "EZ_Clothing\data\patreon_platoon\Mathias\Mathias_MVS_Shroud.paa"};
+	};
+	class EZ_Mathias_JungleBoots: JungleBoots_ColorBase
+	{
+		scope = 2;
+		displayName = "Mathias - Jungle Boots";
+		descriptionShort = "Mathias - PlatoonPackage Jungle Boots made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Mathias\Mathias_jungleboots.paa",
+									  "EZ_Clothing\data\patreon_platoon\Mathias\Mathias_jungleboots.paa",
+									  "EZ_Clothing\data\patreon_platoon\Mathias\Mathias_jungleboots.paa"};
+	};
+	class EZ_Mathias_TacticalGloves: TacticalGloves_ColorBase
+	{
+		scope = 2;
+		displayName = "Mathias - Tactical Gloves";
+		descriptionShort = "Mathias - PlatoonPackage Tactical Gloves made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Mathias\Mathias_tacticalgloves.paa",
+									  "EZ_Clothing\data\patreon_platoon\Mathias\Mathias_tacticalgloves.paa",
+									  "EZ_Clothing\data\patreon_platoon\Mathias\Mathias_tacticalgloves.paa"};
+	};
+	class MVS_Combat_Vest_Heavy_Mathias: ModularVestSystem_Heavy
+	{
+		scope = 2;
+		displayName = "Mathias - MVS Heavy Plate Carrier";
+		descriptionShort = "Mathias - PlatoonPackage MVS Heavy Plate Carrier made by Kokaskale";
+		color = "Mathias";
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Mathias\Mathias_MVSHeavy_co.paa",
+									  "EZ_Clothing\data\patreon_platoon\Mathias\Mathias_MVSHeavy_co.paa",
+									  "EZ_Clothing\data\patreon_platoon\Mathias\Mathias_MVSHeavy_co.paa"};
+	};
+	class EZ_Mathias_AssaultPack: MVS_Assault_Pack_Tan
+	{
+		scope = 2;
+		displayName = "Mathias - Assault Pack";
+		descriptionShort = "Mathias - PlatoonPackage Assault Pack made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Mathias\Mathias_RaidPack.paa",
+									  "EZ_Clothing\data\patreon_platoon\Mathias\Mathias_RaidPack.paa",
+									  "EZ_Clothing\data\patreon_platoon\Mathias\Mathias_RaidPack.paa"};
+	};
+	class EZ_Mathias_WarriorHelmet: MVS_WarriorHelmet_Base
+	{
+		scope = 2;
+		displayName = "Mathias - MVS Warrior Helmet";
+		descriptionShort = "Mathias - PlatoonPackage MVS Warrior Helmet made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Mathias\Mathias_WarriorHelmet.paa",
+									  "EZ_Clothing\data\patreon_platoon\Mathias\Mathias_WarriorHelmet.paa",
+									  "EZ_Clothing\data\patreon_platoon\Mathias\Mathias_WarriorHelmet.paa",
+									  "EZ_Clothing\data\patreon_platoon\Mathias\Mathias_Mandalorian_Helmet.paa",
+									  "EZ_Clothing\data\Mvs_Test\Mandalorian_Visor_co.paa"};
+	};
 };

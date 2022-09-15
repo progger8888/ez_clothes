@@ -99,6 +99,7 @@ class CfgVehicles
 	class PrisonUniformPants;
 	class MVS_Shroud_Base;
 	class ModularVestSystem_Heavy;
+	class SurgicalGloves_ColorBase;
 	class EZ_Admin_Plate: PlateCarrierVest
 	{
 		scope = 2;

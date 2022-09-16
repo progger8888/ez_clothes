@@ -3593,4 +3593,27 @@ class CfgVehicles
 									  "EZ_Clothing\data\patreon_platoon\Mathias\Mathias_Mandalorian_Helmet.paa",
 									  "EZ_Clothing\data\Mvs_Test\Mandalorian_Visor_co.paa"};
 	};
+	class EZ_FunCrew_Flag: Flag_Base
+	{
+		scope = 2;
+		displayName = "FunCrew Flag";
+		descriptionShort = "FunCrew - CrewPackage Flag made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Funcrew\Funcrew_ff.paa"};
+	};
+	class EZ_FunCrew_DoubleArmband: EZ_DoubleArmband_ColorBase
+	{
+		scope = 2;
+		displayName = "FunCrew - Double Armband";
+		descriptionShort = "FunCrew - CrewPackage Double Armband made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Funcrew\Funcrew_armband.paa"};
+	};
+	class EZ_FunCrew_TacticalShirt: HikingJacket_ColorBase
+	{
+		scope = 2;
+		displayName = "FunCrew - Hiking Jacket";
+		descriptionShort = "FunCrew - CrewPackage Hiking Jacket made by Kokaskale, 'From the shadow of the water pump reaper howls, for you have denied him of 200 souls'";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Funcrew\Funcrew_shirt.paa",
+									  "EZ_Clothing\data\patreon_crew\Funcrew\Funcrew_shirt.paa",
+									  "EZ_Clothing\data\patreon_crew\Funcrew\Funcrew_shirt.paa"};
+	};
 };

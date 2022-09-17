@@ -3331,14 +3331,25 @@ class CfgVehicles
 									  "EZ_Clothing\data\patreon_crew\Sipe\Sipe_shirt.paa",
 									  "EZ_Clothing\data\patreon_crew\Sipe\Sipe_shirt.paa"};
 	};
-	class EZ_Sipe_Pants: CargoPants_ColorBase
+	class EZ_Sipe_Pants: MVS_CombatPants_Base
 	{
 		scope = 2;
-		displayName = "Sipe - Cargo Pants";
-		descriptionShort = "Sipe - CrewPackage Cargo Pants made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Sipe\Sipe_pants.paa",
-									  "EZ_Clothing\data\patreon_crew\Sipe\Sipe_pants.paa",
-									  "EZ_Clothing\data\patreon_crew\Sipe\Sipe_pants.paa"};
+		displayName = "Sipe - MVS Pants";
+		descriptionShort = "Sipe - CrewPackage MVS Pants made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Sipe\Sipe_mvs_combatpants.paa",
+									  "EZ_Clothing\data\patreon_crew\Sipe\Sipe_mvs_combatpants.paa",
+									  "EZ_Clothing\data\patreon_crew\Sipe\Sipe_mvs_combatpants.paa"};
+	};
+	class MVS_Combat_Vest_Sipe: ModularVestSystem_Base
+	{
+		scope = 2;
+		displayName = "Sipe - MVS Vest";
+		descriptionShort = "Sipe - CrewPackage MVS Vest made by Kokaskale";
+		color = "Sipe";
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Sipe\Sipe_mvs_vest.paa",
+									  "EZ_Clothing\data\patreon_crew\Sipe\Sipe_mvs_vest.paa",
+									  "EZ_Clothing\data\patreon_crew\Sipe\Sipe_mvs_vest.paa"};
 	};
 	class EZ_MADMANCS_Flag: Flag_Base
 	{

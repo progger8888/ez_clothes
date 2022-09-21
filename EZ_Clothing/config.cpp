@@ -2752,8 +2752,8 @@ class CfgVehicles
 	class EZ_PrigorodkiWP_Flag: Flag_Base
 	{
 		scope = 2;
-		displayName = "PrigorodkiWP Flag";
-		descriptionShort = "PrigorodkiWP - CrewPackage Flag made by Kokaskale";
+		displayName = "PolustajatOy Flag";
+		descriptionShort = "PolustajatOy - CrewPackage Flag made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\PrigorodkiWP\PrigorodkiWP_ff.paa"};
 	};
 	class EZ_PrigorodkiWP_Armband: Armband_ColorBase
@@ -2771,14 +2771,21 @@ class CfgVehicles
 									  "EZ_Clothing\data\patreon_crew\PrigorodkiWP\PrigorodkiWP_ff.paa",
 									  "EZ_Clothing\data\patreon_crew\PrigorodkiWP\PrigorodkiWP_ff.paa"};
 	};
+	class EZ_PolustajatOy_Armband: EZ_DoubleArmband_ColorBase
+	{
+		scope = 2;
+		displayName = "PolustajatOy - Double Armband";
+		descriptionShort = "PolustajatOy -CrewPackage Double Armband made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\PrigorodkiWP\PolustajatOy_armband.paa"};
+	};
 	class EZ_PrigorodkiWP_TacticalShirt: HikingJacket_ColorBase
 	{
 		scope = 2;
-		displayName = "PrigorodkiWP - Hiking Jacket";
-		descriptionShort = "PrigorodkiWP - CrewPackage Hiking Jacket made by Kokaskale, 'From the shadow of the water pump reaper howls, for you have denied him of 200 souls'";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\PrigorodkiWP\PrigorodkiWP_shirt_new.paa",
-									  "EZ_Clothing\data\patreon_crew\PrigorodkiWP\PrigorodkiWP_shirt_new.paa",
-									  "EZ_Clothing\data\patreon_crew\PrigorodkiWP\PrigorodkiWP_shirt_new.paa"};
+		displayName = "PolustajatOy - Hiking Jacket";
+		descriptionShort = "PolustajatOy - CrewPackage Hiking Jacket made by Kokaskale, 'From the shadow of the water pump reaper howls, for you have denied him of 200 souls'";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\PrigorodkiWP\PolustajatOy_shirt.paa",
+									  "EZ_Clothing\data\patreon_crew\PrigorodkiWP\PolustajatOy_shirt.paa",
+									  "EZ_Clothing\data\patreon_crew\PrigorodkiWP\PolustajatOy_shirt.paa"};
 	};
 	class EZ_SAF_Flag: Flag_Base
 	{
@@ -3011,6 +3018,15 @@ class CfgVehicles
 		descriptionShort = "Beach Teleportation Service - SquadPackage Balaclava made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BTS\BTS_balaclava_co.paa","EZ_Clothing\data\patreon_squad\BTS\BTS_balaclava_co.paa","EZ_Clothing\data\patreon_squad\BTS\BTS_balaclava_co.paa"};
 	};
+	class EZ_BTS_MVS_Shroud: MVS_Shroud_Base
+	{
+		scope = 2;
+		displayName = "BTS - MVS Shroud";
+		descriptionShort = "BTS - SquadPackage MVS Shroud made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BTS\BTS_MVS_Shroud.paa",
+									  "EZ_Clothing\data\patreon_squad\BTS\BTS_MVS_Shroud.paa",
+									  "EZ_Clothing\data\patreon_squad\BTS\BTS_MVS_Shroud.paa"};
+	};
 	class EZ_BTS_Helmet: Mich2001Helmet
 	{
 		scope = 2;
@@ -3025,6 +3041,27 @@ class CfgVehicles
 		descriptionShort = "Beach Teleportation Service - SquadPackage Vest made by Kokaskale";
 		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BTS\BTS_vest_co.paa","EZ_Clothing\data\patreon_squad\BTS\BTS_vest_co.paa","EZ_Clothing\data\patreon_squad\BTS\BTS_vest_co.paa"};
+	};
+	class EZ_BTS_MilitaryBeret: MilitaryBeret_ColorBase
+	{
+		scope=2;
+		visibilityModifier=0.89999998;
+		model="\DZ\characters\headgear\MilitaryBeret_NZ_g.p3d";
+		lootTag[]=
+		{
+			"Military_west"
+		};
+		class ClothingTypes
+		{
+			male="\DZ\characters\headgear\MilitaryBeret_NZ_m.p3d";
+			female="\DZ\characters\headgear\MilitaryBeret_NZ_f.p3d";
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"EZ_Clothing\data\patreon_squad\BTS\BTS_militaryberet.paa",
+			"EZ_Clothing\data\patreon_squad\BTS\BTS_militaryberet.paa",
+			"EZ_Clothing\data\patreon_squad\BTS\BTS_militaryberet.paa"
+		};
 	};
 	class EZ_Steelers_Flag: Flag_Base
 	{

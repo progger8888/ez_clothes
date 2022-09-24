@@ -3485,7 +3485,16 @@ class CfgVehicles
 		descriptionShort = "Marran - SquadPackage ArmbandArmband made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Marran\Marran_armband.paa"};
 	};
-	class EZ_Marran_TShirt: M65Jacket_ColorBase
+	class EZ_Marran_TShirt: TacticalShirt_ColorBase
+	{
+		scope = 2;
+		displayName = "Marran - T-Shirt";
+		descriptionShort = "Marran - SquadPackage T-Shirt made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Marran\Marran_jacket.paa",
+									  "EZ_Clothing\data\patreon_squad\Marran\Marran_jacket.paa",
+									  "EZ_Clothing\data\patreon_squad\Marran\Marran_jacket.paa"};
+	};
+	class EZ_Marran_Jacket_New: M65Jacket_ColorBase
 	{
 		scope = 2;
 		displayName = "Marran - T-Shirt";

@@ -3474,22 +3474,22 @@ class CfgVehicles
 	class EZ_Marran_Flag: Flag_Base
 	{
 		scope = 2;
-		displayName = "Marran - Flag";
-		descriptionShort = "Marran - SquadPackage Flag made by Kokaskale";
+		displayName = "Försvarsmakten - Flag";
+		descriptionShort = "Försvarsmakten - SquadPackage Flag made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Marran\Marran_ff.paa"};
 	};
 	class EZ_Marran_Armband: EZ_DoubleArmband_ColorBase
 	{
 		scope = 2;
-		displayName = "Marran - Armband";
-		descriptionShort = "Marran - SquadPackage ArmbandArmband made by Kokaskale";
+		displayName = "Försvarsmakten - Armband";
+		descriptionShort = "Försvarsmakten - SquadPackage ArmbandArmband made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Marran\Marran_armband.paa"};
 	};
 	class EZ_Marran_TShirt: TacticalShirt_ColorBase
 	{
 		scope = 2;
-		displayName = "Marran - T-Shirt";
-		descriptionShort = "Marran - SquadPackage T-Shirt made by Kokaskale";
+		displayName = "Försvarsmakten - T-Shirt";
+		descriptionShort = "Försvarsmakten - SquadPackage T-Shirt made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Marran\Marran_jacket.paa",
 									  "EZ_Clothing\data\patreon_squad\Marran\Marran_jacket.paa",
 									  "EZ_Clothing\data\patreon_squad\Marran\Marran_jacket.paa"};
@@ -3497,8 +3497,8 @@ class CfgVehicles
 	class EZ_Marran_Jacket_New: M65Jacket_ColorBase
 	{
 		scope = 2;
-		displayName = "Marran - T-Shirt";
-		descriptionShort = "Marran - SquadPackage T-Shirt made by Kokaskale";
+		displayName = "Försvarsmakten - T-Shirt";
+		descriptionShort = "Försvarsmakten - SquadPackage T-Shirt made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Marran\Marran_jacket.paa",
 									  "EZ_Clothing\data\patreon_squad\Marran\Marran_jacket.paa",
 									  "EZ_Clothing\data\patreon_squad\Marran\Marran_jacket.paa"};
@@ -3506,15 +3506,15 @@ class CfgVehicles
 	class EZ_Marran_BaseballCap: Msp_BaseballCap_Base
 	{
 		scope = 2;
-		displayName = "Marran - Baseball Cap";
-		descriptionShort = "Marran - SquadPackage Baseball Cap made by Kokaskale";
+		displayName = "Försvarsmakten - Baseball Cap";
+		descriptionShort = "Försvarsmakten - SquadPackage Baseball Cap made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Marran\Marran_baseballcapii2.paa"};
 	};
 	class EZ_Marran_SurgicalGloves: SurgicalGloves_ColorBase
 	{
 		scope=2;
-		displayName = "Marran - Surgical Gloves";
-		descriptionShort = "Marran - SquadPackage Surgical Gloves made by Kokaskale";
+		displayName = "Försvarsmakten - Surgical Gloves";
+		descriptionShort = "Försvarsmakten - SquadPackage Surgical Gloves made by Kokaskale";
 		hiddenSelectionsTextures[]={"EZ_Clothing\data\patreon_squad\Marran\Marran_gloves.paa",
 									"EZ_Clothing\data\patreon_squad\Marran\Marran_gloves.paa",
 									"EZ_Clothing\data\patreon_squad\Marran\Marran_gloves.paa"};
@@ -3522,8 +3522,8 @@ class CfgVehicles
 	class EZ_Marran_Balaclava3Holes: Balaclava3Holes_ColorBase
 	{
 		scope=2;
-		displayName = "Marran - Surgical Gloves";
-		descriptionShort = "Marran - SquadPackage Surgical Gloves made by Kokaskale";
+		displayName = "Försvarsmakten - Surgical Gloves";
+		descriptionShort = "Försvarsmakten - SquadPackage Surgical Gloves made by Kokaskale";
 		hiddenSelectionsTextures[]=
 		{
 			"EZ_Clothing\data\patreon_squad\Marran\Marran_3holes.paa",
@@ -3534,8 +3534,8 @@ class CfgVehicles
 	class EZ_Marran_Pants: CargoPants_ColorBase
 	{
 		scope = 2;
-		displayName = "Marran - Cargo Pants";
-		descriptionShort = "Marran - SquadPackage Cargo Pants made by Kokaskale";
+		displayName = "Försvarsmakten - Cargo Pants";
+		descriptionShort = "Försvarsmakten - SquadPackage Cargo Pants made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Marran\Marran_pants.paa",
 									  "EZ_Clothing\data\patreon_squad\Marran\Marran_pants.paa",
 									  "EZ_Clothing\data\patreon_squad\Marran\Marran_pants.paa"};
@@ -3543,8 +3543,8 @@ class CfgVehicles
 	class EZ_Marran_Helmet: Mich2001Helmet
 	{
 		scope = 2;
-		displayName = "Marran - Helmet";
-		descriptionShort = "Marran - SquadPackage Helmet made by Kokaskale";
+		displayName = "Försvarsmakten - Helmet";
+		descriptionShort = "Försvarsmakten - SquadPackage Helmet made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Marran\Marran_helmet_co.paa",
 									  "EZ_Clothing\data\patreon_squad\Marran\Marran_helmet_co.paa",
 									  "EZ_Clothing\data\patreon_squad\Marran\Marran_helmet_co.paa"};
@@ -3552,8 +3552,8 @@ class CfgVehicles
 	class EZ_Marran_Vest: PlateCarrierVest
 	{
 		scope = 2;
-		displayName = "Marran - Vest";
-		descriptionShort = "Marran - SquadPackage Vest made by Kokaskale";
+		displayName = "Försvarsmakten - Vest";
+		descriptionShort = "Försvarsmakten - SquadPackage Vest made by Kokaskale";
 		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Marran\Marran_vest_co.paa",
 									  "EZ_Clothing\data\patreon_squad\Marran\Marran_vest_co.paa",

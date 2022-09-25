@@ -3715,4 +3715,18 @@ class CfgVehicles
 									  "EZ_Clothing\data\patreon_crew\Funcrew\Funcrew_shirt.paa",
 									  "EZ_Clothing\data\patreon_crew\Funcrew\Funcrew_shirt.paa"};
 	};
+	class EZ_Shark_Flag: Flag_Base
+	{
+		scope = 2;
+		displayName = "Shark Flag";
+		descriptionShort = "Shark - ArmbandPackage Flag made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_armband\Shark\Shark_ff.paa"};
+	};
+	class EZ_Shark_DoubleArmband: EZ_DoubleArmband_ColorBase
+	{
+		scope = 2;
+		displayName = "Shark - Double Armband";
+		descriptionShort = "Shark - ArmbandPackage Double Armband made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_armband\Shark\Shark_armband.paa"};
+	};
 };

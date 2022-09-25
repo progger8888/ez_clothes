@@ -3545,9 +3545,9 @@ class CfgVehicles
 		scope = 2;
 		displayName = "Försvarsmakten - Helmet";
 		descriptionShort = "Försvarsmakten - SquadPackage Helmet made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Marran\Marran_helmet_co.paa",
-									  "EZ_Clothing\data\patreon_squad\Marran\Marran_helmet_co.paa",
-									  "EZ_Clothing\data\patreon_squad\Marran\Marran_helmet_co.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Marran\Marran_helmet.paa",
+									  "EZ_Clothing\data\patreon_squad\Marran\Marran_helmet.paa",
+									  "EZ_Clothing\data\patreon_squad\Marran\Marran_helmet.paa"};
 	};
 	class EZ_Marran_Vest: PlateCarrierVest
 	{
@@ -3555,9 +3555,9 @@ class CfgVehicles
 		displayName = "Försvarsmakten - Vest";
 		descriptionShort = "Försvarsmakten - SquadPackage Vest made by Kokaskale";
 		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Marran\Marran_vest_co.paa",
-									  "EZ_Clothing\data\patreon_squad\Marran\Marran_vest_co.paa",
-									  "EZ_Clothing\data\patreon_squad\Marran\Marran_vest_co.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Marran\Marran_vest.paa",
+									  "EZ_Clothing\data\patreon_squad\Marran\Marran_vest.paa",
+									  "EZ_Clothing\data\patreon_squad\Marran\Marran_vest.paa"};
 	};
 	class EZ_Mathias_DoubleArmband: EZ_DoubleArmband_ColorBase
 	{

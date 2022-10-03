@@ -2780,11 +2780,11 @@ class CfgVehicles
 		descriptionShort = "PolustajatOy -CrewPackage Double Armband made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\PrigorodkiWP\PolustajatOy_armband.paa"};
 	};
-	class EZ_PrigorodkiWP_TacticalShirt: HikingJacket_ColorBase
+	class EZ_PrigorodkiWP_TacticalShirt: TacticalShirt_ColorBase
 	{
 		scope = 2;
-		displayName = "PolustajatOy - Hiking Jacket";
-		descriptionShort = "PolustajatOy - CrewPackage Hiking Jacket made by Kokaskale, 'From the shadow of the water pump reaper howls, for you have denied him of 200 souls'";
+		displayName = "PolustajatOy - Tactical Shirt";
+		descriptionShort = "PolustajatOy - CrewPackage Tactical Shirt made by Kokaskale, 'From the shadow of the water pump reaper howls, for you have denied him of 200 souls'";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\PrigorodkiWP\PolustajatOy_shirt.paa",
 									  "EZ_Clothing\data\patreon_crew\PrigorodkiWP\PolustajatOy_shirt.paa",
 									  "EZ_Clothing\data\patreon_crew\PrigorodkiWP\PolustajatOy_shirt.paa"};
@@ -3389,6 +3389,17 @@ class CfgVehicles
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Sipe\Sipe_mvs_vest.paa",
 									  "EZ_Clothing\data\patreon_crew\Sipe\Sipe_mvs_vest.paa",
 									  "EZ_Clothing\data\patreon_crew\Sipe\Sipe_mvs_vest.paa"};
+	};
+	class EZ_Sipe_WarriorHelmet: MVS_WarriorHelmet_Base
+	{
+		scope = 2;
+		displayName = "Sipe - MVS Warrior Helmet";
+		descriptionShort = "Sipe - CrewPackage MVS Warrior Helmet made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Sipe\Sipe_WarriorHelmet.paa",
+									  "EZ_Clothing\data\patreon_crew\Sipe\Sipe_WarriorHelmet.paa",
+									  "EZ_Clothing\data\patreon_crew\Sipe\Sipe_WarriorHelmet.paa",
+									  "EZ_Clothing\data\patreon_crew\Sipe\Sipe_Mandalorian_Helmet.paa",
+									  "EZ_Clothing\data\Mvs_Test\Mandalorian_Visor_co.paa"};
 	};
 	class EZ_MADMANCS_Flag: Flag_Base
 	{

@@ -2379,7 +2379,7 @@ class CfgVehicles
 		descriptionShort = "Beach Teleportation Service - SquadPackage Flag made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BTS\BTS_ff.paa"};
 	};
-	class EZ_BTS_Armband_New: EZ_DoubleArmband_ColorBase
+	class EZ_BTS_Armband: EZ_DoubleArmband_ColorBase
 	{
 		scope = 2;
 		displayName = "Beach Teleportation Service - Armband";
@@ -2407,13 +2407,6 @@ class CfgVehicles
 		descriptionShort = "Beach Teleportation Service - SquadPackage Cargo Pants made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BTS\BTS_pants.paa","EZ_Clothing\data\patreon_squad\BTS\BTS_pants.paa","EZ_Clothing\data\patreon_squad\BTS\BTS_pants.paa"};
 	};
-	class EZ_BTS_Balaclava: BalaclavaMask_ColorBase
-	{
-		scope = 2;
-		displayName = "Beach Teleportation Service - Balaclava";
-		descriptionShort = "Beach Teleportation Service - SquadPackage Balaclava made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BTS\BTS_balaclava_co.paa","EZ_Clothing\data\patreon_squad\BTS\BTS_balaclava_co.paa","EZ_Clothing\data\patreon_squad\BTS\BTS_balaclava_co.paa"};
-	};
 	class EZ_BTS_MVS_Shroud: MVS_Shroud_Base
 	{
 		scope = 2;
@@ -2422,13 +2415,6 @@ class CfgVehicles
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BTS\BTS_MVS_Shroud.paa",
 									  "EZ_Clothing\data\patreon_squad\BTS\BTS_MVS_Shroud.paa",
 									  "EZ_Clothing\data\patreon_squad\BTS\BTS_MVS_Shroud.paa"};
-	};
-	class EZ_BTS_Helmet: Mich2001Helmet
-	{
-		scope = 2;
-		displayName = "Beach Teleportation Service - Helmet";
-		descriptionShort = "Beach Teleportation Service - SquadPackage Helmet made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BTS\BTS_helmet_co.paa","EZ_Clothing\data\patreon_squad\BTS\BTS_helmet_co.paa","EZ_Clothing\data\patreon_squad\BTS\BTS_helmet_co.paa"};
 	};
 	class EZ_BTS_Vest: PlateCarrierVest
 	{
@@ -2951,5 +2937,95 @@ class CfgVehicles
 		displayName = "Shark - Double Armband";
 		descriptionShort = "Shark - ArmbandPackage Double Armband made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_armband\Shark\Shark_armband.paa"};
+	};
+	class EZ_fAme_Flag: Flag_Base
+	{
+		scope = 2;
+		displayName = "fAme Flag";
+		descriptionShort = "fAme - SquadPackage Flag made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\fAme\fAme_ff.paa"};
+	};
+	class EZ_fAme_Armband: EZ_DoubleArmband_ColorBase
+	{
+		scope = 2;
+		displayName = "fAme - Armband";
+		descriptionShort = "fAme - SquadPackage armband made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\fAme\fAme_armband.paa"};
+	};
+	class EZ_fAme_Banner: EZ_Banner_Colorbase
+	{
+		scope = 2;
+		displayName = "fAme - Banner";
+		descriptionShort = "fAme - SquadPackage Banner made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\fAme\fAme_bb.paa"};
+	};
+	class EZ_fAme_Tacticalshirt: TacticalShirt_ColorBase
+	{
+		scope = 2;
+		displayName = "fAme - Tactical Shirt";
+		descriptionShort = "fAme - SquadPackage Tactical Shirt made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\fAme\fAme_shirt.paa",
+									  "EZ_Clothing\data\patreon_squad\fAme\fAme_shirt.paa",
+									  "EZ_Clothing\data\patreon_squad\fAme\fAme_shirt.paa"};
+	};
+	class EZ_fAme_Pants: CargoPants_ColorBase
+	{
+		scope = 2;
+		displayName = "fAme - Cargo Pants";
+		descriptionShort = "fAme - SquadPackage Cargo Pants made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\fAme\fAme_pants.paa",
+									  "EZ_Clothing\data\patreon_squad\fAme\fAme_pants.paa",
+									  "EZ_Clothing\data\patreon_squad\fAme\fAme_pants.paa"};
+	};
+	class EZ_fAme_Balaclava: BalaclavaMask_ColorBase
+	{
+		scope = 2;
+		displayName = "fAme - Balaclava";
+		descriptionShort = "fAme - SquadPackage Balaclava made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\fAme\fAme_balaclava_co.paa",
+									  "EZ_Clothing\data\patreon_squad\fAme\fAme_balaclava_co.paa",
+									  "EZ_Clothing\data\patreon_squad\fAme\fAme_balaclava_co.paa"};
+	};
+	class EZ_fAme_Helmet: Mich2001Helmet
+	{
+		scope = 2;
+		displayName = "fAme - Helmet";
+		descriptionShort = "fAme - SquadPackage Helmet made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\fAme\fAme_helmet_co.paa",
+									  "EZ_Clothing\data\patreon_squad\fAme\fAme_helmet_co.paa",
+									  "EZ_Clothing\data\patreon_squad\fAme\fAme_helmet_co.paa"};
+	};
+	class EZ_fAme_Vest: PlateCarrierVest
+	{
+		scope = 2;
+		displayName = "fAme - Vest";
+		descriptionShort = "fAme - SquadPackage Vest made by Kokaskale";
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\fAme\fAme_vest_co.paa",
+									  "EZ_Clothing\data\patreon_squad\fAme\fAme_vest_co.paa",
+									  "EZ_Clothing\data\patreon_squad\fAme\fAme_vest_co.paa"};
+	};
+	class EZ_NoEntry_Flag: Flag_Base
+	{
+		scope = 2;
+		displayName = "NoEntry Flag";
+		descriptionShort = "NoEntry - CrewPackage Flag made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\NoEntry\NoEntry_ff.paa"};
+	};
+	class EZ_NoEntry_Armband: EZ_DoubleArmband_ColorBase
+	{
+		scope = 2;
+		displayName = "NoEntry - Double Armband";
+		descriptionShort = "NoEntry -CrewPackage Double Armband made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\NoEntry\NoEntry_armband.paa"};
+	};
+	class EZ_NoEntry_TacticalShirt: TacticalShirt_ColorBase
+	{
+		scope = 2;
+		displayName = "NoEntry - Tactical Shirt";
+		descriptionShort = "NoEntry - CrewPackage Tactical Shirt made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\NoEntry\NoEntry_shirt.paa",
+									  "EZ_Clothing\data\patreon_crew\NoEntry\NoEntry_shirt.paa",
+									  "EZ_Clothing\data\patreon_crew\NoEntry\NoEntry_shirt.paa"};
 	};
 };

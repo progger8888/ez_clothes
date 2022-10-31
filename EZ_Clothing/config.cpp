@@ -3028,4 +3028,18 @@ class CfgVehicles
 									  "EZ_Clothing\data\patreon_crew\NoEntry\NoEntry_shirt.paa",
 									  "EZ_Clothing\data\patreon_crew\NoEntry\NoEntry_shirt.paa"};
 	};
+	class EZ_KEBAPGANG_Flag: Flag_Base
+	{
+		scope = 2;
+		displayName = "KEBAP GANG Flag";
+		descriptionShort = "KEBAP GANG - ArmbandPackage Flag made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_armband\KEBAPGANG\KEBAPGANG_ff.paa"};
+	};
+	class EZ_KEBAPGANG_DoubleArmband: EZ_DoubleArmband_ColorBase
+	{
+		scope = 2;
+		displayName = "KEBAP GANG - Double Armband";
+		descriptionShort = "KEBAP GANG - ArmbandPackage Double Armband made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_armband\KEBAPGANG\KEBAPGANG_armband.paa"};
+	};
 };

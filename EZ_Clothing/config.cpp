@@ -3042,4 +3042,27 @@ class CfgVehicles
 		descriptionShort = "KEBAP GANG - ArmbandPackage Double Armband made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_armband\KEBAPGANG\KEBAPGANG_armband.paa"};
 	};
+	class EZ_BAD_Flag: Flag_Base
+	{
+		scope = 2;
+		displayName = "B@D Flag";
+		descriptionShort = "B@D - CrewPackage Flag made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\B@D\B@D_ff.paa"};
+	};
+	class EZ_BAD_DoubleArmband: EZ_DoubleArmband_ColorBase
+	{
+		scope = 2;
+		displayName = "B@D - Double Armband";
+		descriptionShort = "B@D - CrewPackage Double Armband made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\B@D\B@D_armband.paa"};
+	};
+	class EZ_BAD_TacticalShirt: HikingJacket_ColorBase
+	{
+		scope = 2;
+		displayName = "B@D - Hiking Jacket";
+		descriptionShort = "B@D - CrewPackage Hiking Jacket made by Kokaskale, 'From the shadow of the water pump reaper howls, for you have denied him of 200 souls'";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\B@D\B@D_shirt.paa",
+									  "EZ_Clothing\data\patreon_crew\B@D\B@D_shirt.paa",
+									  "EZ_Clothing\data\patreon_crew\B@D\B@D_shirt.paa"};
+	};
 };

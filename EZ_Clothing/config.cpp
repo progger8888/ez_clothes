@@ -3065,4 +3065,18 @@ class CfgVehicles
 									  "EZ_Clothing\data\patreon_crew\B@D\B@D_shirt.paa",
 									  "EZ_Clothing\data\patreon_crew\B@D\B@D_shirt.paa"};
 	};
+	class EZ_Ernest_Flag: Flag_Base
+	{
+		scope = 2;
+		displayName = "Ernest Flag";
+		descriptionShort = "Ernest - ArmbandPackage Flag made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_armband\Ernest\Ernest_ff.paa"};
+	};
+	class EZ_Ernest_DoubleArmband: EZ_DoubleArmband_ColorBase
+	{
+		scope = 2;
+		displayName = "Ernest - Double Armband";
+		descriptionShort = "Ernest - ArmbandPackage Double Armband made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_armband\Ernest\Ernest_armband.paa"};
+	};
 };

@@ -3079,4 +3079,18 @@ class CfgVehicles
 		descriptionShort = "Ernest - ArmbandPackage Double Armband made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_armband\Ernest\Ernest_armband.paa"};
 	};
+	class EZ_ELITA_Flag: Flag_Base
+	{
+		scope = 2;
+		displayName = "[ELITA] Flag";
+		descriptionShort = "[ELITA] - ArmbandPackage Flag made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_armband\[ELITA]\[ELITA]_ff.paa"};
+	};
+	class EZ_ELITA_DoubleArmband: EZ_DoubleArmband_ColorBase
+	{
+		scope = 2;
+		displayName = "[ELITA] - Double Armband";
+		descriptionShort = "[ELITA] - ArmbandPackage Double Armband made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_armband\[ELITA]\[ELITA]_armband.paa"};
+	};
 };

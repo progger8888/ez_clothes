@@ -3093,4 +3093,71 @@ class CfgVehicles
 		descriptionShort = "[ELITA] - ArmbandPackage Double Armband made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_armband\[ELITA]\[ELITA]_armband.paa"};
 	};
+	class EZ_AoD_Flag: Flag_Base
+	{
+		scope = 2;
+		displayName = "AoD Flag";
+		descriptionShort = "AoD - SquadPackage Flag made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\AoD\AoD_ff.paa"};
+	};
+	class EZ_AoD_Armband: EZ_DoubleArmband_ColorBase
+	{
+		scope = 2;
+		displayName = "AoD - Armband";
+		descriptionShort = "AoD - SquadPackage armband made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\AoD\AoD_armband.paa"};
+	};
+	class EZ_AoD_Banner: EZ_Banner_Colorbase
+	{
+		scope = 2;
+		displayName = "AoD - Banner";
+		descriptionShort = "AoD - SquadPackage Banner made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\AoD\AoD_bb.paa"};
+	};
+	class EZ_AoD_Tacticalshirt: TacticalShirt_ColorBase
+	{
+		scope = 2;
+		displayName = "AoD - Tactical Shirt";
+		descriptionShort = "AoD - SquadPackage Tactical Shirt made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\AoD\AoD_shirt.paa",
+									  "EZ_Clothing\data\patreon_squad\AoD\AoD_shirt.paa",
+									  "EZ_Clothing\data\patreon_squad\AoD\AoD_shirt.paa"};
+	};
+	class EZ_AoD_Pants: CargoPants_ColorBase
+	{
+		scope = 2;
+		displayName = "AoD - Cargo Pants";
+		descriptionShort = "AoD - SquadPackage Cargo Pants made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\AoD\AoD_pants.paa",
+									  "EZ_Clothing\data\patreon_squad\AoD\AoD_pants.paa",
+									  "EZ_Clothing\data\patreon_squad\AoD\AoD_pants.paa"};
+	};
+	class EZ_AoD_Balaclava: BalaclavaMask_ColorBase
+	{
+		scope = 2;
+		displayName = "AoD - Balaclava";
+		descriptionShort = "AoD - SquadPackage Balaclava made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\AoD\AoD_balaclava_co.paa",
+									  "EZ_Clothing\data\patreon_squad\AoD\AoD_balaclava_co.paa",
+									  "EZ_Clothing\data\patreon_squad\AoD\AoD_balaclava_co.paa"};
+	};
+	class EZ_AoD_Helmet: Mich2001Helmet
+	{
+		scope = 2;
+		displayName = "AoD - Helmet";
+		descriptionShort = "AoD - SquadPackage Helmet made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\AoD\AoD_helmet_co.paa",
+									  "EZ_Clothing\data\patreon_squad\AoD\AoD_helmet_co.paa",
+									  "EZ_Clothing\data\patreon_squad\AoD\AoD_helmet_co.paa"};
+	};
+	class EZ_AoD_Vest: PlateCarrierVest
+	{
+		scope = 2;
+		displayName = "AoD - Vest";
+		descriptionShort = "AoD - SquadPackage Vest made by Kokaskale";
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\AoD\AoD_vest_co.paa",
+									  "EZ_Clothing\data\patreon_squad\AoD\AoD_vest_co.paa",
+									  "EZ_Clothing\data\patreon_squad\AoD\AoD_vest_co.paa"};
+	};
 };

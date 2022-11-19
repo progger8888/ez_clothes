@@ -2506,7 +2506,7 @@ class CfgVehicles
 		scope = 2;
 		displayName = "AngryBeaver - MVS Vest";
 		descriptionShort = "AngryBeaver - PlatoonPackage MVS Vest made by Kokaskale";
-		color = "AngryBeaver";
+		color = "AngryBeavier";
 		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_mvs_vest.paa","EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_mvs_vest.paa","EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_mvs_vest.paa"};
 	};

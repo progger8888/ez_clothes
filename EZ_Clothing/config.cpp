@@ -3223,11 +3223,12 @@ class CfgVehicles
 			"EZ_Clothing\data\patreon_platoon\NWA\NWA_mvs_helmet.paa"
 		};
 	};
-	class EZ_NWA_Vest: ModularVestSystem_Base
+	class MVS_Combat_Vest_NWA: ModularVestSystem_Base
 	{
 		displayName = "North Western Alliance - MVS Vest";
 		descriptionShort = "North Western Alliance - PlatoonPackage MVS Vest made by Kokaskale";
 		scope = 2;
+		color = "NWA";
 		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NWA\NWA_mvs_vest.paa",
 									  "EZ_Clothing\data\patreon_platoon\NWA\NWA_mvs_vest.paa",
@@ -3266,11 +3267,12 @@ class CfgVehicles
 			"EZ_Clothing\data\patreon_platoon\NWA\NWA_tacticalgloves.paa"
 		};
 	};
-	class EZ_NWA_MVS_Combat_Vest_Heavy: ModularVestSystem_Heavy
+	class MVS_Combat_Vest_Heavy_NWA: ModularVestSystem_Heavy
 	{
 		displayName = "North Western Alliance - MVS Heavy Plate Carrier";
 		descriptionShort = "North Western Alliance - PlatoonPackage MVS Heavy Plate Carrier made by Kokaskale";
 		scope = 2;
+		color = "NWA";
 		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NWA\NWA_MVSHeavy_co.paa",
 									  "EZ_Clothing\data\patreon_platoon\NWA\NWA_MVSHeavy_co.paa",

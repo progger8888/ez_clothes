@@ -3114,6 +3114,26 @@ class CfgVehicles
 		descriptionShort = "AoD - SquadPackage Banner made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\AoD\AoD_bb.paa"};
 	};
+	class EZ_AoD_HuntingJacketNew: HuntingJacket_ColorBase
+	{
+		scope = 2;
+		visibilityModifier=0.89999998;
+		displayName = "AoD - Hunting Jacket";
+		descriptionShort = "AoD - SquadPackage Hunting Jacket made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\AoD\AoD_huntingjacket.paa",
+									  "EZ_Clothing\data\patreon_squad\AoD\AoD_huntingjacket.paa",
+									  "EZ_Clothing\data\patreon_squad\AoD\AoD_huntingjacket.paa"};
+	};
+	class EZ_AoD_HunterPantsNew: HunterPants_ColorBase
+	{
+		scope = 2;
+		visibilityModifier=0.89999998;
+		displayName = "AoD - Hunter Pants";
+		descriptionShort = "AoD - SquadPackage Hunter Pants made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\AoD\AoD_hunterpants.paa",
+									  "EZ_Clothing\data\patreon_squad\AoD\AoD_hunterpants.paa",
+									  "EZ_Clothing\data\patreon_squad\AoD\AoD_hunterpants.paa"};
+	};
 	class EZ_AoD_Tacticalshirt: TacticalShirt_ColorBase
 	{
 		scope = 2;
@@ -3181,23 +3201,23 @@ class CfgVehicles
 		scope = 2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NWA\NWA_ff.paa"};
 	};
-	class EZ_NWA_TacticalShirt: TrackSuitJacket_ColorBase
+	class EZ_NWA_TacticalShirt: MVS_CombatShirt_Base
 	{
-		displayName = "North Western Alliance - TrackSuit Jacket";
-		descriptionShort = "North Western Alliance - PlatoonPackage TrackSuit Jacket made by Kokaskale";
+		displayName = "North Western Alliance - MVS Shirt";
+		descriptionShort = "North Western Alliance - PlatoonPackage MVS Shirt made by Kokaskale";
 		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NWA\NWA_abibas_shirt_gucci.paa",
-									  "EZ_Clothing\data\patreon_platoon\NWA\NWA_abibas_shirt_gucci.paa",
-									  "EZ_Clothing\data\patreon_platoon\NWA\NWA_abibas_shirt_gucci.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NWA\NWA_mvs_combatshirt.paa",
+									  "EZ_Clothing\data\patreon_platoon\NWA\NWA_mvs_combatshirt.paa",
+									  "EZ_Clothing\data\patreon_platoon\NWA\NWA_mvs_combatshirt.paa"};
 	};
-	class EZ_NWA_Pants: TrackSuitPants_ColorBase
+	class EZ_NWA_Pants: MVS_CombatPants_Base
 	{
-		displayName = "North Western Alliance - TrackSuit Pants";
-		descriptionShort = "North Western Alliance - PlatoonPackage TrackSui tPants made by Kokaskale";
+		displayName = "North Western Alliance - MVS Pants";
+		descriptionShort = "North Western Alliance - PlatoonPackage MVS Pants made by Kokaskale";
 		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NWA\NWA_abibas_pants_gucci.paa",
-									  "EZ_Clothing\data\patreon_platoon\NWA\NWA_abibas_pants_gucci.paa",
-									  "EZ_Clothing\data\patreon_platoon\NWA\NWA_abibas_pants_gucci.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NWA\NWA_mvs_combatpants.paa",
+									  "EZ_Clothing\data\patreon_platoon\NWA\NWA_mvs_combatpants.paa",
+									  "EZ_Clothing\data\patreon_platoon\NWA\NWA_mvs_combatpants.paa"};
 	};
 	class EZ_NWA_Balaclava: MVS_Balaclava2_Base
 	{
@@ -3243,16 +3263,16 @@ class CfgVehicles
 									  "EZ_Clothing\data\patreon_platoon\NWA\NWA_MVS_Shroud.paa",
 									  "EZ_Clothing\data\patreon_platoon\NWA\NWA_MVS_Shroud.paa"};
 	};
-	class EZ_NWAJungleBoots: Sneakers_ColorBase
+	class EZ_NWAJungleBoots: JungleBoots_ColorBase
 	{
 		scope=2;
-		displayName = "North Western Alliance - Sneakers";
-		descriptionShort = "North Western Alliance - PlatoonPackage Sneakers made by Kokaskale";
+		displayName = "North Western Alliance - Jungle Boots";
+		descriptionShort = "North Western Alliance - PlatoonPackage Jungle Boots made by Kokaskale";
 		hiddenSelectionsTextures[]=
 		{
-			"EZ_Clothing\data\patreon_platoon\NWA\NWA_sneaker.paa",
-			"EZ_Clothing\data\patreon_platoon\NWA\NWA_sneaker.paa",
-			"EZ_Clothing\data\patreon_platoon\NWA\NWA_sneaker.paa"
+			"EZ_Clothing\data\patreon_platoon\NWA\NWA_jungleboots.paa",
+			"EZ_Clothing\data\patreon_platoon\NWA\NWA_jungleboots.paa",
+			"EZ_Clothing\data\patreon_platoon\NWA\NWA_jungleboots.paa"
 		};
 	};
 	class EZ_NWATacticalGloves: TacticalGloves_ColorBase

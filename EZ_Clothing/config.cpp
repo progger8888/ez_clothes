@@ -3325,4 +3325,151 @@ class CfgVehicles
 			"EZ_Clothing\data\Mvs_Test\Mandalorian_Visor_co.paa"
 		};
 	};
+	class EZ_BabyNorth_Armband: EZ_DoubleArmband_ColorBase
+	{
+		displayName = "BabyNorth - Double Armband";
+		descriptionShort = "BabyNorth - PlatoonPackage Double Armband made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\BabyNorth\BabyNorth_armband.paa"};
+	};
+	class EZ_BabyNorth_Banner: EZ_Banner_Colorbase
+	{
+		displayName = "BabyNorth - Banner";
+		descriptionShort = "BabyNorth - PlatoonPackage Banner made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\BabyNorth\BabyNorth_bb.paa"};
+	};
+	class EZ_BabyNorth_Flag: Flag_Base
+	{
+		displayName = "BabyNorth - Flag";
+		descriptionShort = "BabyNorth - PlatoonPackage Flag made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\BabyNorth\BabyNorth_ff.paa"};
+	};
+	class EZ_BabyNorth_HuntingJacket: HuntingJacket_ColorBase
+	{
+		scope = 2;
+		visibilityModifier=0.89999998;
+		displayName = "BabyNorth - Hunting Jacket";
+		descriptionShort = "BabyNorth - PlatoonPackage Hunting Jacket made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\BabyNorth\BabyNorth_huntingjacket.paa",
+									  "EZ_Clothing\data\patreon_platoon\BabyNorth\BabyNorth_huntingjacket.paa",
+									  "EZ_Clothing\data\patreon_platoon\BabyNorth\BabyNorth_huntingjacket.paa"};
+	};
+	class EZ_BabyNorth_HunterPants: HunterPants_ColorBase
+	{
+		scope = 2;
+		visibilityModifier=0.89999998;
+		displayName = "BabyNorth - Hunter Pants";
+		descriptionShort = "BabyNorth - PlatoonPackage Hunter Pants made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\BabyNorth\BabyNorth_hunterpants.paa",
+									  "EZ_Clothing\data\patreon_platoon\BabyNorth\BabyNorth_hunterpants.paa",
+									  "EZ_Clothing\data\patreon_platoon\BabyNorth\BabyNorth_hunterpants.paa"};
+	};
+	class EZ_BabyNorth_Balaclava: MVS_Balaclava2_Base
+	{
+		displayName = "BabyNorth - MVS Balaclava";
+		descriptionShort = "BabyNorth - PlatoonPackage MVS Balaclava made by Kokaskale";
+		scope=2;
+		hiddenSelectionsTextures[]=
+		{
+			"EZ_Clothing\data\patreon_platoon\BabyNorth\BabyNorth_mvs_balaclava.paa",
+			"EZ_Clothing\data\patreon_platoon\BabyNorth\BabyNorth_mvs_balaclava.paa",
+			"EZ_Clothing\data\patreon_platoon\BabyNorth\BabyNorth_mvs_balaclava.paa"
+		};
+	};
+	class EZ_BabyNorth_Helmet: MVS_Helmet_Base
+	{
+		displayName = "BabyNorth - MVS Helmet";
+		descriptionShort = "BabyNorth - PlatoonPackage MVS Helmet made by Kokaskale";
+		scope=2;
+		hiddenSelectionsTextures[]=
+		{
+			"EZ_Clothing\data\patreon_platoon\BabyNorth\BabyNorth_mvs_helmet.paa",
+			"EZ_Clothing\data\patreon_platoon\BabyNorth\BabyNorth_mvs_helmet.paa",
+			"EZ_Clothing\data\patreon_platoon\BabyNorth\BabyNorth_mvs_helmet.paa"
+		};
+	};
+	class MVS_Combat_Vest_BabyNorth: ModularVestSystem_Base
+	{
+		displayName = "BabyNorth - MVS Vest";
+		descriptionShort = "BabyNorth - PlatoonPackage MVS Vest made by Kokaskale";
+		scope = 2;
+		color = "BabyNorth";
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\BabyNorth\BabyNorth_mvs_vest.paa",
+									  "EZ_Clothing\data\patreon_platoon\BabyNorth\BabyNorth_mvs_vest.paa",
+									  "EZ_Clothing\data\patreon_platoon\BabyNorth\BabyNorth_mvs_vest.paa"};
+	};
+	class EZ_BabyNorthMVS_Shroud: MVS_Shroud_Base
+	{
+		scope = 2;
+		displayName = "BabyNorth - MVS Shroud";
+		descriptionShort = "BabyNorth - PlatoonPackage MVS Shroud made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\BabyNorth\BabyNorth_MVS_Shroud.paa",
+									  "EZ_Clothing\data\patreon_platoon\BabyNorth\BabyNorth_MVS_Shroud.paa",
+									  "EZ_Clothing\data\patreon_platoon\BabyNorth\BabyNorth_MVS_Shroud.paa"};
+	};
+	class EZ_BabyNorthJungleBoots: JungleBoots_ColorBase
+	{
+		scope=2;
+		displayName = "BabyNorth - Jungle Boots";
+		descriptionShort = "BabyNorth - PlatoonPackage Jungle Boots made by Kokaskale";
+		hiddenSelectionsTextures[]=
+		{
+			"EZ_Clothing\data\patreon_platoon\BabyNorth\BabyNorth_jungleboots.paa",
+			"EZ_Clothing\data\patreon_platoon\BabyNorth\BabyNorth_jungleboots.paa",
+			"EZ_Clothing\data\patreon_platoon\BabyNorth\BabyNorth_jungleboots.paa"
+		};
+	};
+	class EZ_BabyNorthTacticalGloves: TacticalGloves_ColorBase
+	{
+		displayName = "BabyNorth - Tactical Gloves";
+		descriptionShort = "BabyNorth - PlatoonPackage Tactical Gloves made by Kokaskale";
+		scope=2;
+		hiddenSelectionsTextures[]=
+		{
+			"EZ_Clothing\data\patreon_platoon\BabyNorth\BabyNorth_tacticalgloves.paa",
+			"EZ_Clothing\data\patreon_platoon\BabyNorth\BabyNorth_tacticalgloves.paa",
+			"EZ_Clothing\data\patreon_platoon\BabyNorth\BabyNorth_tacticalgloves.paa"
+		};
+	};
+	class MVS_Combat_Vest_Heavy_BabyNorth: ModularVestSystem_Heavy
+	{
+		displayName = "BabyNorth - MVS Heavy Plate Carrier";
+		descriptionShort = "BabyNorth - PlatoonPackage MVS Heavy Plate Carrier made by Kokaskale";
+		scope = 2;
+		color = "BabyNorth";
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\BabyNorth\BabyNorth_MVSHeavy_co.paa",
+									  "EZ_Clothing\data\patreon_platoon\BabyNorth\BabyNorth_MVSHeavy_co.paa",
+									  "EZ_Clothing\data\patreon_platoon\BabyNorth\BabyNorth_MVSHeavy_co.paa"};
+	};
+	class EZ_BabyNorth_AssaultPack: MVS_Assault_Pack_Tan
+	{
+		scope = 2;
+		displayName = "BabyNorth - Assault Pack";
+		descriptionShort = "Endzone BabyNorth - PlatoonPackage Assault Pack made by Kokaskale";
+		hiddenSelectionsTextures[] = 
+		{
+			"EZ_Clothing\data\patreon_platoon\BabyNorth\BabyNorth_RaidPack.paa",
+			"EZ_Clothing\data\patreon_platoon\BabyNorth\BabyNorth_RaidPack.paa",
+			"EZ_Clothing\data\patreon_platoon\BabyNorth\BabyNorth_RaidPack.paa"
+			
+		};
+	};
+	class EZ_BabyNorth_WarriorHelmet: MVS_WarriorHelmet_Base
+	{
+		scope = 2;
+		displayName = "BabyNorth - MVS Warrior Helmet";
+		descriptionShort = "BabyNorth - PlatoonPackage MVS Warrior Helmet made by Kokaskale";
+		hiddenSelectionsTextures[] = 
+		{
+			"EZ_Clothing\data\patreon_platoon\BabyNorth\BabyNorth_WarriorHelmet.paa",
+			"EZ_Clothing\data\patreon_platoon\BabyNorth\BabyNorth_WarriorHelmet.paa",
+			"EZ_Clothing\data\patreon_platoon\BabyNorth\BabyNorth_WarriorHelmet.paa",
+			"EZ_Clothing\data\patreon_platoon\BabyNorth\BabyNorth_Mandalorian_Helmet.paa",
+			"EZ_Clothing\data\Mvs_Test\Mandalorian_Visor_co.paa"
+		};
+	};
 };

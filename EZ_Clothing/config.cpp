@@ -3401,6 +3401,16 @@ class CfgVehicles
 									  "EZ_Clothing\data\patreon_platoon\Sharks\Sharks_mvs_vest.paa",
 									  "EZ_Clothing\data\patreon_platoon\Sharks\Sharks_mvs_vest.paa"};
 	};
+	class EZ_Sharks_Vest: PlateCarrierVest
+	{
+		scope = 2;
+		isplayName = "Sharks - Vest";
+		descriptionShort = "Sharks - PlatoonPackage Vest made by Kokaskale";
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Sharks\Sharks_vest_co.paa",
+									  "EZ_Clothing\data\patreon_platoon\Sharks\Sharks_vest_co.paa",
+									  "EZ_Clothing\data\patreon_platoon\Sharks\Sharks_vest_co.paa"};
+	};
 	class EZ_SharksMVS_Shroud: MVS_Shroud_Base
 	{
 		scope = 2;

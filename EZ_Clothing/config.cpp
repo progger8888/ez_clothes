@@ -3482,4 +3482,151 @@ class CfgVehicles
 			"EZ_Clothing\data\Mvs_Test\Mandalorian_Visor_co.paa"
 		};
 	};
+	class EZ_Bricklayers_Armband: EZ_DoubleArmband_ColorBase
+	{
+		displayName = "Bricklayers - Double Armband";
+		descriptionShort = "Bricklayers - PlatoonPackage Double Armband made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_armband.paa"};
+	};
+	class EZ_Bricklayers_Banner: EZ_Banner_Colorbase
+	{
+		displayName = "Bricklayers - Banner";
+		descriptionShort = "Bricklayers - PlatoonPackage Banner made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_bb.paa"};
+	};
+	class EZ_Bricklayers_Flag: Flag_Base
+	{
+		displayName = "Bricklayers - Flag";
+		descriptionShort = "Bricklayers - PlatoonPackage Flag made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_ff.paa"};
+	};
+	class EZ_Bricklayers_QuiltedJacket: QuiltedJacket_ColorBase
+	{
+		scope = 2;
+		visibilityModifier=0.89999998;
+		displayName = "Bricklayers - Quilted Jacket";
+		descriptionShort = "Bricklayers - PlatoonPackage Quilted acket made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_quiltedJacket.paa",
+									  "EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_quiltedJacket.paa",
+									  "EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_quiltedJacket.paa"};
+	};
+	class EZ_Bricklayers_HunterPants: HunterPants_ColorBase
+	{
+		scope = 2;
+		visibilityModifier=0.89999998;
+		displayName = "Bricklayers - Hunter Pants";
+		descriptionShort = "Bricklayers - PlatoonPackage Hunter Pants made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_hunterpants.paa",
+									  "EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_hunterpants.paa",
+									  "EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_hunterpants.paa"};
+	};
+	class EZ_Bricklayers_Balaclava: MVS_Balaclava2_Base
+	{
+		displayName = "Bricklayers - MVS Balaclava";
+		descriptionShort = "Bricklayers - PlatoonPackage MVS Balaclava made by Kokaskale";
+		scope=2;
+		hiddenSelectionsTextures[]=
+		{
+			"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_mvs_balaclava.paa",
+			"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_mvs_balaclava.paa",
+			"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_mvs_balaclava.paa"
+		};
+	};
+	class EZ_Bricklayers_Helmet: MVS_Helmet_Base
+	{
+		displayName = "Bricklayers - MVS Helmet";
+		descriptionShort = "Bricklayers - PlatoonPackage MVS Helmet made by Kokaskale";
+		scope=2;
+		hiddenSelectionsTextures[]=
+		{
+			"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_mvs_helmet.paa",
+			"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_mvs_helmet.paa",
+			"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_mvs_helmet.paa"
+		};
+	};
+	class MVS_Combat_Vest_Bricklayers: ModularVestSystem_Base
+	{
+		displayName = "Bricklayers - MVS Vest";
+		descriptionShort = "Bricklayers - PlatoonPackage MVS Vest made by Kokaskale";
+		scope = 2;
+		color = "Bricklayers";
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_mvs_vest.paa",
+									  "EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_mvs_vest.paa",
+									  "EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_mvs_vest.paa"};
+	};
+	class EZ_BricklayersMVS_Shroud: MVS_Shroud_Base
+	{
+		scope = 2;
+		displayName = "Bricklayers - MVS Shroud";
+		descriptionShort = "Bricklayers - PlatoonPackage MVS Shroud made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_MVS_Shroud.paa",
+									  "EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_MVS_Shroud.paa",
+									  "EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_MVS_Shroud.paa"};
+	};
+	class EZ_BricklayersJungleBoots: JungleBoots_ColorBase
+	{
+		scope=2;
+		displayName = "Bricklayers - Jungle Boots";
+		descriptionShort = "Bricklayers - PlatoonPackage Jungle Boots made by Kokaskale";
+		hiddenSelectionsTextures[]=
+		{
+			"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_jungleboots.paa",
+			"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_jungleboots.paa",
+			"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_jungleboots.paa"
+		};
+	};
+	class EZ_BricklayersTacticalGloves: TacticalGloves_ColorBase
+	{
+		displayName = "Bricklayers - Tactical Gloves";
+		descriptionShort = "Bricklayers - PlatoonPackage Tactical Gloves made by Kokaskale";
+		scope=2;
+		hiddenSelectionsTextures[]=
+		{
+			"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_tacticalgloves.paa",
+			"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_tacticalgloves.paa",
+			"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_tacticalgloves.paa"
+		};
+	};
+	class MVS_Combat_Vest_Heavy_Bricklayers: ModularVestSystem_Heavy
+	{
+		displayName = "Bricklayers - MVS Heavy Plate Carrier";
+		descriptionShort = "Bricklayers - PlatoonPackage MVS Heavy Plate Carrier made by Kokaskale";
+		scope = 2;
+		color = "Bricklayers";
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_MVSHeavy_co.paa",
+									  "EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_MVSHeavy_co.paa",
+									  "EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_MVSHeavy_co.paa"};
+	};
+	class EZ_Bricklayers_AssaultPack: MVS_Assault_Pack_Tan
+	{
+		scope = 2;
+		displayName = "Bricklayers - Assault Pack";
+		descriptionShort = "Endzone Bricklayers - PlatoonPackage Assault Pack made by Kokaskale";
+		hiddenSelectionsTextures[] = 
+		{
+			"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_RaidPack.paa",
+			"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_RaidPack.paa",
+			"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_RaidPack.paa"
+			
+		};
+	};
+	class EZ_Bricklayers_WarriorHelmet: MVS_WarriorHelmet_Base
+	{
+		scope = 2;
+		displayName = "Bricklayers - MVS Warrior Helmet";
+		descriptionShort = "Bricklayers - PlatoonPackage MVS Warrior Helmet made by Kokaskale";
+		hiddenSelectionsTextures[] = 
+		{
+			"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_WarriorHelmet.paa",
+			"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_WarriorHelmet.paa",
+			"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_WarriorHelmet.paa",
+			"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_Mandalorian_Helmet.paa",
+			"EZ_Clothing\data\Mvs_Test\Mandalorian_Visor_co.paa"
+		};
+	};
 };

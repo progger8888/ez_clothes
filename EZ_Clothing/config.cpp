@@ -102,6 +102,7 @@ class CfgVehicles
 	class SurgicalGloves_ColorBase;
 	class MilitaryBeret_ColorBase;
 	class Balaclava3Holes_ColorBase;
+	class CombatBoots_ColorBase;
 	class EZ_Admin_Plate: PlateCarrierVest
 	{
 		scope = 2;
@@ -3627,6 +3628,149 @@ class CfgVehicles
 			"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_WarriorHelmet.paa",
 			"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_Mandalorian_Helmet.paa",
 			"EZ_Clothing\data\Mvs_Test\Mandalorian_Visor_co.paa"
+		};
+	};
+	class EZ_MEOW_Armband: EZ_DoubleArmband_ColorBase
+	{
+		displayName = "MEOW - Double Armband";
+		descriptionShort = "MEOW -PlatoonPackage Double Armband made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\MEOW\MEOW_armband.paa"};
+	};
+	class EZ_MEOW_Banner: EZ_Banner_Colorbase
+	{
+		displayName = "MEOW - Banner";
+		descriptionShort = "MEOW - PlatoonPackage Banner made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\MEOW\MEOW_bb.paa"};
+	};
+	class EZ_MEOW_Flag: Flag_Base
+	{
+		displayName = "MEOW - Flag";
+		descriptionShort = "MEOW - PlatoonPackage Flag made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\MEOW\MEOW_ff.paa"};
+	};
+	class EZ_MEOW_HuntingJacket: HuntingJacket_ColorBase
+	{
+		displayName = "MEOW - Hunting Jacket";
+		descriptionShort = "MEOW - PlatoonPackage Hunting Jacket made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\MEOW\MEOW_hunting_jacket.paa",
+									  "EZ_Clothing\data\patreon_platoon\MEOW\MEOW_hunting_jacket.paa",
+									  "EZ_Clothing\data\patreon_platoon\MEOW\MEOW_hunting_jacket.paa"};
+	};
+	class EZ_MEOW_HunterPants: HunterPants_ColorBase
+	{
+		displayName = "MEOW - Hunter Pants";
+		descriptionShort = "MEOW - PlatoonPackage Hunter Pants made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\MEOW\MEOW_hunter_pants.paa",
+									  "EZ_Clothing\data\patreon_platoon\MEOW\MEOW_hunter_pants.paa",
+									  "EZ_Clothing\data\patreon_platoon\MEOW\MEOW_hunter_pants.paa"};
+	};
+	class EZ_MEOW_Balaclava: MVS_Balaclava2_Base
+	{
+		displayName = "MEOW - MVS Balaclava";
+		descriptionShort = "MEOW - PlatoonPackage MVS Balaclava made by Kokaskale";
+		scope=2;
+		hiddenSelectionsTextures[]=
+		{
+			"EZ_Clothing\data\patreon_platoon\MEOW\MEOW_mvs_balaclava.paa",
+			"EZ_Clothing\data\patreon_platoon\MEOW\MEOW_mvs_balaclava.paa",
+			"EZ_Clothing\data\patreon_platoon\MEOW\MEOW_mvs_balaclava.paa"
+		};
+	};
+	class EZ_MEOW_Helmet: MVS_Helmet_Base
+	{
+		displayName = "MEOW - MVS Helmet";
+		descriptionShort = "MEOW - PlatoonPackage MVS Helmet made by Kokaskale";
+		scope=2;
+		hiddenSelectionsTextures[]=
+		{
+			"EZ_Clothing\data\patreon_platoon\MEOW\MEOW_mvs_helmet.paa",
+			"EZ_Clothing\data\patreon_platoon\MEOW\MEOW_mvs_helmet.paa",
+			"EZ_Clothing\data\patreon_platoon\MEOW\MEOW_mvs_helmet.paa"
+		};
+	};
+	class EZ_MEOW_Vest: ModularVestSystem_Base
+	{
+		displayName = "MEOW - MVS Vest";
+		descriptionShort = "MEOW - PlatoonPackage MVS Vest made by Kokaskale";
+		scope = 2;
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\MEOW\MEOW_mvs_vest.paa",
+									  "EZ_Clothing\data\patreon_platoon\MEOW\MEOW_mvs_vest.paa",
+									  "EZ_Clothing\data\patreon_platoon\MEOW\MEOW_mvs_vest.paa"};
+	};
+	class EZ_MEOWMVS_Shroud: MVS_Shroud_Base
+	{
+		scope = 2;
+		displayName = "MEOW - MVS Shroud";
+		descriptionShort = "MEOW - PlatoonPackage MVS Shroud made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\MEOW\MEOW_MVS_Shroud.paa",
+									  "EZ_Clothing\data\patreon_platoon\MEOW\MEOW_MVS_Shroud.paa",
+									  "EZ_Clothing\data\patreon_platoon\MEOW\MEOW_MVS_Shroud.paa"};
+	};
+	class EZ_MEOWTacticalGloves: TacticalGloves_ColorBase
+	{
+		displayName = "MEOW - Tactical Gloves";
+		descriptionShort = "MEOW - PlatoonPackage Tactical Gloves made by Kokaskale";
+		scope=2;
+		hiddenSelectionsTextures[]=
+		{
+			"EZ_Clothing\data\patreon_platoon\MEOW\MEOW_tacticalgloves.paa",
+			"EZ_Clothing\data\patreon_platoon\MEOW\MEOW_tacticalgloves.paa",
+			"EZ_Clothing\data\patreon_platoon\MEOW\MEOW_tacticalgloves.paa"
+		};
+	};
+	class EZ_MEOW_MVS_Combat_Vest_Heavy: ModularVestSystem_Heavy
+	{
+		displayName = "MEOW - MVS Heavy Plate Carrier";
+		descriptionShort = "MEOW - PlatoonPackage MVS Heavy Plate Carrier made by Kokaskale";
+		scope = 2;
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\MEOW\MEOW_MVSHeavy_co.paa",
+									  "EZ_Clothing\data\patreon_platoon\MEOW\MEOW_MVSHeavy_co.paa",
+									  "EZ_Clothing\data\patreon_platoon\MEOW\MEOW_MVSHeavy_co.paa"};
+	};
+	class EZ_MEOW_AssaultPack: MVS_Assault_Pack_Tan
+	{
+		scope = 2;
+		displayName = "MEOW - Assault Pack";
+		descriptionShort = "Endzone MEOW - PlatoonPackage Assault Pack made by Kokaskale";
+		hiddenSelectionsTextures[] = 
+		{
+			"EZ_Clothing\data\patreon_platoon\MEOW\MEOW_RaidPack.paa",
+			"EZ_Clothing\data\patreon_platoon\MEOW\MEOW_RaidPack.paa",
+			"EZ_Clothing\data\patreon_platoon\MEOW\MEOW_RaidPack.paa"
+			
+		};
+	};
+	class EZ_MEOW_WarriorHelmet: MVS_WarriorHelmet_Base
+	{
+		scope = 2;
+		displayName = "MEOW - MVS Warrior Helmet";
+		descriptionShort = "MEOW - PlatoonPackage MVS Warrior Helmet made by Kokaskale";
+		hiddenSelectionsTextures[] = 
+		{
+			"EZ_Clothing\data\patreon_platoon\MEOW\MEOW_WarriorHelmet.paa",
+			"EZ_Clothing\data\patreon_platoon\MEOW\MEOW_WarriorHelmet.paa",
+			"EZ_Clothing\data\patreon_platoon\MEOW\MEOW_WarriorHelmet.paa",
+			"EZ_Clothing\data\patreon_platoon\MEOW\MEOW_Mandalorian_Helmet.paa",
+			"EZ_Clothing\data\Mvs_Test\Mandalorian_Visor_co.paa"
+		};
+	};
+	class EZ_MEOW_CombatBoots: CombatBoots_ColorBase
+	{
+		scope = 2;
+		displayName = "MEOW - Huntic Boots Helmet";
+		descriptionShort = "MEOW - PlatoonPackage Huntic Boots made by Kokaskale";
+		hiddenSelectionsTextures[]=
+		{
+			"EZ_Clothing\data\patreon_platoon\MEOW\MEOW_combat_boots.paa",
+			"EZ_Clothing\data\patreon_platoon\MEOW\MEOW_combat_boots.paa",
+			"EZ_Clothing\data\patreon_platoon\MEOW\MEOW_combat_boots.paa"
 		};
 	};
 };

@@ -103,6 +103,13 @@ class CfgVehicles
 	class MilitaryBeret_ColorBase;
 	class Balaclava3Holes_ColorBase;
 	class CombatBoots_ColorBase;
+	class EZ_SOF_Jacket_ColorBase;
+	class EZ_SOF_Pants_ColorBase;
+	class EZ_SOF_Helmet_ColorBase;
+	class EZ_SOF_Balaclava_ColorBase;
+	class EZ_SOF_Gloves_ColorBase;
+	class EZ_SOF_Platecarrier_ColorBase;
+	class EZ_SOF_Backpack_ColorBase;
 	class EZ_Admin_Plate: PlateCarrierVest
 	{
 		scope = 2;
@@ -3325,6 +3332,55 @@ class CfgVehicles
 			"EZ_Clothing\data\patreon_platoon\NWA\NWA_Mandalorian_Helmet.paa",
 			"EZ_Clothing\data\Mvs_Test\Mandalorian_Visor_co.paa"
 		};
+	};
+	class EZ__NWA_SOFJacket: EZ_SOF_Jacket_ColorBase
+	{
+		scope = 2;
+		displayName = "North Western Alliance - SOF Jacket";
+		descriptionShort = "North Western Alliance - PlatoonPackage SOF Jacket made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NWA\NWA_sof_shirt.paa"};
+	};
+	class EZ_NWA_SOFPants: EZ_SOF_Pants_ColorBase
+	{
+		scope = 2;
+		displayName = "North Western Alliance - SOF Pants";
+		descriptionShort = "North Western Alliance - PlatoonPackage SOF Pants made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NWA\NWA_sof_pants.paa"};
+	};
+	class EZ_NWA_SOFHelmet: EZ_SOF_Helmet_ColorBase
+	{
+		scope = 2;
+		displayName = "North Western Alliance - SOF Helmet";
+		descriptionShort = "North Western Alliance - PlatoonPackage SOF Helmet made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NWA\NWA_sof_helmet.paa"};
+	};
+	class EZ_NWA_SOFBalaclava: EZ_SOF_Balaclava_ColorBase
+	{
+		scope = 2;
+		displayName = "North Western Alliance - SOF Balaclava";
+		descriptionShort = "North Western Alliance - PlatoonPackage SOF Balaclava made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NWA\NWA_sof_balaclava.paa"};
+	};
+	class EZ_NWA_SOFGloves: EZ_SOF_Gloves_ColorBase
+	{
+		scope = 2;
+		displayName = "North Western Alliance - SOF Gloves";
+		descriptionShort = "North Western Alliance - PlatoonPackage SOF Gloves made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NWA\NWA_sof_gloves.paa"};
+	};
+	class EZ_NWA_SOFPlatecarrier: EZ_SOF_Platecarrier_ColorBase
+	{
+		scope = 2;
+		displayName = "North Western Alliance - SOF Platecarrier";
+		descriptionShort = "North Western Alliance - PlatoonPackage SOF Platecarrier made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NWA\NWA_sof_vest.paa"};
+	};
+	class EZ_NWA_SOFBackpack: EZ_SOF_Backpack_ColorBase
+	{
+		scope = 2;
+		displayName = "North Western Alliance - SOF Backpack";
+		descriptionShort = "North Western Alliance - PlatoonPackage SOF Backpack made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NWA\NWA_sof_backpack.paa"};
 	};
 	class EZ_Sharks_Armband: EZ_DoubleArmband_ColorBase
 	{

@@ -2453,6 +2453,24 @@ class CfgVehicles
 			"EZ_Clothing\data\patreon_squad\BTS\BTS_militaryberet.paa"
 		};
 	};
+	class EZ_BTS_HuntingJacketNEW: HuntingJacket_ColorBase
+	{
+		scope = 2;
+		displayName = "Beach Teleportation Service - Hunting Jacket";
+		descriptionShort = "Beach Teleportation Service - SquadPackage Hunting Jacket made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BTS\BTS_huntingjacket.paa",
+								      "EZ_Clothing\data\patreon_squad\BTS\BTS_huntingjacket.paa",
+									  "EZ_Clothing\data\patreon_squad\BTS\BTS_huntingjacket.paa"};
+	};
+	class EZ_BTS_HunterPantsNEW: HunterPants_ColorBase
+	{
+		scope = 2;
+		displayName = "Beach Teleportation Service - Hunter Pants";
+		descriptionShort = "Beach Teleportation Service - SquadPackage Hunter Pants made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BTS\BTS_hunterpants.paa",
+								      "EZ_Clothing\data\patreon_squad\BTS\BTS_hunterpants.paa",
+									  "EZ_Clothing\data\patreon_squad\BTS\BTS_hunterpants.paa"};
+	};
 	class EZ_AngryBeavers_DoubleArmband: EZ_DoubleArmband_ColorBase
 	{
 		scope = 2;

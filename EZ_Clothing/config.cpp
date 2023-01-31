@@ -3704,6 +3704,13 @@ class CfgVehicles
 			"EZ_Clothing\data\Mvs_Test\Mandalorian_Visor_co.paa"
 		};
 	};
+	class EZ_Bricklayers_SOFPlatecarrierNEW: EZ_SOF_Platecarrier_ColorBase
+	{
+		scope = 2;
+		displayName = "Bricklayers - SOF Platecarrier";
+		descriptionShort = "Bricklayers - PlatoonPackage SOF Platecarrier made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_sof_vest.paa"};
+	};
 	class EZ_MEOW_Armband: EZ_DoubleArmband_ColorBase
 	{
 		displayName = "MEOW - Double Armband";

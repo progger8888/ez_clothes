@@ -26,6 +26,7 @@ class CfgMods
 			{
 				value = "";
 				files[] = {"EZ_Clothing/Scripts/4_World"};
+				files[] = {"EZ_Clothing/Scripts/4_World"};
 			};
 		};
 	};

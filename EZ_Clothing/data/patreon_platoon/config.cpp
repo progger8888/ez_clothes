@@ -239,12 +239,19 @@ class CfgVehicles
 									  "EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_vest_co.paa",
 									  "EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_vest_co.paa"};
 	};
-	class EZ_AngryBeavers_BaseballCap: Msp_BaseballCap_Base
+	class EZ_AngryBeaver_DoubleArmband: EZ_DoubleArmband_ColorBase
+	{
+		scope = 2;
+		displayName = "Angry Beaver - Double Armband";
+		descriptionShort = "Angry Beaver - PlatoonPackage Double Armband made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavers_armband.paa"};
+	};
+	class EZ_AngryBeaver_BaseballCap: Msp_BaseballCap_Base
 	{
 		scope = 2;
 		displayName = "Angry Beavers - Hat";
 		descriptionShort = "Angry Beavers - PlatoonPackage Hat made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\staff\Cappie\AngryBeavers_baseballcapii.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavers_baseballcapii.paa"};
 	};
 	class EZ_AngryBeavier_Banner: EZ_Banner_Colorbase
 	{

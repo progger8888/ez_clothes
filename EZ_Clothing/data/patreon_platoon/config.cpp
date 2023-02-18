@@ -110,6 +110,8 @@ class CfgVehicles
 	class EZ_SOF_Gloves_ColorBase;
 	class EZ_SOF_Platecarrier_ColorBase;
 	class EZ_SOF_Backpack_ColorBase;
+	class BoonieHat_ColorBase;
+	class Adidas_Leggings;
 	class EZ_ForestCrow_Banner: EZ_Banner_Colorbase
 	{
 		scope = 2;
@@ -212,7 +214,7 @@ class CfgVehicles
 	{
 		scope = 2;
 		displayName = "ForestCrow - Assault Pack";
-		descriptionShort = "Endzone NWA - PlatoonPackage Assault Pack made by Kokaskale";
+		descriptionShort = "ForestCrow - PlatoonPackage Assault Pack made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_RaidPack.paa",
 									  "EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_RaidPack.paa",
 									  "EZ_Clothing\data\patreon_platoon\ForestCrow\ForestCrow_RaidPack.paa"};
@@ -356,7 +358,7 @@ class CfgVehicles
 	{
 		scope = 2;
 		displayName = "AngryBeaver - Assault Pack";
-		descriptionShort = "Endzone NWA - PlatoonPackage Assault Pack made by Kokaskale";
+		descriptionShort = "AngryBeavier - PlatoonPackage Assault Pack made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_RaidPack.paa",
 									  "EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_RaidPack.paa",
 									  "EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_RaidPack.paa"};
@@ -414,6 +416,71 @@ class CfgVehicles
 			"EZ_Clothing\data\patreon_platoon\NWA\NWA_jungleboots.paa"
 		};
 	};
+	class EZ_NWA_Balaclava: MVS_Balaclava2_Base
+	{
+		scope = 2;
+		displayName = "North Western Alliance - MVS Balaclava";
+		descriptionShort = "North Western Alliance - PlatoonPackage MVS Balaclava made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NWA\NWA_mvs_balaclava.paa",
+									  "EZ_Clothing\data\patreon_platoon\NWA\NWA_mvs_balaclava.paa",
+									  "EZ_Clothing\data\patreon_platoon\NWA\NWA_mvs_balaclava.paa"};
+	};
+	class EZ_NWA_TacticalShirt: MVS_CombatShirt_Base
+	{
+		scope = 2;
+		displayName = "North Western Alliance - MVS Shirt";
+		descriptionShort = "North Western Alliance - PlatoonPackage MVS Shirt made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NWA\NWA_mvs_combatshirt.paa",
+									  "EZ_Clothing\data\patreon_platoon\NWA\NWA_mvs_combatshirt.paa",
+									  "EZ_Clothing\data\patreon_platoon\NWA\NWA_mvs_combatshirt.paa"};
+	};
+	class EZ_NWA_Pants: MVS_CombatPants_Base
+	{
+		scope = 2;
+		displayName = "North Western Alliance - MVS Pants";
+		descriptionShort = "North Western Alliance - PlatoonPackage MVS Pants made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NWA\NWA_mvs_combatpants.paa",
+									  "EZ_Clothing\data\patreon_platoon\NWA\NWA_mvs_combatpants.paa",
+									  "EZ_Clothing\data\patreon_platoon\NWA\NWA_mvs_combatpants.paa"};
+	};
+	class EZ_NWA_Helmet: MVS_Helmet_Base
+	{
+		scope = 2;
+		displayName = "North Western Alliance - MVS Helmet";
+		descriptionShort = "North Western Alliance - PlatoonPackage MVS Helmet made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NWA\NWA_mvs_helmet.paa",
+									  "EZ_Clothing\data\patreon_platoon\NWA\NWA_mvs_helmet.paa",
+									  "EZ_Clothing\data\patreon_platoon\NWA\NWA_mvs_helmet.paa"};
+	};
+	class MVS_Combat_Vest_NWA: ModularVestSystem_Base
+	{
+		scope = 2;
+		displayName = "North Western Alliance - MVS Vest";
+		descriptionShort = "North Western Alliance - PlatoonPackage MVS Vest made by Kokaskale";
+		color = "NWA";
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NWA\NWA_mvs_vest.paa",
+									  "EZ_Clothing\data\patreon_platoon\NWA\NWA_mvs_vest.paa",
+									  "EZ_Clothing\data\patreon_platoon\NWA\NWA_mvs_vest.paa"};
+	};
+	class EZ_NWA_TacticalGloves: TacticalGloves_ColorBase
+	{
+		scope = 2;
+		displayName = "North Western Alliance - Tactical Gloves";
+		descriptionShort = "North Western Alliance - PlatoonPackage Tactical Gloves made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NWA\NWA_tacticalgloves.paa",
+									  "EZ_Clothing\data\patreon_platoon\NWA\NWA_tacticalgloves.paa",
+									  "EZ_Clothing\data\patreon_platoon\NWA\NWA_tacticalgloves.paa"};
+	};
+	class EZ_NWA_AssaultPack: MVS_Assault_Pack_Tan
+	{
+		scope = 2;
+		displayName = "North Western Alliance - Assault Pack";
+		descriptionShort = "North Western Alliance - PlatoonPackage Assault Pack made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NWA\NWA_RaidPack.paa",
+									  "EZ_Clothing\data\patreon_platoon\NWA\NWA_RaidPack.paa",
+									  "EZ_Clothing\data\patreon_platoon\NWA\NWA_RaidPack.paa"};
+	};
 	class MVS_Combat_Vest_Heavy_NWA: ModularVestSystem_Heavy
 	{
 		displayName = "North Western Alliance - MVS Heavy Plate Carrier";
@@ -438,55 +505,6 @@ class CfgVehicles
 			"EZ_Clothing\data\patreon_platoon\NWA\NWA_Mandalorian_Helmet.paa",
 			"EZ_Clothing\data\Mvs_Test\Mandalorian_Visor_co.paa"
 		};
-	};
-	class EZ__NWA_SOFJacket: EZ_SOF_Jacket_ColorBase
-	{
-		scope = 2;
-		displayName = "North Western Alliance - SOF Jacket";
-		descriptionShort = "North Western Alliance - PlatoonPackage SOF Jacket made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NWA\NWA_sof_shirt.paa"};
-	};
-	class EZ_NWA_SOFPants: EZ_SOF_Pants_ColorBase
-	{
-		scope = 2;
-		displayName = "North Western Alliance - SOF Pants";
-		descriptionShort = "North Western Alliance - PlatoonPackage SOF Pants made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NWA\NWA_sof_pants.paa"};
-	};
-	class EZ_NWA_SOFHelmet: EZ_SOF_Helmet_ColorBase
-	{
-		scope = 2;
-		displayName = "North Western Alliance - SOF Helmet";
-		descriptionShort = "North Western Alliance - PlatoonPackage SOF Helmet made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NWA\NWA_sof_helmet.paa"};
-	};
-	class EZ_NWA_SOFBalaclava: EZ_SOF_Balaclava_ColorBase
-	{
-		scope = 2;
-		displayName = "North Western Alliance - SOF Balaclava";
-		descriptionShort = "North Western Alliance - PlatoonPackage SOF Balaclava made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NWA\NWA_sof_balaclava.paa"};
-	};
-	class EZ_NWA_SOFGloves: EZ_SOF_Gloves_ColorBase
-	{
-		scope = 2;
-		displayName = "North Western Alliance - SOF Gloves";
-		descriptionShort = "North Western Alliance - PlatoonPackage SOF Gloves made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NWA\NWA_sof_gloves.paa"};
-	};
-	class EZ_NWA_SOFPlatecarrier: EZ_SOF_Platecarrier_ColorBase
-	{
-		scope = 2;
-		displayName = "North Western Alliance - SOF Platecarrier";
-		descriptionShort = "North Western Alliance - PlatoonPackage SOF Platecarrier made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NWA\NWA_sof_vest.paa"};
-	};
-	class EZ_NWA_SOFBackpack: EZ_SOF_Backpack_ColorBase
-	{
-		scope = 2;
-		displayName = "North Western Alliance - SOF Backpack";
-		descriptionShort = "North Western Alliance - PlatoonPackage SOF Backpack made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NWA\NWA_sof_backpack.paa"};
 	};
 	class EZ_Sharks_Armband: EZ_DoubleArmband_ColorBase
 	{
@@ -787,5 +805,39 @@ class CfgVehicles
 		displayName = "Bricklayers - SOF Platecarrier";
 		descriptionShort = "Bricklayers - PlatoonPackage SOF Platecarrier made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_sof_vest.paa"};
+	};
+	class EZ_Bricklayers_BoonieHat: BoonieHat_ColorBase
+	{
+		scope=2;
+		displayName = "Bricklayers - Boonie Hat";
+		descriptionShort = "Bricklayers - PlatoonPackage Boonie Hat made by Kokaskale";
+		hiddenSelectionsTextures[]=
+		{
+			"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_BoonieHat_co.paa",
+			"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_BoonieHat_co.paa",
+			"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_BoonieHat_co.paa"
+		};
+	};
+	class EZ_Bricklayers_SipeQuiltedJacket: QuiltedJacket_ColorBase
+	{
+		scope = 2;
+		visibilityModifier=0.89999998;
+		displayName = "Bricklayers - Sipe Quilted Jacket";
+		descriptionShort = "Bricklayers - PlatoonPackage Sipe Quilted Jacket made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_sipe_quiltedJacket.paa",
+									  "EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_sipe_quiltedJacket.paa",
+									  "EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_sipe_quiltedJacket.paa"};
+	};
+	class EZ_Bricklayers_Leggings: Adidas_Leggings
+	{
+		scope=2;
+		displayName = "Bricklayers - Leggings";
+		descriptionShort = "Bricklayers - PlatoonPackage Leggings made by Kokaskale";
+		hiddenSelectionsTextures[]=
+		{
+			"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_Leggings_co.paa",
+			"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_Leggings_co.paa",
+			"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_Leggings_co.paa"
+		};
 	};
 };

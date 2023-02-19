@@ -2305,9 +2305,7 @@ class CfgVehicles
 		displayName = "Beach Teleportation Service - Vest";
 		descriptionShort = "Beach Teleportation Service - SquadPackage Vest made by Kokaskale";
 		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BTS\BTS_vest_co.paa",
-									  "EZ_Clothing\data\patreon_squad\BTS\BTS_vest_co.paa",
-									  "EZ_Clothing\data\patreon_squad\BTS\BTS_vest_co.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BTS\BTS_vest_co.paa","EZ_Clothing\data\patreon_squad\BTS\BTS_vest_co.paa","EZ_Clothing\data\patreon_squad\BTS\BTS_vest_co.paa"};
 	};
 	class EZ_BTS_MilitaryBeret: MilitaryBeret_ColorBase
 	{

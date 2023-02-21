@@ -3074,4 +3074,120 @@ class CfgVehicles
 			"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_Leggings_co.paa"
 		};
 	};
+	class EZ_WZB_Armband: EZ_DoubleArmband_ColorBase
+	{
+		displayName = "Woot Ze Bebba - Double Armband";
+		descriptionShort = "Woot Ze Bebba -PlatoonPackage Double Armband made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\WZB\WZB_armband.paa"};
+	};
+	class EZ_WZB_Banner: EZ_Banner_Colorbase
+	{
+		displayName = "Woot Ze Bebba - Banner";
+		descriptionShort = "Woot Ze Bebba - PlatoonPackage Banner made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\WZB\WZB_bb.paa"};
+	};
+	class EZ_WZB_Flag: Flag_Base
+	{
+		displayName = "Woot Ze Bebba - Flag";
+		descriptionShort = "Woot Ze Bebba - PlatoonPackage Flag made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\WZB\WZB_ff.paa"};
+	};
+	class EZ_WZBMVS_Shroud: MVS_Shroud_Base
+	{
+		scope = 2;
+		displayName = "Woot Ze Bebba - MVS Shroud";
+		descriptionShort = "Woot Ze Bebba - PlatoonPackage MVS Shroud made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\WZB\WZB_MVS_Shroud.paa",
+									  "EZ_Clothing\data\patreon_platoon\WZB\WZB_MVS_Shroud.paa",
+									  "EZ_Clothing\data\patreon_platoon\WZB\WZB_MVS_Shroud.paa"};
+	};
+	class EZ_WZBJungleBoots: JungleBoots_ColorBase
+	{
+		scope=2;
+		displayName = "Woot Ze Bebba - Jungle Boots";
+		descriptionShort = "Woot Ze Bebba - PlatoonPackage Jungle Boots made by Kokaskale";
+		hiddenSelectionsTextures[]=
+		{
+			"EZ_Clothing\data\patreon_platoon\WZB\WZB_jungleboots.paa",
+			"EZ_Clothing\data\patreon_platoon\WZB\WZB_jungleboots.paa",
+			"EZ_Clothing\data\patreon_platoon\WZB\WZB_jungleboots.paa"
+		};
+	};
+	class MVS_Combat_Vest_Heavy_WZB: ModularVestSystem_Heavy
+	{
+		displayName = "Woot Ze Bebba - MVS Heavy Plate Carrier";
+		descriptionShort = "Woot Ze Bebba - PlatoonPackage MVS Heavy Plate Carrier made by Kokaskale";
+		scope = 2;
+		color = "WZB";
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\WZB\WZB_MVSHeavy_co.paa",
+									  "EZ_Clothing\data\patreon_platoon\WZB\WZB_MVSHeavy_co.paa",
+									  "EZ_Clothing\data\patreon_platoon\WZB\WZB_MVSHeavy_co.paa"};
+	};
+	class EZ_WZB_WarriorHelmet: MVS_WarriorHelmet_Base
+	{
+		scope = 2;
+		displayName = "Woot Ze Bebba - MVS Warrior Helmet";
+		descriptionShort = "Woot Ze Bebba - PlatoonPackage MVS Warrior Helmet made by Kokaskale";
+		hiddenSelectionsTextures[] = 
+		{
+			"EZ_Clothing\data\patreon_platoon\WZB\WZB_WarriorHelmet.paa",
+			"EZ_Clothing\data\patreon_platoon\WZB\WZB_WarriorHelmet.paa",
+			"EZ_Clothing\data\patreon_platoon\WZB\WZB_WarriorHelmet.paa",
+			"EZ_Clothing\data\patreon_platoon\WZB\WZB_Mandalorian_Helmet.paa",
+			"EZ_Clothing\data\Mvs_Test\Mandalorian_Visor_co.paa"
+		};
+	};
+	class EZ__WZB_SOFJacket: EZ_SOF_Jacket_ColorBase
+	{
+		scope = 2;
+		displayName = "Woot Ze Bebba - SOF Jacket";
+		descriptionShort = "Woot Ze Bebba - PlatoonPackage SOF Jacket made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\WZB\WZB_sof_shirt.paa"};
+	};
+	class EZ_WZB_SOFPants: EZ_SOF_Pants_ColorBase
+	{
+		scope = 2;
+		displayName = "Woot Ze Bebba - SOF Pants";
+		descriptionShort = "Woot Ze Bebba - PlatoonPackage SOF Pants made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\WZB\WZB_sof_pants.paa"};
+	};
+	class EZ_WZB_SOFHelmet: EZ_SOF_Helmet_ColorBase
+	{
+		scope = 2;
+		displayName = "Woot Ze Bebba - SOF Helmet";
+		descriptionShort = "Woot Ze Bebba - PlatoonPackage SOF Helmet made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\WZB\WZB_sof_helmet.paa"};
+	};
+	class EZ_WZB_SOFBalaclava: EZ_SOF_Balaclava_ColorBase
+	{
+		scope = 2;
+		displayName = "Woot Ze Bebba - SOF Balaclava";
+		descriptionShort = "Woot Ze Bebba - PlatoonPackage SOF Balaclava made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\WZB\WZB_sof_balaclava.paa"};
+	};
+	class EZ_WZB_SOFGloves: EZ_SOF_Gloves_ColorBase
+	{
+		scope = 2;
+		displayName = "Woot Ze Bebba - SOF Gloves";
+		descriptionShort = "Woot Ze Bebba - PlatoonPackage SOF Gloves made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\WZB\WZB_sof_gloves.paa"};
+	};
+	class EZ_WZB_SOFPlatecarrier: EZ_SOF_Platecarrier_ColorBase
+	{
+		scope = 2;
+		displayName = "Woot Ze Bebba - SOF Platecarrier";
+		descriptionShort = "Woot Ze Bebba - PlatoonPackage SOF Platecarrier made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\WZB\WZB_sof_vest.paa"};
+	};
+	class EZ_WZB_SOFBackpack: EZ_SOF_Backpack_ColorBase
+	{
+		scope = 2;
+		displayName = "Woot Ze Bebba - SOF Backpack";
+		descriptionShort = "Woot Ze Bebba - PlatoonPackage SOF Backpack made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\WZB\WZB_sof_backpack.paa"};
+	};
 };

@@ -2856,8 +2856,7 @@ class CfgVehicles
 		displayName = "Sharks - SOF Backpack";
 		descriptionShort = "Sharks - PlatoonPackage SOF Backpack made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Sharks\Sharks_sof_backpack.paa"};
-	};
-	class EZ_Bricklayers_Armband: EZ_DoubleArmband_ColorBase
+	};class EZ_Bricklayers_Armband: EZ_DoubleArmband_ColorBase
 	{
 		displayName = "Bricklayers - Double Armband";
 		descriptionShort = "Bricklayers - PlatoonPackage Double Armband made by Kokaskale";
@@ -2936,6 +2935,13 @@ class CfgVehicles
 			"EZ_Clothing\data\Mvs_Test\Mandalorian_Visor_co.paa"
 		};
 	};
+	class EZ_Bricklayers_SOFPlatecarrier: EZ_SOF_Platecarrier_ColorBase
+	{
+		scope = 2;
+		displayName = "Bricklayers - SOF Platecarrier";
+		descriptionShort = "Bricklayers - PlatoonPackage SOF Platecarrier made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_sof_vest.paa"};
+	};
 	class EZ_Bricklayers_BoonieHat: BoonieHat_ColorBase
 	{
 		scope=2;
@@ -2969,48 +2975,6 @@ class CfgVehicles
 			"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_Leggings_co.paa",
 			"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_Leggings_co.paa"
 		};
-	};
-	class EZ__Bricklayers_SOFJacket: EZ_SOF_Jacket_ColorBase
-	{
-		scope = 2;
-		displayName = "Bricklayers - SOF Jacket";
-		descriptionShort = "Bricklayers - PlatoonPackage SOF Jacket made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_sof_shirt.paa"};
-	};
-	class EZ_Bricklayers_SOFPants: EZ_SOF_Pants_ColorBase
-	{
-		scope = 2;
-		displayName = "Bricklayers - SOF Pants";
-		descriptionShort = "Bricklayers - PlatoonPackage SOF Pants made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_sof_pants.paa"};
-	};
-	class EZ_Bricklayers_SOFHelmet: EZ_SOF_Helmet_ColorBase
-	{
-		scope = 2;
-		displayName = "Bricklayers - SOF Helmet";
-		descriptionShort = "Bricklayers - PlatoonPackage SOF Helmet made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_sof_helmet.paa"};
-	};
-	class EZ_Bricklayers_SOFGloves: EZ_SOF_Gloves_ColorBase
-	{
-		scope = 2;
-		displayName = "Bricklayers - SOF Gloves";
-		descriptionShort = "Bricklayers - PlatoonPackage SOF Gloves made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_sof_gloves.paa"};
-	};
-	class EZ_Bricklayers_SOFBackpack: EZ_SOF_Backpack_ColorBase
-	{
-		scope = 2;
-		displayName = "Bricklayers - SOF Backpack";
-		descriptionShort = "Bricklayers - PlatoonPackage SOF Backpack made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_sof_backpack.paa"};
-	};
-	class EZ_Bricklayers_SOFPlatecarrier: EZ_SOF_Platecarrier_ColorBase
-	{
-		scope = 2;
-		displayName = "Bricklayers - SOF Platecarrier";
-		descriptionShort = "Bricklayers - PlatoonPackage SOF Platecarrier made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_sof_vest.paa"};
 	};
 	class EZ_WZB_Armband: EZ_DoubleArmband_ColorBase
 	{

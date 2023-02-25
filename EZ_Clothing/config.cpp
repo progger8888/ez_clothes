@@ -112,6 +112,7 @@ class CfgVehicles
 	class EZ_SOF_Backpack_ColorBase;
 	class BoonieHat_ColorBase;
 	class Adidas_Leggings;
+	class MVS_Sling_Pack_Base;
 	class EZ_Bandit_Hood_Base: Clothing
 	{
 		displayName = "Scout Hood";

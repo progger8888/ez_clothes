@@ -2877,6 +2877,26 @@ class CfgVehicles
 		scope = 2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_ff.paa"};
 	};
+	class EZ_Bricklayers_QuiltedJacket: QuiltedJacket_ColorBase
+	{
+		scope = 2;
+		visibilityModifier=0.89999998;
+		displayName = "Bricklayers - Quilted Jacket";
+		descriptionShort = "Bricklayers - PlatoonPackage Quilted acket made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_quiltedJacket.paa",
+									  "EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_quiltedJacket.paa",
+									  "EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_quiltedJacket.paa"};
+	};
+	class EZ_Bricklayers_HunterPants: HunterPants_ColorBase
+	{
+		scope = 2;
+		visibilityModifier=0.89999998;
+		displayName = "Bricklayers - Hunter Pants";
+		descriptionShort = "Bricklayers - PlatoonPackage Hunter Pants made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_hunterpants.paa",
+									  "EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_hunterpants.paa",
+									  "EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_hunterpants.paa"};
+	};
 	class EZ_Bricklayers_Balaclava: MVS_Balaclava2_Base
 	{
 		displayName = "Bricklayers - MVS Balaclava";
@@ -2887,6 +2907,18 @@ class CfgVehicles
 			"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_mvs_balaclava.paa",
 			"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_mvs_balaclava.paa",
 			"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_mvs_balaclava.paa"
+		};
+	};
+	class EZ_Bricklayers_Helmet: MVS_Helmet_Base
+	{
+		displayName = "Bricklayers - MVS Helmet";
+		descriptionShort = "Bricklayers - PlatoonPackage MVS Helmet made by Kokaskale";
+		scope=2;
+		hiddenSelectionsTextures[]=
+		{
+			"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_mvs_helmet.paa",
+			"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_mvs_helmet.paa",
+			"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_mvs_helmet.paa"
 		};
 	};
 	class EZ_BricklayersMVS_Shroud: MVS_Shroud_Base
@@ -2910,6 +2942,18 @@ class CfgVehicles
 			"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_jungleboots.paa"
 		};
 	};
+	class EZ_BricklayersTacticalGloves: TacticalGloves_ColorBase
+	{
+		displayName = "Bricklayers - Tactical Gloves";
+		descriptionShort = "Bricklayers - PlatoonPackage Tactical Gloves made by Kokaskale";
+		scope=2;
+		hiddenSelectionsTextures[]=
+		{
+			"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_tacticalgloves.paa",
+			"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_tacticalgloves.paa",
+			"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_tacticalgloves.paa"
+		};
+	};
 	class MVS_Combat_Vest_Heavy_Bricklayers: ModularVestSystem_Heavy
 	{
 		displayName = "Bricklayers - MVS Heavy Plate Carrier";
@@ -2920,6 +2964,19 @@ class CfgVehicles
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_MVSHeavy_co.paa",
 									  "EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_MVSHeavy_co.paa",
 									  "EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_MVSHeavy_co.paa"};
+	};
+	class EZ_Bricklayers_AssaultPack: MVS_Assault_Pack_Tan
+	{
+		scope = 2;
+		displayName = "Bricklayers - Assault Pack";
+		descriptionShort = "Endzone Bricklayers - PlatoonPackage Assault Pack made by Kokaskale";
+		hiddenSelectionsTextures[] = 
+		{
+			"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_RaidPack.paa",
+			"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_RaidPack.paa",
+			"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_RaidPack.paa"
+			
+		};
 	};
 	class EZ_Bricklayers_WarriorHelmet: MVS_WarriorHelmet_Base
 	{
@@ -3091,137 +3148,5 @@ class CfgVehicles
 		displayName = "Woot Ze Bebba - SOF Backpack";
 		descriptionShort = "Woot Ze Bebba - PlatoonPackage SOF Backpack made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\WZB\WZB_sof_backpack.paa"};
-	};
-	class EZ_TSP_Armband: EZ_DoubleArmband_ColorBase
-	{
-		displayName = "The Separatist Parliament - Double Armband";
-		descriptionShort = "The Separatist Parliament -PlatoonPackage Double Armband made by Kokaskale";
-		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\TSP\TSP_armband.paa"};
-	};
-	class EZ_TSP_Banner: EZ_Banner_Colorbase
-	{
-		displayName = "The Separatist Parliament - Banner";
-		descriptionShort = "The Separatist Parliament - PlatoonPackage Banner made by Kokaskale";
-		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\TSP\TSP_bb.paa"};
-	};
-	class EZ_TSP_Flag: Flag_Base
-	{
-		displayName = "The Separatist Parliament - Flag";
-		descriptionShort = "The Separatist Parliament - PlatoonPackage Flag made by Kokaskale";
-		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\TSP\TSP_ff.paa"};
-	};
-	class EZ_TSPMVS_Shroud: MVS_Shroud_Base
-	{
-		scope = 2;
-		displayName = "The Separatist Parliament - MVS Shroud";
-		descriptionShort = "The Separatist Parliament - PlatoonPackage MVS Shroud made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\TSP\TSP_MVS_Shroud.paa",
-									  "EZ_Clothing\data\patreon_platoon\TSP\TSP_MVS_Shroud.paa",
-									  "EZ_Clothing\data\patreon_platoon\TSP\TSP_MVS_Shroud.paa"};
-	};
-	class EZ_TSPJungleBoots: JungleBoots_ColorBase
-	{
-		scope=2;
-		displayName = "The Separatist Parliament - Jungle Boots";
-		descriptionShort = "The Separatist Parliament - PlatoonPackage Jungle Boots made by Kokaskale";
-		hiddenSelectionsTextures[]=
-		{
-			"EZ_Clothing\data\patreon_platoon\TSP\TSP_jungleboots.paa",
-			"EZ_Clothing\data\patreon_platoon\TSP\TSP_jungleboots.paa",
-			"EZ_Clothing\data\patreon_platoon\TSP\TSP_jungleboots.paa"
-		};
-	};
-	class EZ_TSP_Balaclava: MVS_Balaclava2_Base
-	{
-		scope = 2;
-		displayName = "The Separatist Parliament - MVS Balaclava";
-		descriptionShort = "The Separatist Parliament - PlatoonPackage MVS Balaclava made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\TSP\TSP_mvs_balaclava.paa",
-									  "EZ_Clothing\data\patreon_platoon\TSP\TSP_mvs_balaclava.paa",
-									  "EZ_Clothing\data\patreon_platoon\TSP\TSP_mvs_balaclava.paa"};
-	};
-	class EZ_TSP_Jacket: GorkaEJacket_ColorBase
-	{
-		scope = 2;
-		displayName = "The Separatist Parliament - Jacket";
-		descriptionShort = "The Separatist Parliament - PlatoonPackage Jacket made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\TSP\TSP_jacket.paa",
-									  "EZ_Clothing\data\patreon_platoon\TSP\TSP_jacket.paa",
-									  "EZ_Clothing\data\patreon_platoon\TSP\TSP_jacket.paa"};
-	};
-	class EZ_TSP_Pants: BDUPants
-	{
-		scope = 2;
-		displayName = "The Separatist Parliament - Pants";
-		descriptionShort = "The Separatist Parliament - PlatoonPackage Pants made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\TSP\TSP_pants.paa",
-									  "EZ_Clothing\data\patreon_platoon\TSP\TSP_pants.paa",
-									  "EZ_Clothing\data\patreon_platoon\TSP\TSP_pants.paa"};
-	};
-	class EZ_TSP_Helmet: MVS_Helmet_Base
-	{
-		scope = 2;
-		displayName = "The Separatist Parliament - MVS Helmet";
-		descriptionShort = "The Separatist Parliament - PlatoonPackage MVS Helmet made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\TSP\TSP_mvs_helmet.paa",
-									  "EZ_Clothing\data\patreon_platoon\TSP\TSP_mvs_helmet.paa",
-									  "EZ_Clothing\data\patreon_platoon\TSP\TSP_mvs_helmet.paa"};
-	};
-	class MVS_Combat_Vest_TSP: ModularVestSystem_Base
-	{
-		scope = 2;
-		displayName = "The Separatist Parliament - MVS Vest";
-		descriptionShort = "The Separatist Parliament - PlatoonPackage MVS Vest made by Kokaskale";
-		color = "TSP";
-		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\TSP\TSP_mvs_vest.paa",
-									  "EZ_Clothing\data\patreon_platoon\TSP\TSP_mvs_vest.paa",
-									  "EZ_Clothing\data\patreon_platoon\TSP\TSP_mvs_vest.paa"};
-	};
-	class EZ_TSP_TacticalGloves: TacticalGloves_ColorBase
-	{
-		scope = 2;
-		displayName = "The Separatist Parliament - Tactical Gloves";
-		descriptionShort = "The Separatist Parliament - PlatoonPackage Tactical Gloves made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\TSP\TSP_tacticalgloves.paa",
-									  "EZ_Clothing\data\patreon_platoon\TSP\TSP_tacticalgloves.paa",
-									  "EZ_Clothing\data\patreon_platoon\TSP\TSP_tacticalgloves.paa"};
-	};
-	class EZ_TSP_SlingPack: MVS_Sling_Pack_Base
-	{
-		scope = 2;
-		displayName = "The Separatist Parliament - Sling Pack";
-		descriptionShort = "The Separatist Parliament - PlatoonPackage Sling Pack made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\TSP\TSP_Slingpack.paa",
-									  "EZ_Clothing\data\patreon_platoon\TSP\TSP_Slingpack.paa",
-									  "EZ_Clothing\data\patreon_platoon\TSP\TSP_Slingpack.paa"};
-	};
-	class MVS_Combat_Vest_Heavy_TSP: ModularVestSystem_Heavy
-	{
-		displayName = "The Separatist Parliament - MVS Heavy Plate Carrier";
-		descriptionShort = "The Separatist Parliament - PlatoonPackage MVS Heavy Plate Carrier made by Kokaskale";
-		scope = 2;
-		color = "TSP";
-		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\TSP\TSP_MVSHeavy_co.paa",
-									  "EZ_Clothing\data\patreon_platoon\TSP\TSP_MVSHeavy_co.paa",
-									  "EZ_Clothing\data\patreon_platoon\TSP\TSP_MVSHeavy_co.paa"};
-	};
-	class EZ_TSP_WarriorHelmet: MVS_WarriorHelmet_Base
-	{
-		scope = 2;
-		displayName = "The Separatist Parliament - MVS Warrior Helmet";
-		descriptionShort = "The Separatist Parliament - PlatoonPackage MVS Warrior Helmet made by Kokaskale";
-		hiddenSelectionsTextures[] = 
-		{
-			"EZ_Clothing\data\patreon_platoon\TSP\TSP_WarriorHelmet.paa",
-			"EZ_Clothing\data\patreon_platoon\TSP\TSP_WarriorHelmet.paa",
-			"EZ_Clothing\data\patreon_platoon\TSP\TSP_WarriorHelmet.paa",
-			"EZ_Clothing\data\patreon_platoon\TSP\TSP_Mandalorian_Helmet.paa",
-			"EZ_Clothing\data\patreon_platoon\TSP\TSP_Mandalorian_Visor_co.paa"
-		};
 	};
 };

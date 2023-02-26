@@ -3013,13 +3013,6 @@ class CfgVehicles
 		descriptionShort = "Bricklayers - PlatoonPackage SOF Helmet made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_sof_helmet.paa"};
 	};
-	class EZ_Bricklayers_SOFBalaclava: EZ_SOF_Balaclava_ColorBase
-	{
-		scope = 2;
-		displayName = "Bricklayers - SOF Balaclava";
-		descriptionShort = "Bricklayers - PlatoonPackage SOF Balaclava made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_sof_balaclava.paa"};
-	};
 	class EZ_Bricklayers_SOFGloves: EZ_SOF_Gloves_ColorBase
 	{
 		scope = 2;

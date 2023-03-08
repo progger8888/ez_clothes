@@ -2590,6 +2590,31 @@ class CfgVehicles
 									  "EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_Mandalorian_Helmet.paa",
 									  "EZ_Clothing\data\Mvs_Test\Mandalorian_Visor_co.paa"};
 	};
+	class EZ_AngryBeavier_TacticalShirtNEW: TacticalShirt_ColorBase
+	{
+		scope = 2;
+		displayName = "AngryBeaver - Tactical Shirt";
+		descriptionShort = "AngryBeaver - PlatoonPackage Tactical Shirt made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_shirt.paa",
+									  "EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_shirt.paa",
+									  "EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_shirt.paa"};
+	};
+	class EZ_AngryBeavier_PantsNEW: CargoPants_ColorBase
+	{
+		scope = 2;
+		displayName = "AngryBeaver - SOF Platecarrier";
+		descriptionShort = "AngryBeaver - PlatoonPackage SOF Platecarrier made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_pants.paa",
+									  "EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_pants.paa",
+									  "EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_pants.paa"};
+	};
+	class EZ_AngryBeavier_SOFPlatecarrierNEW: EZ_SOF_Platecarrier_ColorBase
+	{
+		scope = 2;
+		displayName = "AngryBeaver - Cargo Pants";
+		descriptionShort = "AngryBeaver - PlatoonPackage Cargo Pants made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_sof_vest.paa"};
+	};
 	class EZ_NWA_Armband: EZ_DoubleArmband_ColorBase
 	{
 		displayName = "North Western Alliance - Double Armband";

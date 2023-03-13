@@ -3322,4 +3322,18 @@ class CfgVehicles
 			"EZ_Clothing\data\patreon_platoon\TSP\TSP_Mandalorian_Visor_co.paa"
 		};
 	};
+	class EZ_KnuckleBalls_Flag: Flag_Base
+	{
+		scope = 2;
+		displayName = "KnuckleBalls Flag";
+		descriptionShort = "KnuckleBalls - ArmbandPackage Flag made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_armband\KnuckleBalls\KnuckleBalls_ff.paa"};
+	};
+	class EZ_KnuckleBalls_DoubleArmband: EZ_DoubleArmband_ColorBase
+	{
+		scope = 2;
+		displayName = "KnuckleBalls - Double Armband";
+		descriptionShort = "KnuckleBalls - ArmbandPackage Double Armband made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_armband\KnuckleBalls\KnuckleBalls_armband.paa"};
+	};
 };

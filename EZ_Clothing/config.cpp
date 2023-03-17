@@ -1868,6 +1868,11 @@ class CfgVehicles
 		itemsCargoSize[] = {5,4};
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Pants\jeans_m_grd_blue.paa","EZ_Clothing\data\player\Pants\jeans_blue.paa","EZ_Clothing\data\player\Pants\jeans_f_blue.paa"};
 	};
+	class EZ_Jeans_Blue_Set: Jeans_ColorBase
+	{
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Pants\jeans_m_grd_blue.paa","EZ_Clothing\data\player\Pants\jeans_blue.paa","EZ_Clothing\data\player\Pants\jeans_f_blue.paa"};
+	};
 	class EZ_Jeans_Gray: Jeans_ColorBase
 	{
 		scope = 2;

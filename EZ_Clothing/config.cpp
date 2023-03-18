@@ -2302,8 +2302,22 @@ class CfgVehicles
 		scope = 2;
 		displayName = "Beach Teleportation Service - Vest";
 		descriptionShort = "Beach Teleportation Service - SquadPackage Vest made by Kokaskale";
+		color = "BTS";
 		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BTS\BTS_vest_co.paa","EZ_Clothing\data\patreon_squad\BTS\BTS_vest_co.paa","EZ_Clothing\data\patreon_squad\BTS\BTS_vest_co.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BTS\BTS_vest_co.paa",
+									  "EZ_Clothing\data\patreon_squad\BTS\BTS_vest_co.paa",
+									  "EZ_Clothing\data\patreon_squad\BTS\BTS_vest_co.paa"};
+	};
+	class MassHeavyPlateVest_EZ_BTS: MassHeavyPlateVest_ColorBase
+	{
+		scope = 2;
+		displayName = "Beach Teleportation Service - Vest";
+		descriptionShort = "Beach Teleportation Service - SquadPackage Vest made by Kokaskale";
+		color = "BTS";
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BTS\BTS_vest_co.paa",
+									  "EZ_Clothing\data\patreon_squad\BTS\BTS_vest_co.paa",
+									  "EZ_Clothing\data\patreon_squad\BTS\BTS_vest_co.paa"};
 	};
 	class EZ_BTS_MilitaryBeret: MilitaryBeret_ColorBase
 	{
@@ -3234,5 +3248,85 @@ class CfgVehicles
 		displayName = "WhoIsThis - SOF Backpack";
 		descriptionShort = "WhoIsThis - PlatoonPackage SOF Backpack made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\WhoIsThis\WhoIsThis_sof_backpack.paa"};
+	};
+	class EZ_Marran_Flag: Flag_Base
+	{
+		scope = 2;
+		displayName = "Marran Flag";
+		descriptionShort = "Marran - SquadPackage Flag made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Marran\Marran_ff.paa"};
+	};
+	class EZ_Marran_Armband: EZ_DoubleArmband_ColorBase
+	{
+		scope = 2;
+		displayName = "Marran - Armband";
+		descriptionShort = "Marran - SquadPackage armband made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Marran\Marran_armband.paa"};
+	};
+	class EZ_Marran_Banner: EZ_Banner_Colorbase
+	{
+		scope = 2;
+		displayName = "Marran - Banner";
+		descriptionShort = "Marran - SquadPackage Banner made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Marran\Marran_bb.paa"};
+	};
+	class EZ_Marran_TacticalShirt: TacticalShirt_ColorBase
+	{
+		scope = 2;
+		displayName = "Marran - Tactical Shirt";
+		descriptionShort = "Marran - SquadPackage Tactical Shirt made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Marran\Marran_shirt.paa",
+								      "EZ_Clothing\data\patreon_squad\Marran\Marran_shirt.paa",
+									  "EZ_Clothing\data\patreon_squad\Marran\Marran_shirt.paa"};
+	};
+	class EZ_Marran_CargoPants: CargoPants_ColorBase
+	{
+		scope = 2;
+		displayName = "Marran - Cargo Pants";
+		descriptionShort = "Marran - SquadPackage Cargo Pants made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Marran\Marran_pants.paa",
+								      "EZ_Clothing\data\patreon_squad\Marran\Marran_pants.paa",
+									  "EZ_Clothing\data\patreon_squad\Marran\Marran_pants.paa"};
+	};
+	class EZ_Marran_MVSBalaclavaWraith: MVS_Balaclava_Base
+	{
+		scope = 2;
+		displayName = "Marran - Balaclava Wraith";
+		descriptionShort = "Marran - SquadPackage Balaclava Wraith made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Marran\Marran_MVS_Wraith.paa",
+									  "EZ_Clothing\data\patreon_squad\Marran\Marran_MVS_Wraith.paa",
+									  "EZ_Clothing\data\patreon_squad\Marran\Marran_MVS_Wraith.paa",
+									  "EZ_Clothing\data\patreon_squad\Marran\Marran_MVS_Balaclava_mask_co.paa"};
+	};
+	class EZ_Marran_SurgicalGloves: SurgicalGloves_ColorBase
+	{
+		scope=2;
+		displayName = "Marran - Surgical Gloves";
+		descriptionShort = "Marran - SquadPackage Surgical Gloves made by Kokaskale";
+		hiddenSelectionsTextures[]={"EZ_Clothing\data\patreon_squad\Marran\Marran_gloves.paa",
+									"EZ_Clothing\data\patreon_squad\Marran\Marran_gloves.paa",
+									"EZ_Clothing\data\patreon_squad\Marran\Marran_gloves.paa"};
+	};
+	class EZ_Marran_Vest: PlateCarrierVest
+	{
+		scope = 2;
+		displayName = "Marran - Vest";
+		descriptionShort = "Marran - SquadPackage Vest made by Kokaskale";
+		color = "Marran";
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Marran\Marran_vest_co.paa",
+									  "EZ_Clothing\data\patreon_squad\Marran\Marran_vest_co.paa",
+									  "EZ_Clothing\data\patreon_squad\Marran\Marran_vest_co.paa"};
+	};
+	class MassHeavyPlateVest_EZ_Marran: MassHeavyPlateVest_ColorBase
+	{
+		scope = 2;
+		displayName = "Marran - Vest";
+		descriptionShort = "Marran - SquadPackage Vest made by Kokaskale";
+		color = "Marran";
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Marran\Marran_vest_co.paa",
+									  "EZ_Clothing\data\patreon_squad\Marran\Marran_vest_co.paa",
+									  "EZ_Clothing\data\patreon_squad\Marran\Marran_vest_co.paa"};
 	};
 };

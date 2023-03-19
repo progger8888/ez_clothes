@@ -3331,4 +3331,13 @@ class CfgVehicles
 									  "EZ_Clothing\data\patreon_squad\Marran\Marran_vest_co.paa",
 									  "EZ_Clothing\data\patreon_squad\Marran\Marran_vest_co.paa"};
 	};
+	class EZ_Marran_TacticalHelmet: Mich2001Helmet
+	{
+		displayName = "Marran - TacticalHelmet";
+		descriptionShort = "Marran - SquadPackage TacticalHelmet made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Marran\Marran_helmet.paa",
+									  "EZ_Clothing\data\patreon_squad\Marran\Marran_helmet.paa",
+									  "EZ_Clothing\data\patreon_squad\Marran\Marran_helmet.paa"};
+	};
 };

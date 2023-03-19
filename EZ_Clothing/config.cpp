@@ -5,7 +5,7 @@ class CfgPatches
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"DZ_Characters","DZ_Characters_Backpacks","DZ_Characters_Gloves","DZ_Characters_Headgear","DZ_Characters_Pants","DZ_Characters_Masks","DZ_Characters_Shoes","DZ_Characters_Tops","DZ_Characters_Vests","DZ_Data","DZ_Gear_Containers","EZ_Medal","EZ_BannerStand","ModularVestSystem"};
+		requiredAddons[] = {"DZ_Characters","DZ_Characters_Backpacks","DZ_Characters_Gloves","DZ_Characters_Headgear","DZ_Characters_Pants","DZ_Characters_Masks","DZ_Characters_Shoes","DZ_Characters_Tops","DZ_Characters_Vests","DZ_Data","DZ_Gear_Containers","EZ_Medal","EZ_BannerStand","ModularVestSystem","Mass_Textures"};
 	};
 };
 class CfgMods
@@ -113,6 +113,8 @@ class CfgVehicles
 	class BoonieHat_ColorBase;
 	class Adidas_Leggings;
 	class MVS_Sling_Pack_Base;
+	class MassHeavyPlateVest_ColorBase;
+	class MVS_Balaclava_Base;
 	class EZ_Bandit_Hood_Base: Clothing
 	{
 		displayName = "Scout Hood";

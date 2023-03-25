@@ -3343,22 +3343,22 @@ class CfgVehicles
 	class EZ_Charlie_Flag: Flag_Base
 	{
 		scope = 2;
-		displayName = "Charlie Flag";
-		descriptionShort = "Charlie - CrewPackage Flag made by Kokaskale";
+		displayName = "Crusaders Flag";
+		descriptionShort = "Crusaders - CrewPackage Flag made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Charlie\Charlie_ff.paa"};
 	};
 	class EZ_Charlie_DoubleArmband: EZ_DoubleArmband_ColorBase
 	{
 		scope = 2;
-		displayName = "Charlie - Double Armband";
-		descriptionShort = "Charlie - CrewPackage Double Armband made by Kokaskale";
+		displayName = "Crusaders - Double Armband";
+		descriptionShort = "Crusaders - CrewPackage Double Armband made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Charlie\Charlie_armband.paa"};
 	};
 	class EZ_Charlie_TacticalShirt: HikingJacket_ColorBase
 	{
 		scope = 2;
-		displayName = "Charlie - Hiking Jacket";
-		descriptionShort = "Charlie - CrewPackage Hiking Jacket made by Kokaskale, 'From the shadow of the water pump reaper howls, for you have denied him of 200 souls'";
+		displayName = "Crusaders - Hiking Jacket";
+		descriptionShort = "Crusaders - CrewPackage Hiking Jacket made by Kokaskale, 'From the shadow of the water pump reaper howls, for you have denied him of 200 souls'";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Charlie\Charlie_shirt.paa","EZ_Clothing\data\patreon_crew\Charlie\Charlie_shirt.paa","EZ_Clothing\data\patreon_crew\Charlie\Charlie_shirt.paa"};
 	};
 };

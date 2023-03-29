@@ -3361,4 +3361,83 @@ class CfgVehicles
 		descriptionShort = "Crusaders - CrewPackage Hiking Jacket made by Kokaskale, 'From the shadow of the water pump reaper howls, for you have denied him of 200 souls'";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Charlie\Charlie_shirt.paa","EZ_Clothing\data\patreon_crew\Charlie\Charlie_shirt.paa","EZ_Clothing\data\patreon_crew\Charlie\Charlie_shirt.paa"};
 	};
+	class EZ_CFD_Flag: Flag_Base
+	{
+		scope = 2;
+		displayName = "CHEZH FIGHTERS DOGS Flag";
+		descriptionShort = "CHEZH FIGHTERS DOGS - SquadPackage Flag made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\CFD\CFD_ff.paa"};
+	};
+	class EZ_CFD_Armband: EZ_DoubleArmband_ColorBase
+	{
+		scope = 2;
+		displayName = "CHEZH FIGHTERS DOGS - Armband";
+		descriptionShort = "CHEZH FIGHTERS DOGS - SquadPackage armband made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\CFD\CFD_armband.paa"};
+	};
+	class EZ_CFD_Banner: EZ_Banner_Colorbase
+	{
+		scope = 2;
+		displayName = "CHEZH FIGHTERS DOGS - Banner";
+		descriptionShort = "CHEZH FIGHTERS DOGS - SquadPackage Banner made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\CFD\CFD_bb.paa"};
+	};
+	class EZ_CFD_TacticalShirt: TacticalShirt_ColorBase
+	{
+		scope = 2;
+		displayName = "CHEZH FIGHTERS DOGS - Tactical Shirt";
+		descriptionShort = "CHEZH FIGHTERS DOGS - SquadPackage Tactical Shirt made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\CFD\CFD_shirt.paa",
+								      "EZ_Clothing\data\patreon_squad\CFD\CFD_shirt.paa",
+									  "EZ_Clothing\data\patreon_squad\CFD\CFD_shirt.paa"};
+	};
+	class EZ_CFD_CargoPants: CargoPants_ColorBase
+	{
+		scope = 2;
+		displayName = "CHEZH FIGHTERS DOGS - Cargo Pants";
+		descriptionShort = "CHEZH FIGHTERS DOGS - SquadPackage Cargo Pants made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\CFD\CFD_pants.paa",
+								      "EZ_Clothing\data\patreon_squad\CFD\CFD_pants.paa",
+									  "EZ_Clothing\data\patreon_squad\CFD\CFD_pants.paa"};
+	};
+	class EZ_CFD_Balaclava: BalaclavaMask_ColorBase
+	{
+		scope = 2;
+		displayName = "CHEZH FIGHTERS DOGS - Balaclava";
+		descriptionShort = "CHEZH FIGHTERS DOGS - SquadPackage Balaclava made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\CFD\CFD_balaclava_co.paa",
+									  "EZ_Clothing\data\patreon_squad\CFD\CFD_balaclava_co.paa",
+									  "EZ_Clothing\data\patreon_squad\CFD\CFD_balaclava_co.paa"};
+	};
+	class EZ_CFD_Vest: PlateCarrierVest
+	{
+		scope = 2;
+		displayName = "CHEZH FIGHTERS DOGS - Vest";
+		descriptionShort = "CHEZH FIGHTERS DOGS - SquadPackage Vest made by Kokaskale";
+		color = "CHEZH FIGHTERS DOGS";
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\CFD\CFD_vest_co.paa",
+									  "EZ_Clothing\data\patreon_squad\CFD\CFD_vest_co.paa",
+									  "EZ_Clothing\data\patreon_squad\CFD\CFD_vest_co.paa"};
+	};
+	class MassHeavyPlateVest_EZ_CFD: MassHeavyPlateVest_ColorBase
+	{
+		scope = 2;
+		displayName = "CHEZH FIGHTERS DOGS - Vest";
+		descriptionShort = "CHEZH FIGHTERS DOGS - SquadPackage Vest made by Kokaskale";
+		color = "CHEZH FIGHTERS DOGS";
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\CFD\CFD_vest_co.paa",
+									  "EZ_Clothing\data\patreon_squad\CFD\CFD_vest_co.paa",
+									  "EZ_Clothing\data\patreon_squad\CFD\CFD_vest_co.paa"};
+	};
+	class EZ_CFD_TacticalHelmet: Mich2001Helmet
+	{
+		displayName = "CHEZH FIGHTERS DOGS - TacticalHelmet";
+		descriptionShort = "CHEZH FIGHTERS DOGS - SquadPackage TacticalHelmet made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\CFD\CFD_helmet_co.paa",
+									  "EZ_Clothing\data\patreon_squad\CFD\CFD_helmet_co.paa",
+									  "EZ_Clothing\data\patreon_squad\CFD\CFD_helmet_co.paa"};
+	};
 };

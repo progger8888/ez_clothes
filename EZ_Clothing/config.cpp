@@ -2321,6 +2321,28 @@ class CfgVehicles
 									  "EZ_Clothing\data\patreon_squad\BTS\BTS_vest_co.paa",
 									  "EZ_Clothing\data\patreon_squad\BTS\BTS_vest_co.paa"};
 	};
+	class EZ_PlateCarrier_BTSNEW: PlateCarrierVest
+	{
+		scope = 2;
+		displayName = "Beach Teleportation Service - Vest";
+		descriptionShort = "Beach Teleportation Service - SquadPackage Vest made by Kokaskale";
+		color = "BTSNEW";
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BTS\BTS_vest_co.paa",
+									  "EZ_Clothing\data\patreon_squad\BTS\BTS_vest_co.paa",
+									  "EZ_Clothing\data\patreon_squad\BTS\BTS_vest_co.paa"};
+	};
+	class MassHeavyPlateVest_BTSNEW: MassHeavyPlateVest_ColorBase
+	{
+		scope = 2;
+		displayName = "Beach Teleportation Service - Vest";
+		descriptionShort = "Beach Teleportation Service - SquadPackage Vest made by Kokaskale";
+		color = "BTSNEW";
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BTS\BTS_vest_co.paa",
+									  "EZ_Clothing\data\patreon_squad\BTS\BTS_vest_co.paa",
+									  "EZ_Clothing\data\patreon_squad\BTS\BTS_vest_co.paa"};
+	};
 	class EZ_BTS_MilitaryBeret: MilitaryBeret_ColorBase
 	{
 		scope = 2;
@@ -3331,6 +3353,28 @@ class CfgVehicles
 									  "EZ_Clothing\data\patreon_squad\Marran\Marran_vest_co.paa",
 									  "EZ_Clothing\data\patreon_squad\Marran\Marran_vest_co.paa"};
 	};
+	class EZ_PlateCarrier_MarranNEW: PlateCarrierVest
+	{
+		scope = 2;
+		displayName = "Marran - Vest";
+		descriptionShort = "Marran - SquadPackage Vest made by Kokaskale";
+		color = "MarranNEW";
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Marran\Marran_vest_co.paa",
+									  "EZ_Clothing\data\patreon_squad\Marran\Marran_vest_co.paa",
+									  "EZ_Clothing\data\patreon_squad\Marran\Marran_vest_co.paa"};
+	};
+	class MassHeavyPlateVest_MarranNEW: MassHeavyPlateVest_ColorBase
+	{
+		scope = 2;
+		displayName = "Marran - Vest";
+		descriptionShort = "Marran - SquadPackage Vest made by Kokaskale";
+		color = "MarranNEW";
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Marran\Marran_vest_co.paa",
+									  "EZ_Clothing\data\patreon_squad\Marran\Marran_vest_co.paa",
+									  "EZ_Clothing\data\patreon_squad\Marran\Marran_vest_co.paa"};
+	};
 	class EZ_Marran_TacticalHelmet: Mich2001Helmet
 	{
 		displayName = "Marran - TacticalHelmet";
@@ -3414,7 +3458,7 @@ class CfgVehicles
 		scope = 2;
 		displayName = "CHEZH FIGHTERS DOGS - Vest";
 		descriptionShort = "CHEZH FIGHTERS DOGS - SquadPackage Vest made by Kokaskale";
-		color = "CHEZH FIGHTERS DOGS";
+		color = "CFD";
 		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\CFD\CFD_vest_co.paa",
 									  "EZ_Clothing\data\patreon_squad\CFD\CFD_vest_co.paa",
@@ -3425,7 +3469,29 @@ class CfgVehicles
 		scope = 2;
 		displayName = "CHEZH FIGHTERS DOGS - Vest";
 		descriptionShort = "CHEZH FIGHTERS DOGS - SquadPackage Vest made by Kokaskale";
-		color = "CHEZH FIGHTERS DOGS";
+		color = "CFD";
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\CFD\CFD_vest_co.paa",
+									  "EZ_Clothing\data\patreon_squad\CFD\CFD_vest_co.paa",
+									  "EZ_Clothing\data\patreon_squad\CFD\CFD_vest_co.paa"};
+	};
+	class EZ_PlateCarrierVest_CFDNEW: PlateCarrierVest
+	{
+		scope = 2;
+		displayName = "CHEZH FIGHTERS DOGS - Vest";
+		descriptionShort = "CHEZH FIGHTERS DOGS - SquadPackage Vest made by Kokaskale";
+		color = "CFDNEW";
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\CFD\CFD_vest_co.paa",
+									  "EZ_Clothing\data\patreon_squad\CFD\CFD_vest_co.paa",
+									  "EZ_Clothing\data\patreon_squad\CFD\CFD_vest_co.paa"};
+	};
+	class MassHeavyPlateVest_CFDNEW: MassHeavyPlateVest_ColorBase
+	{
+		scope = 2;
+		displayName = "CHEZH FIGHTERS DOGS - Vest";
+		descriptionShort = "CHEZH FIGHTERS DOGS - SquadPackage Vest made by Kokaskale";
+		color = "CFDNEW";
 		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\CFD\CFD_vest_co.paa",
 									  "EZ_Clothing\data\patreon_squad\CFD\CFD_vest_co.paa",

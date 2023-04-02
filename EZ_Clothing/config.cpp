@@ -2275,73 +2275,75 @@ class CfgVehicles
 	{
 		scope = 2;
 		displayName = "Beach Teleportation Service Flag";
-		descriptionShort = "Beach Teleportation Service - SquadPackage Flag made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BTS\BTS_ff.paa"};
+		descriptionShort = "Beach Teleportation Service - PlatoonPakcage Flag made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\BTS\BTS_ff.paa"};
 	};
 	class EZ_BTS_Armband: EZ_DoubleArmband_ColorBase
 	{
 		scope = 2;
 		displayName = "Beach Teleportation Service - Armband";
-		descriptionShort = "Beach Teleportation Service - SquadPackage armband made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BTS\BTS_armband.paa"};
+		descriptionShort = "Beach Teleportation Service - PlatoonPakcage armband made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\BTS\BTS_armband.paa"};
 	};
 	class EZ_BTS_Banner: EZ_Banner_Colorbase
 	{
 		scope = 2;
 		displayName = "Beach Teleportation Service - Banner";
-		descriptionShort = "Beach Teleportation Service - SquadPackage Banner made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BTS\BTS_bb.paa"};
+		descriptionShort = "Beach Teleportation Service - PlatoonPakcage Banner made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\BTS\BTS_bb.paa"};
 	};
 	class EZ_BTS_MVS_Shroud: MVS_Shroud_Base
 	{
 		scope = 2;
-		displayName = "BTS - MVS Shroud";
-		descriptionShort = "BTS - SquadPackage MVS Shroud made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BTS\BTS_MVS_Shroud.paa","EZ_Clothing\data\patreon_squad\BTS\BTS_MVS_Shroud.paa","EZ_Clothing\data\patreon_squad\BTS\BTS_MVS_Shroud.paa"};
+		displayName = "Beach Teleportation Servive - MVS Shroud";
+		descriptionShort = "Beach Teleportation Servive - PlatoonPakcage MVS Shroud made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\BTS\BTS_MVS_Shroud.paa",
+									  "EZ_Clothing\data\patreon_platoon\BTS\BTS_MVS_Shroud.paa",
+									  "EZ_Clothing\data\patreon_platoon\BTS\BTS_MVS_Shroud.paa"};
 	};
 	class EZ_BTS_Vest: PlateCarrierVest
 	{
 		scope = 2;
 		displayName = "Beach Teleportation Service - Vest";
-		descriptionShort = "Beach Teleportation Service - SquadPackage Vest made by Kokaskale";
+		descriptionShort = "Beach Teleportation Service - PlatoonPakcage Vest made by Kokaskale";
 		color = "BTS";
 		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BTS\BTS_vest_co.paa",
-									  "EZ_Clothing\data\patreon_squad\BTS\BTS_vest_co.paa",
-									  "EZ_Clothing\data\patreon_squad\BTS\BTS_vest_co.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\BTS\BTS_vest_co.paa",
+									  "EZ_Clothing\data\patreon_platoon\BTS\BTS_vest_co.paa",
+									  "EZ_Clothing\data\patreon_platoon\BTS\BTS_vest_co.paa"};
 	};
 	class MassHeavyPlateVest_EZ_BTS: MassHeavyPlateVest_ColorBase
 	{
 		scope = 2;
 		displayName = "Beach Teleportation Service - Vest";
-		descriptionShort = "Beach Teleportation Service - SquadPackage Vest made by Kokaskale";
+		descriptionShort = "Beach Teleportation Service - PlatoonPakcage Vest made by Kokaskale";
 		color = "BTS";
 		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BTS\BTS_vest_co.paa",
-									  "EZ_Clothing\data\patreon_squad\BTS\BTS_vest_co.paa",
-									  "EZ_Clothing\data\patreon_squad\BTS\BTS_vest_co.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\BTS\BTS_vest_co.paa",
+									  "EZ_Clothing\data\patreon_platoon\BTS\BTS_vest_co.paa",
+									  "EZ_Clothing\data\patreon_platoon\BTS\BTS_vest_co.paa"};
 	};
 	class EZ_PlateCarrier_BTSNEW: PlateCarrierVest
 	{
 		scope = 2;
 		displayName = "Beach Teleportation Service - Vest";
-		descriptionShort = "Beach Teleportation Service - SquadPackage Vest made by Kokaskale";
+		descriptionShort = "Beach Teleportation Service - PlatoonPakcage Vest made by Kokaskale";
 		color = "BTSNEW";
 		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BTS\BTS_vest_co.paa",
-									  "EZ_Clothing\data\patreon_squad\BTS\BTS_vest_co.paa",
-									  "EZ_Clothing\data\patreon_squad\BTS\BTS_vest_co.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\BTS\BTS_vest_co.paa",
+									  "EZ_Clothing\data\patreon_platoon\BTS\BTS_vest_co.paa",
+									  "EZ_Clothing\data\patreon_platoon\BTS\BTS_vest_co.paa"};
 	};
 	class MassHeavyPlateVest_BTSNEW: MassHeavyPlateVest_ColorBase
 	{
 		scope = 2;
 		displayName = "Beach Teleportation Service - Vest";
-		descriptionShort = "Beach Teleportation Service - SquadPackage Vest made by Kokaskale";
+		descriptionShort = "Beach Teleportation Service - PlatoonPakcage Vest made by Kokaskale";
 		color = "BTSNEW";
 		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BTS\BTS_vest_co.paa",
-									  "EZ_Clothing\data\patreon_squad\BTS\BTS_vest_co.paa",
-									  "EZ_Clothing\data\patreon_squad\BTS\BTS_vest_co.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\BTS\BTS_vest_co.paa",
+									  "EZ_Clothing\data\patreon_platoon\BTS\BTS_vest_co.paa",
+									  "EZ_Clothing\data\patreon_platoon\BTS\BTS_vest_co.paa"};
 	};
 	class EZ_BTS_MilitaryBeret: MilitaryBeret_ColorBase
 	{
@@ -2353,21 +2355,100 @@ class CfgVehicles
 			male = "\DZ\characters\headgear\MilitaryBeret_NZ_m.p3d";
 			female = "\DZ\characters\headgear\MilitaryBeret_NZ_f.p3d";
 		};
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BTS\BTS_militaryberet.paa","EZ_Clothing\data\patreon_squad\BTS\BTS_militaryberet.paa","EZ_Clothing\data\patreon_squad\BTS\BTS_militaryberet.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\BTS\BTS_militaryberet_co.paa",
+									  "EZ_Clothing\data\patreon_platoon\BTS\BTS_militaryberet_co.paa",
+									  "EZ_Clothing\data\patreon_platoon\BTS\BTS_militaryberet_co.paa"};
 	};
 	class EZ_BTS_HuntingJacket: HuntingJacket_ColorBase
 	{
 		scope = 2;
 		displayName = "Beach Teleportation Service - Hunting Jacket";
-		descriptionShort = "Beach Teleportation Service - SquadPackage Hunting Jacket made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BTS\BTS_huntingjacket.paa","EZ_Clothing\data\patreon_squad\BTS\BTS_huntingjacket.paa","EZ_Clothing\data\patreon_squad\BTS\BTS_huntingjacket.paa"};
+		descriptionShort = "Beach Teleportation Service - PlatoonPakcage Hunting Jacket made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\BTS\BTS_huntingjacket.paa",
+									  "EZ_Clothing\data\patreon_platoon\BTS\BTS_huntingjacket.paa",
+									  "EZ_Clothing\data\patreon_platoon\BTS\BTS_huntingjacket.paa"};
 	};
 	class EZ_BTS_HunterPants: HunterPants_ColorBase
 	{
 		scope = 2;
 		displayName = "Beach Teleportation Service - Hunter Pants";
-		descriptionShort = "Beach Teleportation Service - SquadPackage Hunter Pants made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\BTS\BTS_hunterpants.paa","EZ_Clothing\data\patreon_squad\BTS\BTS_hunterpants.paa","EZ_Clothing\data\patreon_squad\BTS\BTS_hunterpants.paa"};
+		descriptionShort = "Beach Teleportation Service - PlatoonPakcage Hunter Pants made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\BTS\BTS_hunterpants.paa",
+									  "EZ_Clothing\data\patreon_platoon\BTS\BTS_hunterpants.paa",
+									  "EZ_Clothing\data\patreon_platoon\BTS\BTS_hunterpants.paa"};
+	};
+	class EZ_BTSJungleBoots: JungleBoots_ColorBase
+	{
+		scope = 2;
+		displayName = "Beach Teleportation Servive - Jungle Boots";
+		descriptionShort = "Beach Teleportation Servive - PlatoonPackage Jungle Boots made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\BTS\BTS_jungleboots.paa",
+									  "EZ_Clothing\data\patreon_platoon\BTS\BTS_jungleboots.paa",
+									  "EZ_Clothing\data\patreon_platoon\BTS\BTS_jungleboots.paa"};
+	};
+	class MVS_Combat_Vest_Heavy_BTS: ModularVestSystem_Heavy
+	{
+		scope = 2;
+		displayName = "Beach Teleportation Servive - MVS Heavy Plate Carrier";
+		descriptionShort = "Beach Teleportation Servive - PlatoonPackage MVS Heavy Plate Carrier made by Kokaskale";
+		color = "Beach Teleportation Servive";
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\BTS\BTS_MVSHeavy_co.paa",
+									  "EZ_Clothing\data\patreon_platoon\BTS\BTS_MVSHeavy_co.paa",
+									  "EZ_Clothing\data\patreon_platoon\BTS\BTS_MVSHeavy_co.paa"};
+	};
+	class EZ_BTS_WarriorHelmet: MVS_WarriorHelmet_Base
+	{
+		scope = 2;
+		displayName = "Beach Teleportation Servive - MVS Warrior Helmet";
+		descriptionShort = "Beach Teleportation Servive - PlatoonPackage MVS Warrior Helmet made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\BTS\BTS_WarriorHelmet.paa",
+									  "EZ_Clothing\data\patreon_platoon\BTS\BTS_WarriorHelmet.paa",
+									  "EZ_Clothing\data\patreon_platoon\BTS\BTS_WarriorHelmet.paa",
+									  "EZ_Clothing\data\patreon_platoon\BTS\BTS_Mandalorian_Helmet.paa",
+									  "EZ_Clothing\data\Mvs_Test\Mandalorian_Visor_co.paa"};
+	};
+	class EZ__BTS_SOFJacket: EZ_SOF_Jacket_ColorBase
+	{
+		scope = 2;
+		displayName = "Beach Teleportation Servive - SOF Jacket";
+		descriptionShort = "Beach Teleportation Servive - PlatoonPackage SOF Jacket made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\BTS\BTS_sof_shirt.paa"};
+	};
+	class EZ_BTS_SOFPants: EZ_SOF_Pants_ColorBase
+	{
+		scope = 2;
+		displayName = "Beach Teleportation Servive - SOF Pants";
+		descriptionShort = "Beach Teleportation Servive - PlatoonPackage SOF Pants made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\BTS\BTS_sof_pants.paa"};
+	};
+	class EZ_BTS_SOFBalaclava: EZ_SOF_Balaclava_ColorBase
+	{
+		scope = 2;
+		displayName = "Beach Teleportation Servive - SOF Balaclava";
+		descriptionShort = "Beach Teleportation Servive - PlatoonPackage SOF Balaclava made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\BTS\BTS_sof_balaclava.paa"};
+	};
+	class EZ_BTS_SOFGloves: EZ_SOF_Gloves_ColorBase
+	{
+		scope = 2;
+		displayName = "Beach Teleportation Servive - SOF Gloves";
+		descriptionShort = "Beach Teleportation Servive - PlatoonPackage SOF Gloves made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\BTS\BTS_sof_gloves.paa"};
+	};
+	class EZ_BTS_SOFPlatecarrier: EZ_SOF_Platecarrier_ColorBase
+	{
+		scope = 2;
+		displayName = "Beach Teleportation Servive - SOF Platecarrier";
+		descriptionShort = "Beach Teleportation Servive - PlatoonPackage SOF Platecarrier made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\BTS\BTS_sof_vest.paa"};
+	};
+	class EZ_BTS_SOFBackpack: EZ_SOF_Backpack_ColorBase
+	{
+		scope = 2;
+		displayName = "Beach Teleportation Servive - SOF Backpack";
+		descriptionShort = "Beach Teleportation Servive - PlatoonPackage SOF Backpack made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\BTS\BTS_sof_backpack.paa"};
 	};
 	class EZ_ForestCrow_Armband: EZ_DoubleArmband_ColorBase
 	{

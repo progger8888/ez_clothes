@@ -3003,6 +3003,15 @@ class CfgVehicles
 									  "EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_vest_co.paa",
 									  "EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_vest_co.paa"};
 	};
+	class EZ_Bricklayers_TacticalGloves: TacticalGloves_ColorBase
+	{
+		scope = 2;
+		displayName = "Bricklayers - Vest";
+		descriptionShort = "Bricklayers - SquadPackage Vest made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_tacticalgloves.paa",
+									  "EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_tacticalgloves.paa",
+									  "EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_tacticalgloves.paa"};
+	};
 	class EZ_WZB_Armband: EZ_DoubleArmband_ColorBase
 	{
 		displayName = "Woot Ze Bebba - Double Armband";
@@ -3448,7 +3457,7 @@ class CfgVehicles
 	{
 		scope = 2;
 		displayName = "Crusaders - Hiking Jacket";
-		descriptionShort = "Crusaders - CrewPackage Hiking Jacket made by Kokaskale, 'From the shadow of the water pump reaper howls, for you have denied him of 200 souls'";
+		descriptionShort = "Crusaders - CrewPackage Hiking Jacket made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Charlie\Charlie_shirt.paa","EZ_Clothing\data\patreon_crew\Charlie\Charlie_shirt.paa","EZ_Clothing\data\patreon_crew\Charlie\Charlie_shirt.paa"};
 	};
 	class EZ_CFD_Flag: Flag_Base

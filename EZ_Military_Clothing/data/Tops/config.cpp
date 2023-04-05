@@ -46,27 +46,27 @@ class cfgVehicles
 		displayName = "Tactical Shirt - Tiger";
 		descriptionShort = "A lightweight windproof and water-resistant jacket. Originally worn by the military under a vest.By Kokaskale";
 		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Tops\TacticalShirt\EZ_shirt_tiger.paa","EZ_Military_Clothing\data\Tops\TacticalShirt\EZ_shirt_tiger.paa","EZ_Military_Clothing\data\Tops\TacticalShirt\EZ_shirt_tiger.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Tops\TacticalShirt\EZ_shirt_tiger_co.paa","EZ_Military_Clothing\data\Tops\TacticalShirt\EZ_shirt_tiger_co.paa","EZ_Military_Clothing\data\Tops\TacticalShirt\EZ_shirt_tiger_co.paa"};
 	};
 	class EZ_TacticalShirt_ERDL: TacticalShirt_ColorBase
 	{
 		displayName = "Tactical Shirt - ERDL";
 		descriptionShort = "A lightweight windproof and water-resistant jacket. Originally worn by the military under a vest.By Kokaskale";
 		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Tops\TacticalShirt\EZ_shirt_erdl.paa","EZ_Military_Clothing\data\Tops\TacticalShirt\EZ_shirt_erdl.paa","EZ_Military_Clothing\data\Tops\TacticalShirt\EZ_shirt_erdl.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Tops\TacticalShirt\EZ_shirt_erdl_co.paa","EZ_Military_Clothing\data\Tops\TacticalShirt\EZ_shirt_erdl_co.paa","EZ_Military_Clothing\data\Tops\TacticalShirt\EZ_shirt_erdl_co.paa"};
 	};
 	class EZ_TacticalShirt_MulticamBlack: TacticalShirt_ColorBase
 	{
 		displayName = "Tactical Shirt - Multicam Black";
 		descriptionShort = "A lightweight windproof and water-resistant jacket. Originally worn by the military under a vest.By Kokaskale";
 		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Tops\TacticalShirt\EZ_shirt_multicamblack.paa","EZ_Military_Clothing\data\Tops\TacticalShirt\EZ_shirt_multicamblack.paa","EZ_Military_Clothing\data\Tops\TacticalShirt\EZ_shirt_multicamblack.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Tops\TacticalShirt\EZ_shirt_multicamblack_co.paa","EZ_Military_Clothing\data\Tops\TacticalShirt\EZ_shirt_multicamblack_co.paa","EZ_Military_Clothing\data\Tops\TacticalShirt\EZ_shirt_multicamblack_co.paa"};
 	};
 	class EZ_TacticalShirt_MulticamTropic: TacticalShirt_ColorBase
 	{
 		displayName = "Tactical Shirt - Multicam Tropic";
 		descriptionShort = "A lightweight windproof and water-resistant jacket. Originally worn by the military under a vest.By Kokaskale";
 		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Tops\TacticalShirt\EZ_shirt_tropimulticam.paa","EZ_Military_Clothing\data\Tops\TacticalShirt\EZ_shirt_tropimulticam.paa","EZ_Military_Clothing\data\Tops\TacticalShirt\EZ_shirt_tropimulticam.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Tops\TacticalShirt\EZ_shirt_tropimulticam_co.paa","EZ_Military_Clothing\data\Tops\TacticalShirt\EZ_shirt_tropimulticam_co.paa","EZ_Military_Clothing\data\Tops\TacticalShirt\EZ_shirt_tropimulticam_co.paa"};
 	};
 };

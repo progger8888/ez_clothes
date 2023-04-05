@@ -44,27 +44,27 @@ class cfgVehicles
 		displayName = "Tactical Helmet - Tiger";
 		descriptionShort = "Ballistic helmet with rails for accessories and NVG shroud.By Kokaskale";
 		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Headgear\TacticalHelmet\EZ_helmet_tiger.paa","EZ_Military_Clothing\data\Headgear\TacticalHelmet\EZ_helmet_tiger.paa","EZ_Military_Clothing\data\Headgear\TacticalHelmet\EZ_helmet_tiger.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Headgear\TacticalHelmet\EZ_helmet_tiger_co.paa","EZ_Military_Clothing\data\Headgear\TacticalHelmet\EZ_helmet_tiger_co.paa","EZ_Military_Clothing\data\Headgear\TacticalHelmet\EZ_helmet_tiger_co.paa"};
 	};
 	class EZ_TacticalHelmet_ERDL: Mich2001Helmet
 	{
 		displayName = "Tactical Helmet - ERDL";
 		descriptionShort = "Ballistic helmet with rails for accessories and NVG shroud.By Kokaskale";
 		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Headgear\TacticalHelmet\EZ_helmet_erdl.paa","EZ_Military_Clothing\data\Headgear\TacticalHelmet\EZ_helmet_erdl.paa","EZ_Military_Clothing\data\Headgear\TacticalHelmet\EZ_helmet_erdl.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Headgear\TacticalHelmet\EZ_helmet_erdl_co.paa","EZ_Military_Clothing\data\Headgear\TacticalHelmet\EZ_helmet_erdl_co.paa","EZ_Military_Clothing\data\Headgear\TacticalHelmet\EZ_helmet_erdl_co.paa"};
 	};
 	class EZ_TacticalHelmet_MulticamBlack: Mich2001Helmet
 	{
 		displayName = "Tactical Helmet - Multicam Black";
 		descriptionShort = "Ballistic helmet with rails for accessories and NVG shroud.By Kokaskale";
 		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Headgear\TacticalHelmet\EZ_helmet_multicamblack.paa","EZ_Military_Clothing\data\Headgear\TacticalHelmet\EZ_helmet_multicamblack.paa","EZ_Military_Clothing\data\Headgear\TacticalHelmet\EZ_helmet_multicamblack.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Headgear\TacticalHelmet\EZ_helmet_multicamblack_co.paa","EZ_Military_Clothing\data\Headgear\TacticalHelmet\EZ_helmet_multicamblack_co.paa","EZ_Military_Clothing\data\Headgear\TacticalHelmet\EZ_helmet_multicamblack_co.paa"};
 	};
 	class EZ_TacticalHelmet_MulticamTropic: Mich2001Helmet
 	{
 		displayName = "Tactical Helmet - Multicam Tropic";
 		descriptionShort = "Ballistic helmet with rails for accessories and NVG shroud.By Kokaskale";
 		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Headgear\TacticalHelmet\EZ_helmet_tropimulticam.paa","EZ_Military_Clothing\data\Headgear\TacticalHelmet\EZ_helmet_tropimulticam.paa","EZ_Military_Clothing\data\Headgear\TacticalHelmet\EZ_helmet_tropimulticam.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Headgear\TacticalHelmet\EZ_helmet_tropimulticam_co.paa","EZ_Military_Clothing\data\Headgear\TacticalHelmet\EZ_helmet_tropimulticam_co.paa","EZ_Military_Clothing\data\Headgear\TacticalHelmet\EZ_helmet_tropimulticam_co.paa"};
 	};
 };

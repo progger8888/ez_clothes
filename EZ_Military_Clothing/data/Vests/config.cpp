@@ -57,7 +57,7 @@ class cfgVehicles
 		descriptionShort = "Hard-plate reinforced bulletproof vest, able to absorb various types of impact damage.By Kokaskale";
 		color = "Tiger";
 		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
-		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_tiger.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_tiger.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_tiger.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_tiger_co.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_tiger_co.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_tiger_co.paa"};
 	};
 	class EZ_PlateCarrier_ERDL: PlateCarrierVest
 	{
@@ -66,7 +66,7 @@ class cfgVehicles
 		descriptionShort = "Hard-plate reinforced bulletproof vest, able to absorb various types of impact damage.By Kokaskale";
 		color = "ERDL";
 		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
-		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_erdl.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_erdl.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_erdl.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_erdl_co.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_erdl_co.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_erdl_co.paa"};
 	};
 	class EZ_PlateCarrier_MulticamBlack: PlateCarrierVest
 	{
@@ -75,7 +75,7 @@ class cfgVehicles
 		descriptionShort = "Hard-plate reinforced bulletproof vest, able to absorb various types of impact damage.By Kokaskale";
 		color = "MulticamBlack";
 		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
-		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_multicamblack.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_multicamblack.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_multicamblack.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_multicamblack_co.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_multicamblack_co.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_multicamblack_co.paa"};
 	};
 	class EZ_PlateCarrier_MulticamTropic: PlateCarrierVest
 	{
@@ -84,7 +84,7 @@ class cfgVehicles
 		descriptionShort = "Hard-plate reinforced bulletproof vest, able to absorb various types of impact damage.By Kokaskale";
 		color = "MulticamTropic";
 		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
-		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_tropimulticam.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_tropimulticam.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_tropimulticam.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_tropimulticam_co.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_tropimulticam_co.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_tropimulticam_co.paa"};
 	};
 	class MassHeavyPlateVest_mv11: MassHeavyPlateVest_ColorBase
 	{
@@ -129,7 +129,7 @@ class cfgVehicles
 		descriptionShort = "Hard-plate reinforced bulletproof vest, able to absorb various types of impact damage.By Kokaskale";
 		color = "Tiger";
 		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
-		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_tiger.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_tiger.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_tiger.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_tiger_co.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_tiger_co.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_tiger_co.paa"};
 	};
 	class MassHeavyPlateVest_ERDL: MassHeavyPlateVest_ColorBase
 	{
@@ -138,7 +138,7 @@ class cfgVehicles
 		descriptionShort = "Hard-plate reinforced bulletproof vest, able to absorb various types of impact damage.By Kokaskale";
 		color = "ERDL";
 		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
-		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_erdl.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_erdl.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_erdl.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_erdl_co.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_erdl_co.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_erdl_co.paa"};
 	};
 	class MassHeavyPlateVest_MulticamBlack: MassHeavyPlateVest_ColorBase
 	{
@@ -147,7 +147,7 @@ class cfgVehicles
 		descriptionShort = "Hard-plate reinforced bulletproof vest, able to absorb various types of impact damage.By Kokaskale";
 		color = "MulticamBlack";
 		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
-		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_multicamblack.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_multicamblack.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_multicamblack.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_multicamblack_co.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_multicamblack_co.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_multicamblack_co.paa"};
 	};
 	class MassHeavyPlateVest_MulticamTropic: MassHeavyPlateVest_ColorBase
 	{
@@ -156,7 +156,7 @@ class cfgVehicles
 		descriptionShort = "Hard-plate reinforced bulletproof vest, able to absorb various types of impact damage.By Kokaskale";
 		color = "MulticamTropic";
 		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
-		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_tropimulticam.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_tropimulticam.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_tropimulticam.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_tropimulticam_co.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_tropimulticam_co.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_tropimulticam_co.paa"};
 	};
 	class EZ_VestPouches_mv11: PlateCarrierPouches
 	{
@@ -228,7 +228,7 @@ class cfgVehicles
 		displayName = "Holster - Tiger";
 		descriptionShort = "A pistol holster, attachable to plate carrier vest.By Kokaskale";
 		hiddenSelections[] = {"camoGround","zbytek"};
-		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_tiger.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_tiger.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_tiger.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_tiger_co.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_tiger_co.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_tiger_co.paa"};
 	};
 	class EZ_VestPouches_Tiger: PlateCarrierPouches
 	{
@@ -236,7 +236,7 @@ class cfgVehicles
 		displayName = "Pouches - Pouches Tiger";
 		descriptionShort = "Pouches attachable to plate carrier vest. Further increase its carrying capacity.By Kokaskale";
 		hiddenSelections[] = {"camoGround","zbytek"};
-		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_tiger.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_tiger.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_tiger.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_tiger_co.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_tiger_co.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_tiger_co.paa"};
 	};
 	class EZ_Holster_ERDL: PlateCarrierHolster
 	{
@@ -244,7 +244,7 @@ class cfgVehicles
 		displayName = "Holster - ERDL";
 		descriptionShort = "A pistol holster, attachable to plate carrier vest.By Kokaskale";
 		hiddenSelections[] = {"camoGround","zbytek"};
-		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_erdl.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_erdl.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_erdl.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_erdl_co.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_erdl_co.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_erdl_co.paa"};
 	};
 	class EZ_VestPouches_ERDL: PlateCarrierPouches
 	{
@@ -252,7 +252,7 @@ class cfgVehicles
 		displayName = "Pouches - Pouches ERDL";
 		descriptionShort = "Pouches attachable to plate carrier vest.Further increase its carrying capacity.By Kokaskale";
 		hiddenSelections[] = {"camoGround","zbytek"};
-		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_erdl.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_erdl.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_erdl.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_erdl_co.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_erdl_co.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_erdl_co.paa"};
 	};
 	class EZ_Holster_MulticamBlack: PlateCarrierHolster
 	{
@@ -260,7 +260,7 @@ class cfgVehicles
 		displayName = "Holster - Multicam Black";
 		descriptionShort = "A pistol holster, attachable to plate carrier vest.By Kokaskale";
 		hiddenSelections[] = {"camoGround","zbytek"};
-		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_multicamblack.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_multicamblack.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_multicamblack.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_multicamblack_co.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_multicamblack_co.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_multicamblack_co.paa"};
 	};
 	class EZ_VestPouches_MulticamBlack: PlateCarrierPouches
 	{
@@ -268,7 +268,7 @@ class cfgVehicles
 		displayName = "Pouches - Multicam Black";
 		descriptionShort = "Pouches attachable to plate carrier vest. Further increase its carrying capacity.By Kokaskale";
 		hiddenSelections[] = {"camoGround","zbytek"};
-		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_multicamblack.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_multicamblack.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_multicamblack.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_multicamblack_co.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_multicamblack_co.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_multicamblack_co.paa"};
 	};
 	class EZ_Holster_MulticamTropic: PlateCarrierHolster
 	{
@@ -276,7 +276,7 @@ class cfgVehicles
 		displayName = "Holster - Multicam Tropic";
 		descriptionShort = "A pistol holster, attachable to plate carrier vest.By Kokaskale";
 		hiddenSelections[] = {"camoGround","zbytek"};
-		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_tropimulticam.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_tropimulticam.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_tropimulticam.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_tropimulticam_co.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_tropimulticam_co.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_tropimulticam_co.paa"};
 	};
 	class EZ_VestPouches_MulticamTropic: PlateCarrierPouches
 	{
@@ -284,6 +284,6 @@ class cfgVehicles
 		displayName = "Pouches - Multicam Tropic";
 		descriptionShort = "Pouches attachable to plate carrier vest. Further increase its carrying capacity.By Kokaskale";
 		hiddenSelections[] = {"camoGround","zbytek"};
-		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_tropimulticam.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_tropimulticam.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_tropimulticam.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_tropimulticam_co.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_tropimulticam_co.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_tropimulticam_co.paa"};
 	};
 };

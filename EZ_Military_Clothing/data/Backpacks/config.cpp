@@ -44,27 +44,27 @@ class cfgVehicles
 		displayName = "Assault Bag - Tiger";
 		descriptionShort = "Compact backpack with enough capacity for necessary gear.By Kokaskale";
 		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Backpacks\AssaultBag\EZ_backpack_tiger.paa","EZ_Military_Clothing\data\Backpacks\AssaultBag\EZ_backpack_tiger.paa","EZ_Military_Clothing\data\Backpacks\AssaultBag\EZ_backpack_tiger.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Backpacks\AssaultBag\EZ_backpack_tiger_co.paa","EZ_Military_Clothing\data\Backpacks\AssaultBag\EZ_backpack_tiger_co.paa","EZ_Military_Clothing\data\Backpacks\AssaultBag\EZ_backpack_tiger_co.paa"};
 	};
 	class EZ_AssaultBag_ERDL: AssaultBag_ColorBase
 	{
 		displayName = "Assault Bag - ERDL";
 		descriptionShort = "Compact backpack with enough capacity for necessary gear.By Kokaskale";
 		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Backpacks\AssaultBag\EZ_backpack_erdl.paa","EZ_Military_Clothing\data\Backpacks\AssaultBag\EZ_backpack_erdl.paa","EZ_Military_Clothing\data\Backpacks\AssaultBag\EZ_backpack_erdl.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Backpacks\AssaultBag\EZ_backpack_erdl_co.paa","EZ_Military_Clothing\data\Backpacks\AssaultBag\EZ_backpack_erdl_co.paa","EZ_Military_Clothing\data\Backpacks\AssaultBag\EZ_backpack_erdl_co.paa"};
 	};
 	class EZ_AssaultBag_MulticamBlack: AssaultBag_ColorBase
 	{
 		displayName = "Assault Bag - Multicam Black";
 		descriptionShort = "Compact backpack with enough capacity for necessary gear.By Kokaskale";
 		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Backpacks\AssaultBag\EZ_backpack_multicamblack.paa","EZ_Military_Clothing\data\Backpacks\AssaultBag\EZ_backpack_multicamblack.paa","EZ_Military_Clothing\data\Backpacks\AssaultBag\EZ_backpack_multicamblack.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Backpacks\AssaultBag\EZ_backpack_multicamblack_co.paa","EZ_Military_Clothing\data\Backpacks\AssaultBag\EZ_backpack_multicamblack_co.paa","EZ_Military_Clothing\data\Backpacks\AssaultBag\EZ_backpack_multicamblack_co.paa"};
 	};
 	class EZ_AssaultBag_MulticamTropic: AssaultBag_ColorBase
 	{
 		displayName = "Assault Bag - Multicam Tropic";
 		descriptionShort = "Compact backpack with enough capacity for necessary gear.By Kokaskale";
 		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Backpacks\AssaultBag\EZ_backpack_tropimulticam.paa","EZ_Military_Clothing\data\Backpacks\AssaultBag\EZ_backpack_tropimulticam.paa","EZ_Military_Clothing\data\Backpacks\AssaultBag\EZ_backpack_tropimulticam.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Backpacks\AssaultBag\EZ_backpack_tropimulticam_co.paa","EZ_Military_Clothing\data\Backpacks\AssaultBag\EZ_backpack_tropimulticam_co.paa","EZ_Military_Clothing\data\Backpacks\AssaultBag\EZ_backpack_tropimulticam_co.paa"};
 	};
 };

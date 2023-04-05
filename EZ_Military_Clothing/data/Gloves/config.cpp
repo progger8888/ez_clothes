@@ -44,27 +44,27 @@ class cfgVehicles
 		displayName = "Gloves - Tiger";
 		descriptionShort = "While providing protection to hands, tactical gloves were made to maintain dexterity as well.By Kokaskale";
 		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Gloves\TacticalGloves\EZ_gloves_tiger.paa","EZ_Military_Clothing\data\Gloves\TacticalGloves\EZ_gloves_tiger.paa","EZ_Military_Clothing\data\Gloves\TacticalGloves\EZ_gloves_tiger.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Gloves\TacticalGloves\EZ_gloves_tiger_co.paa","EZ_Military_Clothing\data\Gloves\TacticalGloves\EZ_gloves_tiger_co.paa","EZ_Military_Clothing\data\Gloves\TacticalGloves\EZ_gloves_tiger_co.paa"};
 	};
 	class EZ_TacticalGloves_ERDLt: TacticalGloves_ColorBase
 	{
 		displayName = "Gloves - ERDL";
 		descriptionShort = "While providing protection to hands, tactical gloves were made to maintain dexterity as well.By Kokaskale";
 		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Gloves\TacticalGloves\EZ_gloves_erdl.paa","EZ_Military_Clothing\data\Gloves\TacticalGloves\EZ_gloves_erdl.paa","EZ_Military_Clothing\data\Gloves\TacticalGloves\EZ_gloves_erdl.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Gloves\TacticalGloves\EZ_gloves_erdl_co.paa","EZ_Military_Clothing\data\Gloves\TacticalGloves\EZ_gloves_erdl_co.paa","EZ_Military_Clothing\data\Gloves\TacticalGloves\EZ_gloves_erdl_co.paa"};
 	};
 	class EZ_TacticalGloves_MulticamBlack: TacticalGloves_ColorBase
 	{
 		displayName = "Gloves - Multicam lack";
 		descriptionShort = "While providing protection to hands, tactical gloves were made to maintain dexterity as well.By Kokaskale";
 		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Gloves\TacticalGloves\EZ_gloves_multicamblack.paa","EZ_Military_Clothing\data\Gloves\TacticalGloves\EZ_gloves_multicamblack.paa","EZ_Military_Clothing\data\Gloves\TacticalGloves\EZ_gloves_multicamblack.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Gloves\TacticalGloves\EZ_gloves_multicamblack_co.paa","EZ_Military_Clothing\data\Gloves\TacticalGloves\EZ_gloves_multicamblack_co.paa","EZ_Military_Clothing\data\Gloves\TacticalGloves\EZ_gloves_multicamblack_co.paa"};
 	};
 	class EZ_TacticalGloves_MulticamTropic: TacticalGloves_ColorBase
 	{
 		displayName = "Gloves - Multicam Tropic";
 		descriptionShort = "While providing protection to hands, tactical gloves were made to maintain dexterity as well.By Kokaskale";
 		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Gloves\TacticalGloves\EZ_gloves_tropimulticam.paa","EZ_Military_Clothing\data\Gloves\TacticalGloves\EZ_gloves_tropimulticam.paa","EZ_Military_Clothing\data\Gloves\TacticalGloves\EZ_gloves_tropimulticam.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Gloves\TacticalGloves\EZ_gloves_tropimulticam_co.paa","EZ_Military_Clothing\data\Gloves\TacticalGloves\EZ_gloves_tropimulticam_co.paa","EZ_Military_Clothing\data\Gloves\TacticalGloves\EZ_gloves_tropimulticam_co.paa"};
 	};
 };

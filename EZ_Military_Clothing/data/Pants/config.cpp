@@ -46,27 +46,27 @@ class cfgVehicles
 		displayName = "Cargo Pants - Pants Tiger";
 		descriptionShort = "Battle Dress Uniform pants with classic camouflage pattern.By Kokaskale";
 		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Pants\CargoPants\EZ_pants_tiger.paa","EZ_Military_Clothing\data\Pants\CargoPants\EZ_pants_tiger.paa","EZ_Military_Clothing\data\Pants\CargoPants\EZ_pants_tiger.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Pants\CargoPants\EZ_pants_tiger_co.paa","EZ_Military_Clothing\data\Pants\CargoPants\EZ_pants_tiger_co.paa","EZ_Military_Clothing\data\Pants\CargoPants\EZ_pants_tiger_co.paa"};
 	};
 	class EZ_CargoPants_ERDL: CargoPants_ColorBase
 	{
 		displayName = "Cargo Pants - Pants ERDL";
 		descriptionShort = "Battle Dress Uniform pants with classic camouflage pattern.By Kokaskale";
 		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Pants\CargoPants\EZ_pants_erdl.paa","EZ_Military_Clothing\data\Pants\CargoPants\EZ_pants_erdl.paa","EZ_Military_Clothing\data\Pants\CargoPants\EZ_pants_erdl.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Pants\CargoPants\EZ_pants_erdl_co.paa","EZ_Military_Clothing\data\Pants\CargoPants\EZ_pants_erdl_co.paa","EZ_Military_Clothing\data\Pants\CargoPants\EZ_pants_erdl_co.paa"};
 	};
 	class EZ_CargoPants_MulticamBlack: CargoPants_ColorBase
 	{
 		displayName = "Cargo Pants - Pants Multicam Black";
 		descriptionShort = "Battle Dress Uniform pants with classic camouflage pattern.By Kokaskale";
 		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Pants\CargoPants\EZ_pants_multicamblack.paa","EZ_Military_Clothing\data\Pants\CargoPants\EZ_pants_multicamblack.paa","EZ_Military_Clothing\data\Pants\CargoPants\EZ_pants_multicamblack.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Pants\CargoPants\EZ_pants_multicamblack_co.paa","EZ_Military_Clothing\data\Pants\CargoPants\EZ_pants_multicamblack_co.paa","EZ_Military_Clothing\data\Pants\CargoPants\EZ_pants_multicamblack_co.paa"};
 	};
 	class EZ_CargoPants_MulticamTropic: CargoPants_ColorBase
 	{
 		displayName = "Cargo Pants - Multicam Tropic";
 		descriptionShort = "Battle Dress Uniform pants with classic camouflage pattern.By Kokaskale";
 		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Pants\CargoPants\EZ_pants_tropimulticam.paa","EZ_Military_Clothing\data\Pants\CargoPants\EZ_pants_tropimulticam.paa","EZ_Military_Clothing\data\Pants\CargoPants\EZ_pants_tropimulticam.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Pants\CargoPants\EZ_pants_tropimulticam_co.paa","EZ_Military_Clothing\data\Pants\CargoPants\EZ_pants_tropimulticam_co.paa","EZ_Military_Clothing\data\Pants\CargoPants\EZ_pants_tropimulticam_co.paa"};
 	};
 };

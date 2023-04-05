@@ -44,27 +44,27 @@ class cfgVehicles
 		displayName = "Balaclava - Tiger";
 		descriptionShort = "Three hole balaclava differs from ski mask with additional opening for the mouth. Still useful in cold weather.By Kokaskale";
 		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Masks\Balaclava\EZ_balaclava_tiger.paa","EZ_Military_Clothing\data\Masks\Balaclava\EZ_balaclava_tiger.paa","EZ_Military_Clothing\data\Masks\Balaclava\EZ_balaclava_tiger.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Masks\Balaclava\EZ_balaclava_tiger_co.paa","EZ_Military_Clothing\data\Masks\Balaclava\EZ_balaclava_tiger_co.paa","EZ_Military_Clothing\data\Masks\Balaclava\EZ_balaclava_tiger_co.paa"};
 	};
 	class EZ_Balaclava_ERDL: BalaclavaMask_ColorBase
 	{
 		displayName = "Balaclava - ERDL";
 		descriptionShort = "Three hole balaclava differs from ski mask with additional opening for the mouth. Still useful in cold weather.By Kokaskale";
 		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Masks\Balaclava\EZ_balaclava_erdl.paa","EZ_Military_Clothing\data\Masks\Balaclava\EZ_balaclava_erdl.paa","EZ_Military_Clothing\data\Masks\Balaclava\EZ_balaclava_erdl.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Masks\Balaclava\EZ_balaclava_erdl_co.paa","EZ_Military_Clothing\data\Masks\Balaclava\EZ_balaclava_erdl_co.paa","EZ_Military_Clothing\data\Masks\Balaclava\EZ_balaclava_erdl_co.paa"};
 	};
 	class EZ_Balaclava_MulticamBlack: BalaclavaMask_ColorBase
 	{
 		displayName = "Balaclava - Multicam Black";
 		descriptionShort = "Three hole balaclava differs from ski mask with additional opening for the mouth. Still useful in cold weather.By Kokaskale";
 		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Masks\Balaclava\EZ_balaclava_multicamblack.paa","EZ_Military_Clothing\data\Masks\Balaclava\EZ_balaclava_multicamblack.paa","EZ_Military_Clothing\data\Masks\Balaclava\EZ_balaclava_multicamblack.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Masks\Balaclava\EZ_balaclava_multicamblack_co.paa","EZ_Military_Clothing\data\Masks\Balaclava\EZ_balaclava_multicamblack_co.paa","EZ_Military_Clothing\data\Masks\Balaclava\EZ_balaclava_multicamblack_co.paa"};
 	};
 	class EZ_Balaclava_MulticamTropic: BalaclavaMask_ColorBase
 	{
 		displayName = "Balaclava - Multicam Tropic";
 		descriptionShort = "Three hole balaclava differs from ski mask with additional opening for the mouth. Still useful in cold weather.By Kokaskale";
 		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Masks\Balaclava\EZ_balaclava_tropimulticam.paa","EZ_Military_Clothing\data\Masks\Balaclava\EZ_balaclava_tropimulticam.paa","EZ_Military_Clothing\data\Masks\Balaclava\EZ_balaclava_tropimulticam.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Masks\Balaclava\EZ_balaclava_tropimulticam_co.paa","EZ_Military_Clothing\data\Masks\Balaclava\EZ_balaclava_tropimulticam_co.paa","EZ_Military_Clothing\data\Masks\Balaclava\EZ_balaclava_tropimulticam_co.paa"};
 	};
 };

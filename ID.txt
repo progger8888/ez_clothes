@@ -1,0 +1,35 @@
+LegsCover_Improvised                12
+Latex_Leggings                      15
+Red_Leggings                        15
+Adidas_Leggings                     15
+Breeches_ColorBase                  20
+JumpsuitPants_ColorBase             20
+ShortJeans_ColorBase                20
+Jeans_ColorBase          			20
+CanvasPants_ColorBase   			20
+Skirt_ColorBase                     20
+NBCPantsBase                        20
+MedicalScrubsPants_ColorBase  		20
+PolicePants             			20
+TrackSuitPants_ColorBase			20
+SlacksPants_ColorBase         		20
+PrisonUniformPants          		20
+CargoPants_ColorBase    			24
+HunterPants_ColorBase   			24
+PolicePantsOrel         			24
+EZ_SOF_Pants_ColorBase              24
+ParamedicPants_ColorBase			24
+FirefightersPants_ColorBase 		24
+Kneepads_Jeans_Base                 25
+TTSKOPants              			30
+GorkaPants_ColorBase    			30
+USMCPants_ColorBase           		30
+BDUPants                            30
+MVS_CombatPants_Base                30
+EZ_CapitalPants_ColorBase           30
+
+
+
+
+
+

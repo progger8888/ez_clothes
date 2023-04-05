@@ -23,6 +23,7 @@ class CfgVehicles
 		varQuantityMin= 0;
 		varQuantityMax = 200;
 		itemSize[] = {1,3};
+		hiddenSelectionsTextures[] = {"DZ\gear\consumables\data\spraycan_black_co.paa"};
 		class DamageSystem
 		{
 			class GlobalHealth

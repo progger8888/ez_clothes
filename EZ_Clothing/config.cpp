@@ -2685,106 +2685,6 @@ class CfgVehicles
 		descriptionShort = "North Western Alliance - PlatoonPackage MVS Warrior Helmet made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NWA\NWA_WarriorHelmet.paa","EZ_Clothing\data\patreon_platoon\NWA\NWA_WarriorHelmet.paa","EZ_Clothing\data\patreon_platoon\NWA\NWA_WarriorHelmet.paa","EZ_Clothing\data\patreon_platoon\NWA\NWA_Mandalorian_Helmet.paa","EZ_Clothing\data\Mvs_Test\Mandalorian_Visor_co.paa"};
 	};
-	class EZ_Sharks_Armband: EZ_DoubleArmband_ColorBase
-	{
-		displayName = "Sharks - Double Armband";
-		descriptionShort = "Sharks - PlatoonPackage Double Armband made by Kokaskale";
-		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Sharks\Sharks_armband.paa"};
-	};
-	class EZ_Sharks_Banner: EZ_Banner_Colorbase
-	{
-		displayName = "Sharks - Banner";
-		descriptionShort = "Sharks - PlatoonPackage Banner made by Kokaskale";
-		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Sharks\Sharks_bb.paa"};
-	};
-	class EZ_Sharks_Flag: Flag_Base
-	{
-		displayName = "Sharks - Flag";
-		descriptionShort = "Sharks - PlatoonPackage Flag made by Kokaskale";
-		scope = 2;
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Sharks\Sharks_ff.paa"};
-	};
-	class EZ_SharksMVS_Shroud: MVS_Shroud_Base
-	{
-		scope = 2;
-		displayName = "Sharks - MVS Shroud";
-		descriptionShort = "Sharks - PlatoonPackage MVS Shroud made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Sharks\Sharks_MVS_Shroud.paa","EZ_Clothing\data\patreon_platoon\Sharks\Sharks_MVS_Shroud.paa","EZ_Clothing\data\patreon_platoon\Sharks\Sharks_MVS_Shroud.paa"};
-	};
-	class EZ_SharksJungleBoots: JungleBoots_ColorBase
-	{
-		scope = 2;
-		displayName = "Sharks - Jungle Boots";
-		descriptionShort = "Sharks - PlatoonPackage Jungle Boots made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Sharks\Sharks_jungleboots.paa","EZ_Clothing\data\patreon_platoon\Sharks\Sharks_jungleboots.paa","EZ_Clothing\data\patreon_platoon\Sharks\Sharks_jungleboots.paa"};
-	};
-	class MVS_Combat_Vest_Heavy_Sharks: ModularVestSystem_Heavy
-	{
-		displayName = "Sharks - MVS Heavy Plate Carrier";
-		descriptionShort = "Sharks - PlatoonPackage MVS Heavy Plate Carrier made by Kokaskale";
-		scope = 2;
-		color = "Sharks";
-		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Sharks\Sharks_MVSHeavy_co.paa","EZ_Clothing\data\patreon_platoon\Sharks\Sharks_MVSHeavy_co.paa","EZ_Clothing\data\patreon_platoon\Sharks\Sharks_MVSHeavy_co.paa"};
-	};
-	class EZ_Sharks_WarriorHelmet: MVS_WarriorHelmet_Base
-	{
-		scope = 2;
-		displayName = "Sharks - MVS Warrior Helmet";
-		descriptionShort = "Sharks - PlatoonPackage MVS Warrior Helmet made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Sharks\Sharks_WarriorHelmet.paa","EZ_Clothing\data\patreon_platoon\Sharks\Sharks_WarriorHelmet.paa","EZ_Clothing\data\patreon_platoon\Sharks\Sharks_WarriorHelmet.paa","EZ_Clothing\data\patreon_platoon\Sharks\Sharks_Mandalorian_Helmet.paa","EZ_Clothing\data\Mvs_Test\Mandalorian_Visor_co.paa"};
-	};
-	class EZ__Sharks_SOFJacket: EZ_SOF_Jacket_ColorBase
-	{
-		scope = 2;
-		displayName = "Sharks - SOF Jacket";
-		descriptionShort = "Sharks - PlatoonPackage SOF Jacket made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Sharks\Sharks_sof_shirt.paa"};
-	};
-	class EZ_Sharks_SOFPants: EZ_SOF_Pants_ColorBase
-	{
-		scope = 2;
-		displayName = "Sharks - SOF Pants";
-		descriptionShort = "Sharks - PlatoonPackage SOF Pants made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Sharks\Sharks_sof_pants.paa"};
-	};
-	class EZ_Sharks_SOFHelmet: EZ_SOF_Helmet_ColorBase
-	{
-		scope = 2;
-		displayName = "Sharks - SOF Helmet";
-		descriptionShort = "Sharks - PlatoonPackage SOF Helmet made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Sharks\Sharks_sof_helmet.paa"};
-	};
-	class EZ_Sharks_SOFBalaclava: EZ_SOF_Balaclava_ColorBase
-	{
-		scope = 2;
-		displayName = "Sharks - SOF Balaclava";
-		descriptionShort = "Sharks - PlatoonPackage SOF Balaclava made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Sharks\Sharks_sof_balaclava.paa"};
-	};
-	class EZ_Sharks_SOFGloves: EZ_SOF_Gloves_ColorBase
-	{
-		scope = 2;
-		displayName = "Sharks - SOF Gloves";
-		descriptionShort = "Sharks - PlatoonPackage SOF Gloves made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Sharks\Sharks_sof_gloves.paa"};
-	};
-	class EZ_Sharks_SOFPlatecarrier: EZ_SOF_Platecarrier_ColorBase
-	{
-		scope = 2;
-		displayName = "Sharks - SOF Platecarrier";
-		descriptionShort = "Sharks - PlatoonPackage SOF Platecarrier made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Sharks\Sharks_sof_vest.paa"};
-	};
-	class EZ_Sharks_SOFBackpack: EZ_SOF_Backpack_ColorBase
-	{
-		scope = 2;
-		displayName = "Sharks - SOF Backpack";
-		descriptionShort = "Sharks - PlatoonPackage SOF Backpack made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Sharks\Sharks_sof_backpack.paa"};
-	};
 	class EZ_Bricklayers_Armband: EZ_DoubleArmband_ColorBase
 	{
 		displayName = "Bricklayers - Double Armband";
@@ -3336,5 +3236,205 @@ class CfgVehicles
 		descriptionShort = "CHEZH FIGHTERS DOGS - SquadPackage TacticalHelmet made by Kokaskale";
 		scope = 2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\CFD\CFD_helmet_co.paa","EZ_Clothing\data\patreon_squad\CFD\CFD_helmet_co.paa","EZ_Clothing\data\patreon_squad\CFD\CFD_helmet_co.paa"};
+	};
+	class EZ_fAme_Armband: EZ_DoubleArmband_ColorBase
+	{
+		scope = 2;
+		displayName = "fAme - Double Armband";
+		descriptionShort = "fAme -PlatoonPackage Double Armband made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\fAme\fAme_armband.paa"};
+	};
+	class EZ_fAme_Banner: EZ_Banner_Colorbase
+	{
+		scope = 2;
+		displayName = "fAme - Banner";
+		descriptionShort = "fAme - PlatoonPackage Banner made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\fAme\fAme_bb.paa"};
+	};
+	class EZ_fAme_Flag: Flag_Base
+	{
+		scope = 2;
+		displayName = "fAme - Flag";
+		descriptionShort = "fAme - PlatoonPackage Flag made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\fAme\fAme_ff.paa"};
+	};
+	class EZ_fAme_MVSHelmet: MVS_Helmet_Base
+	{
+		scope = 2;
+		displayName = "fAme - MVS Helmet";
+		descriptionShort = "fAme - PlatoonPackage MVS Helmet made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\fAme\fAme_mvs_helmet.paa"};
+	};
+	class EZ_fAmeMVS_Shroud: MVS_Shroud_Base
+	{
+		scope = 2;
+		displayName = "fAme - MVS Shroud";
+		descriptionShort = "fAme - PlatoonPackage MVS Shroud made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\fAme\fAme_MVS_Shroud.paa","EZ_Clothing\data\patreon_platoon\fAme\fAme_MVS_Shroud.paa","EZ_Clothing\data\patreon_platoon\fAme\fAme_MVS_Shroud.paa"};
+	};
+	class EZ_fAmeJungleBoots: JungleBoots_ColorBase
+	{
+		scope = 2;
+		displayName = "fAme - Jungle Boots";
+		descriptionShort = "fAme - PlatoonPackage Jungle Boots made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\fAme\fAme_jungleboots.paa","EZ_Clothing\data\patreon_platoon\fAme\fAme_jungleboots.paa","EZ_Clothing\data\patreon_platoon\fAme\fAme_jungleboots.paa"};
+	};
+	class MVS_Combat_Vest_Heavy_fAme: ModularVestSystem_Heavy
+	{
+		scope = 2;
+		displayName = "fAme - MVS Heavy Plate Carrier";
+		descriptionShort = "fAme - PlatoonPackage MVS Heavy Plate Carrier made by Kokaskale";
+		color = "fAme";
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\fAme\fAme_MVSHeavy_co.paa","EZ_Clothing\data\patreon_platoon\fAme\fAme_MVSHeavy_co.paa","EZ_Clothing\data\patreon_platoon\fAme\fAme_MVSHeavy_co.paa"};
+	};
+	class EZ_fAme_WarriorHelmet: MVS_WarriorHelmet_Base
+	{
+		scope = 2;
+		displayName = "fAme - MVS Warrior Helmet";
+		descriptionShort = "fAme - PlatoonPackage MVS Warrior Helmet made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\fAme\fAme_WarriorHelmet.paa","EZ_Clothing\data\patreon_platoon\fAme\fAme_WarriorHelmet.paa","EZ_Clothing\data\patreon_platoon\fAme\fAme_WarriorHelmet.paa","EZ_Clothing\data\patreon_platoon\fAme\fAme_Mandalorian_Helmet.paa","EZ_Clothing\data\Mvs_Test\Mandalorian_Visor_co.paa"};
+	};
+	class EZ_fAme_SOFJacket: EZ_SOF_Jacket_ColorBase
+	{
+		scope = 2;
+		displayName = "fAme - SOF Jacket";
+		descriptionShort = "fAme - PlatoonPackage SOF Jacket made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\fAme\fAme_sof_shirt.paa"};
+	};
+	class EZ_fAme_SOFPants: EZ_SOF_Pants_ColorBase
+	{
+		scope = 2;
+		displayName = "fAme - SOF Pants";
+		descriptionShort = "fAme - PlatoonPackage SOF Pants made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\fAme\fAme_sof_pants.paa"};
+	};
+	class EZ_fAme_SOFBalaclava: EZ_SOF_Balaclava_ColorBase
+	{
+		scope = 2;
+		displayName = "fAme - SOF Balaclava";
+		descriptionShort = "fAme - PlatoonPackage SOF Balaclava made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\fAme\fAme_sof_balaclava.paa"};
+	};
+	class EZ_fAme_SOFGloves: EZ_SOF_Gloves_ColorBase
+	{
+		scope = 2;
+		displayName = "fAme - SOF Gloves";
+		descriptionShort = "fAme - PlatoonPackage SOF Gloves made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\fAme\fAme_sof_gloves.paa"};
+	};
+	class EZ_fAme_SOFPlatecarrier: EZ_SOF_Platecarrier_ColorBase
+	{
+		scope = 2;
+		displayName = "fAme - SOF Platecarrier";
+		descriptionShort = "fAme - PlatoonPackage SOF Platecarrier made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\fAme\fAme_sof_vest.paa"};
+	};
+	class EZ_fAme_SOFBackpack: EZ_SOF_Backpack_ColorBase
+	{
+		scope = 2;
+		displayName = "fAme - SOF Backpack";
+		descriptionShort = "fAme - PlatoonPackage SOF Backpack made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\fAme\fAme_sof_backpack.paa"};
+	};
+	class EZ_Sharks_Armband: EZ_DoubleArmband_ColorBase
+	{
+		scope = 2;
+		displayName = "BabySharks - Double Armband";
+		descriptionShort = "BabySharks -PlatoonPackage Double Armband made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Sharks\Sharks_armband.paa"};
+	};
+	class EZ_Sharks_Banner: EZ_Banner_Colorbase
+	{
+		scope = 2;
+		displayName = "BabySharks - Banner";
+		descriptionShort = "BabySharks - PlatoonPackage Banner made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Sharks\Sharks_bb.paa"};
+	};
+	class EZ_Sharks_Flag: Flag_Base
+	{
+		scope = 2;
+		displayName = "BabySharks - Flag";
+		descriptionShort = "BabySharks - PlatoonPackage Flag made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Sharks\Sharks_ff.paa"};
+	};
+	class EZ_Sharks_MVSHelmet: MVS_Helmet_Base
+	{
+		scope = 2;
+		displayName = "BabySharks - MVS Helmet";
+		descriptionShort = "BabySharks - PlatoonPackage MVS Helmet made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Sharks\Sharks_mvs_helmet.paa"};
+	};
+	class EZ_SharksMVS_Shroud: MVS_Shroud_Base
+	{
+		scope = 2;
+		displayName = "BabySharks - MVS Shroud";
+		descriptionShort = "BabySharks - PlatoonPackage MVS Shroud made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Sharks\Sharks_MVS_Shroud.paa","EZ_Clothing\data\patreon_platoon\Sharks\Sharks_MVS_Shroud.paa","EZ_Clothing\data\patreon_platoon\Sharks\Sharks_MVS_Shroud.paa"};
+	};
+	class EZ_SharksJungleBoots: JungleBoots_ColorBase
+	{
+		scope = 2;
+		displayName = "BabySharks - Jungle Boots";
+		descriptionShort = "BabySharks - PlatoonPackage Jungle Boots made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Sharks\Sharks_jungleboots.paa","EZ_Clothing\data\patreon_platoon\Sharks\Sharks_jungleboots.paa","EZ_Clothing\data\patreon_platoon\Sharks\Sharks_jungleboots.paa"};
+	};
+	class MVS_Combat_Vest_Heavy_Sharks: ModularVestSystem_Heavy
+	{
+		scope = 2;
+		displayName = "BabySharks - MVS Heavy Plate Carrier";
+		descriptionShort = "BabySharks - PlatoonPackage MVS Heavy Plate Carrier made by Kokaskale";
+		color = "BabySharks";
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Sharks\Sharks_MVSHeavy_co.paa","EZ_Clothing\data\patreon_platoon\Sharks\Sharks_MVSHeavy_co.paa","EZ_Clothing\data\patreon_platoon\Sharks\Sharks_MVSHeavy_co.paa"};
+	};
+	class EZ_Sharks_WarriorHelmet: MVS_WarriorHelmet_Base
+	{
+		scope = 2;
+		displayName = "BabySharks - MVS Warrior Helmet";
+		descriptionShort = "BabySharks - PlatoonPackage MVS Warrior Helmet made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Sharks\Sharks_WarriorHelmet.paa","EZ_Clothing\data\patreon_platoon\Sharks\Sharks_WarriorHelmet.paa","EZ_Clothing\data\patreon_platoon\Sharks\Sharks_WarriorHelmet.paa","EZ_Clothing\data\patreon_platoon\Sharks\Sharks_Mandalorian_Helmet.paa","EZ_Clothing\data\Mvs_Test\Mandalorian_Visor_co.paa"};
+	};
+	class EZ_Sharks_SOFJacket: EZ_SOF_Jacket_ColorBase
+	{
+		scope = 2;
+		displayName = "BabySharks - SOF Jacket";
+		descriptionShort = "BabySharks - PlatoonPackage SOF Jacket made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Sharks\Sharks_sof_shirt.paa"};
+	};
+	class EZ_Sharks_SOFPants: EZ_SOF_Pants_ColorBase
+	{
+		scope = 2;
+		displayName = "BabySharks - SOF Pants";
+		descriptionShort = "BabySharks - PlatoonPackage SOF Pants made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Sharks\Sharks_sof_pants.paa"};
+	};
+	class EZ_Sharks_SOFBalaclava: EZ_SOF_Balaclava_ColorBase
+	{
+		scope = 2;
+		displayName = "BabySharks - SOF Balaclava";
+		descriptionShort = "BabySharks - PlatoonPackage SOF Balaclava made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Sharks\Sharks_sof_balaclava.paa"};
+	};
+	class EZ_Sharks_SOFGloves: EZ_SOF_Gloves_ColorBase
+	{
+		scope = 2;
+		displayName = "BabySharks - SOF Gloves";
+		descriptionShort = "BabySharks - PlatoonPackage SOF Gloves made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Sharks\Sharks_sof_gloves.paa"};
+	};
+	class EZ_Sharks_SOFPlatecarrier: EZ_SOF_Platecarrier_ColorBase
+	{
+		scope = 2;
+		displayName = "BabySharks - SOF Platecarrier";
+		descriptionShort = "BabySharks - PlatoonPackage SOF Platecarrier made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Sharks\Sharks_sof_vest.paa"};
+	};
+	class EZ_Sharks_SOFBackpack: EZ_SOF_Backpack_ColorBase
+	{
+		scope = 2;
+		displayName = "BabySharks - SOF Backpack";
+		descriptionShort = "BabySharks - PlatoonPackage SOF Backpack made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Sharks\Sharks_sof_backpack.paa"};
 	};
 };

@@ -3152,22 +3152,22 @@ class CfgVehicles
 	class EZ_Charlie_Flag: Flag_Base
 	{
 		scope = 2;
-		displayName = "Charlie Flag";
-		descriptionShort = "Charlie - CrewPackage Flag made by Kokaskale";
+		displayName = "Crusaders Flag";
+		descriptionShort = "Crusaders - CrewPackage Flag made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Charlie\Charlie_ff.paa"};
 	};
 	class EZ_Charlie_DoubleArmband: EZ_DoubleArmband_ColorBase
 	{
 		scope = 2;
-		displayName = "Charlie - Double Armband";
-		descriptionShort = "Charlie - CrewPackage Double Armband made by Kokaskale";
+		displayName = "Crusaders - Double Armband";
+		descriptionShort = "Crusaders - CrewPackage Double Armband made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Charlie\Charlie_armband.paa"};
 	};
 	class EZ_Charlie_TacticalShirt: HikingJacket_ColorBase
 	{
 		scope = 2;
-		displayName = "Charlie - Hiking Jacket";
-		descriptionShort = "Charlie - CrewPackage Hiking Jacket made by Kokaskale";
+		displayName = "Crusaders - Hiking Jacket";
+		descriptionShort = "Crusaders - CrewPackage Hiking Jacket made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\Charlie\Charlie_shirt.paa","EZ_Clothing\data\patreon_crew\Charlie\Charlie_shirt.paa","EZ_Clothing\data\patreon_crew\Charlie\Charlie_shirt.paa"};
 	};
 	class EZ_CFD_Flag: Flag_Base
@@ -3436,5 +3436,26 @@ class CfgVehicles
 		displayName = "BabySharks - SOF Backpack";
 		descriptionShort = "BabySharks - PlatoonPackage SOF Backpack made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Sharks\Sharks_sof_backpack.paa"};
+	};
+	class EZ_BatteryBandits_Flag: Flag_Base
+	{
+		scope = 2;
+		displayName = "BatteryBandits Flag";
+		descriptionShort = "BatteryBandits - CrewPackage Flag made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\BatteryBandits\BatteryBandits_ff.paa"};
+	};
+	class EZ_BatteryBandits_DoubleArmband: EZ_DoubleArmband_ColorBase
+	{
+		scope = 2;
+		displayName = "BatteryBandits - Double Armband";
+		descriptionShort = "BatteryBandits - CrewPackage Double Armband made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\BatteryBandits\BatteryBandits_armband.paa"};
+	};
+	class EZ_BatteryBandits_TacticalShirt: HikingJacket_ColorBase
+	{
+		scope = 2;
+		displayName = "BatteryBandits - Hiking Jacket";
+		descriptionShort = "BatteryBandits - CrewPackage Hiking Jacket made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\BatteryBandits\BatteryBandits_shirt.paa","EZ_Clothing\data\patreon_crew\BatteryBandits\BatteryBandits_shirt.paa","EZ_Clothing\data\patreon_crew\BatteryBandits\BatteryBandits_shirt.paa"};
 	};
 };

@@ -112,6 +112,7 @@ class CfgVehicles
 	class EZ_SOF_Backpack_ColorBase;
 	class BoonieHat_ColorBase;
 	class Adidas_Leggings;
+	class Red_Leggings;
 	class MVS_Sling_Pack_Base;
 	class MassHeavyPlateVest_ColorBase;
 	class MVS_Balaclava_Base;
@@ -2978,101 +2979,115 @@ class CfgVehicles
 	class EZ_WhoIsThis_Armband: EZ_DoubleArmband_ColorBase
 	{
 		scope = 2;
-		displayName = "WhoIsThis - Double Armband";
-		descriptionShort = "WhoIsThis -PlatoonPackage Double Armband made by Kokaskale";
+		displayName = "Art of Camping - Double Armband";
+		descriptionShort = "Art of Camping -PlatoonPackage Double Armband made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\WhoIsThis\WhoIsThis_armband.paa"};
 	};
 	class EZ_WhoIsThis_Banner: EZ_Banner_Colorbase
 	{
 		scope = 2;
-		displayName = "WhoIsThis - Banner";
-		descriptionShort = "WhoIsThis - PlatoonPackage Banner made by Kokaskale";
+		displayName = "Art of Camping - Banner";
+		descriptionShort = "Art of Camping - PlatoonPackage Banner made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\WhoIsThis\WhoIsThis_bb.paa"};
 	};
 	class EZ_WhoIsThis_Flag: Flag_Base
 	{
 		scope = 2;
-		displayName = "WhoIsThis - Flag";
-		descriptionShort = "WhoIsThis - PlatoonPackage Flag made by Kokaskale";
+		displayName = "Art of Camping - Flag";
+		descriptionShort = "Art of Camping - PlatoonPackage Flag made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\WhoIsThis\WhoIsThis_ff.paa"};
 	};
 	class EZ_WhoIsThisMVS_Shroud: MVS_Shroud_Base
 	{
 		scope = 2;
-		displayName = "WhoIsThis - MVS Shroud";
-		descriptionShort = "WhoIsThis - PlatoonPackage MVS Shroud made by Kokaskale";
+		displayName = "Art of Camping - MVS Shroud";
+		descriptionShort = "Art of Camping - PlatoonPackage MVS Shroud made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\WhoIsThis\WhoIsThis_MVS_Shroud.paa","EZ_Clothing\data\patreon_platoon\WhoIsThis\WhoIsThis_MVS_Shroud.paa","EZ_Clothing\data\patreon_platoon\WhoIsThis\WhoIsThis_MVS_Shroud.paa"};
 	};
 	class EZ_WhoIsThisJungleBoots: JungleBoots_ColorBase
 	{
 		scope = 2;
-		displayName = "WhoIsThis - Jungle Boots";
-		descriptionShort = "WhoIsThis - PlatoonPackage Jungle Boots made by Kokaskale";
+		displayName = "Art of Camping - Jungle Boots";
+		descriptionShort = "Art of Camping - PlatoonPackage Jungle Boots made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\WhoIsThis\WhoIsThis_jungleboots.paa","EZ_Clothing\data\patreon_platoon\WhoIsThis\WhoIsThis_jungleboots.paa","EZ_Clothing\data\patreon_platoon\WhoIsThis\WhoIsThis_jungleboots.paa"};
+	};
+	class EZ_WhoIsThis_Leggings: Red_Leggings;
+	{
+		scope = 2;
+		displayName = "Art of Camping - Leggings";
+		descriptionShort = "Art of Camping - PlatoonPackage Leggings made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\WhoIsThis\WhoIsThis_Leggings_co.paa","EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_Leggings_co.paa","EZ_Clothing\data\patreon_platoon\Bricklayers\Bricklayers_Leggings_co.paa"};
+	};
+	class EZ_WhoIsThis_Helmet: MVS_Helmet_Base
+	{
+		scope = 2;
+		displayName = "Art of Camping - MVS Helmet";
+		descriptionShort = "Art of Camping - PlatoonPackage MVS Helmet made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\WhoIsThis\WhoIsThis_mvs_helmet.paa","EZ_Clothing\data\patreon_platoon\WhoIsThis\WhoIsThis_mvs_helmet.paa","EZ_Clothing\data\patreon_platoon\WhoIsThis\WhoIsThis_mvs_helmet.paa"};
 	};
 	class MVS_Combat_Vest_Heavy_WhoIsThis: ModularVestSystem_Heavy
 	{
 		scope = 2;
-		displayName = "WhoIsThis - MVS Heavy Plate Carrier";
-		descriptionShort = "WhoIsThis - PlatoonPackage MVS Heavy Plate Carrier made by Kokaskale";
-		color = "WhoIsThis";
+		displayName = "Art of Camping - MVS Heavy Plate Carrier";
+		descriptionShort = "Art of Camping - PlatoonPackage MVS Heavy Plate Carrier made by Kokaskale";
+		color = "Art of Camping";
 		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\WhoIsThis\WhoIsThis_MVSHeavy_co.paa","EZ_Clothing\data\patreon_platoon\WhoIsThis\WhoIsThis_MVSHeavy_co.paa","EZ_Clothing\data\patreon_platoon\WhoIsThis\WhoIsThis_MVSHeavy_co.paa"};
 	};
 	class EZ_WhoIsThis_WarriorHelmet: MVS_WarriorHelmet_Base
 	{
 		scope = 2;
-		displayName = "WhoIsThis - MVS Warrior Helmet";
-		descriptionShort = "WhoIsThis - PlatoonPackage MVS Warrior Helmet made by Kokaskale";
+		displayName = "Art of Camping - MVS Warrior Helmet";
+		descriptionShort = "Art of Camping - PlatoonPackage MVS Warrior Helmet made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\WhoIsThis\WhoIsThis_WarriorHelmet.paa","EZ_Clothing\data\patreon_platoon\WhoIsThis\WhoIsThis_WarriorHelmet.paa","EZ_Clothing\data\patreon_platoon\WhoIsThis\WhoIsThis_WarriorHelmet.paa","EZ_Clothing\data\patreon_platoon\WhoIsThis\WhoIsThis_Mandalorian_Helmet.paa","EZ_Clothing\data\Mvs_Test\Mandalorian_Visor_co.paa"};
 	};
 	class EZ__WhoIsThis_SOFJacket: EZ_SOF_Jacket_ColorBase
 	{
 		scope = 2;
-		displayName = "WhoIsThis - SOF Jacket";
-		descriptionShort = "WhoIsThis - PlatoonPackage SOF Jacket made by Kokaskale";
+		displayName = "Art of Camping - SOF Jacket";
+		descriptionShort = "Art of Camping - PlatoonPackage SOF Jacket made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\WhoIsThis\WhoIsThis_sof_shirt.paa"};
 	};
 	class EZ_WhoIsThis_SOFPants: EZ_SOF_Pants_ColorBase
 	{
 		scope = 2;
-		displayName = "WhoIsThis - SOF Pants";
-		descriptionShort = "WhoIsThis - PlatoonPackage SOF Pants made by Kokaskale";
+		displayName = "Art of Camping - SOF Pants";
+		descriptionShort = "Art of Camping - PlatoonPackage SOF Pants made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\WhoIsThis\WhoIsThis_sof_pants.paa"};
 	};
 	class EZ_WhoIsThis_SOFHelmet: EZ_SOF_Helmet_ColorBase
 	{
 		scope = 2;
-		displayName = "WhoIsThis - SOF Helmet";
-		descriptionShort = "WhoIsThis - PlatoonPackage SOF Helmet made by Kokaskale";
+		displayName = "Art of Camping - SOF Helmet";
+		descriptionShort = "Art of Camping - PlatoonPackage SOF Helmet made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\WhoIsThis\WhoIsThis_sof_helmet.paa"};
 	};
 	class EZ_WhoIsThis_SOFBalaclava: EZ_SOF_Balaclava_ColorBase
 	{
 		scope = 2;
-		displayName = "WhoIsThis - SOF Balaclava";
-		descriptionShort = "WhoIsThis - PlatoonPackage SOF Balaclava made by Kokaskale";
+		displayName = "Art of Camping - SOF Balaclava";
+		descriptionShort = "Art of Camping - PlatoonPackage SOF Balaclava made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\WhoIsThis\WhoIsThis_sof_balaclava.paa"};
 	};
 	class EZ_WhoIsThis_SOFGloves: EZ_SOF_Gloves_ColorBase
 	{
 		scope = 2;
-		displayName = "WhoIsThis - SOF Gloves";
-		descriptionShort = "WhoIsThis - PlatoonPackage SOF Gloves made by Kokaskale";
+		displayName = "Art of Camping - SOF Gloves";
+		descriptionShort = "Art of Camping - PlatoonPackage SOF Gloves made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\WhoIsThis\WhoIsThis_sof_gloves.paa"};
 	};
 	class EZ_WhoIsThis_SOFPlatecarrier: EZ_SOF_Platecarrier_ColorBase
 	{
 		scope = 2;
-		displayName = "WhoIsThis - SOF Platecarrier";
-		descriptionShort = "WhoIsThis - PlatoonPackage SOF Platecarrier made by Kokaskale";
+		displayName = "Art of Camping - SOF Platecarrier";
+		descriptionShort = "Art of Camping - PlatoonPackage SOF Platecarrier made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\WhoIsThis\WhoIsThis_sof_vest.paa"};
 	};
 	class EZ_WhoIsThis_SOFBackpack: EZ_SOF_Backpack_ColorBase
 	{
 		scope = 2;
-		displayName = "WhoIsThis - SOF Backpack";
-		descriptionShort = "WhoIsThis - PlatoonPackage SOF Backpack made by Kokaskale";
+		displayName = "Art of Camping - SOF Backpack";
+		descriptionShort = "Art of Camping - PlatoonPackage SOF Backpack made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\WhoIsThis\WhoIsThis_sof_backpack.paa"};
 	};
 	class EZ_Marran_Flag: Flag_Base

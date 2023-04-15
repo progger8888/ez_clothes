@@ -286,4 +286,44 @@ class cfgVehicles
 		hiddenSelections[] = {"camoGround","zbytek"};
 		hiddenSelectionsTextures[] = {"EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_tropimulticam_co.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_tropimulticam_co.paa","EZ_Military_Clothing\data\Vests\PlateCarrier\EZ_PlateCarrier_tropimulticam_co.paa"};
 	};
+	class PlateCarrierVest_Black: PlateCarrierVest
+	{
+		color = "VBlack";
+	};
+	class PlateCarrierVest_Green: PlateCarrierVest
+	{
+		color = "VGreen";
+	};
+	class PlateCarrierVest_Camo: PlateCarrierVest
+	{
+		color = "VCamo";
+	};
+	class MassHeavyPlateVest_VBlack: MassHeavyPlateVest_ColorBase
+	{
+		scope = 2;
+		displayName = "Heavy Plate Carrier - Black";
+		descriptionShort = "Hard-plate reinforced bulletproof vest, able to absorb various types of impact damage. Can be expandable with holster and additional pouches";
+		color = "VBlack";
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"\dz\characters\vests\data\BallisticVest_black_co.paa","\dz\characters\vests\data\BallisticVest_black_co.paa","\dz\characters\vests\data\BallisticVest_black_co.paa"};
+	};
+	class MassHeavyPlateVest_VGreen: MassHeavyPlateVest_ColorBase
+	{
+		scope = 2;
+		displayName = "Heavy Plate Carrier - Green";
+		descriptionShort = "Hard-plate reinforced bulletproof vest, able to absorb various types of impact damage. Can be expandable with holster and additional pouches";
+		color = "VGreen";
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"\dz\characters\vests\data\BallisticVest_green_co.paa","\dz\characters\vests\data\BallisticVest_green_co.paa","\dz\characters\vests\data\BallisticVest_green_co.paa"};
+	};
+	class MassHeavyPlateVest_VCamo: MassHeavyPlateVest_ColorBase
+	{
+		scope = 2;
+		displayName = "Heavy Plate Carrier - Camo";
+		descriptionShort = "Hard-plate reinforced bulletproof vest, able to absorb various types of impact damage. Can be expandable with holster and additional pouches";
+		color = "VCamo";
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"\dz\characters\vests\data\BallisticVest_camo_co.paa","\dz\characters\vests\data\BallisticVest_camo_co.paa","\dz\characters\vests\data\BallisticVest_camo_co.paa"};
+	};
+	
 };

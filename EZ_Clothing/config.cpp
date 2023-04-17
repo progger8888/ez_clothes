@@ -3473,4 +3473,120 @@ class CfgVehicles
 		descriptionShort = "BatteryBandits - CrewPackage Hiking Jacket made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\BatteryBandits\BatteryBandits_shirt.paa","EZ_Clothing\data\patreon_crew\BatteryBandits\BatteryBandits_shirt.paa","EZ_Clothing\data\patreon_crew\BatteryBandits\BatteryBandits_shirt.paa"};
 	};
+	class EZ_MEOW_Armband: EZ_DoubleArmband_ColorBase
+	{
+		displayName = "MEOW - Double Armband";
+		descriptionShort = "MEOW -PlatoonPackage Double Armband made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\MEOW\MEOW_armband.paa"};
+	};
+	class EZ_MEOW_Banner: EZ_Banner_Colorbase
+	{
+		displayName = "MEOW - Banner";
+		descriptionShort = "MEOW - PlatoonPackage Banner made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\MEOW\MEOW_bb.paa"};
+	};
+	class EZ_MEOW_Flag: Flag_Base
+	{
+		displayName = "MEOW - Flag";
+		descriptionShort = "MEOW - PlatoonPackage Flag made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\MEOW\MEOW_ff.paa"};
+	};
+	class EZ_MEOWMVS_Shroud: MVS_Shroud_Base
+	{
+		scope = 2;
+		displayName = "MEOW - MVS Shroud";
+		descriptionShort = "MEOW - PlatoonPackage MVS Shroud made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\MEOW\MEOW_MVS_Shroud.paa","EZ_Clothing\data\patreon_platoon\MEOW\MEOW_MVS_Shroud.paa","EZ_Clothing\data\patreon_platoon\MEOW\MEOW_MVS_Shroud.paa"};
+	};
+	class EZ_MEOWJungleBoots: JungleBoots_ColorBase
+	{
+		scope = 2;
+		displayName = "MEOW - Jungle Boots";
+		descriptionShort = "MEOW - PlatoonPackage Jungle Boots made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\MEOW\MEOW_jungleboots.paa","EZ_Clothing\data\patreon_platoon\MEOW\MEOW_jungleboots.paa","EZ_Clothing\data\patreon_platoon\MEOW\MEOW_jungleboots.paa"};
+	};
+	class EZ_MEOW_Balaclava: MVS_Balaclava2_Base
+	{
+		scope = 2;
+		displayName = "MEOW - MVS Balaclava";
+		descriptionShort = "MEOW - PlatoonPackage MVS Balaclava made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\MEOW\MEOW_mvs_balaclava.paa","EZ_Clothing\data\patreon_platoon\MEOW\MEOW_mvs_balaclava.paa","EZ_Clothing\data\patreon_platoon\MEOW\MEOW_mvs_balaclava.paa"};
+	};
+	class EZ_MEOW_TacticalShirt: MVS_CombatShirt_Base
+	{
+		scope = 2;
+		displayName = "MEOW - MVS Shirt";
+		descriptionShort = "MEOW - PlatoonPackage MVS Shirt made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\MEOW\MEOW_mvs_combatshirt.paa","EZ_Clothing\data\patreon_platoon\MEOW\MEOW_mvs_combatshirt.paa","EZ_Clothing\data\patreon_platoon\MEOW\MEOW_mvs_combatshirt.paa"};
+	};
+	class EZ_MEOW_Pants: MVS_CombatPants_Base
+	{
+		scope = 2;
+		displayName = "MEOW - MVS Pants";
+		descriptionShort = "MEOW - PlatoonPackage MVS Pants made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\MEOW\MEOW_mvs_combatpants.paa","EZ_Clothing\data\patreon_platoon\MEOW\MEOW_mvs_combatpants.paa","EZ_Clothing\data\patreon_platoon\MEOW\MEOW_mvs_combatpants.paa"};
+	};
+	class EZ_MEOW_Helmet: MVS_Helmet_Base
+	{
+		scope = 2;
+		displayName = "MEOW - MVS Helmet";
+		descriptionShort = "MEOW - PlatoonPackage MVS Helmet made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\MEOW\MEOW_mvs_helmet.paa","EZ_Clothing\data\patreon_platoon\MEOW\MEOW_mvs_helmet.paa","EZ_Clothing\data\patreon_platoon\MEOW\MEOW_mvs_helmet.paa"};
+	};
+	class MVS_Combat_Vest_MEOW: ModularVestSystem_Base
+	{
+		scope = 2;
+		displayName = "MEOW - MVS Vest";
+		descriptionShort = "MEOW - PlatoonPackage MVS Vest made by Kokaskale";
+		color = "MEOW";
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\MEOW\MEOW_mvs_vest.paa","EZ_Clothing\data\patreon_platoon\MEOW\MEOW_mvs_vest.paa","EZ_Clothing\data\patreon_platoon\MEOW\MEOW_mvs_vest.paa"};
+	};
+	class EZ_MEOW_TacticalGloves: TacticalGloves_ColorBase
+	{
+		scope = 2;
+		displayName = "MEOW - Tactical Gloves";
+		descriptionShort = "MEOW - PlatoonPackage Tactical Gloves made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\MEOW\MEOW_tacticalgloves.paa","EZ_Clothing\data\patreon_platoon\MEOW\MEOW_tacticalgloves.paa","EZ_Clothing\data\patreon_platoon\MEOW\MEOW_tacticalgloves.paa"};
+	};
+	class EZ_MEOW_AssaultPack: MVS_Assault_Pack_Tan
+	{
+		scope = 2;
+		displayName = "MEOW - Assault Pack";
+		descriptionShort = "MEOW - PlatoonPackage Assault Pack made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\MEOW\MEOW_RaidPack.paa","EZ_Clothing\data\patreon_platoon\MEOW\MEOW_RaidPack.paa","EZ_Clothing\data\patreon_platoon\MEOW\MEOW_RaidPack.paa"};
+	};
+	class MVS_Combat_Vest_Heavy_MEOW: ModularVestSystem_Heavy
+	{
+		displayName = "MEOW - MVS Heavy Plate Carrier";
+		descriptionShort = "MEOW - PlatoonPackage MVS Heavy Plate Carrier made by Kokaskale";
+		scope = 2;
+		color = "MEOW";
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\MEOW\MEOW_MVSHeavy_co.paa","EZ_Clothing\data\patreon_platoon\MEOW\MEOW_MVSHeavy_co.paa","EZ_Clothing\data\patreon_platoon\MEOW\MEOW_MVSHeavy_co.paa"};
+	};
+	class EZ_MEOW_WarriorHelmet: MVS_WarriorHelmet_Base
+	{
+		scope = 2;
+		displayName = "MEOW - MVS Warrior Helmet";
+		descriptionShort = "MEOW - PlatoonPackage MVS Warrior Helmet made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\MEOW\MEOW_WarriorHelmet.paa","EZ_Clothing\data\patreon_platoon\MEOW\MEOW_WarriorHelmet.paa","EZ_Clothing\data\patreon_platoon\MEOW\MEOW_WarriorHelmet.paa","EZ_Clothing\data\patreon_platoon\MEOW\MEOW_Mandalorian_Helmet.paa","EZ_Clothing\data\Mvs_Test\Mandalorian_Visor_co.paa"};
+	};
+	class EZ_TheWizards_Flag: Flag_Base
+	{
+		scope = 2;
+		displayName = "TheWizards Flag";
+		descriptionShort = "TheWizards - CrewPackage Flag made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_armband\TheWizards\TheWizards_ff.paa"};
+	};
+	class EZ_TheWizards_DoubleArmband: EZ_DoubleArmband_ColorBase
+	{
+		scope = 2;
+		displayName = "TheWizards - Double Armband";
+		descriptionShort = "TheWizards - CrewPackage Double Armband made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_armband\TheWizards\TheWizards_armband.paa"};
+	};
 };

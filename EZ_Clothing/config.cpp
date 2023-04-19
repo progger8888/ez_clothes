@@ -2494,57 +2494,57 @@ class CfgVehicles
 	class EZ_AngryBeavier_Banner: EZ_Banner_Colorbase
 	{
 		scope = 2;
-		displayName = "AngryBeaver - Banner";
-		descriptionShort = "AngryBeaver - PlatoonPackage Banner made by Kokaskale";
+		displayName = "Burgers - Banner";
+		descriptionShort = "Burgers - PlatoonPackage Banner made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_bb.paa"};
 	};
 	class EZ_AngryBeavier_Flag: Flag_Base
 	{
 		scope = 2;
-		displayName = "AngryBeaver - Flag";
-		descriptionShort = "AngryBeaver - PlatoonPackage Flag made by Kokaskale";
+		displayName = "Burgers - Flag";
+		descriptionShort = "Burgers - PlatoonPackage Flag made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_ff.paa"};
 	};
 	class EZ_AngryBeavier_Balaclava: MVS_Balaclava2_Base
 	{
 		scope = 2;
-		displayName = "AngryBeaver - MVS Balaclava";
-		descriptionShort = "AngryBeaver - PlatoonPackage MVS Balaclava made by Kokaskale";
+		displayName = "Burgers - MVS Balaclava";
+		descriptionShort = "Burgers - PlatoonPackage MVS Balaclava made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_mvs_balaclava.paa","EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_mvs_balaclava.paa","EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_mvs_balaclava.paa"};
 	};
 	class EZ_AngryBeavier_Helmet: MVS_Helmet_Base
 	{
 		scope = 2;
-		displayName = "AngryBeaver - MVS Helmet";
-		descriptionShort = "AngryBeaver - PlatoonPackage MVS Helmet made by Kokaskale";
+		displayName = "Burgers - MVS Helmet";
+		descriptionShort = "Burgers - PlatoonPackage MVS Helmet made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_mvs_helmet.paa","EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_mvs_helmet.paa","EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_mvs_helmet.paa"};
 	};
 	class EZ_AngryBeavier_MVS_Shroud: MVS_Shroud_Base
 	{
 		scope = 2;
-		displayName = "AngryBeaver - MVS Shroud";
-		descriptionShort = "AngryBeaver - PlatoonPackage MVS Shroud made by Kokaskale";
+		displayName = "Burgers - MVS Shroud";
+		descriptionShort = "Burgers - PlatoonPackage MVS Shroud made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_MVS_Shroud.paa","EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_MVS_Shroud.paa","EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_MVS_Shroud.paa"};
 	};
 	class EZ_AngryBeavier_JungleBoots: JungleBoots_ColorBase
 	{
 		scope = 2;
-		displayName = "AngryBeaver - Jungle Boots";
-		descriptionShort = "AngryBeaver - PlatoonPackage Jungle Boots made by Kokaskale";
+		displayName = "Burgers - Jungle Boots";
+		descriptionShort = "Burgers - PlatoonPackage Jungle Boots made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_jungleboots.paa","EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_jungleboots.paa","EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_jungleboots.paa"};
 	};
 	class EZ_AngryBeavier_TacticalGloves: TacticalGloves_ColorBase
 	{
 		scope = 2;
-		displayName = "AngryBeaver - Tactical Gloves";
-		descriptionShort = "AngryBeaver - PlatoonPackage Tactical Gloves made by Kokaskale";
+		displayName = "Burgers - Tactical Gloves";
+		descriptionShort = "Burgers - PlatoonPackage Tactical Gloves made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_tacticalgloves.paa","EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_tacticalgloves.paa","EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_tacticalgloves.paa"};
 	};
 	class MVS_Combat_Vest_Heavy_AngryBeavier: ModularVestSystem_Heavy
 	{
 		scope = 2;
-		displayName = "AngryBeaver - MVS Heavy Plate Carrier";
-		descriptionShort = "AngryBeaver - PlatoonPackage MVS Heavy Plate Carrier made by Kokaskale";
+		displayName = "Burgers - MVS Heavy Plate Carrier";
+		descriptionShort = "Burgers - PlatoonPackage MVS Heavy Plate Carrier made by Kokaskale";
 		color = "AngryBeavier";
 		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_MVSHeavy_co.paa","EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_MVSHeavy_co.paa","EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_MVSHeavy_co.paa"};
@@ -2552,36 +2552,36 @@ class CfgVehicles
 	class EZ_AngryBeavier_AssaultPack: MVS_Assault_Pack_Tan
 	{
 		scope = 2;
-		displayName = "AngryBeaver - Assault Pack";
+		displayName = "Burgers - Assault Pack";
 		descriptionShort = "AngryBeavier - PlatoonPackage Assault Pack made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_RaidPack.paa","EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_RaidPack.paa","EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_RaidPack.paa"};
 	};
 	class EZ_AngryBeavier_WarriorHelmet: MVS_WarriorHelmet_Base
 	{
 		scope = 2;
-		displayName = "AngryBeaver - MVS Warrior Helmet";
-		descriptionShort = "AngryBeaver - PlatoonPackage MVS Warrior Helmet made by Kokaskale";
+		displayName = "Burgers - MVS Warrior Helmet";
+		descriptionShort = "Burgers - PlatoonPackage MVS Warrior Helmet made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_WarriorHelmet.paa","EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_WarriorHelmet.paa","EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_WarriorHelmet.paa","EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_Mandalorian_Helmet.paa","EZ_Clothing\data\Mvs_Test\Mandalorian_Visor_co.paa"};
 	};
 	class EZ_AngryBeavier_TacticalShirtNEW: TacticalShirt_ColorBase
 	{
 		scope = 2;
-		displayName = "AngryBeaver - Tactical Shirt";
-		descriptionShort = "AngryBeaver - PlatoonPackage Tactical Shirt made by Kokaskale";
+		displayName = "Burgers - Tactical Shirt";
+		descriptionShort = "Burgers - PlatoonPackage Tactical Shirt made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_shirt.paa","EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_shirt.paa","EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_shirt.paa"};
 	};
 	class EZ_AngryBeavier_PantsNEW: CargoPants_ColorBase
 	{
 		scope = 2;
-		displayName = "AngryBeaver - SOF Platecarrier";
-		descriptionShort = "AngryBeaver - PlatoonPackage SOF Platecarrier made by Kokaskale";
+		displayName = "Burgers - SOF Platecarrier";
+		descriptionShort = "Burgers - PlatoonPackage SOF Platecarrier made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_pants.paa","EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_pants.paa","EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_pants.paa"};
 	};
 	class EZ_AngryBeavier_SOFPlatecarrierNEW: EZ_SOF_Platecarrier_ColorBase
 	{
 		scope = 2;
-		displayName = "AngryBeaver - Cargo Pants";
-		descriptionShort = "AngryBeaver - PlatoonPackage Cargo Pants made by Kokaskale";
+		displayName = "Burgers - Cargo Pants";
+		descriptionShort = "Burgers - PlatoonPackage Cargo Pants made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\AngryBeavier\AngryBeavier_sof_vest.paa"};
 	};
 	class EZ_NWA_Armband: EZ_DoubleArmband_ColorBase

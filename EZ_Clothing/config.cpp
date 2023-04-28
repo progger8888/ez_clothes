@@ -3278,7 +3278,9 @@ class CfgVehicles
 		scope = 2;
 		displayName = "fAme - MVS Helmet";
 		descriptionShort = "fAme - PlatoonPackage MVS Helmet made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\fAme\fAme_mvs_helmet.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\fAme\fAme_mvs_helmet.paa",
+									  "EZ_Clothing\data\patreon_platoon\fAme\fAme_mvs_helmet.paa",
+									  "EZ_Clothing\data\patreon_platoon\fAme\fAme_mvs_helmet.paa"};
 	};
 	class EZ_fAmeMVS_Shroud: MVS_Shroud_Base
 	{
@@ -3378,7 +3380,9 @@ class CfgVehicles
 		scope = 2;
 		displayName = "BabySharks - MVS Helmet";
 		descriptionShort = "BabySharks - PlatoonPackage MVS Helmet made by Kokaskale";
-		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Sharks\Sharks_mvs_helmet.paa"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\Sharks\Sharks_mvs_helmet.paa",
+									  "EZ_Clothing\data\patreon_platoon\Sharks\Sharks_mvs_helmet.paa",
+									  "EZ_Clothing\data\patreon_platoon\Sharks\Sharks_mvs_helmet.paa"};
 	};
 	class EZ_SharksMVS_Shroud: MVS_Shroud_Base
 	{

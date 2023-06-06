@@ -3056,4 +3056,18 @@ class CfgVehicles
 		descriptionShort = "North Western Alliance - PlatoonPackage MVS Warrior Helmet made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_platoon\NWA\NWA_WarriorHelmet.paa","EZ_Clothing\data\patreon_platoon\NWA\NWA_WarriorHelmet.paa","EZ_Clothing\data\patreon_platoon\NWA\NWA_WarriorHelmet.paa","EZ_Clothing\data\patreon_platoon\NWA\NWA_Mandalorian_Helmet.paa","EZ_Clothing\data\Mvs_Test\Mandalorian_Visor_co.paa"};
 	};
+	class EZ_WINDOfficial_Flag: Flag_Base
+	{
+		scope = 2;
+		displayName = "WIND Official Flag";
+		descriptionShort = "WIND Official - ArmbandPackage Flag made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_armband\WINDOfficial\WINDOfficial_ff.paa"};
+	};
+	class EZ_WINDOfficial_DoubleArmband: EZ_DoubleArmband_ColorBase
+	{
+		scope = 2;
+		displayName = "WIND Official - Double Armband";
+		descriptionShort = "WIND Official - ArmbandPackage Double Armband made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_armband\WINDOfficial\WINDOfficial_armband.paa"};
+	};
 };

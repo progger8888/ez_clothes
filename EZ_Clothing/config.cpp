@@ -3137,4 +3137,18 @@ class CfgVehicles
 		scope = 2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Formoza\Formoza_helmet_co.paa","EZ_Clothing\data\patreon_squad\Formoza\Formoza_helmet_co.paa","EZ_Clothing\data\patreon_squad\Formoza\Formoza_helmet_co.paa"};
 	};
+	class EZ_TBH_Flag: Flag_Base
+	{
+		scope = 2;
+		displayName = "The Black Hand Flag";
+		descriptionShort = "The Black Hand - ArmbandPackage Flag made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_armband\TBH\TBH_ff.paa"};
+	};
+	class EZ_TBH_DoubleArmband: EZ_DoubleArmband_ColorBase
+	{
+		scope = 2;
+		displayName = "The Black Hand - Double Armband";
+		descriptionShort = "The Black Hand - ArmbandPackage Double Armband made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_armband\TBH\TBH_armband.paa"};
+	};
 };

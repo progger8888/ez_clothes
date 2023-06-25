@@ -3073,50 +3073,50 @@ class CfgVehicles
 	class EZ_Formoza_Flag: Flag_Base
 	{
 		scope = 2;
-		displayName = "CHEZH FIGHTERS DOGS Flag";
-		descriptionShort = "CHEZH FIGHTERS DOGS - SquadPackage Flag made by Kokaskale";
+		displayName = "Formoza Flag";
+		descriptionShort = "Formoza - SquadPackage Flag made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Formoza\Formoza_ff.paa"};
 	};
 	class EZ_Formoza_Armband: EZ_DoubleArmband_ColorBase
 	{
 		scope = 2;
-		displayName = "CHEZH FIGHTERS DOGS - Armband";
-		descriptionShort = "CHEZH FIGHTERS DOGS - SquadPackage armband made by Kokaskale";
+		displayName = "Formoza - Armband";
+		descriptionShort = "Formoza - SquadPackage armband made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Formoza\Formoza_armband.paa"};
 	};
 	class EZ_Formoza_Banner: EZ_Banner_Colorbase
 	{
 		scope = 2;
-		displayName = "CHEZH FIGHTERS DOGS - Banner";
-		descriptionShort = "CHEZH FIGHTERS DOGS - SquadPackage Banner made by Kokaskale";
+		displayName = "Formoza - Banner";
+		descriptionShort = "Formoza - SquadPackage Banner made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Formoza\Formoza_bb.paa"};
 	};
 	class EZ_Formoza_TacticalShirt: TacticalShirt_ColorBase
 	{
 		scope = 2;
-		displayName = "CHEZH FIGHTERS DOGS - Tactical Shirt";
-		descriptionShort = "CHEZH FIGHTERS DOGS - SquadPackage Tactical Shirt made by Kokaskale";
+		displayName = "Formoza - Tactical Shirt";
+		descriptionShort = "Formoza - SquadPackage Tactical Shirt made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Formoza\Formoza_shirt.paa","EZ_Clothing\data\patreon_squad\Formoza\Formoza_shirt.paa","EZ_Clothing\data\patreon_squad\Formoza\Formoza_shirt.paa"};
 	};
 	class EZ_Formoza_CargoPants: CargoPants_ColorBase
 	{
 		scope = 2;
-		displayName = "CHEZH FIGHTERS DOGS - Cargo Pants";
-		descriptionShort = "CHEZH FIGHTERS DOGS - SquadPackage Cargo Pants made by Kokaskale";
+		displayName = "Formoza - Cargo Pants";
+		descriptionShort = "Formoza - SquadPackage Cargo Pants made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Formoza\Formoza_pants.paa","EZ_Clothing\data\patreon_squad\Formoza\Formoza_pants.paa","EZ_Clothing\data\patreon_squad\Formoza\Formoza_pants.paa"};
 	};
 	class EZ_Formoza_Balaclava: BalaclavaMask_ColorBase
 	{
 		scope = 2;
-		displayName = "CHEZH FIGHTERS DOGS - Balaclava";
-		descriptionShort = "CHEZH FIGHTERS DOGS - SquadPackage Balaclava made by Kokaskale";
+		displayName = "Formoza - Balaclava";
+		descriptionShort = "Formoza - SquadPackage Balaclava made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Formoza\Formoza_balaclava_co.paa","EZ_Clothing\data\patreon_squad\Formoza\Formoza_balaclava_co.paa","EZ_Clothing\data\patreon_squad\Formoza\Formoza_balaclava_co.paa"};
 	};
 	class EZ_PlateCarrierVest_Formoza: PlateCarrierVest
 	{
 		scope = 2;
-		displayName = "CHEZH FIGHTERS DOGS - Vest";
-		descriptionShort = "CHEZH FIGHTERS DOGS - SquadPackage Vest made by Kokaskale";
+		displayName = "Formoza - Vest";
+		descriptionShort = "Formoza - SquadPackage Vest made by Kokaskale";
 		color = "FormozaNEW";
 		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Formoza\Formoza_vest_co.paa","EZ_Clothing\data\patreon_squad\Formoza\Formoza_vest_co.paa","EZ_Clothing\data\patreon_squad\Formoza\Formoza_vest_co.paa"};
@@ -3124,16 +3124,16 @@ class CfgVehicles
 	class MassHeavyPlateVest_Formoza: MassHeavyPlateVest_ColorBase
 	{
 		scope = 2;
-		displayName = "CHEZH FIGHTERS DOGS - Vest";
-		descriptionShort = "CHEZH FIGHTERS DOGS - SquadPackage Vest made by Kokaskale";
+		displayName = "Formoza - Vest";
+		descriptionShort = "Formoza - SquadPackage Vest made by Kokaskale";
 		color = "FormozaNEW";
 		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Formoza\Formoza_vest_co.paa","EZ_Clothing\data\patreon_squad\Formoza\Formoza_vest_co.paa","EZ_Clothing\data\patreon_squad\Formoza\Formoza_vest_co.paa"};
 	};
 	class EZ_Formoza_TacticalHelmet: Mich2001Helmet
 	{
-		displayName = "CHEZH FIGHTERS DOGS - TacticalHelmet";
-		descriptionShort = "CHEZH FIGHTERS DOGS - SquadPackage TacticalHelmet made by Kokaskale";
+		displayName = "Formoza - TacticalHelmet";
+		descriptionShort = "Formoza - SquadPackage TacticalHelmet made by Kokaskale";
 		scope = 2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_squad\Formoza\Formoza_helmet_co.paa","EZ_Clothing\data\patreon_squad\Formoza\Formoza_helmet_co.paa","EZ_Clothing\data\patreon_squad\Formoza\Formoza_helmet_co.paa"};
 	};

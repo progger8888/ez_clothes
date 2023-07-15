@@ -5,7 +5,7 @@ class CfgPatches
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"DZ_Characters","DZ_Characters_Backpacks","DZ_Characters_Gloves","DZ_Characters_Headgear","DZ_Characters_Pants","DZ_Characters_Masks","DZ_Characters_Shoes","DZ_Characters_Tops","DZ_Characters_Vests","DZ_Data","DZ_Gear_Containers","EZ_Medal","EZ_BannerStand","ModularVestSystem","Mass_Textures"};
+		requiredAddons[] = {"DZ_Characters","DZ_Characters_Backpacks","DZ_Characters_Gloves","DZ_Characters_Headgear","DZ_Characters_Pants","DZ_Characters_Masks","DZ_Characters_Shoes","DZ_Characters_Tops","DZ_Characters_Vests","DZ_Data","DZ_Gear_Containers","EZ_Medal","EZ_BannerStand","ModularVestSystem","Mass_Textures","EZ_Other_Magazine"};
 	};
 };
 class CfgMods
@@ -116,6 +116,7 @@ class CfgVehicles
 	class MVS_Sling_Pack_Base;
 	class MassHeavyPlateVest_ColorBase;
 	class MVS_Balaclava_Base;
+	class EZ_Magazine_Base;
 	class EZ_Bandit_Hood_Base: Clothing
 	{
 		displayName = "Scout Hood";
@@ -3150,5 +3151,305 @@ class CfgVehicles
 		displayName = "The Black Hand - Double Armband";
 		descriptionShort = "The Black Hand - ArmbandPackage Double Armband made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_armband\TBH\TBH_armband.paa"};
+	};
+	class EZ_Magazine_1: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Nr. 1";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\PC_Gamer_Issue_1.paa"};
+	};
+	class EZ_Magazine_2: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Nr. 2";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\PC_Gamer_Issue_2.paa"};
+	};
+	class EZ_Magazine_3: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Nr. 3";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\PC_Gamer_Issue_3.paa"};
+	};
+	class EZ_Magazine_4: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Nr. 4";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\PC_Gamer_Issue_4.paa"};
+	};
+	class EZ_Magazine_5: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Nr. 5";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\PC_Gamer_Issue_5.paa"};
+	};
+	class EZ_Magazine_6: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Nr. 6";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\PC_Gamer_Issue_6.paa"};
+	};
+	class EZ_Magazine_7: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Nr. 7";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\PC_Gamer_Issue_7.paa"};
+	};
+	class EZ_Magazine_8: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Nr. 8";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\PC_Gamer_Issue_8.paa"};
+	};
+	class EZ_Magazine_9: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Nr. 9";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\PC_Gamer_Issue_9.paa"};
+	};
+	class EZ_Magazine_10: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Nr. 10";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\PC_Gamer_Issue_10.paa"};
+	};
+	class EZ_Magazine_11: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Nr. 11";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\PC_Gamer_Issue_11.paa"};
+	};
+	class EZ_Magazine_12: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Nr. 12";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\PC_Gamer_Issue_12.paa"};
+	};
+	class EZ_Magazine_13: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Nr. 13";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\PC_Gamer_Issue_13.paa"};
+	};
+	class EZ_Magazine_14: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Nr. 14";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\PC_Gamer_Issue_14.paa"};
+	};
+	class EZ_Magazine_15: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Nr. 15";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\PC_Gamer_Issue_15.paa"};
+	};
+	class EZ_Magazine_16: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Nr. 16";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\PC_Gamer_Issue_16.paa"};
+	};
+	class EZ_Magazine_17: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Nr. 17";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\PC_Gamer_Issue_17.paa"};
+	};
+	class EZ_Magazine_18: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Nr. 18";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\PC_Gamer_Issue_18.paa"};
+	};
+	class EZ_Magazine_19: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Nr. 19";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\PC_Gamer_Issue_19.paa"};
+	};
+	class EZ_Magazine_20: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Nr. 20";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\PC_Gamer_Issue_20.paa"};
+	};
+	class EZ_Magazine_21: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Nr. 21";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\PC_Gamer_Issue_21.paa"};
+	};
+	class EZ_Magazine_22: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Nr. 22";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\PC_Gamer_Issue_22.paa"};
+	};
+	class EZ_Magazine_23: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Nr. 23";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\PC_Gamer_Issue_23.paa"};
+	};
+	class EZ_Magazine_24: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Nr. 24";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\PC_Gamer_Issue_24.paa"};
+	};
+	class EZ_Magazine_25: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Nr. 25";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\PC_Gamer_Issue_25.paa"};
+	};
+	class EZ_Magazine_26: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Nr. 26";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\PC_Gamer_Issue_26.paa"};
+	};
+	class EZ_Magazine_27: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Nr. 27";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\PC_Gamer_Issue_27.paa"};
+	};
+	class EZ_Magazine_28: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Nr. 28";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\PC_Gamer_Issue_28.paa"};
+	};
+	class EZ_Magazine_29: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Nr. 29";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\PC_Gamer_Issue_29.paa"};
+	};
+	class EZ_Magazine_30: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Nr. 30";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\PC_Gamer_Issue_30.paa"};
+	};
+	class EZ_Magazine_31: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Nr. 31";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\PC_Gamer_Issue_31.paa"};
+	};
+	class EZ_Magazine_32: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Nr. 32";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\PC_Gamer_Issue_32.paa"};
+	};
+	class EZ_Magazine_33: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Nr. 33";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\PC_Gamer_Issue_33.paa"};
+	};
+	class EZ_Magazine_34: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Nr. 34";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\PC_Gamer_Issue_34.paa"};
+	};
+	class EZ_Magazine_35: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Nr. 35";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\PC_Gamer_Issue_35.paa"};
+	};
+	class EZ_Magazine_36: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Nr. 36";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\PC_Gamer_Issue_36.paa"};
+	};
+	class EZ_Magazine_37: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Nr. 37";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\PC_Gamer_Issue_37.paa"};
+	};
+	class EZ_Magazine_38: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Nr. 38";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\PC_Gamer_Issue_38.paa"};
+	};
+	class EZ_Magazine_39: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Nr. 39";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\PC_Gamer_Issue_39.paa"};
+	};
+	class EZ_Magazine_40: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Nr. 40";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\PC_Gamer_Issue_40.paa"};
+	};
+	class EZ_Magazine_41: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Nr. 41";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\PC_Gamer_Issue_41.paa"};
+	};
+	class EZ_Magazine_42: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Nr. 42";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\PC_Gamer_Issue_42.paa"};
+	};
+	class EZ_Magazine_43: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Nr. 43";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\PC_Gamer_Issue_43.paa"};
+	};
+	class EZ_Magazine_44: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Nr. 44";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\PC_Gamer_Issue_44.paa"};
+	};
+	class EZ_Magazine_45: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Nr. 45";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\PC_Gamer_Issue_45.paa"};
+	};
+	class EZ_Magazine_46: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Nr. 46";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\PC_Gamer_Issue_46.paa"};
+	};
+	class EZ_Magazine_47: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Nr. 47";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\PC_Gamer_Issue_47.paa"};
+	};
+	class EZ_Magazine_48: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Nr. 48";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\PC_Gamer_Issue_48.paa"};
+	};
+	class EZ_Magazine_49: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Nr. 49";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\PC_Gamer_Issue_49.paa"};
+	};
+	class EZ_Magazine_50: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Nr. 50";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\PC_Gamer_Issue_50.paa"};
 	};
 };

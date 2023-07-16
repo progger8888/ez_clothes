@@ -3452,4 +3452,190 @@ class CfgVehicles
 		displayName = "PC Magazine Nr. 50";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\PC_Gamer_Issue_50.paa"};
 	};
+	class EZ_Magazine_51: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Batman 2001";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\batman.paa"};
+	};
+	class EZ_Magazine_52: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Command & Conquer Red Alert 1996";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\c&cRedalert.paa"};
+	};
+	class EZ_Magazine_53: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "Comic Book Captain America";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\captainamerika.paa"};
+	};
+	class EZ_Magazine_54: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "National Geographic War Face";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\childwar.paa"};
+	};
+	class EZ_Magazine_55: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Counter-Strike Global Offensive";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\counterstrike.paa"};
+	};
+	class EZ_Magazine_56: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Counter-Strike Condition Zero";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\counterstrike2.paa"};
+	};
+	class EZ_Magazine_57: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Cyberpunk";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\cyberpunk.paa"};
+	};
+	class EZ_Magazine_58: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Dayz 2014";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\dayz.paa"};
+	};
+	class EZ_Magazine_59: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "People Diana, Princess of Wales 1997";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\diana.paa"};
+	};
+	class EZ_Magazine_60: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine DOOM II 1994";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\doomII.paa"};
+	};
+	class EZ_Magazine_61: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Driver 1999";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\driver.paa"};
+	};
+	class EZ_Magazine_62: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Formula 1 Grand Prix 2 1996";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\f1grandprix2.paa"};
+	};
+	class EZ_Magazine_63: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Final Fantasty VII 1998";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\finalfantastyVII.paa"};
+	};
+	class EZ_Magazine_64: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Grand Theft Auto Sad Andreas 2005";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\gtaSanandreas.paa"};
+	};
+	class EZ_Magazine_65: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "Comic Book Joker";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\joker.paa"};
+	};
+	class EZ_Magazine_66: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "TIME Martin Luther King JR.";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\lutherking.paa"};
+	};
+	class EZ_Magazine_67: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Medal Of Honour Pacific Assault 2003";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\medalofhonor.paa"};
+	};
+	class EZ_Magazine_68: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Metro Exodus";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\metroexodus.paa"};
+	};
+	class EZ_Magazine_69: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "GQ The Athete Of The Century - Muhammad Ali";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\mohamedali.paa"};
+	};
+	class EZ_Magazine_70: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "LIFE To The Moon And Back";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\moon.paa"};
+	};
+	class EZ_Magazine_71: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "Playboy 1973";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\playboy1973.paa"};
+	};
+	class EZ_Magazine_72: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "Playboy 1978";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\playboy1978.paa"};
+	};
+	class EZ_Magazine_73: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "Playboy 1979";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\playboy1979.paa"};
+	};
+	class EZ_Magazine_74: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "Playboy Baywatch 1998";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\playboybaywatch.paa"};
+	};
+	class EZ_Magazine_75: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "Playboy Pamela Anderson 1992";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\playboypamela.paa"};
+	};
+	class EZ_Magazine_76: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "Comic Book Spiderman";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\spiderman.paa"};
+	};
+	class EZ_Magazine_77: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine S.T.A.L.K.E.R. Back To Chernobyl 2008";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\stalker.paa"};
+	};
+	class EZ_Magazine_78: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "Comic Book Superman";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\superman.paa"};
+	};
+	class EZ_Magazine_79: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Theme Park 1994";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\thempark.paa"};
+	};
+	class EZ_Magazine_80: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Tomb Raider III";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\tombraiderIII.paa"};
+	};
+	class EZ_Magazine_81: EZ_Magazine_Base
+	{
+		scope = 2;
+		displayName = "PC Magazine Word Cup 98 1998";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\wordcup98.paa"};
+	};
 };

@@ -3638,4 +3638,18 @@ class CfgVehicles
 		displayName = "PC Magazine Word Cup 98 1998";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Mags\wordcup98.paa"};
 	};
+	class EZ_SneakyBlinders_Flag: Flag_Base
+	{
+		scope = 2;
+		displayName = "SneakyBlinders Flag";
+		descriptionShort = "SneakyBlinders - ArmbandPackage Flag made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_armband\SneakyBlinders\SneakyBlinders_ff.paa"};
+	};
+	class EZ_SneakyBlinders_DoubleArmband: EZ_DoubleArmband_ColorBase
+	{
+		scope = 2;
+		displayName = "SneakyBlinders - Double Armband";
+		descriptionShort = "SneakyBlinders - ArmbandPackage Double Armband made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_armband\SneakyBlinders\SneakyBlinders_armband.paa"};
+	};
 };

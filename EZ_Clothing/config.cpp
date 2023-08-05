@@ -3652,4 +3652,41 @@ class CfgVehicles
 		descriptionShort = "SneakyBlinders - ArmbandPackage Double Armband made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_armband\SneakyBlinders\SneakyBlinders_armband.paa"};
 	};
+	class EZ_YemekYemeks_Flag: Flag_Base
+	{
+		scope = 2;
+		displayName = "Yemek Yemeks Flag";
+		descriptionShort = "Yemek Yemeks - CrewPackage Flag made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\YemekYemeks\YemekYemeks_ff.paa"};
+	};
+	class EZ_YemekYemeks_DoubleArmband: EZ_DoubleArmband_ColorBase
+	{
+		scope = 2;
+		displayName = "Yemek Yemeks - Double Armband";
+		descriptionShort = "Yemek Yemeks - CrewPackage Double Armband made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\YemekYemeks\YemekYemeks_armband.paa"};
+	};
+	class EZ_YemekYemeks_TacticalShirt: TacticalShirt_ColorBase
+	{
+		scope = 2;
+		displayName = "Yemek Yemeks - Tactical Shirt";
+		descriptionShort = "Yemek Yemeks - CrewPackage Tactical Shirt made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_crew\YemekYemeks\YemekYemeks_shirt.paa",
+									  "EZ_Clothing\data\patreon_crew\YemekYemeks\YemekYemeks_shirt.paa",
+									  "EZ_Clothing\data\patreon_crew\YemekYemeks\YemekYemeks_shirt.paa"};
+	};
+	class EZ_SwipersCorp_Flag: Flag_Base
+	{
+		scope = 2;
+		displayName = "Swipers Corp. Flag";
+		descriptionShort = "Swipers Corp. - ArmbandPackage Flag made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_armband\SwipersCorp\SwipersCorp_ff.paa"};
+	};
+	class EZ_SwipersCorp_DoubleArmband: EZ_DoubleArmband_ColorBase
+	{
+		scope = 2;
+		displayName = "Swipers Corp. - Double Armband";
+		descriptionShort = "Swipers Corp. - ArmbandPackage Double Armband made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon_armband\SwipersCorp\SwipersCorp_armband.paa"};
+	};
 };

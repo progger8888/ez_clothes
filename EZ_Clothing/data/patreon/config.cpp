@@ -5,24 +5,26 @@ class CfgPatches
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"DZ_Characters","DZ_Characters_Backpacks","DZ_Characters_Gloves","DZ_Characters_Headgear","DZ_Characters_Pants","DZ_Characters_Masks","DZ_Characters_Shoes","DZ_Characters_Tops","DZ_Characters_Vests","DZ_Data","DZ_Gear_Containers","EZ_Medal","EZ_BannerStand","ModularVestSystem","Mass_Textures","DZ_Gear_Camping","EZ_BannerStand","EZ_Armbands"};
+		requiredAddons[] = {"DZ_Characters_Shoes","DZ_Characters_Tops","DZ_Gear_Camping","EZ_Armbands","EZ_BannerStand","EZ_MGS_SOF","ModularVestSystem"};
 	};
 };
 class CfgVehicles
 {
-	class TacticalShirt_ColorBase;
-	class MVS_WarriorHelmet_Base;
-	class EZ_DoubleArmband_ColorBase;
+	class EZ_Banner_Colorbase;
+	class Flag_Base;
+	class MVS_Helmet_Base;
+	class MVS_Shroud_Base;
+	class JungleBoots_ColorBase;
 	class ModularVestSystem_Heavy;
+	class MVS_WarriorHelmet_Base;
 	class EZ_SOF_Jacket_ColorBase;
 	class EZ_SOF_Pants_ColorBase;
-	class EZ_SOF_Helmet_ColorBase;
 	class EZ_SOF_Balaclava_ColorBase;
 	class EZ_SOF_Gloves_ColorBase;
 	class EZ_SOF_Platecarrier_ColorBase;
 	class EZ_SOF_Backpack_ColorBase;
-	class Flag_Base;
-	class EZ_Banner_Colorbase;
+	class EZ_DoubleArmband_ColorBase;
+	class TacticalShirt_ColorBase;
 	class EZ_BabySharks_DoubleArmband: EZ_DoubleArmband_ColorBase
 	{
 		scope = 2;

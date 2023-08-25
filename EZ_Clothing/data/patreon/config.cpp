@@ -10,26 +10,9 @@ class CfgPatches
 };
 class CfgVehicles
 {
-	class PlateCarrierVest;
-	class PlateCarrierHolster;
-	class PlateCarrierPouches;
-	class Mich2001Helmet;
 	class TacticalShirt_ColorBase;
-	class MVS_Balaclava2_Base;
-	class MVS_CombatPants_Base;
-	class MVS_CombatShirt_Base;
-	class Modular_Patch_Base;
-	class ModularVestSystem_Base;
-	class TacticalGloves_ColorBase;
-	class JungleBoots_ColorBase;
-	class MVS_Helmet_Base;
-	class MVS_Pack_Base;
-	class MVS_Assault_Pack_Tan;
-	class MVS_Comtacs_Base;
 	class MVS_WarriorHelmet_Base;
 	class EZ_DoubleArmband_ColorBase;
-	class HuntingJacket_ColorBase;
-	class MVS_Shroud_Base;
 	class ModularVestSystem_Heavy;
 	class EZ_SOF_Jacket_ColorBase;
 	class EZ_SOF_Pants_ColorBase;
@@ -38,8 +21,6 @@ class CfgVehicles
 	class EZ_SOF_Gloves_ColorBase;
 	class EZ_SOF_Platecarrier_ColorBase;
 	class EZ_SOF_Backpack_ColorBase;
-	class MassHeavyPlateVest_ColorBase;
-	class MVS_Balaclava_Base;
 	class Flag_Base;
 	class EZ_Banner_Colorbase;
 	class EZ_BabySharks_DoubleArmband: EZ_DoubleArmband_ColorBase

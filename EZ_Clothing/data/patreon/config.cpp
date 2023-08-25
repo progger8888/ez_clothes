@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class EZ_Clothing
+	class EZ_Patreon
 	{
 		units[] = {};
 		weapons[] = {};

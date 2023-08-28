@@ -197,4 +197,27 @@ class CfgVehicles
 		descriptionShort = "ENDZONE Faction - DECAY - Banner made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\factions\DECAY\DECAY_bb.paa"};
 	};
+	class Flag_STM_EZ: Flag_Base
+	{
+		scope = 2;
+		displayName = "Selective Turkish Mafia Flag";
+		descriptionShort = "ENDZONE Faction - Selective Turkish Mafia - Flag made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\factions\STM\STM_ff.paa"};
+		color = "Selective Turkish Mafia_EZ";
+	};
+	class EZ_STM_DoubleArmband: EZ_DoubleArmband_ColorBase
+	{
+		scope = 2;
+		displayName = "Selective Turkish Mafia - Double Armband";
+		descriptionShort = "ENDZONE Faction - Selective Turkish Mafia - Armband made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\factions\STM\STM_armband.paa"};
+	};
+	class EZ_STM_Banner: EZ_Banner_Colorbase
+	{
+		scope = 2;
+		itemSize[] = {4,4};
+		displayName = "Selective Turkish Mafia - Banner";
+		descriptionShort = "ENDZONE Faction - Selective Turkish Mafia - Banner made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\factions\STM\STM_bb.paa"};
+	};
 };

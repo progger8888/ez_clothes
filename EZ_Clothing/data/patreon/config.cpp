@@ -5,7 +5,22 @@ class CfgPatches
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"DZ_Characters_Shoes","DZ_Characters_Tops","DZ_Gear_Camping","EZ_Armbands","EZ_BannerStand","EZ_MGS_SOF","ModularVestSystem","Mass_Textures"};
+		requiredAddons[] = {"DZ_Characters_Headgear","DZ_Characters_Pants","DZ_Characters_Shoes","DZ_Gear_Camping","DZ_Characters_Gloves","DZ_Characters_Tops","DZ_Characters_Vests","Mass_Textures","ModularVestSystem","EZ_Armbands","EZ_BannerStand","EZ_MGS_SOF"};
+
+        
+       EZ_BannerStand
+	   DZ_Gear_Camping
+       ModularVestSystem
+	   DZ_Characters_Shoes
+	   EZ_MGS_SOF
+       EZ_Armbands
+       DZ_Characters_Tops
+	   DZ_Characters_Headgear
+       DZ_Characters_Vests
+       DZ_Characters_Gloves
+	   DZ_Characters_Pants
+	   Mass_Textures
+
 	};
 };
 class CfgVehicles

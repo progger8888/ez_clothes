@@ -5,7 +5,7 @@ class CfgPatches
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"DZ_Characters_Headgear","DZ_Characters_Pants","DZ_Characters_Shoes","DZ_Gear_Camping","DZ_Characters_Gloves","DZ_Characters_Tops","DZ_Characters_Vests","Mass_Textures","ModularVestSystem","EZ_Armbands","EZ_BannerStand","EZ_MGS_SOF"};
+		requiredAddons[] = {"DZ_Characters_Headgear","DZ_Characters_Pants","DZ_Characters_Shoes","DZ_Gear_Camping","DZ_Characters_Gloves","DZ_Characters_Tops","DZ_Characters_Vests","Mass_Textures","ModularVestSystem","EZ_Armbands","EZ_BannerStand","EZ_MGS_SOF","WindstrideClothing"};
 	};
 };
 class CfgVehicles
@@ -37,6 +37,9 @@ class CfgVehicles
 	class MVS_Sling_Pack_Base;
 	class ModularVestSystem_Base;
 	class TacticalGloves_ColorBase;
+	class BoonieHat_ColorBase;
+	class Adidas_Leggings;
+	class TShirt_ColorBase;
 	class EZ_BabySharks_DoubleArmband: EZ_DoubleArmband_ColorBase
 	{
 		scope = 2;
@@ -387,5 +390,58 @@ class CfgVehicles
 		displayName = "The Separatist Parliament - MVS Warrior Helmet";
 		descriptionShort = "The Separatist Parliament - PlatoonPackage MVS Warrior Helmet made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon\patreon_platoon\TSP\TSP_WarriorHelmet.paa","EZ_Clothing\data\patreon\patreon_platoon\TSP\TSP_WarriorHelmet.paa","EZ_Clothing\data\patreon\patreon_platoon\TSP\TSP_WarriorHelmet.paa","EZ_Clothing\data\patreon\patreon_platoon\TSP\TSP_Mandalorian_Helmet.paa","EZ_Clothing\data\patreon\patreon_platoon\TSP\TSP_Mandalorian_Visor_co.paa"};
+	};
+	class EZ_Bricks_BoonieHat: BoonieHat_ColorBase
+	{
+		scope = 2;
+		displayName = "Bricks - Boonie Hat";
+		descriptionShort = "Bricks - SquadPackage Boonie Hat made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon\patreon_squad\Bricks\Bricks_BoonieHat_co.paa","EZ_Clothing\data\patreon\patreon_squad\Bricks\Bricks_BoonieHat_co.paa","EZ_Clothing\data\patreon\patreon_squad\Bricks\Bricks_BoonieHat_co.paa"};
+	};
+	class EZ_Bricks_Leggings: Adidas_Leggings
+	{
+		scope = 2;
+		displayName = "Bricks - Leggings";
+		descriptionShort = "Bricks - SquadPackage Leggings made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon\patreon_squad\Bricks\Bricks_Leggings_co.paa","EZ_Clothing\data\patreon\patreon_squad\Bricks\Bricks_Leggings_co.paa","EZ_Clothing\data\patreon\patreon_squad\Bricks\Bricks_Leggings_co.paa"};
+	};
+	class EZ_Bricks_Tshirt: TShirt_ColorBase
+	{
+		scope = 2;
+		displayName = "Bricks - Tshirt";
+		descriptionShort = "Bricks - SquadPackage Tshirt made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon\patreon_squad\Bricks\Bricks_tshirt.paa","EZ_Clothing\data\patreon\patreon_squad\Bricks\Bricks_tshirt.paa","EZ_Clothing\data\patreon\patreon_squad\Bricks\Bricks_tshirt.paa"};
+	};
+	class EZ_Bricks_MVSBalaclavaWraith: MVS_Balaclava_Base
+	{
+		scope = 2;
+		displayName = "Bricks - Balaclava Wraith";
+		descriptionShort = "Bricks - SquadPackage Balaclava Wraith made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon\patreon_squad\Bricks\Bricks_MVS_Wraith.paa","EZ_Clothing\data\patreon\patreon_squad\Bricks\Bricks_MVS_Wraith.paa","EZ_Clothing\data\patreon\patreon_squad\Bricks\Bricks_MVS_Wraith.paa"};
+	};
+	class EZ_PlateCarrier_Bricks: PlateCarrierVest
+	{
+		scope = 2;
+		displayName = "Bricks - Vest";
+		descriptionShort = "Bricks - SquadPackage Vest made by Kokaskale";
+		color = "Bricks";
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon\patreon_squad\Bricks\Bricks_vest_co.paa","EZ_Clothing\data\patreon\patreon_squad\Bricks\Bricks_vest_co.paa","EZ_Clothing\data\patreon\patreon_squad\Bricks\Bricks_vest_co.paa"};
+	};
+	class MassHeavyPlateVest_Bricks: MassHeavyPlateVest_ColorBase
+	{
+		scope = 2;
+		displayName = "Bricks - Vest";
+		descriptionShort = "Bricks - SquadPackage Vest made by Kokaskale";
+		color = "Bricks";
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon\patreon_squad\Bricks\Bricks_vest_co.paa","EZ_Clothing\data\patreon\patreon_squad\Bricks\Bricks_vest_co.paa","EZ_Clothing\data\patreon\patreon_squad\Bricks\Bricks_vest_co.paa"};
+	};
+	class EZ_Bricks_TacticalGloves: TacticalGloves_ColorBase
+	{
+		scope = 2;
+		displayName = "Bricks - Vest";
+		descriptionShort = "Bricks - SquadPackage Vest made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon\patreon_squad\Bricks\Bricks_tacticalgloves.paa","EZ_Clothing\data\patreon\patreon_squad\Bricks\Bricks_tacticalgloves.paa","EZ_Clothing\data\patreon\patreon_squad\Bricks\Bricks_tacticalgloves.paa"};
 	};
 };

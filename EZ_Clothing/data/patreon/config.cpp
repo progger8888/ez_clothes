@@ -40,6 +40,7 @@ class CfgVehicles
 	class BoonieHat_ColorBase;
 	class Adidas_Leggings;
 	class TShirt_ColorBase;
+	class BalaclavaMask_ColorBase;
 	class EZ_BabySharks_DoubleArmband: EZ_DoubleArmband_ColorBase
 	{
 		scope = 2;
@@ -443,5 +444,84 @@ class CfgVehicles
 		displayName = "Bricks - Vest";
 		descriptionShort = "Bricks - SquadPackage Vest made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon\patreon_squad\Bricks\Bricks_tacticalgloves.paa","EZ_Clothing\data\patreon\patreon_squad\Bricks\Bricks_tacticalgloves.paa","EZ_Clothing\data\patreon\patreon_squad\Bricks\Bricks_tacticalgloves.paa"};
+	};
+	class EZ_TheSaviors_Flag: Flag_Base
+	{
+		scope = 2;
+		displayName = "TheSaviors Flag";
+		descriptionShort = "TheSaviors - SquadPackage Flag made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon\patreon_squad\TheSaviors\TheSaviors_ff.paa"};
+	};
+	class EZ_TheSaviors_Armband: EZ_DoubleArmband_ColorBase
+	{
+		scope = 2;
+		displayName = "TheSaviors - Armband";
+		descriptionShort = "TheSaviors - SquadPackage armband made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon\patreon_squad\TheSaviors\TheSaviors_armband.paa"};
+	};
+	class EZ_TheSaviors_Banner: EZ_Banner_Colorbase
+	{
+		scope = 2;
+		displayName = "TheSaviors - Banner";
+		descriptionShort = "TheSaviors - SquadPackage Banner made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon\patreon_squad\TheSaviors\TheSaviors_bb.paa"};
+	};
+	class EZ_TheSaviors_Tacticalshirt: TacticalShirt_ColorBase
+	{
+		scope = 2;
+		displayName = "TheSaviors - Tactical Shirt";
+		descriptionShort = "TheSaviors - SquadPackage Tactical Shirt made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon\patreon_squad\TheSaviors\TheSaviors_shirt.paa",
+									  "EZ_Clothing\data\patreon\patreon_squad\TheSaviors\TheSaviors_shirt.paa",
+									  "EZ_Clothing\data\patreon\patreon_squad\TheSaviors\TheSaviors_shirt.paa"};
+	};
+	class EZ_TheSaviors_Pants: CargoPants_ColorBase
+	{
+		scope = 2;
+		displayName = "TheSaviors - Cargo Pants";
+		descriptionShort = "TheSaviors - SquadPackage Cargo Pants made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon\patreon_squad\TheSaviors\TheSaviors_pants.paa",
+									  "EZ_Clothing\data\patreon\patreon_squad\TheSaviors\TheSaviors_pants.paa",
+									  "EZ_Clothing\data\patreon\patreon_squad\TheSaviors\TheSaviors_pants.paa"};
+	};
+	class EZ_TheSaviors_Balaclava: BalaclavaMask_ColorBase
+	{
+		scope = 2;
+		displayName = "TheSaviors - Balaclava";
+		descriptionShort = "TheSaviors - SquadPackage Balaclava made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon\patreon_squad\TheSaviors\TheSaviors_balaclava_co.paa",
+									  "EZ_Clothing\data\patreon\patreon_squad\TheSaviors\TheSaviors_balaclava_co.paa",
+									  "EZ_Clothing\data\patreon\patreon_squad\TheSaviors\TheSaviors_balaclava_co.paa"};
+	};
+	class EZ_TheSaviors_Helmet: Mich2001Helmet
+	{
+		scope = 2;
+		displayName = "TheSaviors - Helmet";
+		descriptionShort = "TheSaviors - SquadPackage Helmet made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon\patreon_squad\TheSaviors\TheSaviors_helmet_co.paa",
+									  "EZ_Clothing\data\patreon\patreon_squad\TheSaviors\TheSaviors_helmet_co.paa",
+									  "EZ_Clothing\data\patreon\patreon_squad\TheSaviors\TheSaviors_helmet_co.paa"};
+	};
+	class EZ_PlateCarrier_TheSaviors: PlateCarrierVest
+	{
+		scope = 2;
+		displayName = "TheSaviors - Vest";
+		descriptionShort = "TheSaviors - SquadPackage Vest made by Kokaskale";
+		color = "TheSaviors";
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon\patreon_squad\TheSaviors\TheSaviors_vest_co.paa",
+									  "EZ_Clothing\data\patreon\patreon_squad\TheSaviors\TheSaviors_vest_co.paa",
+									  "EZ_Clothing\data\patreon\patreon_squad\TheSaviors\TheSaviors_vest_co.paa"};
+	};
+	class MassHeavyPlateVest_TheSaviors: MassHeavyPlateVest_ColorBase
+	{
+		scope = 2;
+		displayName = "TheSaviors - Vest";
+		descriptionShort = "TheSaviors - SquadPackage Vest made by Kokaskale";
+		color = "TheSaviors";
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon\patreon_squad\TheSaviors\TheSaviors_vest_co.paa",
+									  "EZ_Clothing\data\patreon\patreon_squad\TheSaviors\TheSaviors_vest_co.paa",
+									  "EZ_Clothing\data\patreon\patreon_squad\TheSaviors\TheSaviors_vest_co.paa"};
 	};
 };

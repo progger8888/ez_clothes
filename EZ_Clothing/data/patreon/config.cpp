@@ -5,7 +5,7 @@ class CfgPatches
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"DZ_Characters_Headgear","DZ_Characters_Pants","DZ_Characters_Shoes","DZ_Gear_Camping","DZ_Characters_Gloves","DZ_Characters_Tops","DZ_Characters_Vests","Mass_Textures","ModularVestSystem","EZ_Armbands","EZ_BannerStand","EZ_MGS_SOF","Windstride_thicc_leggings"};
+		requiredAddons[] = {"DZ_Characters_Gloves","DZ_Characters_Headgear","DZ_Characters_Masks","DZ_Characters_Pants","DZ_Characters_Shoes","DZ_Characters_Tops","DZ_Characters_Vests","DZ_Gear_Camping","Mass_Textures","ModularVestSystem","EZ_Armbands","EZ_BannerStand","EZ_MGS_SOF","Windstride_thicc_leggings"};
 	};
 };
 class CfgVehicles

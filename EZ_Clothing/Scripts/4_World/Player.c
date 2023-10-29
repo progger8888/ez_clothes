@@ -154,3 +154,5 @@ class EZ_Cassetteradio extends ItemBase
         }
     }
 };
+
+class EZ_Cassette_ColorBase extends Inventory_Base {};

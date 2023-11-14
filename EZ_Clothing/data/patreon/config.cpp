@@ -524,4 +524,19 @@ class CfgVehicles
 									  "EZ_Clothing\data\patreon\patreon_squad\TheSaviors\TheSaviors_vest_co.paa",
 									  "EZ_Clothing\data\patreon\patreon_squad\TheSaviors\TheSaviors_vest_co.paa"};
 	};
+	class Flag_NWA_EZ: Flag_Base
+	{
+		scope = 2;
+		displayName = "NWA Flag";
+		descriptionShort = "NWA - ArmbandPackage Flag made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon\patreon_armband\NWA\NWA_ff.paa"};
+		color = "NWA_EZ";
+	};
+	class EZ_NWA_DoubleArmband: EZ_DoubleArmband_ColorBase
+	{
+		scope = 2;
+		displayName = "NWA - Double Armband";
+		descriptionShort = "NWA - ArmbandPackage Double Armband made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon\patreon_armband\NWA\NWA_armband.paa"};
+	};
 };

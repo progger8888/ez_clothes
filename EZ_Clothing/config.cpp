@@ -60,6 +60,7 @@ class CfgVehicles
 	class Barrel_ColorBase;
 	class BarrelHoles_ColorBase;
 	class EZ_Medal;
+	class HikingBoots_ColorBase;
 	class EZ_DoubleArmband_ColorBase;
 	class NBCGloves_ColorBase;
 	class NBCHoodBase;
@@ -70,6 +71,7 @@ class CfgVehicles
 	class QuiltedJacket_ColorBase;
 	class RidersJacket_ColorBase;
 	class BomberJacket_ColorBase;
+	class WorkingGloves_ColorBase;
 	class HuntingJacket_ColorBase;
 	class Shirt_ColorBase;
 	class Jeans_ColorBase;
@@ -143,6 +145,7 @@ class CfgVehicles
 	{
 		scope = 2;
 		displayName = "Scout Hood";
+		heatIsolation = 0.2;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Scout\Hood\data\hood_blk_co.paa"};
 	};
 	class EZ_Bandit_FaceMask_ColorBase: Clothing
@@ -202,6 +205,7 @@ class CfgVehicles
 	{
 		scope = 2;
 		displayName = "Scout Face Mask";
+		heatIsolation = 0.01;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Scout\facemask\data\facemask_black_co.paa"};
 	};
 	class EZ_bandit_GorkaEJacket_flora_1: GorkaEJacket_ColorBase
@@ -215,6 +219,7 @@ class CfgVehicles
 	{
 		scope = 2;
 		displayName = "Scout Pants";
+		heatIsolation = 0.80000001;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Scout\gorka\data\gorka_pants_flora1_CO.paa","EZ_Clothing\data\player\Scout\gorka\data\gorka_pants_flora1_CO.paa","EZ_Clothing\data\player\Scout\gorka\data\gorka_pants_flora1_CO.paa"};
 		hiddenSelectionsMaterials[] = {"EZ_Clothing\data\player\Scout\gorka\data\gorka_pants.rvmat","EZ_Clothing\data\player\Scout\gorka\data\gorka_pants.rvmat","EZ_Clothing\data\player\Scout\gorka\data\gorka_pants.rvmat"};
 	};
@@ -222,8 +227,37 @@ class CfgVehicles
 	{
 		scope = 2;
 		displayName = "Scout Raincoat";
+		heatIsolation = 0.1;
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\player\Scout\raincoat\data\raincoat_g_black_co.paa","EZ_Clothing\data\player\Scout\raincoat\data\raincoat_black_co.paa","EZ_Clothing\data\player\Scout\raincoat\data\raincoat_black_co.paa"};
 		hiddenSelectionsMaterials[] = {"EZ_Clothing\data\player\Scout\raincoat\data\raincoat_g.rvmat","EZ_Clothing\data\player\Scout\raincoat\data\raincoat.rvmat","EZ_Clothing\data\player\Scout\raincoat\data\raincoat.rvmat"};
+	};
+	
+	
+	class EZ_HikingBoots_Black: HikingBoots_ColorBase
+	{
+		scope=2;
+		displayName = "Scout Boots";
+		heatIsolation = 0.64999998;
+		visibilityModifier=0.80000001;
+		hiddenSelectionsTextures[]=
+		{
+			"\dz\characters\shoes\data\hikingBoots_black_co.paa",
+			"\dz\characters\shoes\data\hikingBoots_black_co.paa",
+			"\dz\characters\shoes\data\hikingBoots_black_co.paa"
+		};
+	};
+	class EZ_WorkingGloves_Black: WorkingGloves_ColorBase
+	{
+		scope=2;
+		displayName = "Scout Gloves";
+		heatIsolation = 0.01;
+		visibilityModifier=0.80000001;
+		hiddenSelectionsTextures[]=
+		{
+			"DZ\characters\gloves\data\WorkingGloves_black_co.paa",
+			"DZ\characters\gloves\data\WorkingGloves_black_co.paa",
+			"DZ\characters\gloves\data\WorkingGloves_black_co.paa"
+		};
 	};
 	class Flag_at_EZ: Flag_Base
 	{

@@ -2225,6 +2225,19 @@ class CfgVehicles
 		displayName = "ENDZONE Patch - ADMIN";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\staff\Kokaskale\EZ_admin_mvs_patch.paa","EZ_Clothing\data\staff\Kokaskale\EZ_kokaskale_Armband_co.paa"};
 	};
+	class MVS_Donov_Patch: Modular_Patch_Base
+	{
+		scope = 2;
+		displayName = "ENDZONE Patch - ADMIN";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\staff\Kokaskale\EZ_admin_mvs_patch.paa","EZ_Clothing\data\staff\Kokaskale\EZ_donov_Armband_co.paa"};
+	};
+	class EZ_Donov_Plate: PlateCarrierVest
+	{
+		scope = 2;
+		displayName = "Endzone Staff Plate";
+		hiddenSelections[] = {"zbytek"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\staff\Endzone\EZ_donov_plate_co.paa","EZ_Clothing\data\staff\Endzone\EZ_donov_plate_co.paa","EZ_Clothing\data\staff\Endzone\EZ_donov_plate_co.paa"};
+	};
 	class Flag_Endzone_EZ: Flag_Base
 	{
 		scope = 2;

@@ -192,6 +192,24 @@ class CfgVehicles
 			"EZ_Clothing\data\patreon\patreon_platoon\ForestCrow\ForestCrow_jungleboots.paa"
 		};
 	};
+	class EZ_ForestCrow_Helmet: MVS_Helmet_Base
+	{
+		scope = 2;
+		displayName = "ForestCrow - MVS Helmet";
+		descriptionShort = "ForestCrow - PlatoonPackage MVS Helmet made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon\patreon_platoon\ForestCrow\ForestCrow_mvs_helmet.paa",
+									  "EZ_Clothing\data\patreon\patreon_platoon\ForestCrow\ForestCrow_mvs_helmet.paa",
+									  "EZ_Clothing\data\patreon\patreon_platoon\ForestCrow\ForestCrow_mvs_helmet.paa"};
+	};
+	class EZ_ForestCrow_AssaultPack: MVS_Assault_Pack_Tan
+	{
+		scope = 2;
+		displayName = "ForestCrow - Assault Pack";
+		descriptionShort = "ForestCrow - PlatoonPackage Assault Pack made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon\patreon_platoon\ForestCrow\ForestCrow_RaidPack.paa",
+									  "EZ_Clothing\data\patreon\patreon_platoon\ForestCrow\ForestCrow_RaidPack.paa",
+									  "EZ_Clothing\data\patreon\patreon_platoon\ForestCrow\ForestCrow_RaidPack.paa"};
+	};
 	class MVS_Combat_Vest_Heavy_ForestCrow: ModularVestSystem_Heavy
 	{
 		displayName = "ForestCrow - MVS Heavy Plate Carrier";

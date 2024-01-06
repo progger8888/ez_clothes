@@ -277,4 +277,83 @@ class CfgVehicles
 		descriptionShort = "ForestCrow - PlatoonPackage SOF Backpack made by Kokaskale";
 		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon\patreon_platoon\ForestCrow\ForestCrow_sof_backpack.paa"};
 	};
+	class EZ_HC_Flag: Flag_Base
+	{
+		scope = 2;
+		displayName = "Hyland Clan Flag";
+		descriptionShort = "Hyland Clan - SquadPackage Flag made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon\patreon_squad\HC\HC_ff.paa"};
+	};
+	class EZ_HC_Armband: EZ_DoubleArmband_ColorBase
+	{
+		scope = 2;
+		displayName = "Hyland Clan - Armband";
+		descriptionShort = "Hyland Clan - SquadPackage armband made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon\patreon_squad\HC\HC_armband.paa"};
+	};
+	class EZ_HC_Banner: EZ_Banner_Colorbase
+	{
+		scope = 2;
+		displayName = "Hyland Clan - Banner";
+		descriptionShort = "Hyland Clan - SquadPackage Banner made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon\patreon_squad\HC\HC_bb.paa"};
+	};
+	class EZ_HC_TacticalShirt: TacticalShirt_ColorBase
+	{
+		scope = 2;
+		displayName = "Hyland Clan - Tactical Shirt";
+		descriptionShort = "Hyland Clan - SquadPackage Tactical Shirt made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon\patreon_squad\HC\HC_shirt.paa",
+									  "EZ_Clothing\data\patreon\patreon_squad\HC\HC_shirt.paa",
+									  "EZ_Clothing\data\patreon\patreon_squad\HC\HC_shirt.paa"};
+	};
+	class EZ_HC_CargoPants: CargoPants_ColorBase
+	{
+		scope = 2;
+		displayName = "Hyland Clan - Cargo Pants";
+		descriptionShort = "Hyland Clan - SquadPackage Cargo Pants made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon\patreon_squad\HC\HC_pants.paa",
+									  "EZ_Clothing\data\patreon\patreon_squad\HC\HC_pants.paa",
+									  "EZ_Clothing\data\patreon\patreon_squad\HC\HC_pants.paa"};
+	};
+	class EZ_HC_Balaclava: BalaclavaMask_ColorBase
+	{
+		scope = 2;
+		displayName = "Hyland Clan - Balaclava";
+		descriptionShort = "Hyland Clan - SquadPackage Balaclava made by Kokaskale";
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon\patreon_squad\HC\HC_balaclava_co.paa",
+									  "EZ_Clothing\data\patreon\patreon_squad\HC\HC_balaclava_co.paa",
+									  "EZ_Clothing\data\patreon\patreon_squad\HC\HC_balaclava_co.paa"};
+	};
+	class EZ_PlateCarrier_HC: PlateCarrierVest
+	{
+		scope = 2;
+		displayName = "Hyland Clan - Vest";
+		descriptionShort = "Hyland Clan - SquadPackage Vest made by Kokaskale";
+		color = "HC";
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon\patreon_squad\HC\HC_vest_co.paa",
+									  "EZ_Clothing\data\patreon\patreon_squad\HC\HC_vest_co.paa",
+									  "EZ_Clothing\data\patreon\patreon_squad\HC\HC_vest_co.paa"};
+	};
+	class MassHeavyPlateVest_HC: MassHeavyPlateVest_ColorBase
+	{
+		scope = 2;
+		displayName = "Hyland Clan - Vest";
+		descriptionShort = "Hyland Clan - SquadPackage Vest made by Kokaskale";
+		color = "HC";
+		hiddenSelections[] = {"camoGround","camoMale","camoFemale"};
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon\patreon_squad\HC\HC_vest_co.paa",
+									  "EZ_Clothing\data\patreon\patreon_squad\HC\HC_vest_co.paa",
+									  "EZ_Clothing\data\patreon\patreon_squad\HC\HC_vest_co.paa"};
+	};
+	class EZ_HC_TacticalHelmet: Mich2001Helmet
+	{
+		displayName = "Hyland Clan - TacticalHelmet";
+		descriptionShort = "Hyland Clan - SquadPackage TacticalHelmet made by Kokaskale";
+		scope = 2;
+		hiddenSelectionsTextures[] = {"EZ_Clothing\data\patreon\patreon_squad\HC\HC_helmet_co.paa",
+									  "EZ_Clothing\data\patreon\patreon_squad\HC\HC_helmet_co.paa",
+									  "EZ_Clothing\data\patreon\patreon_squad\HC\HC_helmet_co.paa"};
+	};
 };
